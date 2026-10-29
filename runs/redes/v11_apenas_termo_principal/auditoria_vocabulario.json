@@ -1,0 +1,16 @@
+{
+  "aliases_compartilhados": {},
+  "aliases_utilizados": "somente_primeiro",
+  "conceitos_duplicados": [
+    {
+      "duplicata_de": 101,
+      "linha": 140
+    }
+  ],
+  "conceitos_finais": 147,
+  "linhas": 148,
+  "pares": 10731,
+  "sinonimos_repetidos": [
+    76
+  ]
+}

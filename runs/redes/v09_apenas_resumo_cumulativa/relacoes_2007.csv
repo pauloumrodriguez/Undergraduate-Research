@@ -1,0 +1,355 @@
+origem,destino,coocorrencias,origem_rotulo,destino_rotulo,origem_linha,destino_linha
+greenhouse gas;ghg,biomass,1,greenhouse gas,biomass,5,6
+greenhouse gas;ghg,greenhouse gas emissions,1,greenhouse gas,greenhouse gas emissions,5,83
+greenhouse gas;ghg,water,2,greenhouse gas,water,5,96
+greenhouse gas;ghg,carbon dioxide,3,greenhouse gas,carbon dioxide,5,134
+greenhouse gas;ghg,gas,6,greenhouse gas,gas,5,136
+greenhouse gas;ghg,system,2,greenhouse gas,system,5,139
+greenhouse gas;ghg,carbon monoxide,2,greenhouse gas,carbon monoxide,5,141
+greenhouse gas;ghg,hydrogen,6,greenhouse gas,hydrogen,5,142
+greenhouse gas;ghg,hydrocarbon,2,greenhouse gas,hydrocarbon,5,148
+biomass,biofuel,1,biomass,biofuel,6,25
+biomass,fossil fuels,1,biomass,fossil fuels,6,31
+biomass,recycling,2,biomass,recycling,6,40
+biomass,renewable energy,5,biomass,renewable energy,6,43
+biomass,carbon source,1,biomass,carbon source,6,63
+biomass,forestry,1,biomass,forestry,6,81
+biomass,water,21,biomass,water,6,96
+biomass,activity,3,biomass,activity,6,102
+biomass,biogas,1,biomass,biogas,6,114
+biomass,anoxic,2,biomass,anoxic,6,115
+biomass,atmosphere,1,biomass,atmosphere,6,119
+biomass,carbon dioxide,7,biomass,carbon dioxide,6,134
+biomass,gas,18,biomass,gas,6,136
+biomass,activated,2,biomass,activated,6,137
+biomass,system,22,biomass,system,6,139
+biomass,carbon monoxide,3,biomass,carbon monoxide,6,141
+biomass,hydrogen,7,biomass,hydrogen,6,142
+biomass,carbon carbon,1,biomass,carbon carbon,6,146
+biomass,hydrocarbon,6,biomass,hydrocarbon,6,148
+afforestation,reforestation,1,afforestation,reforestation,9,41
+afforestation,carbon dioxide,1,afforestation,carbon dioxide,9,134
+afforestation,system,1,afforestation,system,9,139
+carbon capture and sequestration;ccs;carbon capture;carbon sequestration,carbon capture and storage;ccs,13,carbon capture and sequestration,carbon capture and storage,11,26
+carbon capture and sequestration;ccs;carbon capture;carbon sequestration,system,5,carbon capture and sequestration,system,11,139
+carbon dioxid;co2,recycling,1,carbon dioxid,recycling,13,40
+carbon dioxid;co2,water,5,carbon dioxid,water,13,96
+carbon dioxid;co2,biogas,1,carbon dioxid,biogas,13,114
+carbon dioxid;co2,atmosphere,1,carbon dioxid,atmosphere,13,119
+carbon dioxid;co2,carbon dioxide,4,carbon dioxid,carbon dioxide,13,134
+carbon dioxid;co2,gas,8,carbon dioxid,gas,13,136
+carbon dioxid;co2,activated,2,carbon dioxid,activated,13,137
+carbon dioxid;co2,system,4,carbon dioxid,system,13,139
+carbon dioxid;co2,carbon monoxide,1,carbon dioxid,carbon monoxide,13,141
+carbon dioxid;co2,hydrogen,1,carbon dioxid,hydrogen,13,142
+carbon dioxid;co2,hydrocarbon,3,carbon dioxid,hydrocarbon,13,148
+global warming potential;gwp,global warming,3,global warming potential,global warming,16,32
+global warming potential;gwp,recycling,1,global warming potential,recycling,16,40
+global warming potential;gwp,cop,2,global warming potential,cop,16,69
+leakage,mitigation,1,leakage,mitigation,17,37
+leakage,recycling,3,leakage,recycling,17,40
+leakage,sink,6,leakage,sink,17,45
+leakage,voluntary carbon market;vcm,2,leakage,voluntary carbon market,17,49
+leakage,baseline,1,leakage,baseline,17,52
+leakage,direct air capture;dac,4,leakage,direct air capture,17,70
+leakage,fugitive emissions,1,leakage,fugitive emissions,17,82
+leakage,water,50,leakage,water,17,96
+leakage,activity,3,leakage,activity,17,102
+leakage,asic,3,leakage,asic,17,118
+leakage,atmosphere,19,leakage,atmosphere,17,119
+leakage,carbon nanotube,1,leakage,carbon nanotube,17,133
+leakage,gas,113,leakage,gas,17,136
+leakage,activated,15,leakage,activated,17,137
+leakage,system,219,leakage,system,17,139
+leakage,hydrogen,13,leakage,hydrogen,17,142
+leakage,carbon layer,1,leakage,carbon layer,17,145
+leakage,carbon carbon,2,leakage,carbon carbon,17,146
+leakage,hydrocarbon,4,leakage,hydrocarbon,17,148
+net zero,system,1,net zero,system,18,139
+net zero,deposit,1,net zero,deposit,18,144
+primary production;gpp,asic,1,primary production,asic,19,118
+primary production;gpp,system,3,primary production,system,19,139
+carbon capture and storage;ccs,system,5,carbon capture and storage,system,26,139
+clean development mechanism;cdm,system,5,clean development mechanism,system,29,139
+fossil fuels,water,2,fossil fuels,water,31,96
+fossil fuels,carbon dioxide,1,fossil fuels,carbon dioxide,31,134
+fossil fuels,gas,3,fossil fuels,gas,31,136
+global warming,cop,2,global warming,cop,32,69
+global warming,atmosphere,1,global warming,atmosphere,32,119
+global warming,carbon dioxide,3,global warming,carbon dioxide,32,134
+global warming,gas,3,global warming,gas,32,136
+global warming,system,2,global warming,system,32,139
+life cycle assessment;lca,system,1,life cycle assessment,system,36,139
+mitigation,baseline,1,mitigation,baseline,37,52
+mitigation,water,3,mitigation,water,37,96
+mitigation,activity,2,mitigation,activity,37,102
+mitigation,atmosphere,1,mitigation,atmosphere,37,119
+mitigation,gas,3,mitigation,gas,37,136
+mitigation,system,49,mitigation,system,37,139
+mitigation,hydrocarbon,1,mitigation,hydrocarbon,37,148
+recycling,sink,2,recycling,sink,40,45
+recycling,cop,1,recycling,cop,40,69
+recycling,water,58,recycling,water,40,96
+recycling,activated carbon,2,recycling,activated carbon,40,101
+recycling,activity,1,recycling,activity,40,102
+recycling,biogas,2,recycling,biogas,40,114
+recycling,anoxic,2,recycling,anoxic,40,115
+recycling,atmosphere,1,recycling,atmosphere,40,119
+recycling,carbon dioxide,7,recycling,carbon dioxide,40,134
+recycling,gas,43,recycling,gas,40,136
+recycling,activated,3,recycling,activated,40,137
+recycling,system,108,recycling,system,40,139
+recycling,carbon monoxide,2,recycling,carbon monoxide,40,141
+recycling,hydrogen,10,recycling,hydrogen,40,142
+recycling,deposit,2,recycling,deposit,40,144
+recycling,hydrocarbon,12,recycling,hydrocarbon,40,148
+reforestation,carbon dioxide,1,reforestation,carbon dioxide,41,134
+reforestation,system,1,reforestation,system,41,139
+removal unit;rmu,water,4,removal unit,water,42,96
+removal unit;rmu,gas,1,removal unit,gas,42,136
+removal unit;rmu,system,3,removal unit,system,42,139
+removal unit;rmu,hydrocarbon,3,removal unit,hydrocarbon,42,148
+renewable energy,water,3,renewable energy,water,43,96
+renewable energy,gas,4,renewable energy,gas,43,136
+renewable energy,system,8,renewable energy,system,43,139
+renewable energy,hydrogen,2,renewable energy,hydrogen,43,142
+sequestration,water,3,sequestration,water,44,96
+sequestration,carbon dioxide,2,sequestration,carbon dioxide,44,134
+sequestration,gas,2,sequestration,gas,44,136
+sequestration,system,1,sequestration,system,44,139
+sequestration,hydrogen,2,sequestration,hydrogen,44,142
+sink,carbon source,1,sink,carbon source,45,63
+sink,water,59,sink,water,45,96
+sink,aggregation,1,sink,aggregation,45,107
+sink,asic,1,sink,asic,45,118
+sink,atmosphere,5,sink,atmosphere,45,119
+sink,carbon nanotube,1,sink,carbon nanotube,45,133
+sink,gas,21,sink,gas,45,136
+sink,activated,8,sink,activated,45,137
+sink,system,157,sink,system,45,139
+sink,hydrogen,1,sink,hydrogen,45,142
+sink,carbon carbon,1,sink,carbon carbon,45,146
+sink,hydrocarbon,1,sink,hydrocarbon,45,148
+verified carbon unit;vcu,system,1,verified carbon unit,system,47,139
+voluntary carbon market;vcm,direct air capture;dac,2,voluntary carbon market,direct air capture,49,70
+voluntary carbon market;vcm,gas,1,voluntary carbon market,gas,49,136
+voluntary carbon market;vcm,system,7,voluntary carbon market,system,49,139
+anthropogenic,gas,1,anthropogenic,gas,51,136
+anthropogenic,system,1,anthropogenic,system,51,139
+baseline,direct air capture;dac,1,baseline,direct air capture,52,70
+baseline,water,2,baseline,water,52,96
+baseline,activity,3,baseline,activity,52,102
+baseline,aggregation,1,baseline,aggregation,52,107
+baseline,atmosphere,1,baseline,atmosphere,52,119
+baseline,carbon dioxide,1,baseline,carbon dioxide,52,134
+baseline,gas,6,baseline,gas,52,136
+baseline,system,80,baseline,system,52,139
+baseline,hydrogen,1,baseline,hydrogen,52,142
+baseline,deposit,1,baseline,deposit,52,144
+baseline,hydrocarbon,1,baseline,hydrocarbon,52,148
+carbon capture and use;ccu,direct air capture;dac,1,carbon capture and use,direct air capture,59,70
+carbon capture and use;ccu,system,5,carbon capture and use,system,59,139
+carbon dioxide removal;cdr,system,9,carbon dioxide removal,system,60,139
+carbon source,water,3,carbon source,water,63,96
+carbon source,activity,2,carbon source,activity,63,102
+carbon source,biodegradation,1,carbon source,biodegradation,63,127
+carbon source,carbon nanotube,4,carbon source,carbon nanotube,63,133
+carbon source,gas,12,carbon source,gas,63,136
+carbon source,carbon material,1,carbon source,carbon material,63,138
+carbon source,deposit,2,carbon source,deposit,63,144
+carbon source,hydrocarbon,1,carbon source,hydrocarbon,63,148
+cop,atmosphere,1,cop,atmosphere,69,119
+direct air capture;dac,activated,1,direct air capture,activated,70,137
+direct air capture;dac,system,44,direct air capture,system,70,139
+ecosystem,water,1,ecosystem,water,72,96
+ecosystem,system,2,ecosystem,system,72,139
+embedded carbon,carbon nanotube,1,embedded carbon,carbon nanotube,73,133
+embedded carbon,gas,1,embedded carbon,gas,73,136
+emission factor;emissions factor,system,1,emission factor,system,75,139
+emission reduction,system,1,emission reduction,system,76,139
+final energy,gas,1,final energy,gas,80,136
+final energy,system,1,final energy,system,80,139
+forestry,system,3,forestry,system,81,139
+fugitive emissions,atmosphere,1,fugitive emissions,atmosphere,82,119
+greenhouse gas emissions,gas,1,greenhouse gas emissions,gas,83,136
+greenhouse gas emissions,hydrogen,1,greenhouse gas emissions,hydrogen,83,142
+net primary production;npp,system,2,net primary production,system,87,139
+operational control,system,9,operational control,system,89,139
+operational control,hydrogen,1,operational control,hydrogen,89,142
+urban,water,7,urban,water,94,96
+urban,gas,4,urban,gas,94,136
+urban,activated,1,urban,activated,94,137
+urban,system,14,urban,system,94,139
+urban,hydrogen,3,urban,hydrogen,94,142
+urban,carbon black,1,urban,carbon black,94,143
+water,activated carbon,26,water,activated carbon,96,101
+water,activity,93,water,activity,96,102
+water,aerosols,3,water,aerosols,96,104
+water,aggregation,11,water,aggregation,96,107
+water,biogas,2,water,biogas,96,114
+water,anoxic,6,water,anoxic,96,115
+water,atmosphere,102,water,atmosphere,96,119
+water,basis of preparation;bop,2,water,basis of preparation,96,124
+water,biodegradation,5,water,biodegradation,96,127
+water,carbon nanotube,4,water,carbon nanotube,96,133
+water,carbon dioxide,121,water,carbon dioxide,96,134
+water,carbon fiber,8,water,carbon fiber,96,135
+water,gas,816,water,gas,96,136
+water,activated,112,water,activated,96,137
+water,carbon material,6,water,carbon material,96,138
+water,system,1610,water,system,96,139
+water,carbon monoxide,57,water,carbon monoxide,96,141
+water,hydrogen,360,water,hydrogen,96,142
+water,carbon black,16,water,carbon black,96,143
+water,deposit,13,water,deposit,96,144
+water,carbon carbon,7,water,carbon carbon,96,146
+water,hydrocarbon,179,water,hydrocarbon,96,148
+activated carbon,activity,3,activated carbon,activity,101,102
+activated carbon,atmosphere,13,activated carbon,atmosphere,101,119
+activated carbon,carbon dioxide,1,activated carbon,carbon dioxide,101,134
+activated carbon,carbon fiber,6,activated carbon,carbon fiber,101,135
+activated carbon,gas,28,activated carbon,gas,101,136
+activated carbon,activated,139,activated carbon,activated,101,137
+activated carbon,carbon material,9,activated carbon,carbon material,101,138
+activated carbon,system,22,activated carbon,system,101,139
+activated carbon,carbon monoxide,1,activated carbon,carbon monoxide,101,141
+activated carbon,hydrogen,6,activated carbon,hydrogen,101,142
+activated carbon,carbon layer,1,activated carbon,carbon layer,101,145
+activated carbon,carbon carbon,2,activated carbon,carbon carbon,101,146
+activated carbon,hydrocarbon,3,activated carbon,hydrocarbon,101,148
+activity,aggregation,14,activity,aggregation,102,107
+activity,biogas,1,activity,biogas,102,114
+activity,atmosphere,6,activity,atmosphere,102,119
+activity,carbon dioxide,8,activity,carbon dioxide,102,134
+activity,carbon fiber,3,activity,carbon fiber,102,135
+activity,gas,65,activity,gas,102,136
+activity,activated,58,activity,activated,102,137
+activity,carbon material,1,activity,carbon material,102,138
+activity,system,622,activity,system,102,139
+activity,carbon monoxide,10,activity,carbon monoxide,102,141
+activity,hydrogen,94,activity,hydrogen,102,142
+activity,carbon black,1,activity,carbon black,102,143
+activity,deposit,5,activity,deposit,102,144
+activity,carbon carbon,1,activity,carbon carbon,102,146
+activity,hydrocarbon,30,activity,hydrocarbon,102,148
+aerosols,atmosphere,2,aerosols,atmosphere,104,119
+aerosols,gas,13,aerosols,gas,104,136
+aerosols,system,6,aerosols,system,104,139
+aerosols,deposit,1,aerosols,deposit,104,144
+aggregation,atmosphere,3,aggregation,atmosphere,107,119
+aggregation,carbon nanotube,2,aggregation,carbon nanotube,107,133
+aggregation,carbon fiber,1,aggregation,carbon fiber,107,135
+aggregation,gas,3,aggregation,gas,107,136
+aggregation,activated,3,aggregation,activated,107,137
+aggregation,system,75,aggregation,system,107,139
+aggregation,hydrogen,4,aggregation,hydrogen,107,142
+aggregation,carbon black,1,aggregation,carbon black,107,143
+aggregation,deposit,2,aggregation,deposit,107,144
+aggregation,hydrocarbon,3,aggregation,hydrocarbon,107,148
+bioprocessing,system,1,bioprocessing,system,113,139
+bioprocessing,hydrocarbon,1,bioprocessing,hydrocarbon,113,148
+biogas,atmosphere,1,biogas,atmosphere,114,119
+biogas,carbon dioxide,2,biogas,carbon dioxide,114,134
+biogas,gas,5,biogas,gas,114,136
+biogas,activated,1,biogas,activated,114,137
+biogas,system,6,biogas,system,114,139
+biogas,carbon monoxide,1,biogas,carbon monoxide,114,141
+biogas,hydrogen,2,biogas,hydrogen,114,142
+biogas,hydrocarbon,1,biogas,hydrocarbon,114,148
+anoxic,biodegradation,1,anoxic,biodegradation,115,127
+anoxic,gas,1,anoxic,gas,115,136
+anoxic,activated,8,anoxic,activated,115,137
+anoxic,system,13,anoxic,system,115,139
+asic,gas,1,asic,gas,118,136
+asic,activated,3,asic,activated,118,137
+asic,system,66,asic,system,118,139
+atmosphere,carbon nanotube,3,atmosphere,carbon nanotube,119,133
+atmosphere,carbon dioxide,10,atmosphere,carbon dioxide,119,134
+atmosphere,gas,344,atmosphere,gas,119,136
+atmosphere,activated,31,atmosphere,activated,119,137
+atmosphere,carbon material,5,atmosphere,carbon material,119,138
+atmosphere,system,176,atmosphere,system,119,139
+atmosphere,carbon monoxide,8,atmosphere,carbon monoxide,119,141
+atmosphere,hydrogen,109,atmosphere,hydrogen,119,142
+atmosphere,deposit,15,atmosphere,deposit,119,144
+atmosphere,carbon layer,1,atmosphere,carbon layer,119,145
+atmosphere,hydrocarbon,20,atmosphere,hydrocarbon,119,148
+basis of preparation;bop,gas,2,basis of preparation,gas,124,136
+basis of preparation;bop,system,12,basis of preparation,system,124,139
+biodegradation,gas,2,biodegradation,gas,127,136
+biodegradation,system,2,biodegradation,system,127,139
+biodegradation,hydrocarbon,2,biodegradation,hydrocarbon,127,148
+carbon nanotube,carbon fiber,2,carbon nanotube,carbon fiber,133,135
+carbon nanotube,gas,25,carbon nanotube,gas,133,136
+carbon nanotube,activated,3,carbon nanotube,activated,133,137
+carbon nanotube,system,6,carbon nanotube,system,133,139
+carbon nanotube,hydrogen,2,carbon nanotube,hydrogen,133,142
+carbon nanotube,deposit,3,carbon nanotube,deposit,133,144
+carbon nanotube,hydrocarbon,1,carbon nanotube,hydrocarbon,133,148
+carbon dioxide,gas,178,carbon dioxide,gas,134,136
+carbon dioxide,activated,2,carbon dioxide,activated,134,137
+carbon dioxide,system,115,carbon dioxide,system,134,139
+carbon dioxide,carbon monoxide,51,carbon dioxide,carbon monoxide,134,141
+carbon dioxide,hydrogen,63,carbon dioxide,hydrogen,134,142
+carbon dioxide,carbon black,2,carbon dioxide,carbon black,134,143
+carbon dioxide,deposit,3,carbon dioxide,deposit,134,144
+carbon dioxide,carbon carbon,1,carbon dioxide,carbon carbon,134,146
+carbon dioxide,hydrocarbon,32,carbon dioxide,hydrocarbon,134,148
+carbon fiber,gas,13,carbon fiber,gas,135,136
+carbon fiber,activated,6,carbon fiber,activated,135,137
+carbon fiber,carbon material,2,carbon fiber,carbon material,135,138
+carbon fiber,system,11,carbon fiber,system,135,139
+carbon fiber,carbon layer,1,carbon fiber,carbon layer,135,145
+carbon fiber,carbon carbon,3,carbon fiber,carbon carbon,135,146
+carbon fiber,carbon composite,4,carbon fiber,carbon composite,135,147
+gas,activated,128,gas,activated,136,137
+gas,carbon material,11,gas,carbon material,136,138
+gas,system,2109,gas,system,136,139
+gas,carbon monoxide,124,gas,carbon monoxide,136,141
+gas,hydrogen,715,gas,hydrogen,136,142
+gas,carbon black,4,gas,carbon black,136,143
+gas,deposit,88,gas,deposit,136,144
+gas,carbon layer,2,gas,carbon layer,136,145
+gas,carbon carbon,5,gas,carbon carbon,136,146
+gas,carbon composite,1,gas,carbon composite,136,147
+gas,hydrocarbon,288,gas,hydrocarbon,136,148
+activated,carbon material,9,activated,carbon material,137,138
+activated,system,741,activated,system,137,139
+activated,carbon monoxide,2,activated,carbon monoxide,137,141
+activated,hydrogen,24,activated,hydrogen,137,142
+activated,carbon black,2,activated,carbon black,137,143
+activated,deposit,3,activated,deposit,137,144
+activated,carbon layer,1,activated,carbon layer,137,145
+activated,carbon carbon,3,activated,carbon carbon,137,146
+activated,hydrocarbon,9,activated,hydrocarbon,137,148
+carbon material,system,2,carbon material,system,138,139
+carbon material,carbon monoxide,1,carbon material,carbon monoxide,138,141
+carbon material,hydrogen,4,carbon material,hydrogen,138,142
+carbon material,carbon black,1,carbon material,carbon black,138,143
+carbon material,carbon carbon,2,carbon material,carbon carbon,138,146
+carbon material,carbon composite,1,carbon material,carbon composite,138,147
+carbon material,hydrocarbon,2,carbon material,hydrocarbon,138,148
+system,carbon monoxide,71,system,carbon monoxide,139,141
+system,hydrogen,343,system,hydrogen,139,142
+system,carbon black,7,system,carbon black,139,143
+system,deposit,91,system,deposit,139,144
+system,carbon layer,1,system,carbon layer,139,145
+system,carbon carbon,8,system,carbon carbon,139,146
+system,carbon composite,2,system,carbon composite,139,147
+system,hydrocarbon,185,system,hydrocarbon,139,148
+carbon monoxide,hydrogen,140,carbon monoxide,hydrogen,141,142
+carbon monoxide,carbon carbon,1,carbon monoxide,carbon carbon,141,146
+carbon monoxide,hydrocarbon,38,carbon monoxide,hydrocarbon,141,148
+hydrogen,carbon black,4,hydrogen,carbon black,142,143
+hydrogen,deposit,16,hydrogen,deposit,142,144
+hydrogen,carbon layer,1,hydrogen,carbon layer,142,145
+hydrogen,carbon carbon,15,hydrogen,carbon carbon,142,146
+hydrogen,carbon composite,1,hydrogen,carbon composite,142,147
+hydrogen,hydrocarbon,212,hydrogen,hydrocarbon,142,148
+carbon black,deposit,1,carbon black,deposit,143,144
+carbon black,carbon carbon,1,carbon black,carbon carbon,143,146
+carbon black,hydrocarbon,3,carbon black,hydrocarbon,143,148
+deposit,hydrocarbon,5,deposit,hydrocarbon,144,148
+carbon layer,hydrocarbon,1,carbon layer,hydrocarbon,145,148
+carbon carbon,carbon composite,8,carbon carbon,carbon composite,146,147
+carbon carbon,hydrocarbon,9,carbon carbon,hydrocarbon,146,148

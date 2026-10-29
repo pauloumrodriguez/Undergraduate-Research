@@ -1,0 +1,11 @@
+{
+  "arquivos": 140,
+  "bytes": 23885288,
+  "escopo": [
+    "evidencias",
+    "runs",
+    "solr/configset_export"
+  ],
+  "gerado_em_utc": "2026-10-29T02:48:22.734191+00:00",
+  "manifesto_csv": "evidencias/manifesto_evidencias.csv"
+}

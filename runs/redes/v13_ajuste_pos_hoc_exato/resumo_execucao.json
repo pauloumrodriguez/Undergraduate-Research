@@ -1,0 +1,133 @@
+{
+  "assinatura": "91d0350a70de2ec3e2b6ee981721298227f3c47dce505e5875da957393bae0fe",
+  "configuracao": {
+    "aliases_utilizados": "somente_primeiro",
+    "descricao": "Ajuste pós-hoc exato derivado de v11; proibido como confirmação.",
+    "escopo_temporal": "cumulativo_desde_2006",
+    "exclusoes_pos_hoc": [
+      "carbon dioxide equivalent",
+      "carbon dioxide removal",
+      "emission factor",
+      "emission reduction",
+      "global warming potential",
+      "greenhouse gas",
+      "primary production",
+      "removal unit"
+    ]
+  },
+  "derivacao": {
+    "aviso": "As exclusões foram deduzidas dos alvos publicados; não são instrução do TCC/artigo.",
+    "base": "runs/redes/v11_apenas_termo_principal",
+    "exclusoes": [
+      "carbon dioxide equivalent",
+      "carbon dioxide removal",
+      "emission factor",
+      "emission reduction",
+      "global warming potential",
+      "greenhouse gas",
+      "primary production",
+      "removal unit"
+    ],
+    "hashes_base": {
+      "relacoes_2006.csv": "d3eeca567c398b678e57898e94c5b4914558410050e4bf777eb155d5a05b67ce",
+      "relacoes_2007.csv": "1523b19fe57286f378719bec330f110e13d70ca986fe6588484fc5603fdd6676",
+      "relacoes_2008.csv": "d105a6a8b4c3fb81f3c73a5ac2729cd3a88ca6094e54192ca01dd48beb6252ef",
+      "relacoes_2009.csv": "49054c7d9e1842f6e82d0f4c6436e48c0dae4e50990a8e94d89ec545ad7477ae",
+      "relacoes_2010.csv": "513c6c0f4a7803b6af1282b606573b24ef7a6021758ce2973f91869d53e62ca9"
+    },
+    "natureza": "ajuste_pos_hoc_nao_confirmatorio",
+    "regra_temporal": "uniao_cumulativa_com_soma_dos_pesos_anuais"
+  },
+  "fingerprint_evidencia": "b0f6f9c03d08b23609e0df2b1492334ea584d139cbaf1f2d3393902034d9f716",
+  "provas_tcc": [
+    {
+      "aprovado": true,
+      "ligacao_esperada": 0,
+      "ligacao_observada": 0,
+      "pesos_registros_encontrados": [],
+      "termo_a": "fugitive emissions",
+      "termo_b": "carbon fiber"
+    },
+    {
+      "aprovado": true,
+      "ligacao_esperada": 0,
+      "ligacao_observada": 0,
+      "pesos_registros_encontrados": [],
+      "termo_a": "carbon black",
+      "termo_b": "bioprocessing"
+    },
+    {
+      "aprovado": true,
+      "ligacao_esperada": 0,
+      "ligacao_observada": 0,
+      "pesos_registros_encontrados": [],
+      "termo_a": "biofuel",
+      "termo_b": "recycling"
+    },
+    {
+      "aprovado": true,
+      "ligacao_esperada": 1,
+      "ligacao_observada": 1,
+      "pesos_registros_encontrados": [
+        1
+      ],
+      "termo_a": "carbon composite",
+      "termo_b": "carbon material"
+    },
+    {
+      "aprovado": true,
+      "ligacao_esperada": 1,
+      "ligacao_observada": 1,
+      "pesos_registros_encontrados": [
+        2
+      ],
+      "termo_a": "recycling",
+      "termo_b": "biogas"
+    },
+    {
+      "aprovado": true,
+      "ligacao_esperada": 1,
+      "ligacao_observada": 1,
+      "pesos_registros_encontrados": [
+        1
+      ],
+      "termo_a": "biomass",
+      "termo_b": "atmosphere"
+    }
+  ],
+  "provas_tcc_aprovadas": true,
+  "redes": [
+    {
+      "ano": 2006,
+      "arestas": 261,
+      "nos": 50,
+      "peso_total": 7716
+    },
+    {
+      "ano": 2007,
+      "arestas": 325,
+      "nos": 52,
+      "peso_total": 14778
+    },
+    {
+      "ano": 2008,
+      "arestas": 359,
+      "nos": 54,
+      "peso_total": 21412
+    },
+    {
+      "ano": 2009,
+      "arestas": 397,
+      "nos": 59,
+      "peso_total": 28363
+    },
+    {
+      "ano": 2010,
+      "arestas": 461,
+      "nos": 63,
+      "peso_total": 38120
+    }
+  ],
+  "semantica_provas_tcc": "Na Tabela 3 do TCC, 0 significa ausência e 1 presença da ligação; os valores não são contagens de documentos.",
+  "variante_id": "v13_ajuste_pos_hoc_exato"
+}

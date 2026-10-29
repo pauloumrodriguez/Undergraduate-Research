@@ -1,0 +1,80 @@
+{
+  "data_auditoria": "2026-10-28",
+  "objeto": "Linhagem dos checkpoints e resultados de rede executados em 27/10/2026.",
+  "entradas_estaveis": {
+    "vocabulario_sha256": "ead0e40d2efc512b65360dce854cde1cae2d015cb9a39cf38eaf6f8ad88fb32c",
+    "fingerprint_evidencia_solr_legado": "b0f6f9c03d08b23609e0df2b1492334ea584d139cbaf1f2d3393902034d9f716",
+    "anos": [2006, 2007, 2008, 2009, 2010]
+  },
+  "estados_codigo_observados": {
+    "manifesto_antes_das_execucoes": {
+      "codigo_gerador_sha256": "16176830c40071369f79a5be4238e8063dd9ca2e99622f510e108bcb039246b1",
+      "config_variantes_sha256": "c2c967abfc0a68562cc2279858846dcbbe89c037e1476f433817fd0502dae434",
+      "observacao": "O manifesto foi gerado antes de v01-v05; o arquivo exato desse gerador não foi preservado após alterações posteriores."
+    },
+    "gerador_pre_finalizacao": {
+      "codigo_gerador_sha256": "a491097792940288a78e245c942d67b52bf8d8bc7531f6ab28ed791c2a4d6f1d",
+      "config_variantes_sha256": "9335497e238925cf033105f48e5cc233e299ed4bbc02255d51e9db1986774a70",
+      "observacao": "Estado usado na recomputação de auditoria antes das correções finais de proveniência e das provas binárias."
+    }
+  },
+  "runs_historicos_nao_recomputaveis_no_estado_pre_finalizacao": [
+    {
+      "variante": "v01_baseline_atual",
+      "assinatura_armazenada": "b541e69ab13fd686b4e512e280a80ab092b4bc87feed5a4cec7fb9de6a3e07e0",
+      "assinatura_recomputada": "5c82b22ae3e88fb5b041f08c4408eb6d68e15e17bfb4556cbdfc621e242ddec0"
+    },
+    {
+      "variante": "v02_normalizacao_simetrica",
+      "assinatura_armazenada": "eb2a3096798503430fa22daf0b24cacab56b4028bc0f8dc70767ef3b42059eb7",
+      "assinatura_recomputada": "ee100940c2437e7321de256901b33fb62a58ef8367e70811dcc20eb01796408c"
+    },
+    {
+      "variante": "v03_consulta_analisada_and",
+      "assinatura_armazenada": "62dab2b00f17356926b2250dfe7d3da536550e50e577c8c4f28d9df7e4b9aa85",
+      "assinatura_recomputada": "cdb44ed1240b5a92ff574205b78ec15e1ea5d4cc9d00b7a8fe47d95b49c3edb8"
+    },
+    {
+      "variante": "v04_148_posicoes",
+      "assinatura_armazenada": "7765e56e327f31e0ea535d72dc611f2e02a7e4690abbd1fe5841a1e5dcc46315",
+      "assinatura_recomputada": "c786608cfc46c697d0a5e83084cac964100eb96ee6f683f08aa1b3106b256aa5"
+    },
+    {
+      "variante": "v05_sem_alias_compartilhado",
+      "assinatura_armazenada": "3e10fada613070fc0c92125d3f2efe46ab4bc79273a713a53533f436398f4c2f",
+      "assinatura_recomputada": "8c4235ef9b5daeb520fb7fa42847eedfcc2b705fa22892ccb2bef936890ab575"
+    }
+  ],
+  "runs_que_correspondiam_ao_gerador_pre_finalizacao": [
+    {
+      "variante": "v07_mesmo_campo_anual",
+      "assinatura": "9b8572c6db7b128c209f96e2887f5e0667e51a912756ae4d546d5b1e5d48693e"
+    },
+    {
+      "variante": "v09_apenas_resumo_cumulativa",
+      "assinatura": "3758a7b937538708ceca017c5bb9d06434ae4108a5ab7c68dfb296397d1dc489"
+    },
+    {
+      "variante": "v10_apenas_titulo_cumulativa",
+      "assinatura": "da969fd9f6f15eaa4fff089228c91148708a61393ca244a4dbc6b5345e4c977b"
+    },
+    {
+      "variante": "v11_apenas_termo_principal",
+      "assinatura": "af1812a11a6989fadfba1a7716f4f083c4108eca05e51b8f73dd9df64b2210e7"
+    },
+    {
+      "variante": "v12_termo_principal_mesmo_campo",
+      "assinatura": "f53506ae39ed4bd3a8d642cc96442cd8765a310d2db51eaa0774a70ef4b5c12c"
+    }
+  ],
+  "verificacoes_comuns": {
+    "checkpoints_completos": true,
+    "csvs_e_resumos_internamente_consistentes": true,
+    "configuracao_da_variante_igual_ao_bloco_atual_na_data_da_auditoria": true
+  },
+  "classificacao": {
+    "v01_a_v05": "artefatos históricos internamente consistentes, mas sem código gerador exato preservado",
+    "v07_v09_v10_v11_v12": "assinaturas confirmadas contra o gerador pré-finalização; novas execuções devem usar pastas novas porque o gerador final passou a incluir seu próprio hash e um snapshot Solr v2"
+  },
+  "acao": "Preservar todos os runs; nunca sobrescrever. Reexecutar em novas pastas quando uma confirmação for necessária."
+}

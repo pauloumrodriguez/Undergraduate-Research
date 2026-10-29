@@ -1,0 +1,133 @@
+{
+  "assinatura": "f53506ae39ed4bd3a8d642cc96442cd8765a310d2db51eaa0774a70ef4b5c12c",
+  "configuracao": {
+    "aliases_compartilhados": "preservar",
+    "aliases_utilizados": "somente_primeiro",
+    "campos": "mesmo_campo",
+    "descricao": "Diagnóstico combinado: só o primeiro termo e coocorrência no mesmo campo; avaliar também cumulativamente.",
+    "duplicatas": "deduplicar_conceitos",
+    "escopo_temporal": "anual",
+    "modo_consulta": "frase_exata",
+    "normalizacao_termos": "preservar"
+  },
+  "fingerprint_indice": "b0f6f9c03d08b23609e0df2b1492334ea584d139cbaf1f2d3393902034d9f716",
+  "provas_tcc": [
+    {
+      "aprovado": true,
+      "ligacao_esperada": 0,
+      "ligacao_observada": 0,
+      "pesos_registros_encontrados": [],
+      "termo_a": "fugitive emissions",
+      "termo_b": "carbon fiber"
+    },
+    {
+      "aprovado": true,
+      "ligacao_esperada": 0,
+      "ligacao_observada": 0,
+      "pesos_registros_encontrados": [],
+      "termo_a": "carbon black",
+      "termo_b": "bioprocessing"
+    },
+    {
+      "aprovado": true,
+      "ligacao_esperada": 0,
+      "ligacao_observada": 0,
+      "pesos_registros_encontrados": [],
+      "termo_a": "biofuel",
+      "termo_b": "recycling"
+    },
+    {
+      "aprovado": false,
+      "ligacao_esperada": 1,
+      "ligacao_observada": 0,
+      "pesos_registros_encontrados": [],
+      "termo_a": "carbon composite",
+      "termo_b": "carbon material"
+    },
+    {
+      "aprovado": true,
+      "ligacao_esperada": 1,
+      "ligacao_observada": 1,
+      "pesos_registros_encontrados": [
+        2
+      ],
+      "termo_a": "recycling",
+      "termo_b": "biogas"
+    },
+    {
+      "aprovado": true,
+      "ligacao_esperada": 1,
+      "ligacao_observada": 1,
+      "pesos_registros_encontrados": [
+        1
+      ],
+      "termo_a": "biomass",
+      "termo_b": "atmosphere"
+    }
+  ],
+  "provas_tcc_aprovadas": false,
+  "provas_tcc_interpretacao_anterior_incorreta": [
+    {
+      "aprovado": false,
+      "esperado": 1,
+      "obtido": 0,
+      "termo_a": "carbon composite",
+      "termo_b": "carbon material"
+    },
+    {
+      "aprovado": true,
+      "esperado": 2,
+      "obtido": 2,
+      "termo_a": "recycling",
+      "termo_b": "biogas"
+    },
+    {
+      "aprovado": true,
+      "esperado": 1,
+      "obtido": 1,
+      "termo_a": "biomass",
+      "termo_b": "atmosphere"
+    },
+    {
+      "aprovado": true,
+      "esperado": 0,
+      "obtido": 0,
+      "termo_a": "fugitive emissions",
+      "termo_b": "carbon fiber"
+    }
+  ],
+  "redes": [
+    {
+      "ano": 2006,
+      "arestas": 259,
+      "nos": 56,
+      "peso_total": 7041
+    },
+    {
+      "ano": 2007,
+      "arestas": 258,
+      "nos": 48,
+      "peso_total": 6468
+    },
+    {
+      "ano": 2008,
+      "arestas": 248,
+      "nos": 48,
+      "peso_total": 6028
+    },
+    {
+      "ano": 2009,
+      "arestas": 269,
+      "nos": 56,
+      "peso_total": 6358
+    },
+    {
+      "ano": 2010,
+      "arestas": 355,
+      "nos": 60,
+      "peso_total": 8927
+    }
+  ],
+  "semantica_provas_tcc": "Na Tabela 3 do TCC, 0 significa ausência e 1 presença da ligação; os valores não são contagens de documentos.",
+  "variante_id": "v12_termo_principal_mesmo_campo"
+}

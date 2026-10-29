@@ -1,0 +1,148 @@
+carbon dioxide equivalent;co2e
+carbon offset
+carbon footprint
+climate change
+greenhouse gas;ghg
+biomass
+carbon neutral
+kyoto protocol
+afforestation
+carbon budget
+carbon capture and sequestration;ccs;carbon capture;carbon sequestration
+carbon cycle
+carbon dioxid;co2
+carbon sequestration
+carbon sink
+global warming potential;gwp
+leakage
+net zero
+primary production;gpp
+reduced emissions from deforestation and forest degradation;redd+
+scope 1 emissions
+scope 2 emissions
+scope 3 emissions
+united nations framework convention on climate change;unfccc
+biofuel
+carbon capture and storage;ccs
+carbon credit
+carbon market
+clean development mechanism;cdm
+deforestation
+fossil fuels
+global warming
+gold standard verified carbon standard;gs ver
+joint implementation;ji
+land use, land use change and forestry;lulucf
+life cycle assessment;lca
+mitigation
+negative emissions
+net zero emissions
+recycling
+reforestation
+removal unit;rmu
+renewable energy
+sequestration
+sink
+tipping point
+verified carbon unit;vcu
+verified emission reduction;ver
+voluntary carbon market;vcm
+accu
+anthropogenic
+baseline
+biocapacity
+biodiversity
+bioenergy with carbon capture and storage;beccs
+biosphere
+blue carbon
+cap and trade
+carbon capture and use;ccu
+carbon dioxide removal;cdr
+carbon flux
+carbon intensity
+carbon source
+carbon stock
+carbon units
+certified emission reduction;cer
+circular economy
+compliance carbon market
+cop
+direct air capture;dac
+decarbonisation
+ecosystem
+embedded carbon
+embodied carbon
+emission factor;emissions factor
+emission reduction;emission reduction
+emission trading;emissions trading
+esg
+extreme event
+final energy
+forestry
+fugitive emissions
+greenhouse gas emissions
+greenwashing
+megawatt hour;mwh
+national greenhouse and energy reporting;nger
+net primary production;npp
+net zero carbon business
+operational control
+paris agreement
+regional greenhouse gas initiative;rggi
+soil carbon
+sustainable development goals;sdg
+urban
+verra
+water
+aau
+ab32
+accc
+acquittal
+activated carbon
+activity
+additional offsets
+aerosols
+aeu
+afsl
+aggregation
+agriculture, forestry, and other land use;afolu
+airport carbon accreditation
+albedo
+algal bloom
+altered carbon
+bioprocessing
+biogas
+anoxic
+anreu
+anthropogenic climate change
+asic
+atmosphere
+atmospheric column
+australian emissions unit;aeu
+australian national greenhouse accounts
+base year
+basis of preparation;bop
+bio-based
+biochar
+biodegradation
+bioeconomy
+bioenergy
+biogenic emissions
+biogeochemical cycles
+biome
+carbon nanotube
+carbon dioxide
+carbon fiber
+gas
+activated
+carbon material
+system
+activated carbon
+carbon monoxide
+hydrogen
+carbon black
+deposit
+carbon layer
+carbon carbon
+carbon composite
+hydrocarbon

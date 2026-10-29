@@ -1,0 +1,32 @@
+{
+  "aliases_compartilhados": {
+    "aeu": [
+      "aeu",
+      "australian emissions unit;aeu"
+    ],
+    "carbon sequestration": [
+      "carbon capture and sequestration;ccs;carbon capture;carbon sequestration",
+      "carbon sequestration"
+    ],
+    "ccs": [
+      "carbon capture and sequestration;ccs;carbon capture;carbon sequestration",
+      "carbon capture and storage;ccs"
+    ]
+  },
+  "conceitos_duplicados": [
+    {
+      "duplicata_de": 101,
+      "linha": 140
+    }
+  ],
+  "conceitos_finais": 145,
+  "conceitos_removidos_sem_alias": [
+    14,
+    105
+  ],
+  "linhas": 148,
+  "pares": 10440,
+  "sinonimos_repetidos": [
+    76
+  ]
+}

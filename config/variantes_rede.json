@@ -1,0 +1,117 @@
+{
+  "solr": {
+    "base_url": "http://localhost:8983/solr",
+    "colecao": "patents_replicacao_nova",
+    "timeout_segundos": 30,
+    "tentativas": 3,
+    "workers": 8,
+    "bloco_checkpoint": 200
+  },
+  "termos": "dados/vocabulario/termos_carbono.txt",
+  "variantes": {
+    "v01_baseline_atual": {
+      "descricao": "Reproduz a interpretação atualmente implementada.",
+      "escopo_temporal": "anual",
+      "duplicatas": "deduplicar_conceitos",
+      "aliases_compartilhados": "preservar",
+      "normalizacao_termos": "preservar",
+      "modo_consulta": "frase_exata"
+    },
+    "v02_normalizacao_simetrica": {
+      "descricao": "Remove dos termos a mesma pontuação ASCII removida dos documentos.",
+      "escopo_temporal": "anual",
+      "duplicatas": "deduplicar_conceitos",
+      "aliases_compartilhados": "preservar",
+      "normalizacao_termos": "remover_pontuacao_ascii",
+      "modo_consulta": "frase_exata"
+    },
+    "v03_consulta_analisada_and": {
+      "descricao": "Exige todos os tokens do alias, sem exigir frase exata.",
+      "escopo_temporal": "anual",
+      "duplicatas": "deduplicar_conceitos",
+      "aliases_compartilhados": "preservar",
+      "normalizacao_termos": "remover_pontuacao_ascii",
+      "modo_consulta": "tokens_and"
+    },
+    "v04_148_posicoes": {
+      "descricao": "Mantém as 148 posições do apêndice, inclusive o conceito duplicado.",
+      "escopo_temporal": "anual",
+      "duplicatas": "manter_posicoes",
+      "aliases_compartilhados": "preservar",
+      "normalizacao_termos": "preservar",
+      "modo_consulta": "frase_exata"
+    },
+    "v05_sem_alias_compartilhado": {
+      "descricao": "Remove aliases presentes em mais de um conceito, evitando arestas tautológicas.",
+      "escopo_temporal": "anual",
+      "duplicatas": "deduplicar_conceitos",
+      "aliases_compartilhados": "remover",
+      "normalizacao_termos": "preservar",
+      "modo_consulta": "frase_exata"
+    },
+    "v06_cumulativa": {
+      "descricao": "Hipótese cumulativa; diagnóstico, não correção presumida.",
+      "escopo_temporal": "cumulativo_desde_2006",
+      "duplicatas": "deduplicar_conceitos",
+      "aliases_compartilhados": "preservar",
+      "normalizacao_termos": "preservar",
+      "modo_consulta": "frase_exata"
+    },
+    "v07_mesmo_campo_anual": {
+      "descricao": "Os dois conceitos devem ocorrer ambos no título ou ambos no resumo.",
+      "escopo_temporal": "anual",
+      "duplicatas": "deduplicar_conceitos",
+      "aliases_compartilhados": "preservar",
+      "normalizacao_termos": "preservar",
+      "modo_consulta": "frase_exata",
+      "campos": "mesmo_campo"
+    },
+    "v08_mesmo_campo_cumulativa": {
+      "descricao": "Mesma restrição de campo, com redes cumulativas desde 2006.",
+      "escopo_temporal": "cumulativo_desde_2006",
+      "duplicatas": "deduplicar_conceitos",
+      "aliases_compartilhados": "preservar",
+      "normalizacao_termos": "preservar",
+      "modo_consulta": "frase_exata",
+      "campos": "mesmo_campo"
+    },
+    "v09_apenas_resumo_cumulativa": {
+      "descricao": "Coocorrência apenas no resumo, acumulada desde 2006.",
+      "escopo_temporal": "cumulativo_desde_2006",
+      "duplicatas": "deduplicar_conceitos",
+      "aliases_compartilhados": "preservar",
+      "normalizacao_termos": "preservar",
+      "modo_consulta": "frase_exata",
+      "campos": "apenas_abstract"
+    },
+    "v10_apenas_titulo_cumulativa": {
+      "descricao": "Coocorrência apenas no título, acumulada desde 2006.",
+      "escopo_temporal": "cumulativo_desde_2006",
+      "duplicatas": "deduplicar_conceitos",
+      "aliases_compartilhados": "preservar",
+      "normalizacao_termos": "preservar",
+      "modo_consulta": "frase_exata",
+      "campos": "apenas_title"
+    },
+    "v11_apenas_termo_principal": {
+      "descricao": "Diagnóstico de possível divergência entre texto e código: ignora sinônimos e usa só o primeiro termo de cada linha.",
+      "escopo_temporal": "anual",
+      "duplicatas": "deduplicar_conceitos",
+      "aliases_compartilhados": "preservar",
+      "aliases_utilizados": "somente_primeiro",
+      "normalizacao_termos": "preservar",
+      "modo_consulta": "frase_exata",
+      "campos": "qualquer_campo"
+    },
+    "v12_termo_principal_mesmo_campo": {
+      "descricao": "Diagnóstico combinado: só o primeiro termo e coocorrência no mesmo campo; avaliar também cumulativamente.",
+      "escopo_temporal": "anual",
+      "duplicatas": "deduplicar_conceitos",
+      "aliases_compartilhados": "preservar",
+      "aliases_utilizados": "somente_primeiro",
+      "normalizacao_termos": "preservar",
+      "modo_consulta": "frase_exata",
+      "campos": "mesmo_campo"
+    }
+  }
+}

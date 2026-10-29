@@ -1,0 +1,116 @@
+origem,destino,coocorrencias,origem_rotulo,destino_rotulo,origem_linha,destino_linha
+greenhouse gas;ghg,greenhouse gas emissions,2,greenhouse gas,greenhouse gas emissions,5,83
+greenhouse gas;ghg,gas,4,greenhouse gas,gas,5,136
+greenhouse gas;ghg,system,3,greenhouse gas,system,5,139
+greenhouse gas;ghg,hydrogen,1,greenhouse gas,hydrogen,5,142
+biomass,water,2,biomass,water,6,96
+biomass,carbon dioxide,1,biomass,carbon dioxide,6,134
+biomass,gas,3,biomass,gas,6,136
+biomass,system,5,biomass,system,6,139
+afforestation,reforestation,1,afforestation,reforestation,9,41
+afforestation,system,1,afforestation,system,9,139
+carbon dioxid;co2,sequestration,1,carbon dioxid,sequestration,13,44
+carbon dioxid;co2,gas,2,carbon dioxid,gas,13,136
+carbon dioxid;co2,system,2,carbon dioxid,system,13,139
+carbon dioxid;co2,hydrocarbon,2,carbon dioxid,hydrocarbon,13,148
+leakage,mitigation,2,leakage,mitigation,17,37
+leakage,water,3,leakage,water,17,96
+leakage,asic,1,leakage,asic,17,118
+leakage,gas,14,leakage,gas,17,136
+leakage,system,48,leakage,system,17,139
+leakage,hydrogen,1,leakage,hydrogen,17,142
+biofuel,system,1,biofuel,system,25,139
+fossil fuels,system,1,fossil fuels,system,31,139
+fossil fuels,hydrogen,1,fossil fuels,hydrogen,31,142
+mitigation,water,2,mitigation,water,37,96
+mitigation,system,28,mitigation,system,37,139
+recycling,water,8,recycling,water,40,96
+recycling,gas,7,recycling,gas,40,136
+recycling,system,41,recycling,system,40,139
+recycling,hydrogen,2,recycling,hydrogen,40,142
+recycling,hydrocarbon,1,recycling,hydrocarbon,40,148
+reforestation,system,1,reforestation,system,41,139
+removal unit;rmu,gas,1,removal unit,gas,42,136
+renewable energy,system,3,renewable energy,system,43,139
+sequestration,carbon dioxide,3,sequestration,carbon dioxide,44,134
+sequestration,system,1,sequestration,system,44,139
+sequestration,hydrogen,1,sequestration,hydrogen,44,142
+sequestration,hydrocarbon,1,sequestration,hydrocarbon,44,148
+sink,water,2,sink,water,45,96
+sink,gas,1,sink,gas,45,136
+sink,activated,1,sink,activated,45,137
+sink,system,19,sink,system,45,139
+voluntary carbon market;vcm,system,1,voluntary carbon market,system,49,139
+baseline,system,14,baseline,system,52,139
+carbon dioxide removal;cdr,system,1,carbon dioxide removal,system,60,139
+direct air capture;dac,system,4,direct air capture,system,70,139
+ecosystem,system,1,ecosystem,system,72,139
+emission reduction,system,1,emission reduction,system,76,139
+emission trading;emissions trading,system,1,emission trading,system,77,139
+forestry,system,1,forestry,system,81,139
+greenhouse gas emissions,gas,2,greenhouse gas emissions,gas,83,136
+greenhouse gas emissions,system,2,greenhouse gas emissions,system,83,139
+operational control,system,1,operational control,system,89,139
+urban,water,2,urban,water,94,96
+urban,system,2,urban,system,94,139
+water,activated carbon,2,water,activated carbon,96,101
+water,activity,9,water,activity,96,102
+water,atmosphere,1,water,atmosphere,96,119
+water,carbon dioxide,6,water,carbon dioxide,96,134
+water,gas,58,water,gas,96,136
+water,activated,6,water,activated,96,137
+water,system,397,water,system,96,139
+water,hydrogen,26,water,hydrogen,96,142
+water,carbon black,2,water,carbon black,96,143
+water,hydrocarbon,8,water,hydrocarbon,96,148
+activated carbon,activity,1,activated carbon,activity,101,102
+activated carbon,gas,1,activated carbon,gas,101,136
+activated carbon,activated,39,activated carbon,activated,101,137
+activated carbon,system,4,activated carbon,system,101,139
+activity,aggregation,1,activity,aggregation,102,107
+activity,carbon dioxide,1,activity,carbon dioxide,102,134
+activity,gas,2,activity,gas,102,136
+activity,activated,4,activity,activated,102,137
+activity,system,99,activity,system,102,139
+activity,hydrogen,2,activity,hydrogen,102,142
+activity,deposit,2,activity,deposit,102,144
+aerosols,gas,3,aerosols,gas,104,136
+aerosols,system,1,aerosols,system,104,139
+aggregation,system,27,aggregation,system,107,139
+biogas,system,3,biogas,system,114,139
+anoxic,activated,1,anoxic,activated,115,137
+anoxic,system,1,anoxic,system,115,139
+asic,system,10,asic,system,118,139
+atmosphere,gas,3,atmosphere,gas,119,136
+atmosphere,system,6,atmosphere,system,119,139
+basis of preparation;bop,system,2,basis of preparation,system,124,139
+biodegradation,system,1,biodegradation,system,127,139
+carbon nanotube,gas,1,carbon nanotube,gas,133,136
+carbon nanotube,system,2,carbon nanotube,system,133,139
+carbon dioxide,gas,15,carbon dioxide,gas,134,136
+carbon dioxide,system,13,carbon dioxide,system,134,139
+carbon dioxide,carbon monoxide,1,carbon dioxide,carbon monoxide,134,141
+carbon dioxide,hydrogen,5,carbon dioxide,hydrogen,134,142
+carbon dioxide,hydrocarbon,3,carbon dioxide,hydrocarbon,134,148
+carbon fiber,gas,1,carbon fiber,gas,135,136
+carbon fiber,system,2,carbon fiber,system,135,139
+carbon fiber,hydrogen,1,carbon fiber,hydrogen,135,142
+carbon fiber,carbon carbon,1,carbon fiber,carbon carbon,135,146
+carbon fiber,carbon composite,1,carbon fiber,carbon composite,135,147
+gas,activated,6,gas,activated,136,137
+gas,system,644,gas,system,136,139
+gas,carbon monoxide,8,gas,carbon monoxide,136,141
+gas,hydrogen,64,gas,hydrogen,136,142
+gas,deposit,3,gas,deposit,136,144
+gas,hydrocarbon,21,gas,hydrocarbon,136,148
+activated,system,70,activated,system,137,139
+activated,hydrogen,2,activated,hydrogen,137,142
+system,carbon monoxide,4,system,carbon monoxide,139,141
+system,hydrogen,120,system,hydrogen,139,142
+system,deposit,22,system,deposit,139,144
+system,carbon carbon,1,system,carbon carbon,139,146
+system,hydrocarbon,41,system,hydrocarbon,139,148
+carbon monoxide,hydrogen,11,carbon monoxide,hydrogen,141,142
+hydrogen,hydrocarbon,15,hydrogen,hydrocarbon,142,148
+deposit,hydrocarbon,1,deposit,hydrocarbon,144,148
+carbon carbon,carbon composite,1,carbon carbon,carbon composite,146,147

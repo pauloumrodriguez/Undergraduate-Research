@@ -1,0 +1,11 @@
+__pycache__/
+*.py[cod]
+.venv/
+.ipynb_checkpoints/
+dados/brutos/*.json
+runs/reexecucao_do_zero/
+runs/modelos/*
+!runs/modelos/README.md
+evidencias/indexacao.json
+evidencias/solr_snapshot_v2.json
+evidencias/historico_auditoria/

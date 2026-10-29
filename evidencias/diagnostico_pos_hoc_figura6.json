@@ -1,0 +1,98 @@
+{
+  "alvos_publicados_sha256": "850be17471d55db042c52dafbb52e1f9a873794e14917d92c9253ed8d3f0bb82",
+  "conclusao": "A exclusão dos seis extras reproduz 2006–2008; três pares diferentes de exclusões adicionais reproduzem também 2009–2010. Como TCC e artigo não permitem escolher entre eles, qualquer seleção seria ajuste pós-hoc, não reconstrução confirmada.",
+  "conjuntos_adicionais_que_encaixam_todos_os_totais": [
+    {
+      "exclusoes_adicionais": [
+        "carbon dioxide equivalent",
+        "carbon dioxide removal"
+      ],
+      "resultados": {
+        "2006": {
+          "arestas": 261,
+          "exato": true,
+          "nos": 50
+        },
+        "2007": {
+          "arestas": 325,
+          "exato": true,
+          "nos": 52
+        },
+        "2008": {
+          "arestas": 359,
+          "exato": true,
+          "nos": 54
+        },
+        "2009": {
+          "arestas": 397,
+          "exato": true,
+          "nos": 59
+        },
+        "2010": {
+          "arestas": 461,
+          "exato": true,
+          "nos": 63
+        }
+      }
+    }
+  ],
+  "extras_v11_2006": [
+    "emission factor",
+    "emission reduction",
+    "global warming potential",
+    "greenhouse gas",
+    "primary production",
+    "removal unit"
+  ],
+  "fonte": "Figura 6 do TCC e contagens da Tabela 6",
+  "hashes_redes_fonte": {
+    "relacoes_2006.csv": "d3eeca567c398b678e57898e94c5b4914558410050e4bf777eb155d5a05b67ce",
+    "relacoes_2007.csv": "1523b19fe57286f378719bec330f110e13d70ca986fe6588484fc5603fdd6676",
+    "relacoes_2008.csv": "d105a6a8b4c3fb81f3c73a5ac2729cd3a88ca6094e54192ca01dd48beb6252ef",
+    "relacoes_2009.csv": "49054c7d9e1842f6e82d0f4c6436e48c0dae4e50990a8e94d89ec545ad7477ae",
+    "relacoes_2010.csv": "513c6c0f4a7803b6af1282b606573b24ef7a6021758ce2973f91869d53e62ca9"
+  },
+  "modo": "cumulativo_derivado",
+  "natureza": "diagnostico_pos_hoc_nao_confirmatorio",
+  "nos_publicados_2006": 50,
+  "nos_publicados_faltantes_na_v11": [],
+  "nos_v11_2006": 56,
+  "resultado_apos_excluir_so_extras_2006": {
+    "2006": {
+      "alvo_arestas": 261,
+      "alvo_nos": 50,
+      "arestas": 261,
+      "exato": true,
+      "nos": 50
+    },
+    "2007": {
+      "alvo_arestas": 325,
+      "alvo_nos": 52,
+      "arestas": 325,
+      "exato": true,
+      "nos": 52
+    },
+    "2008": {
+      "alvo_arestas": 359,
+      "alvo_nos": 54,
+      "arestas": 359,
+      "exato": true,
+      "nos": 54
+    },
+    "2009": {
+      "alvo_arestas": 397,
+      "alvo_nos": 59,
+      "arestas": 401,
+      "exato": false,
+      "nos": 61
+    },
+    "2010": {
+      "alvo_arestas": 461,
+      "alvo_nos": 63,
+      "arestas": 468,
+      "exato": false,
+      "nos": 65
+    }
+  },
+  "variante_base": "v11_apenas_termo_principal"
+}

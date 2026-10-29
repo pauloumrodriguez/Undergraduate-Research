@@ -1,0 +1,981 @@
+{
+  "ajustes_pos_hoc": [
+    {
+      "avaliacao": "avaliacao_redes.json",
+      "compatibilidade_texto": "não aplicável",
+      "contagens_reproduzidas": true,
+      "erro_relativo_medio": 0.0,
+      "falhas_provas_tcc": "",
+      "gate_modelagem": "bloqueado",
+      "jaccard_nos_2006": 1.0,
+      "modo_interpretado": "cumulativo_ja_materializado_nos_csvs",
+      "nos_2006_em_comum": 50,
+      "nos_2006_extras": "",
+      "nos_2006_faltantes": "",
+      "nos_2006_identicos": true,
+      "nos_2006_observados_semanticos": 50,
+      "nos_2006_publicados": 50,
+      "observacao": "Reproduz todas as contagens ao excluir oito termos deduzidos dos próprios alvos. Serve para demonstrar não identificabilidade; é proibida como confirmação ou seleção de modelo.",
+      "papel": "ajuste_pos_hoc",
+      "provas_tcc_aprovadas": true,
+      "variante": "v13_ajuste_pos_hoc_exato"
+    }
+  ],
+  "avaliacoes": [
+    {
+      "avaliacao": "avaliacao_redes.json",
+      "compatibilidade_texto": "não aplicável",
+      "contagens_reproduzidas": true,
+      "erro_relativo_medio": 0.0,
+      "falhas_provas_tcc": "",
+      "gate_modelagem": "bloqueado",
+      "jaccard_nos_2006": 1.0,
+      "modo_interpretado": "cumulativo_ja_materializado_nos_csvs",
+      "nos_2006_em_comum": 50,
+      "nos_2006_extras": "",
+      "nos_2006_faltantes": "",
+      "nos_2006_identicos": true,
+      "nos_2006_observados_semanticos": 50,
+      "nos_2006_publicados": 50,
+      "observacao": "Reproduz todas as contagens ao excluir oito termos deduzidos dos próprios alvos. Serve para demonstrar não identificabilidade; é proibida como confirmação ou seleção de modelo.",
+      "papel": "ajuste_pos_hoc",
+      "provas_tcc_aprovadas": true,
+      "variante": "v13_ajuste_pos_hoc_exato"
+    },
+    {
+      "avaliacao": "avaliacao_cumulativa.json",
+      "compatibilidade_texto": "baixa",
+      "contagens_reproduzidas": false,
+      "erro_relativo_medio": 0.06613872552122266,
+      "falhas_provas_tcc": "carbon composite + carbon material: ligação 0 != 1",
+      "gate_modelagem": "bloqueado",
+      "jaccard_nos_2006": 0.8928571428571429,
+      "modo_interpretado": "cumulativo_derivado_das_redes_anuais",
+      "nos_2006_em_comum": 50,
+      "nos_2006_extras": "emission factor | emission reduction | global warming potential | greenhouse gas | primary production | removal unit",
+      "nos_2006_faltantes": "",
+      "nos_2006_identicos": false,
+      "nos_2006_observados_semanticos": 56,
+      "nos_2006_publicados": 50,
+      "observacao": "É a mais próxima nas contagens agregadas, porém combina duas restrições não declaradas e falha uma prova explícita do TCC.",
+      "papel": "diagnostico",
+      "provas_tcc_aprovadas": false,
+      "variante": "v12_termo_principal_mesmo_campo"
+    },
+    {
+      "avaliacao": "avaliacao_cumulativa.json",
+      "compatibilidade_texto": "baixa",
+      "contagens_reproduzidas": false,
+      "erro_relativo_medio": 0.0966252407421535,
+      "falhas_provas_tcc": "",
+      "gate_modelagem": "bloqueado",
+      "jaccard_nos_2006": 0.8928571428571429,
+      "modo_interpretado": "cumulativo_derivado_das_redes_anuais",
+      "nos_2006_em_comum": 50,
+      "nos_2006_extras": "emission factor | emission reduction | global warming potential | greenhouse gas | primary production | removal unit",
+      "nos_2006_faltantes": "",
+      "nos_2006_identicos": false,
+      "nos_2006_observados_semanticos": 56,
+      "nos_2006_publicados": 50,
+      "observacao": "Passa as provas explícitas e é a candidata não contradita mais próxima, mas ignora sinônimos e portanto não pode ser chamada de fiel ao método descrito.",
+      "papel": "candidata_empirica",
+      "provas_tcc_aprovadas": true,
+      "variante": "v11_apenas_termo_principal"
+    },
+    {
+      "avaliacao": "avaliacao_redes.json",
+      "compatibilidade_texto": "baixa",
+      "contagens_reproduzidas": false,
+      "erro_relativo_medio": 0.13224096639740307,
+      "falhas_provas_tcc": "",
+      "gate_modelagem": "bloqueado",
+      "jaccard_nos_2006": 0.8928571428571429,
+      "modo_interpretado": "anual",
+      "nos_2006_em_comum": 50,
+      "nos_2006_extras": "emission factor | emission reduction | global warming potential | greenhouse gas | primary production | removal unit",
+      "nos_2006_faltantes": "",
+      "nos_2006_identicos": false,
+      "nos_2006_observados_semanticos": 56,
+      "nos_2006_publicados": 50,
+      "observacao": "Passa as provas explícitas e é a candidata não contradita mais próxima, mas ignora sinônimos e portanto não pode ser chamada de fiel ao método descrito.",
+      "papel": "candidata_empirica",
+      "provas_tcc_aprovadas": true,
+      "variante": "v11_apenas_termo_principal"
+    },
+    {
+      "avaliacao": "avaliacao_redes.json",
+      "compatibilidade_texto": "baixa",
+      "contagens_reproduzidas": false,
+      "erro_relativo_medio": 0.1481862635338588,
+      "falhas_provas_tcc": "carbon composite + carbon material: ligação 0 != 1",
+      "gate_modelagem": "bloqueado",
+      "jaccard_nos_2006": 0.8928571428571429,
+      "modo_interpretado": "anual",
+      "nos_2006_em_comum": 50,
+      "nos_2006_extras": "emission factor | emission reduction | global warming potential | greenhouse gas | primary production | removal unit",
+      "nos_2006_faltantes": "",
+      "nos_2006_identicos": false,
+      "nos_2006_observados_semanticos": 56,
+      "nos_2006_publicados": 50,
+      "observacao": "É a mais próxima nas contagens agregadas, porém combina duas restrições não declaradas e falha uma prova explícita do TCC.",
+      "papel": "diagnostico",
+      "provas_tcc_aprovadas": false,
+      "variante": "v12_termo_principal_mesmo_campo"
+    },
+    {
+      "avaliacao": "avaliacao_redes.json",
+      "compatibilidade_texto": "media",
+      "contagens_reproduzidas": false,
+      "erro_relativo_medio": 0.15629908034820478,
+      "falhas_provas_tcc": "",
+      "gate_modelagem": "bloqueado",
+      "jaccard_nos_2006": 0.7575757575757576,
+      "modo_interpretado": "anual",
+      "nos_2006_em_comum": 50,
+      "nos_2006_extras": "basis of preparation | carbon capture and use | carbon dioxid | carbon dioxide removal | clean development mechanism | direct air capture | emission factor | emission reduction | emission trading | global warming potential | greenhouse gas | life cycle assessment | primary production | removal unit | verified carbon unit | voluntary carbon market",
+      "nos_2006_faltantes": "",
+      "nos_2006_identicos": false,
+      "nos_2006_observados_semanticos": 66,
+      "nos_2006_publicados": 50,
+      "observacao": "Remove aliases repetidos entre conceitos para evitar arestas tautológicas; dois conceitos ficam sem alias e o vocabulário cai de 147 para 145, regra não informada no texto original.",
+      "papel": "sensibilidade",
+      "provas_tcc_aprovadas": true,
+      "variante": "v05_sem_alias_compartilhado"
+    },
+    {
+      "avaliacao": "avaliacao_redes.json",
+      "compatibilidade_texto": "media",
+      "contagens_reproduzidas": false,
+      "erro_relativo_medio": 0.1680266302866219,
+      "falhas_provas_tcc": "",
+      "gate_modelagem": "bloqueado",
+      "jaccard_nos_2006": 0.7352941176470589,
+      "modo_interpretado": "anual",
+      "nos_2006_em_comum": 50,
+      "nos_2006_extras": "basis of preparation | carbon capture and sequestration | carbon capture and storage | carbon capture and use | carbon dioxid | carbon dioxide removal | clean development mechanism | direct air capture | emission factor | emission reduction | emission trading | global warming potential | greenhouse gas | life cycle assessment | primary production | removal unit | verified carbon unit | voluntary carbon market",
+      "nos_2006_faltantes": "",
+      "nos_2006_identicos": false,
+      "nos_2006_observados_semanticos": 68,
+      "nos_2006_publicados": 50,
+      "observacao": "Preserva a posição duplicada do apêndice; cria dois IDs para activated carbon, um autolaço semântico e arestas paralelas, por isso não representa uma rede conceitual simples comparável.",
+      "papel": "sensibilidade",
+      "provas_tcc_aprovadas": true,
+      "variante": "v04_148_posicoes"
+    },
+    {
+      "avaliacao": "avaliacao_redes.json",
+      "compatibilidade_texto": "alta",
+      "contagens_reproduzidas": false,
+      "erro_relativo_medio": 0.17061759656051573,
+      "falhas_provas_tcc": "",
+      "gate_modelagem": "bloqueado",
+      "jaccard_nos_2006": 0.7352941176470589,
+      "modo_interpretado": "anual",
+      "nos_2006_em_comum": 50,
+      "nos_2006_extras": "basis of preparation | carbon capture and sequestration | carbon capture and storage | carbon capture and use | carbon dioxid | carbon dioxide removal | clean development mechanism | direct air capture | emission factor | emission reduction | emission trading | global warming potential | greenhouse gas | life cycle assessment | primary production | removal unit | verified carbon unit | voluntary carbon market",
+      "nos_2006_faltantes": "",
+      "nos_2006_identicos": false,
+      "nos_2006_observados_semanticos": 68,
+      "nos_2006_publicados": 50,
+      "observacao": "Usa todos os aliases com OR, frase exata em título ou resumo e redes anuais; é a tradução mais literal disponível, embora o texto não feche todos os detalhes da consulta.",
+      "papel": "reconstrucao_textual",
+      "provas_tcc_aprovadas": true,
+      "variante": "v01_baseline_atual"
+    },
+    {
+      "avaliacao": "avaliacao_redes.json",
+      "compatibilidade_texto": "baixa",
+      "contagens_reproduzidas": false,
+      "erro_relativo_medio": 0.17063882193090882,
+      "falhas_provas_tcc": "carbon composite + carbon material: ligação 0 != 1",
+      "gate_modelagem": "bloqueado",
+      "jaccard_nos_2006": 0.7352941176470589,
+      "modo_interpretado": "anual",
+      "nos_2006_em_comum": 50,
+      "nos_2006_extras": "basis of preparation | carbon capture and sequestration | carbon capture and storage | carbon capture and use | carbon dioxid | carbon dioxide removal | clean development mechanism | direct air capture | emission factor | emission reduction | emission trading | global warming potential | greenhouse gas | life cycle assessment | primary production | removal unit | verified carbon unit | voluntary carbon market",
+      "nos_2006_faltantes": "",
+      "nos_2006_identicos": false,
+      "nos_2006_observados_semanticos": 68,
+      "nos_2006_publicados": 50,
+      "observacao": "Exige que os dois conceitos estejam no mesmo campo; o original não declara essa restrição.",
+      "papel": "diagnostico",
+      "provas_tcc_aprovadas": false,
+      "variante": "v07_mesmo_campo_anual"
+    },
+    {
+      "avaliacao": "avaliacao_redes.json",
+      "compatibilidade_texto": "media",
+      "contagens_reproduzidas": false,
+      "erro_relativo_medio": 0.1717275729073529,
+      "falhas_provas_tcc": "",
+      "gate_modelagem": "bloqueado",
+      "jaccard_nos_2006": 0.7352941176470589,
+      "modo_interpretado": "anual",
+      "nos_2006_em_comum": 50,
+      "nos_2006_extras": "basis of preparation | carbon capture and sequestration | carbon capture and storage | carbon capture and use | carbon dioxid | carbon dioxide removal | clean development mechanism | direct air capture | emission factor | emission reduction | emission trading | global warming potential | greenhouse gas | life cycle assessment | primary production | removal unit | verified carbon unit | voluntary carbon market",
+      "nos_2006_faltantes": "",
+      "nos_2006_identicos": false,
+      "nos_2006_observados_semanticos": 68,
+      "nos_2006_publicados": 50,
+      "observacao": "Aplica aos termos a mesma remoção de pontuação usada nos documentos; ajuste razoável, mas não declarado pelo autor.",
+      "papel": "sensibilidade",
+      "provas_tcc_aprovadas": true,
+      "variante": "v02_normalizacao_simetrica"
+    },
+    {
+      "avaliacao": "avaliacao_redes.json",
+      "compatibilidade_texto": "baixa",
+      "contagens_reproduzidas": false,
+      "erro_relativo_medio": 0.22322269899023972,
+      "falhas_provas_tcc": "carbon composite + carbon material: ligação 0 != 1",
+      "gate_modelagem": "bloqueado",
+      "jaccard_nos_2006": 0.746268656716418,
+      "modo_interpretado": "cumulativo_ja_materializado_nos_csvs",
+      "nos_2006_em_comum": 50,
+      "nos_2006_extras": "basis of preparation | carbon capture and sequestration | carbon capture and storage | carbon capture and use | carbon dioxid | carbon dioxide removal | clean development mechanism | direct air capture | emission factor | emission reduction | global warming potential | greenhouse gas | life cycle assessment | primary production | removal unit | verified carbon unit | voluntary carbon market",
+      "nos_2006_faltantes": "",
+      "nos_2006_identicos": false,
+      "nos_2006_observados_semanticos": 67,
+      "nos_2006_publicados": 50,
+      "observacao": "Ignora o título apesar de o trabalho declarar título e resumo.",
+      "papel": "diagnostico",
+      "provas_tcc_aprovadas": false,
+      "variante": "v09_apenas_resumo_cumulativa"
+    },
+    {
+      "avaliacao": "avaliacao_cumulativa.json",
+      "compatibilidade_texto": "baixa",
+      "contagens_reproduzidas": false,
+      "erro_relativo_medio": 0.24106940503989197,
+      "falhas_provas_tcc": "carbon composite + carbon material: ligação 0 != 1",
+      "gate_modelagem": "bloqueado",
+      "jaccard_nos_2006": 0.7352941176470589,
+      "modo_interpretado": "cumulativo_derivado_das_redes_anuais",
+      "nos_2006_em_comum": 50,
+      "nos_2006_extras": "basis of preparation | carbon capture and sequestration | carbon capture and storage | carbon capture and use | carbon dioxid | carbon dioxide removal | clean development mechanism | direct air capture | emission factor | emission reduction | emission trading | global warming potential | greenhouse gas | life cycle assessment | primary production | removal unit | verified carbon unit | voluntary carbon market",
+      "nos_2006_faltantes": "",
+      "nos_2006_identicos": false,
+      "nos_2006_observados_semanticos": 68,
+      "nos_2006_publicados": 50,
+      "observacao": "Exige que os dois conceitos estejam no mesmo campo; o original não declara essa restrição.",
+      "papel": "diagnostico",
+      "provas_tcc_aprovadas": false,
+      "variante": "v07_mesmo_campo_anual"
+    },
+    {
+      "avaliacao": "avaliacao_cumulativa.json",
+      "compatibilidade_texto": "alta",
+      "contagens_reproduzidas": false,
+      "erro_relativo_medio": 0.28328963940501556,
+      "falhas_provas_tcc": "",
+      "gate_modelagem": "bloqueado",
+      "jaccard_nos_2006": 0.7352941176470589,
+      "modo_interpretado": "cumulativo_derivado_das_redes_anuais",
+      "nos_2006_em_comum": 50,
+      "nos_2006_extras": "basis of preparation | carbon capture and sequestration | carbon capture and storage | carbon capture and use | carbon dioxid | carbon dioxide removal | clean development mechanism | direct air capture | emission factor | emission reduction | emission trading | global warming potential | greenhouse gas | life cycle assessment | primary production | removal unit | verified carbon unit | voluntary carbon market",
+      "nos_2006_faltantes": "",
+      "nos_2006_identicos": false,
+      "nos_2006_observados_semanticos": 68,
+      "nos_2006_publicados": 50,
+      "observacao": "Usa todos os aliases com OR, frase exata em título ou resumo e redes anuais; é a tradução mais literal disponível, embora o texto não feche todos os detalhes da consulta.",
+      "papel": "reconstrucao_textual",
+      "provas_tcc_aprovadas": true,
+      "variante": "v01_baseline_atual"
+    },
+    {
+      "avaliacao": "avaliacao_redes.json",
+      "compatibilidade_texto": "baixa",
+      "contagens_reproduzidas": false,
+      "erro_relativo_medio": 0.42801992038454706,
+      "falhas_provas_tcc": "carbon composite + carbon material: ligação 0 != 1; recycling + biogas: ligação 0 != 1; biomass + atmosphere: ligação 0 != 1",
+      "gate_modelagem": "bloqueado",
+      "jaccard_nos_2006": 0.5357142857142857,
+      "modo_interpretado": "cumulativo_ja_materializado_nos_csvs",
+      "nos_2006_em_comum": 30,
+      "nos_2006_extras": "basis of preparation | carbon dioxid | emission trading | greenhouse gas | removal unit | voluntary carbon market",
+      "nos_2006_faltantes": "anoxic | anthropogenic | biodegradation | biofuel | bioprocessing | carbon black | carbon carbon | carbon composite | carbon layer | carbon material | carbon nanotube | carbon source | cop | ecosystem | embedded carbon | final energy | fossil fuels | fugitive emissions | global warming | operational control",
+      "nos_2006_identicos": false,
+      "nos_2006_observados_semanticos": 36,
+      "nos_2006_publicados": 50,
+      "observacao": "Ignora o resumo apesar de o trabalho declarar título e resumo.",
+      "papel": "diagnostico",
+      "provas_tcc_aprovadas": false,
+      "variante": "v10_apenas_titulo_cumulativa"
+    },
+    {
+      "avaliacao": "avaliacao_redes.json",
+      "compatibilidade_texto": "baixa",
+      "contagens_reproduzidas": false,
+      "erro_relativo_medio": 0.639339934273283,
+      "falhas_provas_tcc": "",
+      "gate_modelagem": "bloqueado",
+      "jaccard_nos_2006": 0.5555555555555556,
+      "modo_interpretado": "anual",
+      "nos_2006_em_comum": 50,
+      "nos_2006_extras": "additional offsets | algal bloom | altered carbon | atmospheric column | basis of preparation | blue carbon | carbon capture and sequestration | carbon capture and storage | carbon capture and use | carbon cycle | carbon dioxid | carbon dioxide equivalent | carbon dioxide removal | carbon flux | carbon intensity | carbon neutral | carbon offset | carbon sequestration | carbon sink | carbon stock | carbon units | clean development mechanism | direct air capture | embodied carbon | emission factor | emission reduction | emission trading | extreme event | global warming potential | greenhouse gas | joint implementation | life cycle assessment | negative emissions | net zero | net zero emissions | primary production | removal unit | soil carbon | verified carbon unit | voluntary carbon market",
+      "nos_2006_faltantes": "",
+      "nos_2006_identicos": false,
+      "nos_2006_observados_semanticos": 90,
+      "nos_2006_publicados": 50,
+      "observacao": "Troca frase exata por todos os tokens em qualquer posição. Passa as provas binárias, mas diverge do exemplo publicado com aspas e produz uma rede muito mais densa.",
+      "papel": "diagnostico",
+      "provas_tcc_aprovadas": true,
+      "variante": "v03_consulta_analisada_and"
+    }
+  ],
+  "conclusao": "Uma derivação pós-hoc reproduziu todas as contagens publicadas, mas permanece não confirmatória porque suas exclusões foram deduzidas dos próprios alvos e a topologia original não está disponível. A melhor candidata não ajustada continua sendo apenas uma hipótese.",
+  "contagens": {
+    "v01_baseline_atual/avaliacao_cumulativa.json": [
+      {
+        "alvo_arestas": 261,
+        "alvo_nos": 50,
+        "ano": 2006,
+        "arestas": 308,
+        "nos": 68
+      },
+      {
+        "alvo_arestas": 325,
+        "alvo_nos": 52,
+        "ano": 2007,
+        "arestas": 381,
+        "nos": 72
+      },
+      {
+        "alvo_arestas": 359,
+        "alvo_nos": 54,
+        "ano": 2008,
+        "arestas": 432,
+        "nos": 74
+      },
+      {
+        "alvo_arestas": 397,
+        "alvo_nos": 59,
+        "ano": 2009,
+        "arestas": 480,
+        "nos": 80
+      },
+      {
+        "alvo_arestas": 461,
+        "alvo_nos": 63,
+        "ano": 2010,
+        "arestas": 568,
+        "nos": 86
+      }
+    ],
+    "v01_baseline_atual/avaliacao_redes.json": [
+      {
+        "alvo_arestas": 261,
+        "alvo_nos": 50,
+        "ano": 2006,
+        "arestas": 308,
+        "nos": 68
+      },
+      {
+        "alvo_arestas": 325,
+        "alvo_nos": 52,
+        "ano": 2007,
+        "arestas": 301,
+        "nos": 60
+      },
+      {
+        "alvo_arestas": 359,
+        "alvo_nos": 54,
+        "ano": 2008,
+        "arestas": 285,
+        "nos": 60
+      },
+      {
+        "alvo_arestas": 397,
+        "alvo_nos": 59,
+        "ano": 2009,
+        "arestas": 299,
+        "nos": 64
+      },
+      {
+        "alvo_arestas": 461,
+        "alvo_nos": 63,
+        "ano": 2010,
+        "arestas": 408,
+        "nos": 74
+      }
+    ],
+    "v02_normalizacao_simetrica/avaliacao_redes.json": [
+      {
+        "alvo_arestas": 261,
+        "alvo_nos": 50,
+        "ano": 2006,
+        "arestas": 308,
+        "nos": 68
+      },
+      {
+        "alvo_arestas": 325,
+        "alvo_nos": 52,
+        "ano": 2007,
+        "arestas": 302,
+        "nos": 61
+      },
+      {
+        "alvo_arestas": 359,
+        "alvo_nos": 54,
+        "ano": 2008,
+        "arestas": 285,
+        "nos": 60
+      },
+      {
+        "alvo_arestas": 397,
+        "alvo_nos": 59,
+        "ano": 2009,
+        "arestas": 296,
+        "nos": 63
+      },
+      {
+        "alvo_arestas": 461,
+        "alvo_nos": 63,
+        "ano": 2010,
+        "arestas": 406,
+        "nos": 74
+      }
+    ],
+    "v03_consulta_analisada_and/avaliacao_redes.json": [
+      {
+        "alvo_arestas": 261,
+        "alvo_nos": 50,
+        "ano": 2006,
+        "arestas": 594,
+        "nos": 90
+      },
+      {
+        "alvo_arestas": 325,
+        "alvo_nos": 52,
+        "ano": 2007,
+        "arestas": 552,
+        "nos": 81
+      },
+      {
+        "alvo_arestas": 359,
+        "alvo_nos": 54,
+        "ano": 2008,
+        "arestas": 522,
+        "nos": 83
+      },
+      {
+        "alvo_arestas": 397,
+        "alvo_nos": 59,
+        "ano": 2009,
+        "arestas": 604,
+        "nos": 85
+      },
+      {
+        "alvo_arestas": 461,
+        "alvo_nos": 63,
+        "ano": 2010,
+        "arestas": 767,
+        "nos": 91
+      }
+    ],
+    "v04_148_posicoes/avaliacao_redes.json": [
+      {
+        "alvo_arestas": 261,
+        "alvo_nos": 50,
+        "ano": 2006,
+        "arestas": 321,
+        "nos": 69
+      },
+      {
+        "alvo_arestas": 325,
+        "alvo_nos": 52,
+        "ano": 2007,
+        "arestas": 317,
+        "nos": 61
+      },
+      {
+        "alvo_arestas": 359,
+        "alvo_nos": 54,
+        "ano": 2008,
+        "arestas": 301,
+        "nos": 61
+      },
+      {
+        "alvo_arestas": 397,
+        "alvo_nos": 59,
+        "ano": 2009,
+        "arestas": 314,
+        "nos": 65
+      },
+      {
+        "alvo_arestas": 461,
+        "alvo_nos": 63,
+        "ano": 2010,
+        "arestas": 424,
+        "nos": 75
+      }
+    ],
+    "v05_sem_alias_compartilhado/avaliacao_redes.json": [
+      {
+        "alvo_arestas": 261,
+        "alvo_nos": 50,
+        "ano": 2006,
+        "arestas": 305,
+        "nos": 66
+      },
+      {
+        "alvo_arestas": 325,
+        "alvo_nos": 52,
+        "ano": 2007,
+        "arestas": 298,
+        "nos": 58
+      },
+      {
+        "alvo_arestas": 359,
+        "alvo_nos": 54,
+        "ano": 2008,
+        "arestas": 277,
+        "nos": 57
+      },
+      {
+        "alvo_arestas": 397,
+        "alvo_nos": 59,
+        "ano": 2009,
+        "arestas": 294,
+        "nos": 62
+      },
+      {
+        "alvo_arestas": 461,
+        "alvo_nos": 63,
+        "ano": 2010,
+        "arestas": 397,
+        "nos": 72
+      }
+    ],
+    "v07_mesmo_campo_anual/avaliacao_cumulativa.json": [
+      {
+        "alvo_arestas": 261,
+        "alvo_nos": 50,
+        "ano": 2006,
+        "arestas": 288,
+        "nos": 68
+      },
+      {
+        "alvo_arestas": 325,
+        "alvo_nos": 52,
+        "ano": 2007,
+        "arestas": 361,
+        "nos": 70
+      },
+      {
+        "alvo_arestas": 359,
+        "alvo_nos": 54,
+        "ano": 2008,
+        "arestas": 412,
+        "nos": 73
+      },
+      {
+        "alvo_arestas": 397,
+        "alvo_nos": 59,
+        "ano": 2009,
+        "arestas": 460,
+        "nos": 79
+      },
+      {
+        "alvo_arestas": 461,
+        "alvo_nos": 63,
+        "ano": 2010,
+        "arestas": 542,
+        "nos": 83
+      }
+    ],
+    "v07_mesmo_campo_anual/avaliacao_redes.json": [
+      {
+        "alvo_arestas": 261,
+        "alvo_nos": 50,
+        "ano": 2006,
+        "arestas": 288,
+        "nos": 68
+      },
+      {
+        "alvo_arestas": 325,
+        "alvo_nos": 52,
+        "ano": 2007,
+        "arestas": 281,
+        "nos": 58
+      },
+      {
+        "alvo_arestas": 359,
+        "alvo_nos": 54,
+        "ano": 2008,
+        "arestas": 274,
+        "nos": 60
+      },
+      {
+        "alvo_arestas": 397,
+        "alvo_nos": 59,
+        "ano": 2009,
+        "arestas": 289,
+        "nos": 64
+      },
+      {
+        "alvo_arestas": 461,
+        "alvo_nos": 63,
+        "ano": 2010,
+        "arestas": 387,
+        "nos": 71
+      }
+    ],
+    "v09_apenas_resumo_cumulativa/avaliacao_redes.json": [
+      {
+        "alvo_arestas": 261,
+        "alvo_nos": 50,
+        "ano": 2006,
+        "arestas": 281,
+        "nos": 67
+      },
+      {
+        "alvo_arestas": 325,
+        "alvo_nos": 52,
+        "ano": 2007,
+        "arestas": 354,
+        "nos": 69
+      },
+      {
+        "alvo_arestas": 359,
+        "alvo_nos": 54,
+        "ano": 2008,
+        "arestas": 407,
+        "nos": 72
+      },
+      {
+        "alvo_arestas": 397,
+        "alvo_nos": 59,
+        "ano": 2009,
+        "arestas": 455,
+        "nos": 78
+      },
+      {
+        "alvo_arestas": 461,
+        "alvo_nos": 63,
+        "ano": 2010,
+        "arestas": 536,
+        "nos": 82
+      }
+    ],
+    "v10_apenas_titulo_cumulativa/avaliacao_redes.json": [
+      {
+        "alvo_arestas": 261,
+        "alvo_nos": 50,
+        "ano": 2006,
+        "arestas": 73,
+        "nos": 36
+      },
+      {
+        "alvo_arestas": 325,
+        "alvo_nos": 52,
+        "ano": 2007,
+        "arestas": 97,
+        "nos": 41
+      },
+      {
+        "alvo_arestas": 359,
+        "alvo_nos": 54,
+        "ano": 2008,
+        "arestas": 115,
+        "nos": 49
+      },
+      {
+        "alvo_arestas": 397,
+        "alvo_nos": 59,
+        "ano": 2009,
+        "arestas": 130,
+        "nos": 51
+      },
+      {
+        "alvo_arestas": 461,
+        "alvo_nos": 63,
+        "ano": 2010,
+        "arestas": 157,
+        "nos": 55
+      }
+    ],
+    "v11_apenas_termo_principal/avaliacao_cumulativa.json": [
+      {
+        "alvo_arestas": 261,
+        "alvo_nos": 50,
+        "ano": 2006,
+        "arestas": 278,
+        "nos": 56
+      },
+      {
+        "alvo_arestas": 325,
+        "alvo_nos": 52,
+        "ano": 2007,
+        "arestas": 343,
+        "nos": 58
+      },
+      {
+        "alvo_arestas": 359,
+        "alvo_nos": 54,
+        "ano": 2008,
+        "arestas": 384,
+        "nos": 60
+      },
+      {
+        "alvo_arestas": 397,
+        "alvo_nos": 59,
+        "ano": 2009,
+        "arestas": 428,
+        "nos": 67
+      },
+      {
+        "alvo_arestas": 461,
+        "alvo_nos": 63,
+        "ano": 2010,
+        "arestas": 502,
+        "nos": 71
+      }
+    ],
+    "v11_apenas_termo_principal/avaliacao_redes.json": [
+      {
+        "alvo_arestas": 261,
+        "alvo_nos": 50,
+        "ano": 2006,
+        "arestas": 278,
+        "nos": 56
+      },
+      {
+        "alvo_arestas": 325,
+        "alvo_nos": 52,
+        "ano": 2007,
+        "arestas": 277,
+        "nos": 49
+      },
+      {
+        "alvo_arestas": 359,
+        "alvo_nos": 54,
+        "ano": 2008,
+        "arestas": 259,
+        "nos": 48
+      },
+      {
+        "alvo_arestas": 397,
+        "alvo_nos": 59,
+        "ano": 2009,
+        "arestas": 279,
+        "nos": 57
+      },
+      {
+        "alvo_arestas": 461,
+        "alvo_nos": 63,
+        "ano": 2010,
+        "arestas": 371,
+        "nos": 62
+      }
+    ],
+    "v12_termo_principal_mesmo_campo/avaliacao_cumulativa.json": [
+      {
+        "alvo_arestas": 261,
+        "alvo_nos": 50,
+        "ano": 2006,
+        "arestas": 259,
+        "nos": 56
+      },
+      {
+        "alvo_arestas": 325,
+        "alvo_nos": 52,
+        "ano": 2007,
+        "arestas": 325,
+        "nos": 57
+      },
+      {
+        "alvo_arestas": 359,
+        "alvo_nos": 54,
+        "ano": 2008,
+        "arestas": 366,
+        "nos": 60
+      },
+      {
+        "alvo_arestas": 397,
+        "alvo_nos": 59,
+        "ano": 2009,
+        "arestas": 410,
+        "nos": 67
+      },
+      {
+        "alvo_arestas": 461,
+        "alvo_nos": 63,
+        "ano": 2010,
+        "arestas": 481,
+        "nos": 69
+      }
+    ],
+    "v12_termo_principal_mesmo_campo/avaliacao_redes.json": [
+      {
+        "alvo_arestas": 261,
+        "alvo_nos": 50,
+        "ano": 2006,
+        "arestas": 259,
+        "nos": 56
+      },
+      {
+        "alvo_arestas": 325,
+        "alvo_nos": 52,
+        "ano": 2007,
+        "arestas": 258,
+        "nos": 48
+      },
+      {
+        "alvo_arestas": 359,
+        "alvo_nos": 54,
+        "ano": 2008,
+        "arestas": 248,
+        "nos": 48
+      },
+      {
+        "alvo_arestas": 397,
+        "alvo_nos": 59,
+        "ano": 2009,
+        "arestas": 269,
+        "nos": 56
+      },
+      {
+        "alvo_arestas": 461,
+        "alvo_nos": 63,
+        "ano": 2010,
+        "arestas": 355,
+        "nos": 60
+      }
+    ],
+    "v13_ajuste_pos_hoc_exato/avaliacao_redes.json": [
+      {
+        "alvo_arestas": 261,
+        "alvo_nos": 50,
+        "ano": 2006,
+        "arestas": 261,
+        "nos": 50
+      },
+      {
+        "alvo_arestas": 325,
+        "alvo_nos": 52,
+        "ano": 2007,
+        "arestas": 325,
+        "nos": 52
+      },
+      {
+        "alvo_arestas": 359,
+        "alvo_nos": 54,
+        "ano": 2008,
+        "arestas": 359,
+        "nos": 54
+      },
+      {
+        "alvo_arestas": 397,
+        "alvo_nos": 59,
+        "ano": 2009,
+        "arestas": 397,
+        "nos": 59
+      },
+      {
+        "alvo_arestas": 461,
+        "alvo_nos": 63,
+        "ano": 2010,
+        "arestas": 461,
+        "nos": 63
+      }
+    ]
+  },
+  "gate_modelagem_global": "bloqueado",
+  "mais_proxima_sem_filtro_de_evidencia": {
+    "avaliacao": "avaliacao_redes.json",
+    "compatibilidade_texto": "não aplicável",
+    "contagens_reproduzidas": true,
+    "erro_relativo_medio": 0.0,
+    "falhas_provas_tcc": "",
+    "gate_modelagem": "bloqueado",
+    "jaccard_nos_2006": 1.0,
+    "modo_interpretado": "cumulativo_ja_materializado_nos_csvs",
+    "nos_2006_em_comum": 50,
+    "nos_2006_extras": "",
+    "nos_2006_faltantes": "",
+    "nos_2006_identicos": true,
+    "nos_2006_observados_semanticos": 50,
+    "nos_2006_publicados": 50,
+    "observacao": "Reproduz todas as contagens ao excluir oito termos deduzidos dos próprios alvos. Serve para demonstrar não identificabilidade; é proibida como confirmação ou seleção de modelo.",
+    "papel": "ajuste_pos_hoc",
+    "provas_tcc_aprovadas": true,
+    "variante": "v13_ajuste_pos_hoc_exato"
+  },
+  "melhor_candidata_nao_contradita": {
+    "avaliacao": "avaliacao_cumulativa.json",
+    "compatibilidade_texto": "baixa",
+    "contagens_reproduzidas": false,
+    "erro_relativo_medio": 0.0966252407421535,
+    "falhas_provas_tcc": "",
+    "gate_modelagem": "bloqueado",
+    "jaccard_nos_2006": 0.8928571428571429,
+    "modo_interpretado": "cumulativo_derivado_das_redes_anuais",
+    "nos_2006_em_comum": 50,
+    "nos_2006_extras": "emission factor | emission reduction | global warming potential | greenhouse gas | primary production | removal unit",
+    "nos_2006_faltantes": "",
+    "nos_2006_identicos": false,
+    "nos_2006_observados_semanticos": 56,
+    "nos_2006_publicados": 50,
+    "observacao": "Passa as provas explícitas e é a candidata não contradita mais próxima, mas ignora sinônimos e portanto não pode ser chamada de fiel ao método descrito.",
+    "papel": "candidata_empirica",
+    "provas_tcc_aprovadas": true,
+    "variante": "v11_apenas_termo_principal"
+  },
+  "nenhuma_rede_confirmatoria": true,
+  "nenhuma_variante_reproduz_contagens": false,
+  "nenhuma_variante_reproduz_nos_2006": false,
+  "politica": {
+    "ordem_evidencia": [
+      "compatibilidade com a descrição metodológica publicada",
+      "provas numéricas explícitas do TCC",
+      "contagens anuais publicadas de nós e arestas",
+      "proximidade agregada, usada apenas como diagnóstico"
+    ],
+    "regra_modelagem": "O classificador permanece bloqueado enquanto nenhuma rede reproduzir todas as contagens publicadas e sua topologia não puder ser verificada.",
+    "regra_rejeicao": "Uma variante que falha uma prova explícita do TCC não pode ser escolhida apenas por se aproximar das contagens agregadas."
+  },
+  "reconstrucao_textual_preferencial": {
+    "avaliacao": "avaliacao_redes.json",
+    "compatibilidade_texto": "alta",
+    "contagens_reproduzidas": false,
+    "erro_relativo_medio": 0.17061759656051573,
+    "falhas_provas_tcc": "",
+    "gate_modelagem": "bloqueado",
+    "jaccard_nos_2006": 0.7352941176470589,
+    "modo_interpretado": "anual",
+    "nos_2006_em_comum": 50,
+    "nos_2006_extras": "basis of preparation | carbon capture and sequestration | carbon capture and storage | carbon capture and use | carbon dioxid | carbon dioxide removal | clean development mechanism | direct air capture | emission factor | emission reduction | emission trading | global warming potential | greenhouse gas | life cycle assessment | primary production | removal unit | verified carbon unit | voluntary carbon market",
+    "nos_2006_faltantes": "",
+    "nos_2006_identicos": false,
+    "nos_2006_observados_semanticos": 68,
+    "nos_2006_publicados": 50,
+    "observacao": "Usa todos os aliases com OR, frase exata em título ou resumo e redes anuais; é a tradução mais literal disponível, embora o texto não feche todos os detalhes da consulta.",
+    "papel": "reconstrucao_textual",
+    "provas_tcc_aprovadas": true,
+    "variante": "v01_baseline_atual"
+  },
+  "total_avaliacoes": 15,
+  "variantes_com_contagens_exatas": [
+    {
+      "avaliacao": "avaliacao_redes.json",
+      "compatibilidade_texto": "não aplicável",
+      "contagens_reproduzidas": true,
+      "erro_relativo_medio": 0.0,
+      "falhas_provas_tcc": "",
+      "gate_modelagem": "bloqueado",
+      "jaccard_nos_2006": 1.0,
+      "modo_interpretado": "cumulativo_ja_materializado_nos_csvs",
+      "nos_2006_em_comum": 50,
+      "nos_2006_extras": "",
+      "nos_2006_faltantes": "",
+      "nos_2006_identicos": true,
+      "nos_2006_observados_semanticos": 50,
+      "nos_2006_publicados": 50,
+      "observacao": "Reproduz todas as contagens ao excluir oito termos deduzidos dos próprios alvos. Serve para demonstrar não identificabilidade; é proibida como confirmação ou seleção de modelo.",
+      "papel": "ajuste_pos_hoc",
+      "provas_tcc_aprovadas": true,
+      "variante": "v13_ajuste_pos_hoc_exato"
+    }
+  ]
+}

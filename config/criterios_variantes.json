@@ -1,0 +1,70 @@
+{
+  "politica": {
+    "ordem_evidencia": [
+      "compatibilidade com a descrição metodológica publicada",
+      "provas numéricas explícitas do TCC",
+      "contagens anuais publicadas de nós e arestas",
+      "proximidade agregada, usada apenas como diagnóstico"
+    ],
+    "regra_rejeicao": "Uma variante que falha uma prova explícita do TCC não pode ser escolhida apenas por se aproximar das contagens agregadas.",
+    "regra_modelagem": "O classificador permanece bloqueado enquanto nenhuma rede reproduzir todas as contagens publicadas e sua topologia não puder ser verificada."
+  },
+  "variantes_derivadas": ["v13_ajuste_pos_hoc_exato"],
+  "variantes": {
+    "v01_baseline_atual": {
+      "papel": "reconstrucao_textual",
+      "compatibilidade_texto": "alta",
+      "observacao": "Usa todos os aliases com OR, frase exata em título ou resumo e redes anuais; é a tradução mais literal disponível, embora o texto não feche todos os detalhes da consulta."
+    },
+    "v02_normalizacao_simetrica": {
+      "papel": "sensibilidade",
+      "compatibilidade_texto": "media",
+      "observacao": "Aplica aos termos a mesma remoção de pontuação usada nos documentos; ajuste razoável, mas não declarado pelo autor."
+    },
+    "v03_consulta_analisada_and": {
+      "papel": "diagnostico",
+      "compatibilidade_texto": "baixa",
+      "observacao": "Troca frase exata por todos os tokens em qualquer posição. Passa as provas binárias, mas diverge do exemplo publicado com aspas e produz uma rede muito mais densa."
+    },
+    "v04_148_posicoes": {
+      "papel": "sensibilidade",
+      "compatibilidade_texto": "media",
+      "observacao": "Preserva a posição duplicada do apêndice; cria dois IDs para activated carbon, um autolaço semântico e arestas paralelas, por isso não representa uma rede conceitual simples comparável."
+    },
+    "v05_sem_alias_compartilhado": {
+      "papel": "sensibilidade",
+      "compatibilidade_texto": "media",
+      "observacao": "Remove aliases repetidos entre conceitos para evitar arestas tautológicas; dois conceitos ficam sem alias e o vocabulário cai de 147 para 145, regra não informada no texto original."
+    },
+    "v07_mesmo_campo_anual": {
+      "papel": "diagnostico",
+      "compatibilidade_texto": "baixa",
+      "observacao": "Exige que os dois conceitos estejam no mesmo campo; o original não declara essa restrição."
+    },
+    "v09_apenas_resumo_cumulativa": {
+      "papel": "diagnostico",
+      "compatibilidade_texto": "baixa",
+      "observacao": "Ignora o título apesar de o trabalho declarar título e resumo."
+    },
+    "v10_apenas_titulo_cumulativa": {
+      "papel": "diagnostico",
+      "compatibilidade_texto": "baixa",
+      "observacao": "Ignora o resumo apesar de o trabalho declarar título e resumo."
+    },
+    "v11_apenas_termo_principal": {
+      "papel": "candidata_empirica",
+      "compatibilidade_texto": "baixa",
+      "observacao": "Passa as provas explícitas e é a candidata não contradita mais próxima, mas ignora sinônimos e portanto não pode ser chamada de fiel ao método descrito."
+    },
+    "v12_termo_principal_mesmo_campo": {
+      "papel": "diagnostico",
+      "compatibilidade_texto": "baixa",
+      "observacao": "É a mais próxima nas contagens agregadas, porém combina duas restrições não declaradas e falha uma prova explícita do TCC."
+    },
+    "v13_ajuste_pos_hoc_exato": {
+      "papel": "ajuste_pos_hoc",
+      "compatibilidade_texto": "não aplicável",
+      "observacao": "Reproduz todas as contagens ao excluir oito termos deduzidos dos próprios alvos. Serve para demonstrar não identificabilidade; é proibida como confirmação ou seleção de modelo."
+    }
+  }
+}

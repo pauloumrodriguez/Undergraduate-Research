@@ -1,0 +1,27 @@
+{
+  "aliases_compartilhados": {
+    "activated carbon": [
+      "T101|activated carbon",
+      "T140|activated carbon"
+    ],
+    "aeu": [
+      "T105|aeu",
+      "T121|australian emissions unit;aeu"
+    ],
+    "carbon sequestration": [
+      "T011|carbon capture and sequestration;ccs;carbon capture;carbon sequestration",
+      "T014|carbon sequestration"
+    ],
+    "ccs": [
+      "T011|carbon capture and sequestration;ccs;carbon capture;carbon sequestration",
+      "T026|carbon capture and storage;ccs"
+    ]
+  },
+  "conceitos_duplicados": [],
+  "conceitos_finais": 148,
+  "linhas": 148,
+  "pares": 10878,
+  "sinonimos_repetidos": [
+    76
+  ]
+}

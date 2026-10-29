@@ -1,0 +1,6 @@
+ano,nos_observados,nos_esperados,delta_nos,arestas_observadas,arestas_esperadas,delta_arestas,ano_aprovado
+2006,90,50,40,594,261,333,False
+2007,81,52,29,552,325,227,False
+2008,83,54,29,522,359,163,False
+2009,85,59,26,604,397,207,False
+2010,91,63,28,767,461,306,False
