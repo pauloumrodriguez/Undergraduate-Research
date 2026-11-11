@@ -33,9 +33,8 @@ protocolo reconstruídos a partir das informações disponíveis.
 ## Por onde começar
 
 1. Leia o [relatório final](docs/RELATORIO_FINAL.md).
-2. Abra o [roteiro de apresentação](docs/roteiro_apresentacao_kochan.pdf).
-3. Consulte os [resultados dos modelos](runs/modelos/) e as [redes anuais da v11](runs/redes/v11_anual_2006_2015/).
-4. Siga o [guia de execução](docs/GUIA_EXECUCAO_COMPLETA.md). Os testes dos modelos podem ser refeitos com os CSVs publicados, sem o Solr ou os JSONs brutos.
+2. Consulte os [resultados dos modelos](runs/modelos/) e as [redes anuais da v11](runs/redes/v11_anual_2006_2015/).
+3. Siga o [guia de execução](docs/GUIA_EXECUCAO_COMPLETA.md). Os testes dos modelos podem ser refeitos com os CSVs publicados, sem o Solr ou os JSONs brutos.
 
 ## Fluxo completo
 

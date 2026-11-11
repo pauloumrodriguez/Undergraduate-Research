@@ -44,4 +44,3 @@ A reconstrução exploratória está concluída. A v11 mostrou capacidade de pri
 - [Resumo do teste de ROC-AUC](../runs/modelos/roc_auc_v11_100_repeticoes/resumo.csv)
 - [Ranking Top 20 consolidado](../runs/modelos/temporal_v11_100_repeticoes/ranking_top20_consolidado.csv)
 - [Limiar e horizonte consolidados](../runs/modelos/temporal_v11_100_repeticoes/limiares_consolidados.csv)
-- [Roteiro de apresentação](roteiro_apresentacao_kochan.pdf)
