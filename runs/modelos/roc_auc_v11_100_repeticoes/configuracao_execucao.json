@@ -1,0 +1,62 @@
+{
+  "anos": [
+    2006,
+    2007,
+    2008,
+    2009,
+    2010
+  ],
+  "assinatura": "b47b24aa7c0e19e8d97c7bbc18aa8502325dac2fcce9169e19b2985544cb31fc",
+  "avaliacao_redes_sha256": "b5953130a0d6d80d5646d7321297cc67f41b13c938a940d829a55a5032cf4254",
+  "codigo_modelo_sha256": "b54c213fbdde457e1f7e8e8fc491abd276c8f13dcfe5f8ed0367d3507526cca4",
+  "gensim": "4.4.0",
+  "hash_tokens": "sha256_primeiros_8_bytes_little_endian",
+  "numpy": "2.5.2",
+  "perfil": {
+    "class_weight": null,
+    "dimensions": 128,
+    "edge_operator": "hadamard",
+    "epochs": 5,
+    "fracao_arestas_removidas": 0.2,
+    "hs": 0,
+    "limiares": [
+      0.5,
+      0.7,
+      0.85
+    ],
+    "logistic_C": 1.0,
+    "logistic_max_iter": 5000,
+    "logistic_solver": "lbfgs",
+    "min_count": 1,
+    "negative": 5,
+    "negative_ratio": null,
+    "negativos": "todos",
+    "nota": "Só 70/30, regressão logística, 100 repetições e limiares vêm do texto. Os demais valores são hipóteses explícitas.",
+    "num_walks": 10,
+    "p": 1.0,
+    "q": 1.0,
+    "repeticoes": 100,
+    "rotulo": "hipotese_congelada",
+    "sample": 0.001,
+    "seed_base": 42000,
+    "sg": 1,
+    "standard_scaler": false,
+    "test_size": 0.3,
+    "walk_length": 80,
+    "weighted": false,
+    "window": 10,
+    "workers": 1
+  },
+  "perfil_id": "reconstrucao_tcc_v1",
+  "redes_sha256": {
+    "relacoes_2006.csv": "d3eeca567c398b678e57898e94c5b4914558410050e4bf777eb155d5a05b67ce",
+    "relacoes_2007.csv": "1523b19fe57286f378719bec330f110e13d70ca986fe6588484fc5603fdd6676",
+    "relacoes_2008.csv": "d105a6a8b4c3fb81f3c73a5ac2729cd3a88ca6094e54192ca01dd48beb6252ef",
+    "relacoes_2009.csv": "49054c7d9e1842f6e82d0f4c6436e48c0dae4e50990a8e94d89ec545ad7477ae",
+    "relacoes_2010.csv": "513c6c0f4a7803b6af1282b606573b24ef7a6021758ce2973f91869d53e62ca9"
+  },
+  "rotulo_execucao": "exploratoria_rede_divergente",
+  "scipy": "1.18.1",
+  "sklearn": "1.9.0",
+  "versao": 1
+}

@@ -8,7 +8,7 @@
 | `src/` | Scripts Python | Execução do pipeline |
 | `notebooks/` | Roteiros didáticos | Exploração e compreensão |
 | `runs/redes/` | CSVs e avaliações por variante | Resultados das redes |
-| `runs/modelos/` | Saídas futuras do classificador | Resultados exploratórios |
+| `runs/modelos/` | Teste ROC-AUC e avaliação temporal | Resultados exploratórios |
 | `evidencias/` | Snapshots, comparações e hashes | Rastreabilidade |
 | `tests/` | Testes automatizados | Controle de qualidade |
 | `solr/` | Stopwords, sinônimos e instruções | Configuração da busca |

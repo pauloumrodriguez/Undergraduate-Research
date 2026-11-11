@@ -14,26 +14,28 @@ checkpoints, redes corrigidas ou modelos da primeira tentativa de replicação.
 - scripts Python numerados, em `src/`;
 - notebooks didáticos, em `notebooks/`;
 - resultados CSV/JSON das variantes de rede, em `runs/redes/`;
+- avaliações do classificador e das previsões em 1, 3 e 5 anos, em `runs/modelos/`;
 - evidências, hashes e comparações, em `evidencias/`;
 - testes automatizados, em `tests/`;
 - documentação e o veredicto científico, em `docs/`.
 
-## Resultado científico em uma frase
+## Resultados finais
 
-Foi possível reconstruir o corpus, testar hipóteses de coocorrência e aproximar
-muito as contagens publicadas. Também foi possível reproduzir os totais por um
-ajuste pós-hoc. Entretanto, não foi possível confirmar que as arestas, pesos e
-parâmetros são os mesmos do autor, porque esses elementos não foram publicados.
+A v11 anual cobre 2006 a 2015 e tem 90 termos ativos, 759 pares distintos
+e 3.340 registros de par por ano. No teste de ligações ocultadas, a ROC-AUC
+média de 2006 a 2010 foi **0,7152**, frente a **0,91** no estudo.
 
-Por isso, a predição de ligações permanece **exploratória**, e não uma
-reprodução confirmatória do classificador original.
+Na avaliação temporal, o Top 20 teve **32,3%** de acerto em até cinco anos,
+frente a **21,3%** entre todos os candidatos. Nenhum par atingiu os limiares
+publicados de 50%, 70% ou 85%. A avaliação é exploratória, com rede e
+protocolo reconstruídos a partir das informações disponíveis.
 
 ## Por onde começar
 
-1. Leia `docs/ESTRUTURA_DA_PASTA.md`.
-2. Leia `docs/GUIA_EXECUCAO_COMPLETA.md`.
-3. Abra `notebooks/00_leia_primeiro.ipynb`.
-4. Consulte `docs/RELATORIO_AUDITORIA_RECEITA.md` para o veredicto.
+1. Leia o [relatório final](docs/RELATORIO_FINAL.md).
+2. Abra o [roteiro de apresentação](docs/roteiro_apresentacao_kochan.pdf).
+3. Consulte os [resultados dos modelos](runs/modelos/) e as [redes anuais da v11](runs/redes/v11_anual_2006_2015/).
+4. Siga o [guia de execução](docs/GUIA_EXECUCAO_COMPLETA.md). Os testes dos modelos podem ser refeitos com os CSVs publicados, sem o Solr ou os JSONs brutos.
 
 ## Fluxo completo
 
@@ -45,6 +47,7 @@ dados brutos
   -> construção das variantes de rede
   -> avaliação e comparação
   -> classificador exploratório
+  -> avaliação temporal em 1, 3 e 5 anos
   -> manifesto final das evidências
 ```
 

@@ -1,0 +1,2001 @@
+repeticao,posicao,origem,destino,probabilidade,primeira_ocorrencia_futura,ocorreu_ate_1_anos,ocorreu_ate_3_anos,ocorreu_ate_5_anos
+1,1,baseline,bio-based,0.0533338338136673,,0,0,0
+1,2,baseline,biomass,0.05326409265398979,,0,0,0
+1,3,cop,hydrogen,0.05326096713542938,2013,0,0,1
+1,4,baseline,carbon dioxide,0.05309318006038666,2010,1,1,1
+1,5,aggregation,biomass,0.053050145506858826,2012,0,1,1
+1,6,urban,water,0.05301123484969139,2011,0,1,1
+1,7,biomass,cop,0.052979618310928345,,0,0,0
+1,8,baseline,cop,0.052897728979587555,,0,0,0
+1,9,hydrogen,leakage,0.052881304174661636,2010,1,1,1
+1,10,bio-based,water,0.052849847823381424,2011,0,1,1
+1,11,baseline,urban,0.052847202867269516,,0,0,0
+1,12,baseline,biofuel,0.05278841033577919,,0,0,0
+1,13,biomass,final energy,0.05276712030172348,,0,0,0
+1,14,biomass,urban,0.05274810642004013,2013,0,0,1
+1,15,aggregation,cop,0.052735742181539536,,0,0,0
+1,16,biofuel,water,0.05271115154027939,2010,1,1,1
+1,17,carbon carbon,urban,0.052678924053907394,,0,0,0
+1,18,anoxic,hydrogen,0.0526578314602375,,0,0,0
+1,19,final energy,hydrogen,0.05264256149530411,,0,0,0
+1,20,baseline,carbon layer,0.05264120548963547,,0,0,0
+2,1,ecosystem,final energy,0.05287269875407219,,0,0,0
+2,2,ecosystem,recycling,0.05276660621166229,2013,0,0,1
+2,3,asic,ecosystem,0.05272886902093887,,0,0,0
+2,4,carbon black,ecosystem,0.052725352346897125,,0,0,0
+2,5,final energy,global warming potential;gwp,0.052718546241521835,,0,0,0
+2,6,bio-based,ecosystem,0.05267120525240898,,0,0,0
+2,7,activity,final energy,0.0525645948946476,,0,0,0
+2,8,carbon source,global warming potential;gwp,0.05254789814352989,,0,0,0
+2,9,global warming potential;gwp,recycling,0.05253419280052185,,0,0,0
+2,10,aerosols,ecosystem,0.052531320601701736,,0,0,0
+2,11,activity,bio-based,0.0525226965546608,2014,0,0,1
+2,12,activity,recycling,0.05250127241015434,2010,1,1,1
+2,13,deposit,ecosystem,0.05250116065144539,,0,0,0
+2,14,activity,aerosols,0.05249175801873207,,0,0,0
+2,15,activated,global warming potential;gwp,0.05242409184575081,,0,0,0
+2,16,activated,ecosystem,0.05240555852651596,,0,0,0
+2,17,biomass,ecosystem,0.05239957198500633,2013,0,0,1
+2,18,carbon nanotube,global warming,0.05234890058636665,,0,0,0
+2,19,global warming potential;gwp,sink,0.05227946862578392,,0,0,0
+2,20,carbon layer,global warming potential;gwp,0.052278582006692886,,0,0,0
+3,1,carbon fiber,global warming potential;gwp,0.05291235074400902,,0,0,0
+3,2,bio-based,global warming potential;gwp,0.05287359282374382,,0,0,0
+3,3,bio-based,final energy,0.05282790586352348,,0,0,0
+3,4,bio-based,carbon dioxide,0.05280543491244316,,0,0,0
+3,5,activated carbon,global warming potential;gwp,0.052769649773836136,,0,0,0
+3,6,bio-based,fossil fuels,0.05271738022565842,2010,1,1,1
+3,7,bio-based,emission factor;emissions factor,0.05268450453877449,,0,0,0
+3,8,fossil fuels,global warming potential;gwp,0.052660636603832245,,0,0,0
+3,9,final energy,global warming potential;gwp,0.05265319347381592,,0,0,0
+3,10,final energy,fossil fuels,0.05264578387141228,,0,0,0
+3,11,bio-based,removal unit;rmu,0.05261809006333351,,0,0,0
+3,12,bio-based,global warming,0.05253981798887253,2014,0,0,1
+3,13,bio-based,carbon fiber,0.052536267787218094,,0,0,0
+3,14,atmosphere,global warming potential;gwp,0.052530184388160706,,0,0,0
+3,15,activated carbon,global warming,0.05251690745353699,,0,0,0
+3,16,carbon composite,global warming potential;gwp,0.052516255527734756,,0,0,0
+3,17,final energy,global warming,0.05249642953276634,,0,0,0
+3,18,activity,bio-based,0.05246470868587494,2014,0,0,1
+3,19,bio-based,carbon layer,0.05245785787701607,,0,0,0
+3,20,bio-based,carbon source,0.05243818461894989,2014,0,0,1
+4,1,carbon nanotube,final energy,0.05418402701616287,,0,0,0
+4,2,final energy,hydrocarbon,0.05418068543076515,,0,0,0
+4,3,final energy,fossil fuels,0.05410877615213394,,0,0,0
+4,4,carbon nanotube,fossil fuels,0.05397537350654602,,0,0,0
+4,5,hydrocarbon,sink,0.05391504988074303,2010,1,1,1
+4,6,final energy,sink,0.05391274765133858,,0,0,0
+4,7,final energy,leakage,0.053796157240867615,,0,0,0
+4,8,carbon black,final energy,0.053689949214458466,,0,0,0
+4,9,carbon monoxide,final energy,0.05359654501080513,,0,0,0
+4,10,embedded carbon,hydrocarbon,0.05351772531867027,,0,0,0
+4,11,final energy,hydrogen,0.053482796996831894,,0,0,0
+4,12,bio-based,final energy,0.053475894033908844,,0,0,0
+4,13,fossil fuels,sink,0.05346175655722618,2010,1,1,1
+4,14,carbon black,fossil fuels,0.05345825478434563,,0,0,0
+4,15,final energy,fugitive emissions,0.05343048647046089,,0,0,0
+4,16,atmosphere,final energy,0.05337648466229439,,0,0,0
+4,17,carbon black,carbon nanotube,0.05337364226579666,2010,1,1,1
+4,18,fossil fuels,leakage,0.053369197994470596,,0,0,0
+4,19,carbon carbon,final energy,0.05334058403968811,,0,0,0
+4,20,carbon fiber,hydrocarbon,0.053323812782764435,2010,1,1,1
+5,1,embedded carbon,gas,0.054479893296957016,,0,0,0
+5,2,carbon material,embedded carbon,0.05441640317440033,,0,0,0
+5,3,embedded carbon,emission factor;emissions factor,0.05415940284729004,,0,0,0
+5,4,carbon layer,embedded carbon,0.05401512607932091,,0,0,0
+5,5,activated,embedded carbon,0.05392982438206673,,0,0,0
+5,6,cop,embedded carbon,0.053832266479730606,,0,0,0
+5,7,activated carbon,embedded carbon,0.05379664525389671,,0,0,0
+5,8,embedded carbon,final energy,0.05373770371079445,,0,0,0
+5,9,carbon layer,emission factor;emissions factor,0.05370967462658882,,0,0,0
+5,10,carbon material,emission factor;emissions factor,0.053704001009464264,,0,0,0
+5,11,carbon layer,carbon material,0.053703758865594864,2011,0,1,1
+5,12,atmosphere,emission factor;emissions factor,0.05368348956108093,,0,0,0
+5,13,carbon fiber,emission factor;emissions factor,0.053551770746707916,,0,0,0
+5,14,embedded carbon,fugitive emissions,0.05352722108364105,,0,0,0
+5,15,carbon carbon,emission factor;emissions factor,0.0535031259059906,,0,0,0
+5,16,carbon source,emission factor;emissions factor,0.05349582061171532,,0,0,0
+5,17,carbon material,cop,0.05346553772687912,,0,0,0
+5,18,atmosphere,embedded carbon,0.05339457839727402,,0,0,0
+5,19,cop,emission factor;emissions factor,0.05336418375372887,,0,0,0
+5,20,final energy,gas,0.05335288867354393,,0,0,0
+6,1,atmosphere,bio-based,0.05415799841284752,2011,0,1,1
+6,2,bio-based,recycling,0.05415307730436325,,0,0,0
+6,3,bio-based,fossil fuels,0.053914062678813934,2010,1,1,1
+6,4,activated,bio-based,0.05374232679605484,2013,0,0,1
+6,5,anoxic,bio-based,0.05369073525071144,,0,0,0
+6,6,aerosols,bio-based,0.053474072366952896,,0,0,0
+6,7,activated,biogas,0.05344625189900398,2010,1,1,1
+6,8,activated,global warming,0.053435541689395905,,0,0,0
+6,9,bio-based,deposit,0.05333816260099411,,0,0,0
+6,10,activated,emission factor;emissions factor,0.053323082625865936,,0,0,0
+6,11,bio-based,biofuel,0.0532541386783123,2014,0,0,1
+6,12,aerosols,recycling,0.053186774253845215,2010,1,1,1
+6,13,activated,aerosols,0.05315692722797394,2011,0,1,1
+6,14,bio-based,emission factor;emissions factor,0.05313831940293312,,0,0,0
+6,15,emission factor;emissions factor,fossil fuels,0.05313510447740555,,0,0,0
+6,16,aerosols,fossil fuels,0.0530581921339035,,0,0,0
+6,17,bio-based,final energy,0.05303722247481346,,0,0,0
+6,18,bio-based,carbon layer,0.0530175156891346,,0,0,0
+6,19,biogas,recycling,0.05300489068031311,2013,0,0,1
+6,20,activated,fossil fuels,0.052998773753643036,2014,0,0,1
+7,1,carbon fiber,final energy,0.054425422102212906,,0,0,0
+7,2,carbon composite,final energy,0.05422801896929741,,0,0,0
+7,3,carbon carbon,final energy,0.05412115156650543,,0,0,0
+7,4,asic,final energy,0.054014697670936584,,0,0,0
+7,5,atmosphere,final energy,0.05394282937049866,,0,0,0
+7,6,final energy,fugitive emissions,0.053916506469249725,,0,0,0
+7,7,asic,carbon fiber,0.05385148152709007,,0,0,0
+7,8,activated carbon,final energy,0.05368480831384659,,0,0,0
+7,9,activity,final energy,0.053621646016836166,,0,0,0
+7,10,carbon black,final energy,0.053582336753606796,,0,0,0
+7,11,carbon fiber,fugitive emissions,0.05357978492975235,,0,0,0
+7,12,asic,atmosphere,0.053575482219457626,,0,0,0
+7,13,carbon fiber,hydrocarbon,0.053537316620349884,2010,1,1,1
+7,14,final energy,hydrocarbon,0.053531255573034286,,0,0,0
+7,15,asic,hydrocarbon,0.05349046364426613,,0,0,0
+7,16,activated carbon,asic,0.05344751104712486,,0,0,0
+7,17,final energy,sink,0.05340762436389923,,0,0,0
+7,18,carbon monoxide,final energy,0.05340728536248207,,0,0,0
+7,19,asic,carbon carbon,0.05338233709335327,,0,0,0
+7,20,activity,carbon fiber,0.0533321350812912,2010,1,1,1
+8,1,ecosystem,global warming potential;gwp,0.054659970104694366,,0,0,0
+8,2,ecosystem,global warming,0.05310840532183647,,0,0,0
+8,3,global warming potential;gwp,water,0.05307195708155632,2011,0,1,1
+8,4,final energy,global warming potential;gwp,0.052955951541662216,,0,0,0
+8,5,carbon dioxide,final energy,0.05279773101210594,,0,0,0
+8,6,global warming potential;gwp,mitigation,0.05266696587204933,,0,0,0
+8,7,final energy,mitigation,0.05266609787940979,,0,0,0
+8,8,ecosystem,leakage,0.05265144631266594,,0,0,0
+8,9,biomass,final energy,0.05264635756611824,,0,0,0
+8,10,aggregation,global warming potential;gwp,0.052626870572566986,,0,0,0
+8,11,ecosystem,gas,0.05259488895535469,2011,0,1,1
+8,12,carbon dioxide,leakage,0.052562955766916275,2010,1,1,1
+8,13,carbon dioxide,ecosystem,0.052549395710229874,2014,0,0,1
+8,14,ecosystem,mitigation,0.052531205117702484,,0,0,0
+8,15,biomass,leakage,0.05252591893076897,,0,0,0
+8,16,gas,global warming potential;gwp,0.052494581788778305,2010,1,1,1
+8,17,activated,global warming potential;gwp,0.052485737949609756,,0,0,0
+8,18,final energy,leakage,0.052485622465610504,,0,0,0
+8,19,global warming potential;gwp,leakage,0.05246952176094055,,0,0,0
+8,20,biomass,mitigation,0.05244595929980278,2011,0,1,1
+9,1,carbon dioxide equivalent;co2e,hydrogen,0.05297519266605377,,0,0,0
+9,2,atmosphere,carbon dioxide equivalent;co2e,0.05296747758984566,,0,0,0
+9,3,activated,carbon dioxide equivalent;co2e,0.052853189408779144,,0,0,0
+9,4,carbon dioxide equivalent;co2e,carbon fiber,0.052836399525403976,,0,0,0
+9,5,carbon composite,carbon dioxide equivalent;co2e,0.05281887948513031,,0,0,0
+9,6,carbon fiber,renewable energy,0.05278125777840614,,0,0,0
+9,7,biofuel,carbon dioxide equivalent;co2e,0.052710793912410736,,0,0,0
+9,8,activated,renewable energy,0.0527043454349041,2011,0,1,1
+9,9,hydrogen,renewable energy,0.05260090529918671,2010,1,1,1
+9,10,activity,carbon dioxide equivalent;co2e,0.0525825135409832,,0,0,0
+9,11,atmosphere,renewable energy,0.05257164686918259,2012,0,1,1
+9,12,carbon composite,renewable energy,0.052526455372571945,,0,0,0
+9,13,carbon dioxide equivalent;co2e,urban,0.052518270909786224,,0,0,0
+9,14,carbon dioxide equivalent;co2e,carbon source,0.05247560143470764,,0,0,0
+9,15,carbon dioxide equivalent;co2e,renewable energy,0.05243870988488197,,0,0,0
+9,16,bio-based,carbon dioxide equivalent;co2e,0.052425701171159744,,0,0,0
+9,17,biomass,carbon dioxide equivalent;co2e,0.05237575247883797,,0,0,0
+9,18,activated carbon,carbon dioxide equivalent;co2e,0.0523529089987278,,0,0,0
+9,19,carbon carbon,carbon dioxide equivalent;co2e,0.05235078185796738,,0,0,0
+9,20,activity,renewable energy,0.0523352175951004,,0,0,0
+10,1,activity,embedded carbon,0.05300008878111839,,0,0,0
+10,2,activity,urban,0.052624184638261795,2010,1,1,1
+10,3,activity,recycling,0.05236678570508957,2010,1,1,1
+10,4,activity,fugitive emissions,0.05231775715947151,,0,0,0
+10,5,activity,carbon dioxide equivalent;co2e,0.05230780318379402,,0,0,0
+10,6,activity,carbon nanotube,0.052292995154857635,2010,1,1,1
+10,7,ecosystem,urban,0.05219779908657074,,0,0,0
+10,8,activated carbon,activity,0.05219510570168495,2010,1,1,1
+10,9,baseline,embedded carbon,0.05216098576784134,,0,0,0
+10,10,ecosystem,embedded carbon,0.052119988948106766,,0,0,0
+10,11,baseline,urban,0.05209678038954735,,0,0,0
+10,12,activity,carbon dioxide removal;cdr,0.05205686017870903,,0,0,0
+10,13,carbon black,ecosystem,0.052044954150915146,,0,0,0
+10,14,activity,carbon layer,0.05203967168927193,,0,0,0
+10,15,baseline,carbon black,0.05203883722424507,,0,0,0
+10,16,activated,ecosystem,0.05202073976397514,,0,0,0
+10,17,baseline,recycling,0.051984503865242004,,0,0,0
+10,18,ecosystem,fugitive emissions,0.051964789628982544,,0,0,0
+10,19,ecosystem,recycling,0.05194036290049553,2013,0,0,1
+10,20,baseline,ecosystem,0.051932744681835175,2012,0,1,1
+11,1,biofuel,carbon fiber,0.05555765703320503,,0,0,0
+11,2,biomass,carbon carbon,0.05552070215344429,2011,0,1,1
+11,3,biomass,carbon fiber,0.055516865104436874,,0,0,0
+11,4,carbon fiber,recycling,0.05542679503560066,2014,0,0,1
+11,5,activated,fossil fuels,0.055102281272411346,2014,0,0,1
+11,6,activated,carbon carbon,0.05509626492857933,2011,0,1,1
+11,7,biomass,carbon black,0.05508885160088539,,0,0,0
+11,8,carbon carbon,fossil fuels,0.05503598228096962,,0,0,0
+11,9,activated,biofuel,0.05503557249903679,,0,0,0
+11,10,carbon fiber,fossil fuels,0.0550181046128273,,0,0,0
+11,11,carbon black,carbon dioxide,0.05498984828591347,2010,1,1,1
+11,12,carbon dioxide,carbon fiber,0.05497395619750023,,0,0,0
+11,13,carbon black,fossil fuels,0.054945990443229675,,0,0,0
+11,14,biofuel,recycling,0.054881464689970016,2010,1,1,1
+11,15,activated carbon,biomass,0.05479772761464119,,0,0,0
+11,16,carbon black,carbon carbon,0.05477466806769371,2011,0,1,1
+11,17,biofuel,carbon black,0.05470670387148857,,0,0,0
+11,18,biofuel,fossil fuels,0.05468443036079407,,0,0,0
+11,19,activated carbon,carbon carbon,0.0546649806201458,2011,0,1,1
+11,20,biomass,sink,0.05466154217720032,,0,0,0
+12,1,carbon monoxide,final energy,0.052669573575258255,,0,0,0
+12,2,final energy,removal unit;rmu,0.05258674547076225,,0,0,0
+12,3,final energy,mitigation,0.05230265110731125,,0,0,0
+12,4,mitigation,removal unit;rmu,0.05229663476347923,,0,0,0
+12,5,activity,final energy,0.05223614349961281,,0,0,0
+12,6,carbon monoxide,mitigation,0.0522349514067173,,0,0,0
+12,7,carbon fiber,final energy,0.052225854247808456,,0,0,0
+12,8,activated,mitigation,0.05208873748779297,2010,1,1,1
+12,9,carbon fiber,carbon monoxide,0.052070003002882004,,0,0,0
+12,10,activated,carbon monoxide,0.052058104425668716,2010,1,1,1
+12,11,aggregation,final energy,0.052054960280656815,,0,0,0
+12,12,activated,removal unit;rmu,0.05202829837799072,2011,0,1,1
+12,13,carbon fiber,removal unit;rmu,0.051952823996543884,,0,0,0
+12,14,deposit,final energy,0.05191797763109207,,0,0,0
+12,15,activity,carbon fiber,0.05186460539698601,2010,1,1,1
+12,16,activated carbon,final energy,0.05185781046748161,,0,0,0
+12,17,carbon black,final energy,0.05185657739639282,,0,0,0
+12,18,baseline,final energy,0.051812976598739624,,0,0,0
+12,19,carbon fiber,mitigation,0.051805220544338226,,0,0,0
+12,20,aggregation,carbon fiber,0.051799554377794266,,0,0,0
+13,1,embedded carbon,gas,0.053021159023046494,,0,0,0
+13,2,activated,embedded carbon,0.05297905579209328,,0,0,0
+13,3,deposit,embedded carbon,0.05296758562326431,,0,0,0
+13,4,aerosols,embedded carbon,0.05294889584183693,,0,0,0
+13,5,carbon carbon,embedded carbon,0.05292803794145584,,0,0,0
+13,6,carbon source,embedded carbon,0.05291367322206497,,0,0,0
+13,7,embedded carbon,hydrocarbon,0.05287545546889305,,0,0,0
+13,8,embedded carbon,final energy,0.052854932844638824,,0,0,0
+13,9,embedded carbon,greenhouse gas;ghg,0.05279471352696419,,0,0,0
+13,10,bio-based,embedded carbon,0.052754420787096024,,0,0,0
+13,11,embedded carbon,emission factor;emissions factor,0.05274084210395813,,0,0,0
+13,12,atmosphere,embedded carbon,0.05271173641085625,,0,0,0
+13,13,activity,embedded carbon,0.05269511416554451,,0,0,0
+13,14,embedded carbon,hydrogen,0.052678029984235764,,0,0,0
+13,15,embedded carbon,recycling,0.052611298859119415,,0,0,0
+13,16,activated,carbon source,0.05254550278186798,2011,0,1,1
+13,17,carbon layer,embedded carbon,0.05253167822957039,,0,0,0
+13,18,embedded carbon,fugitive emissions,0.052489444613456726,,0,0,0
+13,19,aggregation,embedded carbon,0.05248747020959854,,0,0,0
+13,20,embedded carbon,sink,0.05247119069099426,,0,0,0
+14,1,embedded carbon,urban,0.05319621413946152,,0,0,0
+14,2,atmosphere,urban,0.05317946523427963,,0,0,0
+14,3,activated,urban,0.053164608776569366,2010,1,1,1
+14,4,sink,urban,0.0531122200191021,,0,0,0
+14,5,hydrocarbon,urban,0.053073059767484665,2013,0,0,1
+14,6,carbon nanotube,urban,0.05306697264313698,,0,0,0
+14,7,activated carbon,urban,0.05304396525025368,,0,0,0
+14,8,final energy,urban,0.05283128470182419,,0,0,0
+14,9,atmosphere,embedded carbon,0.052688680589199066,,0,0,0
+14,10,carbon black,urban,0.05262264981865883,,0,0,0
+14,11,biofuel,urban,0.05259467661380768,,0,0,0
+14,12,embedded carbon,leakage,0.05256324261426926,,0,0,0
+14,13,leakage,urban,0.05254869535565376,,0,0,0
+14,14,carbon layer,urban,0.05252908915281296,,0,0,0
+14,15,aerosols,urban,0.052519358694553375,,0,0,0
+14,16,embedded carbon,sink,0.05251454561948776,,0,0,0
+14,17,embedded carbon,final energy,0.05250317230820656,,0,0,0
+14,18,carbon dioxide,embedded carbon,0.05246824026107788,,0,0,0
+14,19,activated,embedded carbon,0.05245906487107277,,0,0,0
+14,20,carbon dioxide removal;cdr,urban,0.05235196277499199,,0,0,0
+15,1,ecosystem,leakage,0.05344097316265106,,0,0,0
+15,2,embedded carbon,leakage,0.05322400853037834,,0,0,0
+15,3,carbon dioxide,leakage,0.05311151221394539,2010,1,1,1
+15,4,emission factor;emissions factor,leakage,0.05292956531047821,,0,0,0
+15,5,baseline,leakage,0.052913401275873184,2011,0,1,1
+15,6,final energy,leakage,0.05278429761528969,,0,0,0
+15,7,hydrogen,leakage,0.05276748910546303,2010,1,1,1
+15,8,carbon material,leakage,0.052705928683280945,,0,0,0
+15,9,final energy,gas,0.05264072120189667,,0,0,0
+15,10,activity,emission factor;emissions factor,0.052627988159656525,,0,0,0
+15,11,global warming,leakage,0.05261705443263054,,0,0,0
+15,12,leakage,sink,0.05249258875846863,2010,1,1,1
+15,13,activity,final energy,0.05240744352340698,,0,0,0
+15,14,deposit,leakage,0.05239923670887947,2010,1,1,1
+15,15,activity,embedded carbon,0.052398230880498886,,0,0,0
+15,16,global warming potential;gwp,leakage,0.052357323467731476,,0,0,0
+15,17,emission factor;emissions factor,hydrocarbon,0.052321311086416245,,0,0,0
+15,18,emission factor;emissions factor,mitigation,0.05231582000851631,,0,0,0
+15,19,hydrocarbon,mitigation,0.05226881429553032,2013,0,0,1
+15,20,carbon source,leakage,0.05224374681711197,,0,0,0
+16,1,aggregation,final energy,0.05450978875160217,,0,0,0
+16,2,bio-based,final energy,0.05449420213699341,,0,0,0
+16,3,bio-based,carbon composite,0.05414249002933502,,0,0,0
+16,4,baseline,final energy,0.05407959595322609,,0,0,0
+16,5,baseline,carbon composite,0.0539613775908947,,0,0,0
+16,6,aggregation,carbon composite,0.053818728774785995,,0,0,0
+16,7,carbon composite,final energy,0.05377771705389023,,0,0,0
+16,8,activity,final energy,0.053760092705488205,,0,0,0
+16,9,bio-based,embedded carbon,0.05374796316027641,,0,0,0
+16,10,activity,bio-based,0.053695257753133774,2014,0,0,1
+16,11,activated,baseline,0.05366968736052513,2010,1,1,1
+16,12,activated,carbon composite,0.0536666102707386,2014,0,0,1
+16,13,atmosphere,baseline,0.0536055825650692,,0,0,0
+16,14,activated,aggregation,0.053553469479084015,2010,1,1,1
+16,15,activity,carbon composite,0.053517505526542664,,0,0,0
+16,16,activated,bio-based,0.053510066121816635,2013,0,0,1
+16,17,final energy,water,0.053495146334171295,,0,0,0
+16,18,anoxic,final energy,0.05346506088972092,,0,0,0
+16,19,baseline,bio-based,0.0534464456140995,,0,0,0
+16,20,final energy,sink,0.05342129245400429,,0,0,0
+17,1,biodegradation,hydrogen,0.053269606083631516,2010,1,1,1
+17,2,bio-based,biodegradation,0.05323706194758415,2011,0,1,1
+17,3,activated,biodegradation,0.053180139511823654,2013,0,0,1
+17,4,biodegradation,final energy,0.05318010225892067,,0,0,0
+17,5,biodegradation,emission factor;emissions factor,0.05313412845134735,,0,0,0
+17,6,biodegradation,biofuel,0.0531277172267437,,0,0,0
+17,7,final energy,hydrogen,0.05304010957479477,,0,0,0
+17,8,biodegradation,carbon layer,0.052968233823776245,,0,0,0
+17,9,atmosphere,biodegradation,0.05287931114435196,2011,0,1,1
+17,10,biodegradation,carbon source,0.052747245877981186,,0,0,0
+17,11,biomass,final energy,0.05267423391342163,,0,0,0
+17,12,biodegradation,carbon carbon,0.05267048999667168,,0,0,0
+17,13,activity,biodegradation,0.05261315032839775,2010,1,1,1
+17,14,activated carbon,biodegradation,0.052581433206796646,2013,0,0,1
+17,15,biodegradation,gas,0.05244586616754532,2012,0,1,1
+17,16,biodegradation,embedded carbon,0.05243169516324997,,0,0,0
+17,17,biodegradation,biogas,0.052428167313337326,2011,0,1,1
+17,18,emission factor;emissions factor,hydrogen,0.05239393562078476,,0,0,0
+17,19,biodegradation,carbon dioxide,0.05238056182861328,2010,1,1,1
+17,20,asic,biodegradation,0.0523744560778141,,0,0,0
+18,1,deposit,fugitive emissions,0.05274383723735809,,0,0,0
+18,2,final energy,fugitive emissions,0.052584875375032425,,0,0,0
+18,3,deposit,final energy,0.052449170500040054,,0,0,0
+18,4,fugitive emissions,sink,0.052374158054590225,,0,0,0
+18,5,carbon carbon,fugitive emissions,0.05236109718680382,,0,0,0
+18,6,atmosphere,final energy,0.052345067262649536,,0,0,0
+18,7,activated carbon,deposit,0.05229794606566429,2010,1,1,1
+18,8,deposit,sink,0.05226704478263855,2010,1,1,1
+18,9,final energy,sink,0.05225452408194542,,0,0,0
+18,10,bio-based,fugitive emissions,0.052219271659851074,,0,0,0
+18,11,carbon carbon,deposit,0.052206266671419144,2010,1,1,1
+18,12,aerosols,fugitive emissions,0.05219632387161255,,0,0,0
+18,13,asic,fugitive emissions,0.05219434201717377,,0,0,0
+18,14,emission factor;emissions factor,fugitive emissions,0.052184902131557465,,0,0,0
+18,15,carbon carbon,final energy,0.052183713763952255,,0,0,0
+18,16,activity,fugitive emissions,0.052152641117572784,,0,0,0
+18,17,final energy,hydrocarbon,0.05213633179664612,,0,0,0
+18,18,fugitive emissions,recycling,0.05211348831653595,,0,0,0
+18,19,activated carbon,final energy,0.05209710821509361,,0,0,0
+18,20,hydrocarbon,sink,0.05208420753479004,2010,1,1,1
+19,1,embedded carbon,hydrocarbon,0.05371776968240738,,0,0,0
+19,2,carbon source,hydrocarbon,0.05361270159482956,2010,1,1,1
+19,3,bio-based,hydrocarbon,0.0533989779651165,,0,0,0
+19,4,baseline,hydrocarbon,0.05324935168027878,2011,0,1,1
+19,5,biodegradation,hydrocarbon,0.05318833887577057,2011,0,1,1
+19,6,final energy,hydrocarbon,0.05310891196131706,,0,0,0
+19,7,carbon material,hydrocarbon,0.05308530479669571,2011,0,1,1
+19,8,carbon source,water,0.053064700216054916,2010,1,1,1
+19,9,embedded carbon,recycling,0.053002890199422836,,0,0,0
+19,10,embedded carbon,water,0.05298998951911926,2013,0,0,1
+19,11,bio-based,recycling,0.05293821915984154,,0,0,0
+19,12,aerosols,hydrogen,0.05286043882369995,2013,0,0,1
+19,13,bio-based,water,0.052821069955825806,2011,0,1,1
+19,14,biomass,embedded carbon,0.0527963824570179,,0,0,0
+19,15,biodegradation,hydrogen,0.05277141183614731,2010,1,1,1
+19,16,ecosystem,hydrocarbon,0.05274337902665138,,0,0,0
+19,17,embedded carbon,hydrogen,0.05273882672190666,,0,0,0
+19,18,carbon source,recycling,0.0527263842523098,2014,0,0,1
+19,19,carbon dioxide,embedded carbon,0.05266856402158737,,0,0,0
+19,20,bio-based,carbon dioxide,0.05263981595635414,,0,0,0
+20,1,final energy,fugitive emissions,0.0556812584400177,,0,0,0
+20,2,atmosphere,final energy,0.055450908839702606,,0,0,0
+20,3,embedded carbon,fugitive emissions,0.05529351159930229,,0,0,0
+20,4,final energy,hydrocarbon,0.055082760751247406,,0,0,0
+20,5,embedded carbon,final energy,0.055076804012060165,,0,0,0
+20,6,biofuel,fugitive emissions,0.05489569157361984,,0,0,0
+20,7,biofuel,final energy,0.054851286113262177,,0,0,0
+20,8,fugitive emissions,leakage,0.054713744670152664,,0,0,0
+20,9,carbon fiber,final energy,0.0546574592590332,,0,0,0
+20,10,carbon black,final energy,0.05460674688220024,,0,0,0
+20,11,atmosphere,embedded carbon,0.05455056205391884,,0,0,0
+20,12,carbon black,fugitive emissions,0.05451289936900139,,0,0,0
+20,13,carbon fiber,fugitive emissions,0.05450025573372841,,0,0,0
+20,14,final energy,recycling,0.054449304938316345,,0,0,0
+20,15,carbon dioxide,final energy,0.054419104009866714,,0,0,0
+20,16,fugitive emissions,recycling,0.05439387261867523,,0,0,0
+20,17,fossil fuels,fugitive emissions,0.05434931442141533,,0,0,0
+20,18,final energy,hydrogen,0.05431218445301056,,0,0,0
+20,19,final energy,leakage,0.05428553372621536,,0,0,0
+20,20,fugitive emissions,hydrogen,0.054206956177949905,,0,0,0
+21,1,carbon carbon,final energy,0.05488886311650276,,0,0,0
+21,2,carbon fiber,final energy,0.05487021058797836,,0,0,0
+21,3,final energy,recycling,0.054779618978500366,,0,0,0
+21,4,carbon composite,final energy,0.05476217716932297,,0,0,0
+21,5,final energy,urban,0.054695844650268555,,0,0,0
+21,6,final energy,fossil fuels,0.054672859609127045,,0,0,0
+21,7,carbon carbon,urban,0.0545329824090004,,0,0,0
+21,8,final energy,hydrogen,0.05431482940912247,,0,0,0
+21,9,carbon composite,recycling,0.05406412109732628,,0,0,0
+21,10,atmosphere,final energy,0.053941674530506134,,0,0,0
+21,11,final energy,hydrocarbon,0.05390601232647896,,0,0,0
+21,12,deposit,final energy,0.0538674034178257,,0,0,0
+21,13,carbon fiber,recycling,0.0538434237241745,2014,0,0,1
+21,14,carbon composite,fossil fuels,0.05383758246898651,,0,0,0
+21,15,bio-based,final energy,0.05380065366625786,,0,0,0
+21,16,anoxic,carbon carbon,0.05379714071750641,,0,0,0
+21,17,recycling,urban,0.05375641584396362,2012,0,1,1
+21,18,activated,carbon carbon,0.053741440176963806,2011,0,1,1
+21,19,carbon carbon,fossil fuels,0.05366703122854233,,0,0,0
+21,20,bio-based,carbon carbon,0.05362095311284065,,0,0,0
+22,1,final energy,urban,0.05376715213060379,,0,0,0
+22,2,final energy,hydrogen,0.05364438146352768,,0,0,0
+22,3,final energy,sink,0.053431399166584015,,0,0,0
+22,4,biomass,urban,0.05342031270265579,2013,0,0,1
+22,5,carbon carbon,urban,0.053380582481622696,,0,0,0
+22,6,final energy,fugitive emissions,0.05335193872451782,,0,0,0
+22,7,sink,urban,0.05328458175063133,,0,0,0
+22,8,biomass,final energy,0.0532243587076664,,0,0,0
+22,9,activated carbon,final energy,0.05312717333436012,,0,0,0
+22,10,biomass,carbon carbon,0.05311103165149689,2011,0,1,1
+22,11,fugitive emissions,urban,0.05310133472084999,,0,0,0
+22,12,activated carbon,urban,0.053055282682180405,,0,0,0
+22,13,activated,urban,0.05303679406642914,2010,1,1,1
+22,14,atmosphere,urban,0.05291511118412018,,0,0,0
+22,15,activity,urban,0.052884720265865326,2010,1,1,1
+22,16,gas,urban,0.052878376096487045,2010,1,1,1
+22,17,carbon carbon,final energy,0.052870750427246094,,0,0,0
+22,18,activity,final energy,0.052870046347379684,,0,0,0
+22,19,fugitive emissions,hydrogen,0.05285543203353882,,0,0,0
+22,20,activated carbon,carbon carbon,0.05283333361148834,2011,0,1,1
+23,1,final energy,hydrogen,0.05362211912870407,,0,0,0
+23,2,embedded carbon,hydrogen,0.05329134315252304,,0,0,0
+23,3,final energy,gas,0.0531630739569664,,0,0,0
+23,4,bio-based,final energy,0.05296068266034126,,0,0,0
+23,5,aggregation,final energy,0.05293085053563118,,0,0,0
+23,6,carbon black,final energy,0.05290116369724274,,0,0,0
+23,7,embedded carbon,final energy,0.05288414657115936,,0,0,0
+23,8,biodegradation,hydrogen,0.052869200706481934,2010,1,1,1
+23,9,final energy,hydrocarbon,0.052726391702890396,,0,0,0
+23,10,activated,embedded carbon,0.05270581692457199,,0,0,0
+23,11,activity,final energy,0.052689000964164734,,0,0,0
+23,12,final energy,recycling,0.052682969719171524,,0,0,0
+23,13,bio-based,embedded carbon,0.05262206494808197,,0,0,0
+23,14,final energy,sink,0.05261929705739021,,0,0,0
+23,15,ecosystem,hydrogen,0.05259060114622116,,0,0,0
+23,16,bio-based,carbon black,0.05249467492103577,,0,0,0
+23,17,embedded carbon,gas,0.052486613392829895,,0,0,0
+23,18,carbon source,final energy,0.05247567221522331,,0,0,0
+23,19,activated,bio-based,0.05247336998581886,2013,0,0,1
+23,20,carbon nanotube,final energy,0.05244302377104759,,0,0,0
+24,1,activated,embedded carbon,0.054797086864709854,,0,0,0
+24,2,embedded carbon,final energy,0.05460263416171074,,0,0,0
+24,3,aggregation,embedded carbon,0.05401154235005379,,0,0,0
+24,4,carbon layer,embedded carbon,0.053917285054922104,,0,0,0
+24,5,carbon dioxide,embedded carbon,0.053910743445158005,,0,0,0
+24,6,activity,embedded carbon,0.0538775660097599,,0,0,0
+24,7,embedded carbon,sink,0.053809184581041336,,0,0,0
+24,8,embedded carbon,hydrogen,0.05379367619752884,,0,0,0
+24,9,carbon black,embedded carbon,0.05375837907195091,,0,0,0
+24,10,embedded carbon,water,0.053690336644649506,2013,0,0,1
+24,11,carbon fiber,embedded carbon,0.053685322403907776,,0,0,0
+24,12,carbon nanotube,final energy,0.05357876047492027,,0,0,0
+24,13,embedded carbon,recycling,0.0534389466047287,,0,0,0
+24,14,embedded carbon,gas,0.05342897027730942,,0,0,0
+24,15,activated carbon,embedded carbon,0.05342071130871773,,0,0,0
+24,16,carbon source,embedded carbon,0.053391098976135254,,0,0,0
+24,17,deposit,embedded carbon,0.05335152894258499,,0,0,0
+24,18,carbon carbon,embedded carbon,0.05333142355084419,,0,0,0
+24,19,atmosphere,embedded carbon,0.053269971162080765,,0,0,0
+24,20,embedded carbon,renewable energy,0.05316689983010292,,0,0,0
+25,1,activated,biodegradation,0.05552336573600769,2013,0,0,1
+25,2,biodegradation,carbon dioxide,0.05549417436122894,2010,1,1,1
+25,3,biodegradation,final energy,0.05542169511318207,,0,0,0
+25,4,biodegradation,embedded carbon,0.055240292102098465,,0,0,0
+25,5,biodegradation,hydrogen,0.05522443354129791,2010,1,1,1
+25,6,anoxic,biodegradation,0.05519914999604225,,0,0,0
+25,7,biodegradation,hydrocarbon,0.055031243711709976,2011,0,1,1
+25,8,biodegradation,carbon composite,0.05502069368958473,,0,0,0
+25,9,atmosphere,biodegradation,0.05495196208357811,2011,0,1,1
+25,10,biodegradation,carbon monoxide,0.054863832890987396,,0,0,0
+25,11,atmosphere,embedded carbon,0.05485409125685692,,0,0,0
+25,12,bio-based,biodegradation,0.05484016612172127,2011,0,1,1
+25,13,biodegradation,carbon source,0.05475541204214096,,0,0,0
+25,14,activated,embedded carbon,0.054694388061761856,,0,0,0
+25,15,carbon dioxide,embedded carbon,0.054657675325870514,,0,0,0
+25,16,activated carbon,biodegradation,0.05464170128107071,2013,0,0,1
+25,17,biodegradation,deposit,0.05460479110479355,,0,0,0
+25,18,biodegradation,recycling,0.05460454523563385,,0,0,0
+25,19,biodegradation,carbon carbon,0.054572783410549164,,0,0,0
+25,20,biodegradation,carbon material,0.054552920162677765,,0,0,0
+26,1,activated,carbon carbon,0.053322046995162964,2011,0,1,1
+26,2,bio-based,carbon carbon,0.05312204360961914,,0,0,0
+26,3,carbon carbon,carbon layer,0.053043533116579056,,0,0,0
+26,4,carbon carbon,final energy,0.05285915732383728,,0,0,0
+26,5,carbon carbon,urban,0.0528407096862793,,0,0,0
+26,6,activated,bio-based,0.05277671292424202,2013,0,0,1
+26,7,carbon carbon,carbon source,0.052731357514858246,2011,0,1,1
+26,8,carbon carbon,deposit,0.05271954461932182,2010,1,1,1
+26,9,carbon carbon,greenhouse gas;ghg,0.05269073694944382,,0,0,0
+26,10,carbon carbon,carbon dioxide,0.05260474234819412,2013,0,0,1
+26,11,carbon carbon,embedded carbon,0.052591435611248016,,0,0,0
+26,12,carbon carbon,carbon nanotube,0.052485983818769455,2012,0,1,1
+26,13,carbon black,carbon carbon,0.05245944857597351,2011,0,1,1
+26,14,activated,greenhouse gas;ghg,0.05243575945496559,2010,1,1,1
+26,15,activated,urban,0.05240955948829651,2010,1,1,1
+26,16,final energy,recycling,0.05236510932445526,,0,0,0
+26,17,activated carbon,carbon carbon,0.0522988960146904,2011,0,1,1
+26,18,carbon layer,recycling,0.05229196697473526,,0,0,0
+26,19,recycling,urban,0.052281372249126434,2012,0,1,1
+26,20,bio-based,carbon layer,0.05225738510489464,,0,0,0
+27,1,embedded carbon,fugitive emissions,0.0551769956946373,,0,0,0
+27,2,embedded carbon,hydrocarbon,0.05497625842690468,,0,0,0
+27,3,embedded carbon,sink,0.054939594119787216,,0,0,0
+27,4,carbon black,embedded carbon,0.05491136386990547,,0,0,0
+27,5,activity,embedded carbon,0.054667819291353226,,0,0,0
+27,6,biofuel,embedded carbon,0.05466138571500778,,0,0,0
+27,7,carbon carbon,embedded carbon,0.054491039365530014,,0,0,0
+27,8,embedded carbon,gas,0.05444891005754471,,0,0,0
+27,9,atmosphere,embedded carbon,0.05435355007648468,,0,0,0
+27,10,embedded carbon,final energy,0.05430217087268829,,0,0,0
+27,11,carbon material,embedded carbon,0.05425616353750229,,0,0,0
+27,12,activated carbon,embedded carbon,0.054232653230428696,,0,0,0
+27,13,carbon layer,embedded carbon,0.054219119250774384,,0,0,0
+27,14,carbon dioxide,embedded carbon,0.05420241132378578,,0,0,0
+27,15,embedded carbon,fossil fuels,0.05417786166071892,,0,0,0
+27,16,embedded carbon,leakage,0.054150838404893875,,0,0,0
+27,17,deposit,embedded carbon,0.054141223430633545,,0,0,0
+27,18,biomass,embedded carbon,0.054132379591464996,,0,0,0
+27,19,activated,embedded carbon,0.0541137270629406,,0,0,0
+27,20,carbon source,embedded carbon,0.0540904738008976,,0,0,0
+28,1,carbon carbon,embedded carbon,0.05302850529551506,,0,0,0
+28,2,bio-based,carbon carbon,0.05272895470261574,,0,0,0
+28,3,carbon composite,embedded carbon,0.05257000774145126,,0,0,0
+28,4,bio-based,carbon fiber,0.052566803991794586,,0,0,0
+28,5,atmosphere,bio-based,0.05255343019962311,2011,0,1,1
+28,6,carbon fiber,embedded carbon,0.05251265689730644,,0,0,0
+28,7,carbon carbon,carbon source,0.05248703062534332,2011,0,1,1
+28,8,biofuel,carbon carbon,0.052469201385974884,,0,0,0
+28,9,bio-based,biofuel,0.052428510040044785,2014,0,0,1
+28,10,bio-based,embedded carbon,0.0524003729224205,,0,0,0
+28,11,bio-based,carbon composite,0.05234672501683235,,0,0,0
+28,12,bio-based,final energy,0.052339449524879456,,0,0,0
+28,13,bio-based,fugitive emissions,0.052234623581171036,,0,0,0
+28,14,embedded carbon,fugitive emissions,0.05221181362867355,,0,0,0
+28,15,activity,bio-based,0.05218380689620972,2014,0,0,1
+28,16,bio-based,sink,0.05213704705238342,,0,0,0
+28,17,biofuel,carbon fiber,0.05212628096342087,,0,0,0
+28,18,carbon carbon,carbon material,0.05206584930419922,2011,0,1,1
+28,19,atmosphere,embedded carbon,0.0520651675760746,,0,0,0
+28,20,bio-based,carbon dioxide,0.052050188183784485,,0,0,0
+29,1,final energy,fugitive emissions,0.05388730391860008,,0,0,0
+29,2,carbon dioxide,fugitive emissions,0.05381639674305916,,0,0,0
+29,3,carbon source,fugitive emissions,0.05350739136338234,,0,0,0
+29,4,carbon dioxide,final energy,0.05343147739768028,,0,0,0
+29,5,final energy,hydrocarbon,0.05338381975889206,,0,0,0
+29,6,carbon nanotube,fugitive emissions,0.053382642567157745,,0,0,0
+29,7,carbon monoxide,fugitive emissions,0.05337987095117569,,0,0,0
+29,8,biofuel,fugitive emissions,0.053189635276794434,,0,0,0
+29,9,carbon source,final energy,0.05318711698055267,,0,0,0
+29,10,activity,fugitive emissions,0.05309556797146797,,0,0,0
+29,11,embedded carbon,fugitive emissions,0.0530504547059536,,0,0,0
+29,12,carbon dioxide removal;cdr,fugitive emissions,0.05299035832285881,,0,0,0
+29,13,carbon nanotube,final energy,0.05298618972301483,,0,0,0
+29,14,atmosphere,final energy,0.05288621410727501,,0,0,0
+29,15,biomass,fugitive emissions,0.05283912271261215,,0,0,0
+29,16,fugitive emissions,leakage,0.05283097177743912,,0,0,0
+29,17,carbon dioxide,embedded carbon,0.0528189092874527,,0,0,0
+29,18,fugitive emissions,recycling,0.05277218297123909,,0,0,0
+29,19,asic,fugitive emissions,0.05274591222405434,,0,0,0
+29,20,activated,carbon monoxide,0.052740443497896194,2010,1,1,1
+30,1,carbon composite,gas,0.05554544925689697,2011,0,1,1
+30,2,bio-based,carbon composite,0.055415038019418716,,0,0,0
+30,3,biomass,carbon composite,0.0553865060210228,,0,0,0
+30,4,carbon composite,emission factor;emissions factor,0.05529060959815979,,0,0,0
+30,5,bio-based,carbon carbon,0.05511476844549179,,0,0,0
+30,6,carbon composite,recycling,0.05489426478743553,,0,0,0
+30,7,biomass,carbon carbon,0.05483566224575043,2011,0,1,1
+30,8,aggregation,carbon composite,0.05482633784413338,,0,0,0
+30,9,carbon composite,carbon monoxide,0.054802149534225464,,0,0,0
+30,10,biofuel,carbon composite,0.05476180464029312,,0,0,0
+30,11,baseline,carbon composite,0.05470846965909004,,0,0,0
+30,12,carbon carbon,emission factor;emissions factor,0.054701317101716995,,0,0,0
+30,13,activated,carbon composite,0.05461404472589493,2014,0,0,1
+30,14,carbon composite,leakage,0.05442199856042862,,0,0,0
+30,15,carbon composite,hydrogen,0.05428805202245712,2014,0,0,1
+30,16,activity,carbon composite,0.05425529181957245,,0,0,0
+30,17,baseline,carbon carbon,0.05422602966427803,,0,0,0
+30,18,aggregation,carbon carbon,0.05421821400523186,,0,0,0
+30,19,carbon composite,fugitive emissions,0.05400922894477844,,0,0,0
+30,20,biofuel,carbon carbon,0.0539637990295887,,0,0,0
+31,1,final energy,gas,0.05413002520799637,,0,0,0
+31,2,activated carbon,final energy,0.054031938314437866,,0,0,0
+31,3,final energy,fossil fuels,0.053689319640398026,,0,0,0
+31,4,asic,final energy,0.05368505045771599,,0,0,0
+31,5,carbon layer,final energy,0.05362768471240997,,0,0,0
+31,6,final energy,water,0.053623002022504807,,0,0,0
+31,7,final energy,fugitive emissions,0.053580377250909805,,0,0,0
+31,8,final energy,recycling,0.053526654839515686,,0,0,0
+31,9,activated carbon,asic,0.05346294865012169,,0,0,0
+31,10,cop,final energy,0.053427644073963165,,0,0,0
+31,11,emission factor;emissions factor,final energy,0.05340993404388428,,0,0,0
+31,12,fugitive emissions,gas,0.05325883999466896,2011,0,1,1
+31,13,activated carbon,fossil fuels,0.053250234574079514,2014,0,0,1
+31,14,final energy,leakage,0.05319074168801308,,0,0,0
+31,15,aerosols,final energy,0.05314979702234268,,0,0,0
+31,16,carbon fiber,final energy,0.05310026928782463,,0,0,0
+31,17,asic,fossil fuels,0.053065989166498184,,0,0,0
+31,18,asic,emission factor;emissions factor,0.05306226760149002,,0,0,0
+31,19,embedded carbon,final energy,0.05305704474449158,,0,0,0
+31,20,asic,water,0.05303426459431648,,0,0,0
+32,1,carbon black,fugitive emissions,0.05273660644888878,,0,0,0
+32,2,carbon material,fugitive emissions,0.05263187363743782,,0,0,0
+32,3,carbon black,final energy,0.05243917182087898,,0,0,0
+32,4,aerosols,carbon material,0.05243639647960663,,0,0,0
+32,5,carbon material,sink,0.05237555503845215,2014,0,0,1
+32,6,aerosols,carbon black,0.05234299972653389,2011,0,1,1
+32,7,fugitive emissions,sink,0.05231287330389023,,0,0,0
+32,8,carbon material,recycling,0.05227390676736832,,0,0,0
+32,9,asic,carbon black,0.052252475172281265,,0,0,0
+32,10,aerosols,fugitive emissions,0.05221060663461685,,0,0,0
+32,11,fugitive emissions,hydrogen,0.05220651626586914,,0,0,0
+32,12,asic,carbon material,0.052196815609931946,,0,0,0
+32,13,final energy,fugitive emissions,0.052183572202920914,,0,0,0
+32,14,carbon material,final energy,0.05214310437440872,,0,0,0
+32,15,aerosols,final energy,0.05212278291583061,,0,0,0
+32,16,final energy,sink,0.05212121829390526,,0,0,0
+32,17,asic,fugitive emissions,0.052062612026929855,,0,0,0
+32,18,atmosphere,carbon black,0.05201168730854988,2010,1,1,1
+32,19,carbon black,carbon source,0.05199974402785301,,0,0,0
+32,20,activated,aerosols,0.05198930948972702,2011,0,1,1
+33,1,carbon fiber,removal unit;rmu,0.054584942758083344,,0,0,0
+33,2,bio-based,carbon fiber,0.05437657609581947,,0,0,0
+33,3,carbon fiber,carbon monoxide,0.05431612953543663,,0,0,0
+33,4,biomass,removal unit;rmu,0.05416306480765343,,0,0,0
+33,5,carbon fiber,final energy,0.05413805693387985,,0,0,0
+33,6,biomass,carbon fiber,0.05410373955965042,,0,0,0
+33,7,carbon fiber,hydrocarbon,0.05408208444714546,2010,1,1,1
+33,8,carbon nanotube,removal unit;rmu,0.054065730422735214,,0,0,0
+33,9,carbon fiber,carbon nanotube,0.05399617552757263,2010,1,1,1
+33,10,final energy,removal unit;rmu,0.053958602249622345,,0,0,0
+33,11,atmosphere,removal unit;rmu,0.053849827498197556,,0,0,0
+33,12,bio-based,hydrocarbon,0.053793516010046005,,0,0,0
+33,13,hydrocarbon,removal unit;rmu,0.05378221720457077,2010,1,1,1
+33,14,bio-based,carbon monoxide,0.053717147558927536,,0,0,0
+33,15,bio-based,final energy,0.05364513397216797,,0,0,0
+33,16,carbon dioxide,carbon fiber,0.05361208692193031,,0,0,0
+33,17,carbon nanotube,final energy,0.053605832159519196,,0,0,0
+33,18,final energy,hydrocarbon,0.05352189391851425,,0,0,0
+33,19,bio-based,removal unit;rmu,0.05351598933339119,,0,0,0
+33,20,carbon monoxide,final energy,0.05351340398192406,,0,0,0
+34,1,bio-based,carbon source,0.05695577710866928,2014,0,0,1
+34,2,activity,bio-based,0.056393492966890335,2014,0,0,1
+34,3,aggregation,bio-based,0.05634898319840431,2012,0,1,1
+34,4,bio-based,sink,0.056165654212236404,,0,0,0
+34,5,bio-based,carbon black,0.056128695607185364,,0,0,0
+34,6,bio-based,ecosystem,0.055802471935749054,,0,0,0
+34,7,bio-based,final energy,0.05578114464879036,,0,0,0
+34,8,bio-based,leakage,0.05565188452601433,,0,0,0
+34,9,anoxic,bio-based,0.05564146116375923,,0,0,0
+34,10,activated,bio-based,0.0555717833340168,2013,0,0,1
+34,11,baseline,bio-based,0.055408935993909836,,0,0,0
+34,12,bio-based,carbon nanotube,0.05540413409471512,,0,0,0
+34,13,bio-based,embedded carbon,0.055356137454509735,,0,0,0
+34,14,biomass,carbon source,0.0551854632794857,2012,0,1,1
+34,15,bio-based,hydrocarbon,0.05508164316415787,,0,0,0
+34,16,bio-based,carbon composite,0.055064257234334946,,0,0,0
+34,17,bio-based,water,0.05506047606468201,2011,0,1,1
+34,18,bio-based,carbon fiber,0.054998449981212616,,0,0,0
+34,19,bio-based,deposit,0.05496827885508537,,0,0,0
+34,20,carbon source,final energy,0.05495213717222214,,0,0,0
+35,1,baseline,carbon dioxide,0.053663913160562515,2010,1,1,1
+35,2,baseline,biodegradation,0.05357684940099716,,0,0,0
+35,3,baseline,biogas,0.05347529053688049,,0,0,0
+35,4,carbon source,water,0.05345095694065094,2010,1,1,1
+35,5,activated,baseline,0.05344858393073082,2010,1,1,1
+35,6,activity,biogas,0.053319111466407776,2010,1,1,1
+35,7,baseline,mitigation,0.053283803164958954,2011,0,1,1
+35,8,final energy,water,0.05310636758804321,,0,0,0
+35,9,activated,biogas,0.053069911897182465,2010,1,1,1
+35,10,urban,water,0.05304325744509697,2011,0,1,1
+35,11,activated carbon,baseline,0.05303333327174187,,0,0,0
+35,12,activity,biodegradation,0.052922993898391724,2010,1,1,1
+35,13,biogas,carbon dioxide,0.05287662148475647,2010,1,1,1
+35,14,activated,mitigation,0.052811313420534134,2010,1,1,1
+35,15,baseline,recycling,0.05280923843383789,,0,0,0
+35,16,activity,recycling,0.05278996750712395,2010,1,1,1
+35,17,baseline,ecosystem,0.0527866929769516,2012,0,1,1
+35,18,baseline,carbon black,0.05278412625193596,,0,0,0
+35,19,activated,carbon source,0.05278167128562927,2011,0,1,1
+35,20,biogas,ecosystem,0.05276843532919884,,0,0,0
+36,1,asic,final energy,0.0533231683075428,,0,0,0
+36,2,asic,carbon dioxide,0.0531785823404789,,0,0,0
+36,3,deposit,final energy,0.05317527428269386,,0,0,0
+36,4,asic,embedded carbon,0.05298573151230812,,0,0,0
+36,5,activity,final energy,0.05292341113090515,,0,0,0
+36,6,activated,aggregation,0.052921585738658905,2010,1,1,1
+36,7,aggregation,asic,0.05291614681482315,,0,0,0
+36,8,carbon dioxide,final energy,0.052820272743701935,,0,0,0
+36,9,aggregation,deposit,0.052815716713666916,2010,1,1,1
+36,10,activity,embedded carbon,0.05281275883316994,,0,0,0
+36,11,aggregation,final energy,0.052806269377470016,,0,0,0
+36,12,asic,hydrogen,0.05277359113097191,,0,0,0
+36,13,embedded carbon,final energy,0.052712853997945786,,0,0,0
+36,14,asic,carbon nanotube,0.05270015448331833,,0,0,0
+36,15,activated carbon,asic,0.05269375070929527,,0,0,0
+36,16,carbon nanotube,final energy,0.05268107354640961,,0,0,0
+36,17,asic,ecosystem,0.05262742564082146,,0,0,0
+36,18,deposit,ecosystem,0.052621446549892426,,0,0,0
+36,19,asic,recycling,0.0526154600083828,,0,0,0
+36,20,activated carbon,deposit,0.05260201916098595,2010,1,1,1
+37,1,final energy,hydrocarbon,0.05284440517425537,,0,0,0
+37,2,carbon black,removal unit;rmu,0.05280643329024315,,0,0,0
+37,3,carbon black,final energy,0.05278974398970604,,0,0,0
+37,4,hydrocarbon,sink,0.05277885124087334,2010,1,1,1
+37,5,activated,removal unit;rmu,0.05277613177895546,2011,0,1,1
+37,6,removal unit;rmu,sink,0.052763618528842926,,0,0,0
+37,7,hydrocarbon,removal unit;rmu,0.05271073430776596,2010,1,1,1
+37,8,final energy,hydrogen,0.052653029561042786,,0,0,0
+37,9,final energy,removal unit;rmu,0.052652981132268906,,0,0,0
+37,10,carbon carbon,removal unit;rmu,0.052619799971580505,,0,0,0
+37,11,carbon fiber,removal unit;rmu,0.05256812274456024,,0,0,0
+37,12,carbon fiber,hydrocarbon,0.0525650791823864,2010,1,1,1
+37,13,carbon black,carbon source,0.05254453048110008,,0,0,0
+37,14,carbon black,carbon carbon,0.05251145735383034,2011,0,1,1
+37,15,activated,carbon carbon,0.05250110477209091,2011,0,1,1
+37,16,carbon layer,removal unit;rmu,0.05246950685977936,,0,0,0
+37,17,biomass,carbon black,0.05240888521075249,,0,0,0
+37,18,carbon material,hydrocarbon,0.05240672081708908,2011,0,1,1
+37,19,recycling,removal unit;rmu,0.05239527300000191,2011,0,1,1
+37,20,carbon black,carbon layer,0.05238053575158119,2012,0,1,1
+38,1,bio-based,carbon carbon,0.05405859649181366,,0,0,0
+38,2,bio-based,carbon composite,0.05403361842036247,,0,0,0
+38,3,biomass,carbon carbon,0.05351824313402176,2011,0,1,1
+38,4,bio-based,carbon monoxide,0.05348379909992218,,0,0,0
+38,5,biomass,carbon composite,0.05338478088378906,,0,0,0
+38,6,carbon carbon,carbon monoxide,0.05333390459418297,,0,0,0
+38,7,carbon carbon,embedded carbon,0.05319308489561081,,0,0,0
+38,8,carbon carbon,carbon source,0.05318969488143921,2011,0,1,1
+38,9,atmosphere,bio-based,0.05318477377295494,2011,0,1,1
+38,10,activity,carbon carbon,0.05318400263786316,2010,1,1,1
+38,11,carbon carbon,carbon material,0.053178951144218445,2011,0,1,1
+38,12,carbon composite,carbon material,0.05315661430358887,2011,0,1,1
+38,13,carbon composite,embedded carbon,0.05311712250113487,,0,0,0
+38,14,carbon composite,carbon source,0.05306899920105934,2011,0,1,1
+38,15,carbon composite,sink,0.05306631699204445,,0,0,0
+38,16,carbon composite,carbon monoxide,0.05306616052985191,,0,0,0
+38,17,activity,carbon composite,0.05302770435810089,,0,0,0
+38,18,bio-based,carbon source,0.052985016256570816,2014,0,0,1
+38,19,bio-based,carbon fiber,0.052979834377765656,,0,0,0
+38,20,bio-based,carbon material,0.052892450243234634,,0,0,0
+39,1,carbon composite,embedded carbon,0.053427308797836304,,0,0,0
+39,2,carbon composite,fugitive emissions,0.05299286171793938,,0,0,0
+39,3,asic,carbon composite,0.052988387644290924,,0,0,0
+39,4,carbon composite,final energy,0.05291270837187767,,0,0,0
+39,5,carbon fiber,final energy,0.052904579788446426,,0,0,0
+39,6,embedded carbon,fugitive emissions,0.05278128758072853,,0,0,0
+39,7,carbon fiber,fugitive emissions,0.05273599177598953,,0,0,0
+39,8,activated carbon,carbon composite,0.052638888359069824,2014,0,0,1
+39,9,carbon fiber,embedded carbon,0.05261586606502533,,0,0,0
+39,10,activated carbon,embedded carbon,0.05258561670780182,,0,0,0
+39,11,activated,carbon composite,0.05251781642436981,2014,0,0,1
+39,12,atmosphere,embedded carbon,0.05250949040055275,,0,0,0
+39,13,final energy,fugitive emissions,0.05245087668299675,,0,0,0
+39,14,carbon composite,hydrocarbon,0.05239420756697655,,0,0,0
+39,15,fugitive emissions,sink,0.05236217379570007,,0,0,0
+39,16,embedded carbon,final energy,0.05236140638589859,,0,0,0
+39,17,carbon composite,sink,0.05231696367263794,,0,0,0
+39,18,carbon composite,carbon layer,0.052237916737794876,,0,0,0
+39,19,asic,carbon fiber,0.05222933739423752,,0,0,0
+39,20,carbon material,fugitive emissions,0.05221550539135933,,0,0,0
+40,1,carbon composite,final energy,0.05604586750268936,,0,0,0
+40,2,activated,carbon composite,0.05531228333711624,2014,0,0,1
+40,3,asic,carbon composite,0.055284399539232254,,0,0,0
+40,4,carbon composite,sink,0.05516283959150314,,0,0,0
+40,5,carbon composite,carbon dioxide,0.05495459586381912,,0,0,0
+40,6,carbon carbon,final energy,0.0549425408244133,,0,0,0
+40,7,carbon composite,hydrogen,0.05475609377026558,2014,0,0,1
+40,8,asic,final energy,0.054464083164930344,,0,0,0
+40,9,final energy,sink,0.054413940757513046,,0,0,0
+40,10,carbon composite,hydrocarbon,0.054406650364398956,,0,0,0
+40,11,carbon composite,carbon source,0.054388340562582016,2011,0,1,1
+40,12,carbon composite,fugitive emissions,0.05435633659362793,,0,0,0
+40,13,carbon black,carbon composite,0.054307080805301666,,0,0,0
+40,14,carbon composite,cop,0.05425983667373657,,0,0,0
+40,15,activated,carbon carbon,0.05423128604888916,2011,0,1,1
+40,16,carbon composite,carbon monoxide,0.05416300892829895,,0,0,0
+40,17,carbon dioxide,final energy,0.05415436998009682,,0,0,0
+40,18,anoxic,carbon composite,0.0541268028318882,,0,0,0
+40,19,atmosphere,final energy,0.054120760411024094,,0,0,0
+40,20,activated carbon,carbon composite,0.05409955233335495,2014,0,0,1
+41,1,activity,embedded carbon,0.053310517221689224,,0,0,0
+41,2,carbon monoxide,embedded carbon,0.05316610634326935,,0,0,0
+41,3,carbon monoxide,sink,0.05307689681649208,2010,1,1,1
+41,4,activity,bio-based,0.05299561470746994,2014,0,0,1
+41,5,activity,carbon carbon,0.05298726633191109,2010,1,1,1
+41,6,embedded carbon,hydrogen,0.052927788347005844,,0,0,0
+41,7,bio-based,carbon monoxide,0.05292178690433502,,0,0,0
+41,8,activity,carbon nanotube,0.05291973054409027,2010,1,1,1
+41,9,biomass,sink,0.05289561301469803,,0,0,0
+41,10,activity,final energy,0.0528113879263401,,0,0,0
+41,11,bio-based,embedded carbon,0.052740491926670074,,0,0,0
+41,12,biomass,embedded carbon,0.052739765495061874,,0,0,0
+41,13,activity,carbon layer,0.052720628678798676,,0,0,0
+41,14,carbon carbon,carbon monoxide,0.05269971489906311,,0,0,0
+41,15,bio-based,sink,0.052683085203170776,,0,0,0
+41,16,activity,carbon fiber,0.05266852676868439,2010,1,1,1
+41,17,embedded carbon,sink,0.052657295018434525,,0,0,0
+41,18,biomass,carbon carbon,0.05257219076156616,2011,0,1,1
+41,19,carbon monoxide,final energy,0.05255294591188431,,0,0,0
+41,20,biomass,final energy,0.05253094062209129,,0,0,0
+42,1,atmosphere,embedded carbon,0.054816439747810364,,0,0,0
+42,2,embedded carbon,fugitive emissions,0.05466871336102486,,0,0,0
+42,3,embedded carbon,final energy,0.05462375655770302,,0,0,0
+42,4,atmosphere,final energy,0.054508596658706665,,0,0,0
+42,5,carbon carbon,embedded carbon,0.05442392826080322,,0,0,0
+42,6,carbon fiber,embedded carbon,0.05442245304584503,,0,0,0
+42,7,final energy,fugitive emissions,0.05439458042383194,,0,0,0
+42,8,embedded carbon,hydrocarbon,0.05428248643875122,,0,0,0
+42,9,carbon source,embedded carbon,0.054074618965387344,,0,0,0
+42,10,final energy,hydrocarbon,0.05404318869113922,,0,0,0
+42,11,carbon source,final energy,0.05404181405901909,,0,0,0
+42,12,carbon carbon,final energy,0.05399871617555618,,0,0,0
+42,13,carbon composite,embedded carbon,0.0539521761238575,,0,0,0
+42,14,carbon source,fugitive emissions,0.05395088344812393,,0,0,0
+42,15,carbon fiber,final energy,0.053884994238615036,,0,0,0
+42,16,embedded carbon,sink,0.05381978303194046,,0,0,0
+42,17,deposit,embedded carbon,0.05381696671247482,,0,0,0
+42,18,embedded carbon,leakage,0.053785599768161774,,0,0,0
+42,19,deposit,final energy,0.053781550377607346,,0,0,0
+42,20,final energy,sink,0.053774572908878326,,0,0,0
+43,1,biodegradation,embedded carbon,0.0554790198802948,,0,0,0
+43,2,baseline,embedded carbon,0.05521433427929878,,0,0,0
+43,3,embedded carbon,water,0.05503957346081734,2013,0,0,1
+43,4,cop,embedded carbon,0.05465681478381157,,0,0,0
+43,5,embedded carbon,recycling,0.05460657551884651,,0,0,0
+43,6,carbon source,embedded carbon,0.05448530241847038,,0,0,0
+43,7,biofuel,embedded carbon,0.054201140999794006,,0,0,0
+43,8,carbon material,embedded carbon,0.05396142229437828,,0,0,0
+43,9,activated,embedded carbon,0.05392755940556526,,0,0,0
+43,10,embedded carbon,gas,0.05392640456557274,,0,0,0
+43,11,ecosystem,embedded carbon,0.05391493812203407,,0,0,0
+43,12,embedded carbon,leakage,0.05380728840827942,,0,0,0
+43,13,embedded carbon,hydrogen,0.0537198968231678,,0,0,0
+43,14,embedded carbon,hydrocarbon,0.05366094037890434,,0,0,0
+43,15,carbon fiber,embedded carbon,0.053643256425857544,,0,0,0
+43,16,embedded carbon,final energy,0.0536004900932312,,0,0,0
+43,17,biodegradation,carbon source,0.05352348834276199,,0,0,0
+43,18,embedded carbon,fugitive emissions,0.053497377783060074,,0,0,0
+43,19,asic,embedded carbon,0.05345204472541809,,0,0,0
+43,20,embedded carbon,urban,0.05340977758169174,,0,0,0
+44,1,embedded carbon,fossil fuels,0.05408905819058418,,0,0,0
+44,2,baseline,embedded carbon,0.053804848343133926,,0,0,0
+44,3,biomass,embedded carbon,0.053539302200078964,,0,0,0
+44,4,activated,embedded carbon,0.05353822559118271,,0,0,0
+44,5,baseline,fossil fuels,0.053467825055122375,,0,0,0
+44,6,embedded carbon,hydrocarbon,0.05340861901640892,,0,0,0
+44,7,embedded carbon,final energy,0.0533137172460556,,0,0,0
+44,8,final energy,fossil fuels,0.05318623408675194,,0,0,0
+44,9,embedded carbon,recycling,0.053151097148656845,,0,0,0
+44,10,emission factor;emissions factor,fossil fuels,0.05313600227236748,,0,0,0
+44,11,deposit,embedded carbon,0.05313584581017494,,0,0,0
+44,12,embedded carbon,emission factor;emissions factor,0.05310354009270668,,0,0,0
+44,13,baseline,biomass,0.05306342616677284,,0,0,0
+44,14,activated,fossil fuels,0.05304001271724701,2014,0,0,1
+44,15,embedded carbon,gas,0.052993305027484894,,0,0,0
+44,16,biomass,final energy,0.052979763597249985,,0,0,0
+44,17,embedded carbon,leakage,0.05293765664100647,,0,0,0
+44,18,carbon material,fossil fuels,0.05290421470999718,,0,0,0
+44,19,deposit,fossil fuels,0.052866533398628235,,0,0,0
+44,20,embedded carbon,sink,0.05285327509045601,,0,0,0
+45,1,baseline,carbon source,0.054920632392168045,,0,0,0
+45,2,baseline,biofuel,0.05457676202058792,,0,0,0
+45,3,baseline,carbon dioxide,0.054551251232624054,2010,1,1,1
+45,4,baseline,carbon dioxide equivalent;co2e,0.05447937175631523,,0,0,0
+45,5,baseline,biomass,0.05442015826702118,,0,0,0
+45,6,baseline,sink,0.05438390001654625,2010,1,1,1
+45,7,activated carbon,baseline,0.05436718091368675,,0,0,0
+45,8,aggregation,carbon source,0.05428507924079895,,0,0,0
+45,9,baseline,carbon black,0.05425934121012688,,0,0,0
+45,10,aggregation,biomass,0.05425906181335449,2012,0,1,1
+45,11,aggregation,carbon dioxide,0.054178960621356964,2014,0,0,1
+45,12,aerosols,baseline,0.05415303632616997,,0,0,0
+45,13,baseline,recycling,0.05414252355694771,,0,0,0
+45,14,carbon dioxide,carbon source,0.05412542074918747,2010,1,1,1
+45,15,baseline,carbon material,0.05408674106001854,2012,0,1,1
+45,16,carbon source,sink,0.05403007194399834,2010,1,1,1
+45,17,aggregation,carbon dioxide equivalent;co2e,0.05401517078280449,,0,0,0
+45,18,activated carbon,aggregation,0.053990159183740616,,0,0,0
+45,19,baseline,deposit,0.053986333310604095,,0,0,0
+45,20,atmosphere,baseline,0.05397402122616768,,0,0,0
+46,1,embedded carbon,sink,0.0550227016210556,,0,0,0
+46,2,carbon carbon,embedded carbon,0.05485545098781586,,0,0,0
+46,3,carbon source,sink,0.05484393611550331,2010,1,1,1
+46,4,recycling,sink,0.05477585271000862,2010,1,1,1
+46,5,fossil fuels,sink,0.05471096932888031,2010,1,1,1
+46,6,carbon black,carbon carbon,0.05449279770255089,2011,0,1,1
+46,7,biofuel,sink,0.054395001381635666,,0,0,0
+46,8,carbon material,sink,0.05436807498335838,2014,0,0,1
+46,9,final energy,sink,0.054362352937459946,,0,0,0
+46,10,carbon composite,sink,0.054265450686216354,,0,0,0
+46,11,carbon fiber,embedded carbon,0.054245106875896454,,0,0,0
+46,12,carbon carbon,carbon source,0.054239898920059204,2011,0,1,1
+46,13,activity,carbon carbon,0.05423599109053612,2010,1,1,1
+46,14,aerosols,sink,0.054188989102840424,,0,0,0
+46,15,carbon black,carbon source,0.05416669324040413,,0,0,0
+46,16,carbon black,embedded carbon,0.05414865165948868,,0,0,0
+46,17,carbon black,fossil fuels,0.05411538854241371,,0,0,0
+46,18,carbon composite,embedded carbon,0.05410730093717575,,0,0,0
+46,19,deposit,sink,0.054077498614788055,2010,1,1,1
+46,20,activity,embedded carbon,0.05407217890024185,,0,0,0
+47,1,removal unit;rmu,urban,0.054420046508312225,,0,0,0
+47,2,carbon dioxide equivalent;co2e,removal unit;rmu,0.054362062364816666,,0,0,0
+47,3,carbon composite,carbon dioxide equivalent;co2e,0.054235123097896576,,0,0,0
+47,4,carbon composite,removal unit;rmu,0.05411277711391449,,0,0,0
+47,5,carbon dioxide equivalent;co2e,carbon source,0.05408181622624397,,0,0,0
+47,6,atmosphere,removal unit;rmu,0.05399175360798836,,0,0,0
+47,7,carbon layer,removal unit;rmu,0.05391998589038849,,0,0,0
+47,8,carbon composite,urban,0.053842052817344666,,0,0,0
+47,9,carbon carbon,removal unit;rmu,0.05382508784532547,,0,0,0
+47,10,carbon composite,carbon dioxide,0.05381300672888756,,0,0,0
+47,11,carbon carbon,carbon dioxide equivalent;co2e,0.053762733936309814,,0,0,0
+47,12,carbon dioxide equivalent;co2e,urban,0.05369500815868378,,0,0,0
+47,13,carbon material,removal unit;rmu,0.053680170327425,,0,0,0
+47,14,carbon dioxide equivalent;co2e,carbon material,0.053635284304618835,,0,0,0
+47,15,carbon monoxide,urban,0.05353410169482231,,0,0,0
+47,16,carbon source,removal unit;rmu,0.05352526530623436,,0,0,0
+47,17,carbon carbon,carbon dioxide,0.05351712554693222,2013,0,0,1
+47,18,atmosphere,carbon dioxide equivalent;co2e,0.053506266325712204,,0,0,0
+47,19,carbon carbon,urban,0.05345359817147255,,0,0,0
+47,20,carbon dioxide equivalent;co2e,carbon monoxide,0.053419772535562515,,0,0,0
+48,1,biomass,embedded carbon,0.05387136712670326,,0,0,0
+48,2,biomass,urban,0.05383297801017761,2013,0,0,1
+48,3,biomass,carbon dioxide equivalent;co2e,0.05375757813453674,,0,0,0
+48,4,embedded carbon,urban,0.053619127720594406,,0,0,0
+48,5,biofuel,urban,0.053357336670160294,,0,0,0
+48,6,carbon dioxide,embedded carbon,0.05324983224272728,,0,0,0
+48,7,carbon dioxide equivalent;co2e,embedded carbon,0.05322498083114624,,0,0,0
+48,8,biofuel,embedded carbon,0.05321092531085014,,0,0,0
+48,9,biomass,sink,0.05303587019443512,,0,0,0
+48,10,biofuel,carbon dioxide equivalent;co2e,0.05298123508691788,,0,0,0
+48,11,baseline,urban,0.05297166481614113,,0,0,0
+48,12,fossil fuels,urban,0.05296668782830238,,0,0,0
+48,13,atmosphere,embedded carbon,0.052935171872377396,,0,0,0
+48,14,bio-based,urban,0.05291368439793587,,0,0,0
+48,15,biofuel,fossil fuels,0.052879396826028824,,0,0,0
+48,16,baseline,biomass,0.05287656560540199,,0,0,0
+48,17,carbon dioxide equivalent;co2e,urban,0.052869174629449844,,0,0,0
+48,18,carbon dioxide equivalent;co2e,hydrogen,0.052867740392684937,,0,0,0
+48,19,biofuel,sink,0.052841950207948685,,0,0,0
+48,20,biomass,carbon material,0.052800893783569336,2012,0,1,1
+49,1,carbon source,embedded carbon,0.054917946457862854,,0,0,0
+49,2,embedded carbon,hydrogen,0.054727211594581604,,0,0,0
+49,3,embedded carbon,final energy,0.05446940287947655,,0,0,0
+49,4,embedded carbon,fugitive emissions,0.054363347589969635,,0,0,0
+49,5,carbon material,embedded carbon,0.054320648312568665,,0,0,0
+49,6,atmosphere,embedded carbon,0.054291147738695145,,0,0,0
+49,7,activated carbon,embedded carbon,0.05413566529750824,,0,0,0
+49,8,deposit,embedded carbon,0.0540480762720108,,0,0,0
+49,9,embedded carbon,hydrocarbon,0.05401933938264847,,0,0,0
+49,10,activated,embedded carbon,0.0539596863090992,,0,0,0
+49,11,embedded carbon,recycling,0.05383875221014023,,0,0,0
+49,12,carbon fiber,embedded carbon,0.053723111748695374,,0,0,0
+49,13,bio-based,embedded carbon,0.05371309071779251,,0,0,0
+49,14,carbon layer,embedded carbon,0.05370389297604561,,0,0,0
+49,15,biofuel,embedded carbon,0.05368480831384659,,0,0,0
+49,16,carbon carbon,embedded carbon,0.05368466675281525,,0,0,0
+49,17,asic,embedded carbon,0.05363079532980919,,0,0,0
+49,18,embedded carbon,sink,0.05361783504486084,,0,0,0
+49,19,activity,embedded carbon,0.05352650582790375,,0,0,0
+49,20,baseline,embedded carbon,0.05351487547159195,,0,0,0
+50,1,final energy,hydrogen,0.05242885276675224,,0,0,0
+50,2,embedded carbon,final energy,0.051795948296785355,,0,0,0
+50,3,atmosphere,final energy,0.05178973078727722,,0,0,0
+50,4,final energy,hydrocarbon,0.051765430718660355,,0,0,0
+50,5,carbon dioxide equivalent;co2e,hydrogen,0.051749132573604584,,0,0,0
+50,6,embedded carbon,recycling,0.05172298848628998,,0,0,0
+50,7,carbon fiber,final energy,0.05170634016394615,,0,0,0
+50,8,final energy,recycling,0.05170600116252899,,0,0,0
+50,9,embedded carbon,hydrogen,0.05168435350060463,,0,0,0
+50,10,carbon source,hydrocarbon,0.05167815089225769,2010,1,1,1
+50,11,carbon material,final energy,0.05165340378880501,,0,0,0
+50,12,carbon dioxide equivalent;co2e,hydrocarbon,0.051641810685396194,,0,0,0
+50,13,carbon fiber,hydrocarbon,0.05162496492266655,2010,1,1,1
+50,14,hydrocarbon,urban,0.0516231432557106,2013,0,0,1
+50,15,final energy,urban,0.05159980431199074,,0,0,0
+50,16,embedded carbon,hydrocarbon,0.05159955844283104,,0,0,0
+50,17,carbon source,final energy,0.051594797521829605,,0,0,0
+50,18,final energy,sink,0.051561642438173294,,0,0,0
+50,19,activity,final energy,0.05155497416853905,,0,0,0
+50,20,activity,embedded carbon,0.05155172944068909,,0,0,0
+51,1,carbon black,mitigation,0.05454199016094208,,0,0,0
+51,2,carbon black,embedded carbon,0.054398346692323685,,0,0,0
+51,3,carbon black,carbon source,0.05430455505847931,,0,0,0
+51,4,embedded carbon,final energy,0.05427764728665352,,0,0,0
+51,5,final energy,mitigation,0.054233916103839874,,0,0,0
+51,6,carbon black,final energy,0.054206158965826035,,0,0,0
+51,7,carbon black,carbon nanotube,0.05418084189295769,2010,1,1,1
+51,8,embedded carbon,mitigation,0.05407240241765976,,0,0,0
+51,9,activity,final energy,0.0539870485663414,,0,0,0
+51,10,carbon source,mitigation,0.053968749940395355,,0,0,0
+51,11,carbon source,final energy,0.05396753177046776,,0,0,0
+51,12,deposit,mitigation,0.05393189191818237,2010,1,1,1
+51,13,carbon nanotube,final energy,0.05386015400290489,,0,0,0
+51,14,biofuel,mitigation,0.05384570732712746,,0,0,0
+51,15,deposit,embedded carbon,0.05373672395944595,,0,0,0
+51,16,carbon nanotube,mitigation,0.05372343957424164,,0,0,0
+51,17,activity,embedded carbon,0.05363498255610466,,0,0,0
+51,18,carbon monoxide,embedded carbon,0.05363013595342636,,0,0,0
+51,19,biofuel,carbon source,0.05362614989280701,2014,0,0,1
+51,20,embedded carbon,hydrocarbon,0.0536135733127594,,0,0,0
+52,1,biodegradation,carbon source,0.05482235923409462,,0,0,0
+52,2,bio-based,biodegradation,0.0547979511320591,2011,0,1,1
+52,3,biomass,carbon source,0.054696545004844666,2012,0,1,1
+52,4,biodegradation,hydrogen,0.054594736546278,2010,1,1,1
+52,5,biodegradation,biofuel,0.05448058620095253,,0,0,0
+52,6,biodegradation,sequestration,0.05428212881088257,,0,0,0
+52,7,atmosphere,biodegradation,0.05423568934202194,2011,0,1,1
+52,8,biomass,sequestration,0.05414556711912155,2012,0,1,1
+52,9,aggregation,biodegradation,0.05407531186938286,,0,0,0
+52,10,biofuel,carbon source,0.05405385419726372,2014,0,0,1
+52,11,biodegradation,sink,0.05397205054759979,,0,0,0
+52,12,biodegradation,gas,0.05396674573421478,2012,0,1,1
+52,13,activated,biodegradation,0.05393810570240021,2013,0,0,1
+52,14,bio-based,biofuel,0.053916435688734055,2014,0,0,1
+52,15,biomass,carbon fiber,0.05391060933470726,,0,0,0
+52,16,activity,biodegradation,0.05390998721122742,2010,1,1,1
+52,17,biodegradation,carbon fiber,0.05390455201268196,,0,0,0
+52,18,biomass,sink,0.053838975727558136,,0,0,0
+52,19,bio-based,carbon source,0.0538114532828331,2014,0,0,1
+52,20,aggregation,biomass,0.05378255620598793,2012,0,1,1
+53,1,final energy,leakage,0.05464746430516243,,0,0,0
+53,2,activity,final energy,0.05464223027229309,,0,0,0
+53,3,anoxic,leakage,0.05445108562707901,,0,0,0
+53,4,activity,anoxic,0.05439082905650139,,0,0,0
+53,5,biomass,leakage,0.05429582670331001,,0,0,0
+53,6,bio-based,leakage,0.054214805364608765,,0,0,0
+53,7,anoxic,final energy,0.05420756712555885,,0,0,0
+53,8,activity,bio-based,0.054160479456186295,2014,0,0,1
+53,9,final energy,mitigation,0.05409025773406029,,0,0,0
+53,10,biomass,final energy,0.0539681538939476,,0,0,0
+53,11,biomass,mitigation,0.05396250635385513,2011,0,1,1
+53,12,final energy,hydrocarbon,0.053925082087516785,,0,0,0
+53,13,anoxic,mitigation,0.05392490699887276,2014,0,0,1
+53,14,anoxic,hydrocarbon,0.05389205738902092,2010,1,1,1
+53,15,bio-based,final energy,0.05383523926138878,,0,0,0
+53,16,hydrocarbon,mitigation,0.05378656089305878,2013,0,0,1
+53,17,final energy,water,0.05378614738583565,,0,0,0
+53,18,anoxic,bio-based,0.05378333479166031,,0,0,0
+53,19,activity,recycling,0.053774964064359665,2010,1,1,1
+53,20,atmosphere,final energy,0.05368298664689064,,0,0,0
+54,1,embedded carbon,leakage,0.054901376366615295,,0,0,0
+54,2,carbon source,leakage,0.05480475723743439,,0,0,0
+54,3,final energy,leakage,0.0545814074575901,,0,0,0
+54,4,biodegradation,carbon source,0.05454796552658081,,0,0,0
+54,5,carbon source,final energy,0.05453161522746086,,0,0,0
+54,6,biodegradation,embedded carbon,0.05434786528348923,,0,0,0
+54,7,carbon source,embedded carbon,0.054334595799446106,,0,0,0
+54,8,carbon black,leakage,0.05430242419242859,2010,1,1,1
+54,9,carbon black,final energy,0.054288946092128754,,0,0,0
+54,10,carbon black,carbon source,0.05420121178030968,,0,0,0
+54,11,carbon black,embedded carbon,0.05419974401593208,,0,0,0
+54,12,embedded carbon,final energy,0.05419650673866272,,0,0,0
+54,13,biodegradation,final energy,0.05409206077456474,,0,0,0
+54,14,carbon nanotube,final energy,0.054025713354349136,,0,0,0
+54,15,carbon source,hydrocarbon,0.05398492142558098,2010,1,1,1
+54,16,carbon source,recycling,0.05391984060406685,2014,0,0,1
+54,17,biodegradation,leakage,0.05386325344443321,,0,0,0
+54,18,biodegradation,carbon black,0.05372580513358116,,0,0,0
+54,19,carbon source,water,0.05368397384881973,2010,1,1,1
+54,20,embedded carbon,hydrocarbon,0.05367238447070122,,0,0,0
+55,1,embedded carbon,final energy,0.055862512439489365,,0,0,0
+55,2,embedded carbon,gas,0.05526908487081528,,0,0,0
+55,3,final energy,gas,0.05493582785129547,,0,0,0
+55,4,carbon source,embedded carbon,0.0548299178481102,,0,0,0
+55,5,embedded carbon,sink,0.05453868210315704,,0,0,0
+55,6,deposit,embedded carbon,0.05446755886077881,,0,0,0
+55,7,embedded carbon,hydrocarbon,0.05439069867134094,,0,0,0
+55,8,embedded carbon,water,0.05423824116587639,2013,0,0,1
+55,9,embedded carbon,hydrogen,0.054112471640110016,,0,0,0
+55,10,activity,embedded carbon,0.054109711199998856,,0,0,0
+55,11,activated,embedded carbon,0.0540868379175663,,0,0,0
+55,12,carbon source,final energy,0.05407235026359558,,0,0,0
+55,13,final energy,hydrocarbon,0.054016418755054474,,0,0,0
+55,14,final energy,hydrogen,0.054016318172216415,,0,0,0
+55,15,final energy,sink,0.053927015513181686,,0,0,0
+55,16,carbon dioxide removal;cdr,embedded carbon,0.05388324335217476,,0,0,0
+55,17,carbon black,embedded carbon,0.05388151481747627,,0,0,0
+55,18,final energy,water,0.053838811814785004,,0,0,0
+55,19,activity,final energy,0.05377084016799927,,0,0,0
+55,20,atmosphere,embedded carbon,0.05376503989100456,,0,0,0
+56,1,ecosystem,urban,0.05297392979264259,,0,0,0
+56,2,ecosystem,hydrogen,0.05293639004230499,,0,0,0
+56,3,anoxic,hydrogen,0.05266790837049484,,0,0,0
+56,4,anoxic,urban,0.05265366658568382,,0,0,0
+56,5,activated,urban,0.052534524351358414,2010,1,1,1
+56,6,ecosystem,removal unit;rmu,0.052454229444265366,,0,0,0
+56,7,biomass,ecosystem,0.05236553028225899,2013,0,0,1
+56,8,ecosystem,embedded carbon,0.052336081862449646,,0,0,0
+56,9,activated,embedded carbon,0.05231767147779465,,0,0,0
+56,10,anoxic,removal unit;rmu,0.052287325263023376,,0,0,0
+56,11,bio-based,urban,0.052280306816101074,,0,0,0
+56,12,removal unit;rmu,urban,0.05227591469883919,,0,0,0
+56,13,embedded carbon,final energy,0.05225994810461998,,0,0,0
+56,14,biomass,urban,0.052221253514289856,2013,0,0,1
+56,15,activated,removal unit;rmu,0.052215561270713806,2011,0,1,1
+56,16,anoxic,bio-based,0.0521765798330307,,0,0,0
+56,17,activity,urban,0.05216964706778526,2010,1,1,1
+56,18,biomass,removal unit;rmu,0.05210535228252411,,0,0,0
+56,19,final energy,urban,0.05209565907716751,,0,0,0
+56,20,carbon fiber,ecosystem,0.052094366401433945,,0,0,0
+57,1,anoxic,carbon fiber,0.05322681739926338,,0,0,0
+57,2,carbon fiber,recycling,0.05321654677391052,2014,0,0,1
+57,3,carbon fiber,hydrocarbon,0.05303110554814339,2010,1,1,1
+57,4,biomass,carbon fiber,0.05285786837339401,,0,0,0
+57,5,aerosols,carbon fiber,0.05267692357301712,,0,0,0
+57,6,carbon fiber,final energy,0.05266319215297699,,0,0,0
+57,7,activated,carbon source,0.05257216840982437,2011,0,1,1
+57,8,bio-based,carbon fiber,0.05255167558789253,,0,0,0
+57,9,activated,embedded carbon,0.052505798637866974,,0,0,0
+57,10,carbon fiber,fugitive emissions,0.05249722674489021,,0,0,0
+57,11,activated,aerosols,0.05247914418578148,2011,0,1,1
+57,12,carbon fiber,carbon material,0.05247700959444046,2010,1,1,1
+57,13,carbon source,recycling,0.05240254104137421,2014,0,0,1
+57,14,carbon fiber,fossil fuels,0.05240248516201973,,0,0,0
+57,15,activated carbon,carbon source,0.05238797888159752,,0,0,0
+57,16,anoxic,embedded carbon,0.05236515402793884,,0,0,0
+57,17,carbon fiber,deposit,0.05235370248556137,2010,1,1,1
+57,18,embedded carbon,recycling,0.05232427269220352,,0,0,0
+57,19,anoxic,hydrocarbon,0.052311837673187256,2010,1,1,1
+57,20,biomass,carbon source,0.05230081081390381,2012,0,1,1
+58,1,carbon fiber,deposit,0.05460042133927345,2010,1,1,1
+58,2,carbon monoxide,deposit,0.05453721806406975,2010,1,1,1
+58,3,biomass,deposit,0.05442260950803757,2013,0,0,1
+58,4,aggregation,deposit,0.0543331652879715,2010,1,1,1
+58,5,anoxic,deposit,0.054191529750823975,,0,0,0
+58,6,carbon fiber,carbon material,0.05411042273044586,2010,1,1,1
+58,7,deposit,final energy,0.05410303920507431,,0,0,0
+58,8,anoxic,carbon material,0.053956542164087296,,0,0,0
+58,9,anoxic,final energy,0.05394574999809265,,0,0,0
+58,10,aggregation,carbon material,0.053888238966464996,,0,0,0
+58,11,carbon material,final energy,0.05388111621141434,,0,0,0
+58,12,activated,carbon monoxide,0.053873106837272644,2010,1,1,1
+58,13,activated carbon,deposit,0.053837765008211136,2010,1,1,1
+58,14,carbon material,carbon monoxide,0.053788140416145325,2012,0,1,1
+58,15,biomass,carbon material,0.05371389910578728,2012,0,1,1
+58,16,carbon nanotube,deposit,0.053599763661623,2010,1,1,1
+58,17,biomass,carbon fiber,0.05358399450778961,,0,0,0
+58,18,anoxic,carbon monoxide,0.05358331650495529,,0,0,0
+58,19,biomass,final energy,0.05358283594250679,,0,0,0
+58,20,deposit,fugitive emissions,0.053534191101789474,,0,0,0
+59,1,embedded carbon,urban,0.05416112020611763,,0,0,0
+59,2,carbon carbon,embedded carbon,0.054125215858221054,,0,0,0
+59,3,carbon source,embedded carbon,0.0540783517062664,,0,0,0
+59,4,embedded carbon,hydrogen,0.05403738468885422,,0,0,0
+59,5,carbon carbon,carbon nanotube,0.05382869765162468,2012,0,1,1
+59,6,carbon carbon,urban,0.053752850741147995,,0,0,0
+59,7,carbon material,embedded carbon,0.05372834950685501,,0,0,0
+59,8,carbon nanotube,urban,0.05370090901851654,,0,0,0
+59,9,carbon carbon,final energy,0.05364365875720978,,0,0,0
+59,10,final energy,hydrogen,0.05363443121314049,,0,0,0
+59,11,atmosphere,urban,0.05363159999251366,,0,0,0
+59,12,carbon carbon,carbon material,0.053630076348781586,2011,0,1,1
+59,13,atmosphere,embedded carbon,0.053587984293699265,,0,0,0
+59,14,asic,hydrogen,0.05353202670812607,,0,0,0
+59,15,carbon material,urban,0.0535215325653553,,0,0,0
+59,16,carbon carbon,carbon source,0.053509972989559174,2011,0,1,1
+59,17,atmosphere,carbon nanotube,0.0534684844315052,2010,1,1,1
+59,18,carbon source,urban,0.05344650521874428,,0,0,0
+59,19,asic,carbon carbon,0.053444866091012955,,0,0,0
+59,20,embedded carbon,final energy,0.053382184356451035,,0,0,0
+60,1,embedded carbon,leakage,0.05754504352807999,,0,0,0
+60,2,carbon source,embedded carbon,0.05631401762366295,,0,0,0
+60,3,aggregation,embedded carbon,0.05611841753125191,,0,0,0
+60,4,atmosphere,embedded carbon,0.05608241632580757,,0,0,0
+60,5,carbon source,leakage,0.0560418926179409,,0,0,0
+60,6,activity,embedded carbon,0.055806707590818405,,0,0,0
+60,7,carbon material,embedded carbon,0.05572246015071869,,0,0,0
+60,8,carbon fiber,embedded carbon,0.05559404566884041,,0,0,0
+60,9,carbon material,leakage,0.055347103625535965,,0,0,0
+60,10,embedded carbon,final energy,0.05533334240317345,,0,0,0
+60,11,activated,embedded carbon,0.055085837841033936,,0,0,0
+60,12,final energy,leakage,0.055082522332668304,,0,0,0
+60,13,embedded carbon,mitigation,0.05502462387084961,,0,0,0
+60,14,carbon composite,embedded carbon,0.054929330945014954,,0,0,0
+60,15,carbon fiber,leakage,0.05492516979575157,2010,1,1,1
+60,16,carbon carbon,embedded carbon,0.054846495389938354,,0,0,0
+60,17,activated carbon,embedded carbon,0.05478711053729057,,0,0,0
+60,18,carbon composite,leakage,0.054708331823349,,0,0,0
+60,19,embedded carbon,sink,0.05457722768187523,,0,0,0
+60,20,deposit,embedded carbon,0.05448268726468086,,0,0,0
+61,1,bio-based,carbon composite,0.05515623092651367,,0,0,0
+61,2,biomass,carbon composite,0.05466211214661598,,0,0,0
+61,3,carbon composite,sink,0.0546429306268692,,0,0,0
+61,4,bio-based,carbon carbon,0.054516423493623734,,0,0,0
+61,5,carbon carbon,carbon layer,0.05414867028594017,,0,0,0
+61,6,carbon carbon,fugitive emissions,0.05408886447548866,,0,0,0
+61,7,biomass,carbon carbon,0.05398418754339218,2011,0,1,1
+61,8,carbon black,carbon composite,0.053968388587236404,,0,0,0
+61,9,carbon composite,carbon source,0.05386577919125557,2011,0,1,1
+61,10,carbon composite,hydrocarbon,0.05382850393652916,,0,0,0
+61,11,carbon composite,carbon layer,0.053763389587402344,,0,0,0
+61,12,activated carbon,carbon composite,0.05375891551375389,2014,0,0,1
+61,13,carbon composite,hydrogen,0.053750548511743546,2014,0,0,1
+61,14,carbon carbon,embedded carbon,0.05371684581041336,,0,0,0
+61,15,carbon carbon,carbon nanotube,0.05370388180017471,2012,0,1,1
+61,16,carbon composite,carbon monoxide,0.053695037961006165,,0,0,0
+61,17,carbon composite,fugitive emissions,0.053631942719221115,,0,0,0
+61,18,activated carbon,carbon carbon,0.053562138229608536,2011,0,1,1
+61,19,carbon composite,carbon material,0.053550031036138535,2011,0,1,1
+61,20,carbon composite,gas,0.05354699492454529,2011,0,1,1
+62,1,carbon fiber,embedded carbon,0.05477321892976761,,0,0,0
+62,2,carbon source,embedded carbon,0.054730381816625595,,0,0,0
+62,3,activated,carbon source,0.05472096800804138,2011,0,1,1
+62,4,carbon material,embedded carbon,0.05452795326709747,,0,0,0
+62,5,carbon composite,embedded carbon,0.05447845533490181,,0,0,0
+62,6,activated,embedded carbon,0.05447637662291527,,0,0,0
+62,7,atmosphere,embedded carbon,0.05419087037444115,,0,0,0
+62,8,deposit,embedded carbon,0.05418587476015091,,0,0,0
+62,9,embedded carbon,sink,0.05415981635451317,,0,0,0
+62,10,embedded carbon,recycling,0.05402688309550285,,0,0,0
+62,11,embedded carbon,hydrocarbon,0.05402427911758423,,0,0,0
+62,12,carbon fiber,carbon material,0.05401674658060074,2010,1,1,1
+62,13,embedded carbon,fugitive emissions,0.05396246165037155,,0,0,0
+62,14,bio-based,embedded carbon,0.05386746674776077,,0,0,0
+62,15,carbon black,embedded carbon,0.05386729910969734,,0,0,0
+62,16,carbon material,sink,0.05385538190603256,2014,0,0,1
+62,17,carbon source,final energy,0.05384167656302452,,0,0,0
+62,18,carbon source,hydrocarbon,0.053838688880205154,2010,1,1,1
+62,19,carbon source,recycling,0.05381868779659271,2014,0,0,1
+62,20,carbon fiber,deposit,0.05380113795399666,2010,1,1,1
+63,1,activated carbon,activity,0.05443339794874191,2010,1,1,1
+63,2,activity,fugitive emissions,0.054133396595716476,,0,0,0
+63,3,activated carbon,carbon source,0.053985994309186935,,0,0,0
+63,4,activity,final energy,0.05375351756811142,,0,0,0
+63,5,activity,carbon nanotube,0.0537249892950058,2010,1,1,1
+63,6,activated carbon,sink,0.05370703339576721,,0,0,0
+63,7,activity,embedded carbon,0.053694985806941986,,0,0,0
+63,8,activity,bio-based,0.05369070917367935,2014,0,0,1
+63,9,carbon source,fugitive emissions,0.053646817803382874,,0,0,0
+63,10,carbon source,sink,0.05364405736327171,2010,1,1,1
+63,11,activity,recycling,0.053637534379959106,2010,1,1,1
+63,12,activated carbon,final energy,0.05359143018722534,,0,0,0
+63,13,activity,carbon fiber,0.05358795076608658,2010,1,1,1
+63,14,carbon nanotube,fugitive emissions,0.053554996848106384,,0,0,0
+63,15,activated,carbon source,0.05354883149266243,2011,0,1,1
+63,16,carbon source,final energy,0.05353255569934845,,0,0,0
+63,17,atmosphere,final energy,0.05351841449737549,,0,0,0
+63,18,carbon source,recycling,0.053515687584877014,2014,0,0,1
+63,19,carbon black,carbon source,0.0534842349588871,,0,0,0
+63,20,activated carbon,biomass,0.05347946658730507,,0,0,0
+64,1,carbon dioxide equivalent;co2e,embedded carbon,0.05345188453793526,,0,0,0
+64,2,deposit,embedded carbon,0.05280701816082001,,0,0,0
+64,3,biodegradation,embedded carbon,0.05278351157903671,,0,0,0
+64,4,embedded carbon,emission factor;emissions factor,0.052706483751535416,,0,0,0
+64,5,carbon dioxide removal;cdr,embedded carbon,0.05265512317419052,,0,0,0
+64,6,anoxic,embedded carbon,0.05265042185783386,,0,0,0
+64,7,embedded carbon,final energy,0.05264651030302048,,0,0,0
+64,8,aggregation,embedded carbon,0.052619513124227524,,0,0,0
+64,9,biomass,embedded carbon,0.05256376415491104,,0,0,0
+64,10,carbon dioxide,embedded carbon,0.052562814205884933,,0,0,0
+64,11,carbon nanotube,deposit,0.052559785544872284,2010,1,1,1
+64,12,activity,embedded carbon,0.05247737839818001,,0,0,0
+64,13,carbon nanotube,emission factor;emissions factor,0.052469685673713684,,0,0,0
+64,14,carbon black,embedded carbon,0.05244145914912224,,0,0,0
+64,15,carbon fiber,embedded carbon,0.05242796614766121,,0,0,0
+64,16,carbon black,carbon nanotube,0.05235857516527176,2010,1,1,1
+64,17,carbon dioxide equivalent;co2e,carbon nanotube,0.05235779657959938,,0,0,0
+64,18,carbon source,embedded carbon,0.052346713840961456,,0,0,0
+64,19,embedded carbon,greenhouse gas;ghg,0.052334968000650406,,0,0,0
+64,20,emission factor;emissions factor,final energy,0.052323583513498306,,0,0,0
+65,1,bio-based,carbon composite,0.053205832839012146,,0,0,0
+65,2,carbon composite,fossil fuels,0.05320237949490547,,0,0,0
+65,3,carbon carbon,fossil fuels,0.05307473987340927,,0,0,0
+65,4,bio-based,fossil fuels,0.05297271907329559,2010,1,1,1
+65,5,carbon composite,hydrocarbon,0.05280987173318863,,0,0,0
+65,6,carbon black,carbon carbon,0.05280474200844765,2011,0,1,1
+65,7,bio-based,carbon carbon,0.05277254432439804,,0,0,0
+65,8,activity,fossil fuels,0.052753549069166183,,0,0,0
+65,9,carbon composite,carbon monoxide,0.05268483608961105,,0,0,0
+65,10,activity,carbon carbon,0.05267351120710373,2010,1,1,1
+65,11,carbon composite,recycling,0.052636999636888504,,0,0,0
+65,12,bio-based,hydrocarbon,0.05258186161518097,,0,0,0
+65,13,carbon composite,gas,0.052576228976249695,2011,0,1,1
+65,14,bio-based,recycling,0.052550144493579865,,0,0,0
+65,15,activated,bio-based,0.0525328628718853,2013,0,0,1
+65,16,carbon monoxide,fossil fuels,0.0525183379650116,2011,0,1,1
+65,17,carbon black,carbon composite,0.05251579359173775,,0,0,0
+65,18,activity,bio-based,0.052504003047943115,2014,0,0,1
+65,19,carbon black,fossil fuels,0.052503786981105804,,0,0,0
+65,20,carbon carbon,carbon monoxide,0.05249779671430588,,0,0,0
+66,1,carbon fiber,final energy,0.053372159600257874,,0,0,0
+66,2,carbon carbon,carbon source,0.053371772170066833,2011,0,1,1
+66,3,carbon carbon,final energy,0.053270116448402405,,0,0,0
+66,4,carbon black,carbon carbon,0.053107332438230515,2011,0,1,1
+66,5,activated carbon,carbon carbon,0.05309203267097473,2011,0,1,1
+66,6,carbon composite,carbon source,0.05300915986299515,2011,0,1,1
+66,7,carbon fiber,embedded carbon,0.05300645902752876,,0,0,0
+66,8,carbon carbon,carbon material,0.05297427251935005,2011,0,1,1
+66,9,carbon composite,hydrogen,0.05295175686478615,2014,0,0,1
+66,10,carbon composite,final energy,0.05295055732131004,,0,0,0
+66,11,carbon fiber,hydrocarbon,0.05294136703014374,2010,1,1,1
+66,12,activated carbon,final energy,0.05290520563721657,,0,0,0
+66,13,carbon fiber,recycling,0.052898991852998734,2014,0,0,1
+66,14,carbon fiber,carbon material,0.05289321392774582,2010,1,1,1
+66,15,carbon black,carbon composite,0.05285941809415817,,0,0,0
+66,16,final energy,hydrogen,0.05283505469560623,,0,0,0
+66,17,carbon carbon,deposit,0.05281093344092369,2010,1,1,1
+66,18,carbon black,carbon source,0.05278429761528969,,0,0,0
+66,19,carbon fiber,deposit,0.0527786910533905,2010,1,1,1
+66,20,activated carbon,carbon composite,0.052768561989068985,2014,0,0,1
+67,1,carbon dioxide removal;cdr,final energy,0.052775852382183075,,0,0,0
+67,2,carbon black,carbon dioxide removal;cdr,0.05233889818191528,,0,0,0
+67,3,carbon dioxide,final energy,0.052320972084999084,,0,0,0
+67,4,carbon dioxide removal;cdr,carbon material,0.05229533836245537,,0,0,0
+67,5,carbon dioxide removal;cdr,leakage,0.052251387387514114,,0,0,0
+67,6,atmosphere,carbon dioxide removal;cdr,0.0522148460149765,2012,0,1,1
+67,7,activated,carbon dioxide removal;cdr,0.052130602300167084,,0,0,0
+67,8,carbon dioxide removal;cdr,hydrocarbon,0.05209203436970711,2012,0,1,1
+67,9,carbon dioxide removal;cdr,sink,0.05206284672021866,,0,0,0
+67,10,carbon dioxide,leakage,0.052039775997400284,2010,1,1,1
+67,11,carbon black,urban,0.05202641710639,,0,0,0
+67,12,carbon dioxide removal;cdr,fugitive emissions,0.052008818835020065,,0,0,0
+67,13,carbon dioxide removal;cdr,deposit,0.05198230221867561,,0,0,0
+67,14,carbon black,carbon dioxide,0.051975350826978683,2010,1,1,1
+67,15,final energy,leakage,0.05197041481733322,,0,0,0
+67,16,carbon material,final energy,0.051936231553554535,,0,0,0
+67,17,carbon dioxide,carbon material,0.05193198099732399,2012,0,1,1
+67,18,activated carbon,carbon dioxide removal;cdr,0.05193184316158295,,0,0,0
+67,19,final energy,urban,0.051922015845775604,,0,0,0
+67,20,final energy,sink,0.05191958695650101,,0,0,0
+68,1,activated,aerosols,0.05371956154704094,2011,0,1,1
+68,2,carbon source,water,0.05353579670190811,2010,1,1,1
+68,3,aerosols,carbon source,0.0533934123814106,,0,0,0
+68,4,carbon carbon,carbon source,0.05338883399963379,2011,0,1,1
+68,5,baseline,carbon carbon,0.05335908755660057,,0,0,0
+68,6,baseline,carbon source,0.05333695933222771,,0,0,0
+68,7,carbon carbon,water,0.05328085273504257,2010,1,1,1
+68,8,final energy,water,0.05324024707078934,,0,0,0
+68,9,activated,carbon source,0.053208380937576294,2011,0,1,1
+68,10,aerosols,baseline,0.05318288505077362,,0,0,0
+68,11,activated,baseline,0.053146932274103165,2010,1,1,1
+68,12,carbon composite,water,0.05313408002257347,2011,0,1,1
+68,13,activated,carbon carbon,0.053096622228622437,2011,0,1,1
+68,14,carbon composite,gas,0.0530669130384922,2011,0,1,1
+68,15,activated carbon,aerosols,0.053041089326143265,,0,0,0
+68,16,aerosols,carbon carbon,0.053037844598293304,,0,0,0
+68,17,activity,aerosols,0.053020015358924866,,0,0,0
+68,18,activated,carbon monoxide,0.05301744118332863,2010,1,1,1
+68,19,carbon composite,carbon source,0.0530085489153862,2011,0,1,1
+68,20,aerosols,carbon material,0.052977368235588074,,0,0,0
+69,1,activated carbon,aggregation,0.05573723837733269,,0,0,0
+69,2,aggregation,atmosphere,0.05526373162865639,2010,1,1,1
+69,3,aggregation,carbon source,0.05502564087510109,,0,0,0
+69,4,activated,aggregation,0.054971735924482346,2010,1,1,1
+69,5,activated carbon,ecosystem,0.05484286695718765,,0,0,0
+69,6,aggregation,fugitive emissions,0.0547868013381958,,0,0,0
+69,7,aggregation,carbon material,0.05472344532608986,,0,0,0
+69,8,aggregation,carbon black,0.05470607057213783,2010,1,1,1
+69,9,activated,ecosystem,0.054536040872335434,,0,0,0
+69,10,aggregation,carbon fiber,0.05451289936900139,,0,0,0
+69,11,activated carbon,activity,0.05439692363142967,2010,1,1,1
+69,12,aggregation,carbon composite,0.05431588739156723,,0,0,0
+69,13,aggregation,carbon carbon,0.05431041121482849,,0,0,0
+69,14,activated carbon,sink,0.054296430200338364,,0,0,0
+69,15,activated carbon,carbon source,0.05424618348479271,,0,0,0
+69,16,activated,carbon source,0.054245755076408386,2011,0,1,1
+69,17,aggregation,hydrocarbon,0.054214462637901306,2010,1,1,1
+69,18,aggregation,deposit,0.05402654409408569,2010,1,1,1
+69,19,aggregation,bio-based,0.05401674658060074,2012,0,1,1
+69,20,aggregation,mitigation,0.0539814755320549,,0,0,0
+70,1,aggregation,greenhouse gas;ghg,0.05377299711108208,,0,0,0
+70,2,activity,greenhouse gas;ghg,0.05374620482325554,,0,0,0
+70,3,hydrogen,leakage,0.053700003772974014,2010,1,1,1
+70,4,greenhouse gas;ghg,leakage,0.05363469198346138,,0,0,0
+70,5,embedded carbon,hydrogen,0.05357283726334572,,0,0,0
+70,6,fugitive emissions,hydrogen,0.053562358021736145,,0,0,0
+70,7,carbon fiber,fugitive emissions,0.053503673523664474,,0,0,0
+70,8,embedded carbon,greenhouse gas;ghg,0.05345076322555542,,0,0,0
+70,9,fugitive emissions,leakage,0.05344243347644806,,0,0,0
+70,10,carbon source,greenhouse gas;ghg,0.05343684181571007,,0,0,0
+70,11,aggregation,carbon source,0.05342596769332886,,0,0,0
+70,12,embedded carbon,leakage,0.05342506617307663,,0,0,0
+70,13,carbon fiber,greenhouse gas;ghg,0.053417108952999115,,0,0,0
+70,14,carbon fiber,embedded carbon,0.05341561138629913,,0,0,0
+70,15,carbon fiber,leakage,0.05340247601270676,2010,1,1,1
+70,16,aggregation,embedded carbon,0.05336352065205574,,0,0,0
+70,17,greenhouse gas;ghg,hydrocarbon,0.053320374339818954,2010,1,1,1
+70,18,carbon source,leakage,0.05330166220664978,,0,0,0
+70,19,carbon source,fugitive emissions,0.05329343304038048,,0,0,0
+70,20,aggregation,carbon fiber,0.053263239562511444,,0,0,0
+71,1,carbon source,final energy,0.05462709814310074,,0,0,0
+71,2,carbon fiber,final energy,0.054208435118198395,,0,0,0
+71,3,carbon material,final energy,0.05388231948018074,,0,0,0
+71,4,biofuel,final energy,0.053816743195056915,,0,0,0
+71,5,carbon composite,final energy,0.05380471423268318,,0,0,0
+71,6,carbon black,final energy,0.053669918328523636,,0,0,0
+71,7,atmosphere,final energy,0.05349279195070267,,0,0,0
+71,8,final energy,sink,0.05340518429875374,,0,0,0
+71,9,final energy,hydrogen,0.05330364778637886,,0,0,0
+71,10,activated,carbon source,0.05322444066405296,2011,0,1,1
+71,11,final energy,greenhouse gas;ghg,0.05320091173052788,,0,0,0
+71,12,carbon carbon,final energy,0.053194135427474976,,0,0,0
+71,13,carbon nanotube,final energy,0.05313330516219139,,0,0,0
+71,14,carbon monoxide,final energy,0.053096599876880646,,0,0,0
+71,15,carbon dioxide,final energy,0.05308597907423973,,0,0,0
+71,16,deposit,final energy,0.053067516535520554,,0,0,0
+71,17,final energy,recycling,0.05300210416316986,,0,0,0
+71,18,final energy,removal unit;rmu,0.05293435975909233,,0,0,0
+71,19,emission factor;emissions factor,final energy,0.05292663723230362,,0,0,0
+71,20,activated carbon,final energy,0.052912525832653046,,0,0,0
+72,1,carbon source,final energy,0.05334288254380226,,0,0,0
+72,2,deposit,final energy,0.05329125374555588,,0,0,0
+72,3,final energy,hydrogen,0.053231287747621536,,0,0,0
+72,4,embedded carbon,final energy,0.05313593149185181,,0,0,0
+72,5,activated carbon,final energy,0.05309339612722397,,0,0,0
+72,6,final energy,urban,0.05302158743143082,,0,0,0
+72,7,final energy,hydrocarbon,0.05299735069274902,,0,0,0
+72,8,aerosols,final energy,0.0528859980404377,,0,0,0
+72,9,carbon material,final energy,0.05284368246793747,,0,0,0
+72,10,activity,final energy,0.05279868468642235,,0,0,0
+72,11,carbon black,final energy,0.052795667201280594,,0,0,0
+72,12,activated,carbon source,0.05274252966046333,2011,0,1,1
+72,13,final energy,sink,0.05269533395767212,,0,0,0
+72,14,carbon layer,final energy,0.052691325545310974,,0,0,0
+72,15,final energy,greenhouse gas;ghg,0.05260888487100601,,0,0,0
+72,16,final energy,fossil fuels,0.05258658528327942,,0,0,0
+72,17,final energy,fugitive emissions,0.05254379287362099,,0,0,0
+72,18,activated,embedded carbon,0.05253269895911217,,0,0,0
+72,19,atmosphere,final energy,0.05252654105424881,,0,0,0
+72,20,activated,urban,0.052456244826316833,2010,1,1,1
+73,1,asic,final energy,0.055471375584602356,,0,0,0
+73,2,embedded carbon,final energy,0.0552108995616436,,0,0,0
+73,3,final energy,hydrocarbon,0.05515270307660103,,0,0,0
+73,4,final energy,recycling,0.054710861295461655,,0,0,0
+73,5,deposit,final energy,0.05441217124462128,,0,0,0
+73,6,carbon source,final energy,0.05431876331567764,,0,0,0
+73,7,atmosphere,final energy,0.05415154993534088,,0,0,0
+73,8,carbon monoxide,final energy,0.054081693291664124,,0,0,0
+73,9,carbon carbon,final energy,0.05403532832860947,,0,0,0
+73,10,final energy,fugitive emissions,0.05403275787830353,,0,0,0
+73,11,carbon black,final energy,0.053953416645526886,,0,0,0
+73,12,asic,embedded carbon,0.05393926799297333,,0,0,0
+73,13,activated carbon,final energy,0.05392450839281082,,0,0,0
+73,14,activity,final energy,0.05389339104294777,,0,0,0
+73,15,asic,hydrocarbon,0.05384087562561035,,0,0,0
+73,16,carbon material,final energy,0.05381682142615318,,0,0,0
+73,17,final energy,water,0.05380338057875633,,0,0,0
+73,18,final energy,hydrogen,0.05380318686366081,,0,0,0
+73,19,final energy,sink,0.05377329885959625,,0,0,0
+73,20,asic,recycling,0.053769636899232864,,0,0,0
+74,1,global warming potential;gwp,water,0.052805282175540924,2011,0,1,1
+74,2,biogas,global warming potential;gwp,0.05221637710928917,,0,0,0
+74,3,carbon source,global warming potential;gwp,0.052212752401828766,,0,0,0
+74,4,carbon source,water,0.052190352231264114,2010,1,1,1
+74,5,global warming potential;gwp,recycling,0.05208176001906395,,0,0,0
+74,6,activated carbon,global warming potential;gwp,0.05198729783296585,,0,0,0
+74,7,bio-based,global warming potential;gwp,0.05192790925502777,,0,0,0
+74,8,activated,global warming potential;gwp,0.051902350038290024,,0,0,0
+74,9,biogas,carbon source,0.05189453437924385,2012,0,1,1
+74,10,carbon source,leakage,0.05186975747346878,,0,0,0
+74,11,carbon source,global warming,0.05186223238706589,2012,0,1,1
+74,12,activated carbon,carbon source,0.051849085837602615,,0,0,0
+74,13,deposit,global warming potential;gwp,0.05183731019496918,,0,0,0
+74,14,global warming potential;gwp,mitigation,0.05181004852056503,,0,0,0
+74,15,global warming potential;gwp,leakage,0.05180791765451431,,0,0,0
+74,16,activated,carbon source,0.051794346421957016,2011,0,1,1
+74,17,carbon fiber,embedded carbon,0.05172455310821533,,0,0,0
+74,18,emission factor;emissions factor,global warming potential;gwp,0.05171599239110947,,0,0,0
+74,19,activated,embedded carbon,0.05167822912335396,,0,0,0
+74,20,biofuel,global warming potential;gwp,0.051675017923116684,,0,0,0
+75,1,deposit,embedded carbon,0.052683714777231216,,0,0,0
+75,2,embedded carbon,leakage,0.052646853029727936,,0,0,0
+75,3,carbon dioxide removal;cdr,embedded carbon,0.05256668105721474,,0,0,0
+75,4,embedded carbon,water,0.05227741599082947,2013,0,0,1
+75,5,embedded carbon,final energy,0.05222657322883606,,0,0,0
+75,6,activated carbon,embedded carbon,0.05216645449399948,,0,0,0
+75,7,deposit,final energy,0.05206398665904999,,0,0,0
+75,8,deposit,leakage,0.05206186696887016,2010,1,1,1
+75,9,activated carbon,deposit,0.05203680321574211,2010,1,1,1
+75,10,hydrogen,leakage,0.05201977491378784,2010,1,1,1
+75,11,carbon black,embedded carbon,0.0519975945353508,,0,0,0
+75,12,embedded carbon,recycling,0.05195372551679611,,0,0,0
+75,13,embedded carbon,fossil fuels,0.05192503333091736,,0,0,0
+75,14,activated carbon,leakage,0.05192311108112335,2010,1,1,1
+75,15,embedded carbon,renewable energy,0.05188694968819618,,0,0,0
+75,16,leakage,renewable energy,0.051870472729206085,,0,0,0
+75,17,carbon black,leakage,0.05184660479426384,2010,1,1,1
+75,18,bio-based,embedded carbon,0.05182493478059769,,0,0,0
+75,19,embedded carbon,sink,0.05182435363531113,,0,0,0
+75,20,atmosphere,embedded carbon,0.05181674659252167,,0,0,0
+76,1,carbon nanotube,final energy,0.055452145636081696,,0,0,0
+76,2,embedded carbon,final energy,0.05522808060050011,,0,0,0
+76,3,carbon source,final energy,0.05464447662234306,,0,0,0
+76,4,activated,embedded carbon,0.05429486185312271,,0,0,0
+76,5,carbon layer,embedded carbon,0.05429002642631531,,0,0,0
+76,6,carbon source,embedded carbon,0.05427639186382294,,0,0,0
+76,7,activated,carbon source,0.054222509264945984,2011,0,1,1
+76,8,carbon layer,final energy,0.05418144911527634,,0,0,0
+76,9,carbon source,leakage,0.054054077714681625,,0,0,0
+76,10,activity,embedded carbon,0.054053548723459244,,0,0,0
+76,11,activity,final energy,0.05398605391383171,,0,0,0
+76,12,activity,carbon nanotube,0.05396798253059387,2010,1,1,1
+76,13,final energy,leakage,0.053899407386779785,,0,0,0
+76,14,carbon layer,carbon nanotube,0.05388852581381798,2010,1,1,1
+76,15,carbon layer,carbon source,0.05387095361948013,2014,0,0,1
+76,16,carbon fiber,final energy,0.05385605990886688,,0,0,0
+76,17,carbon layer,leakage,0.053689438849687576,2011,0,1,1
+76,18,final energy,sink,0.053675778210163116,,0,0,0
+76,19,activated carbon,final energy,0.053606946021318436,,0,0,0
+76,20,embedded carbon,leakage,0.05359512194991112,,0,0,0
+77,1,final energy,hydrocarbon,0.05349845439195633,,0,0,0
+77,2,carbon composite,final energy,0.053319480270147324,,0,0,0
+77,3,carbon composite,water,0.05324427783489227,2011,0,1,1
+77,4,carbon dioxide equivalent;co2e,final energy,0.053186967968940735,,0,0,0
+77,5,carbon composite,hydrocarbon,0.0531475692987442,,0,0,0
+77,6,carbon fiber,final energy,0.05311679095029831,,0,0,0
+77,7,carbon source,final energy,0.053004540503025055,,0,0,0
+77,8,carbon material,final energy,0.05296798050403595,,0,0,0
+77,9,carbon composite,carbon dioxide,0.05295924097299576,,0,0,0
+77,10,asic,carbon composite,0.05295224487781525,,0,0,0
+77,11,carbon composite,carbon dioxide equivalent;co2e,0.05289730429649353,,0,0,0
+77,12,atmosphere,final energy,0.052878715097904205,,0,0,0
+77,13,activated carbon,carbon composite,0.052837882190942764,2014,0,0,1
+77,14,carbon composite,sink,0.05283433571457863,,0,0,0
+77,15,aerosols,carbon composite,0.05282372981309891,,0,0,0
+77,16,deposit,final energy,0.052822310477495193,,0,0,0
+77,17,carbon dioxide,final energy,0.0528150349855423,,0,0,0
+77,18,asic,final energy,0.052810050547122955,,0,0,0
+77,19,carbon carbon,final energy,0.05273621529340744,,0,0,0
+77,20,carbon composite,carbon source,0.05272413045167923,2011,0,1,1
+78,1,anoxic,carbon fiber,0.05355270951986313,,0,0,0
+78,2,biomass,carbon fiber,0.05349697917699814,,0,0,0
+78,3,anoxic,atmosphere,0.053243834525346756,,0,0,0
+78,4,carbon fiber,recycling,0.05322021245956421,2014,0,0,1
+78,5,biomass,carbon carbon,0.053149495273828506,2011,0,1,1
+78,6,biodegradation,carbon fiber,0.05293768644332886,,0,0,0
+78,7,activity,carbon fiber,0.05292756110429764,2010,1,1,1
+78,8,activity,carbon carbon,0.05286305025219917,2010,1,1,1
+78,9,bio-based,carbon fiber,0.05284644663333893,,0,0,0
+78,10,anoxic,carbon carbon,0.052844468504190445,,0,0,0
+78,11,anoxic,carbon source,0.0528305284678936,2013,0,0,1
+78,12,carbon carbon,carbon source,0.05282150208950043,2011,0,1,1
+78,13,atmosphere,biodegradation,0.05277073383331299,2011,0,1,1
+78,14,biomass,carbon source,0.05276554822921753,2012,0,1,1
+78,15,activity,anoxic,0.052743472158908844,,0,0,0
+78,16,activity,recycling,0.05272815376520157,2010,1,1,1
+78,17,carbon source,recycling,0.05269865319132805,2014,0,0,1
+78,18,carbon composite,recycling,0.052622243762016296,,0,0,0
+78,19,atmosphere,bio-based,0.052612464874982834,2011,0,1,1
+78,20,bio-based,carbon carbon,0.05261153727769852,,0,0,0
+79,1,activity,carbon fiber,0.053349051624536514,2010,1,1,1
+79,2,biomass,carbon fiber,0.05316753685474396,,0,0,0
+79,3,carbon carbon,water,0.05308464914560318,2010,1,1,1
+79,4,carbon dioxide equivalent;co2e,carbon fiber,0.053035810589790344,,0,0,0
+79,5,carbon fiber,renewable energy,0.05301321670413017,,0,0,0
+79,6,carbon fiber,leakage,0.052986208349466324,2010,1,1,1
+79,7,activity,carbon carbon,0.052981629967689514,2010,1,1,1
+79,8,carbon carbon,leakage,0.052952785044908524,2010,1,1,1
+79,9,biomass,carbon carbon,0.05293489992618561,2011,0,1,1
+79,10,carbon fiber,final energy,0.05284762755036354,,0,0,0
+79,11,carbon carbon,renewable energy,0.052826330065727234,,0,0,0
+79,12,carbon fiber,recycling,0.05279747024178505,2014,0,0,1
+79,13,carbon carbon,carbon dioxide equivalent;co2e,0.05265701934695244,,0,0,0
+79,14,activity,final energy,0.052641112357378006,,0,0,0
+79,15,carbon fiber,deposit,0.05258449912071228,2010,1,1,1
+79,16,activity,renewable energy,0.05255136638879776,,0,0,0
+79,17,carbon carbon,emission factor;emissions factor,0.05252274125814438,,0,0,0
+79,18,carbon dioxide,carbon fiber,0.052505966275930405,,0,0,0
+79,19,bio-based,carbon fiber,0.05250028893351555,,0,0,0
+79,20,carbon fiber,carbon nanotube,0.052473511546850204,2010,1,1,1
+80,1,atmosphere,embedded carbon,0.05305826663970947,,0,0,0
+80,2,embedded carbon,recycling,0.052890438586473465,,0,0,0
+80,3,carbon material,embedded carbon,0.05277707055211067,,0,0,0
+80,4,carbon dioxide,carbon source,0.05272683501243591,2010,1,1,1
+80,5,aerosols,embedded carbon,0.052719246596097946,,0,0,0
+80,6,carbon source,emission factor;emissions factor,0.052691563963890076,,0,0,0
+80,7,aerosols,carbon source,0.052619241178035736,,0,0,0
+80,8,biomass,embedded carbon,0.05260317400097847,,0,0,0
+80,9,activated,carbon source,0.05253833532333374,2011,0,1,1
+80,10,activated,embedded carbon,0.05250712111592293,,0,0,0
+80,11,embedded carbon,fossil fuels,0.05249810218811035,,0,0,0
+80,12,aerosols,carbon material,0.05248472839593887,,0,0,0
+80,13,activated carbon,embedded carbon,0.052454859018325806,,0,0,0
+80,14,carbon source,recycling,0.05245243012905121,2014,0,0,1
+80,15,carbon source,final energy,0.052449144423007965,,0,0,0
+80,16,carbon source,fossil fuels,0.05244584009051323,,0,0,0
+80,17,carbon source,embedded carbon,0.05244568735361099,,0,0,0
+80,18,carbon source,sequestration,0.052431825548410416,,0,0,0
+80,19,deposit,embedded carbon,0.052430640906095505,,0,0,0
+80,20,carbon material,emission factor;emissions factor,0.052414484322071075,,0,0,0
+81,1,biomass,embedded carbon,0.05346396565437317,,0,0,0
+81,2,asic,biomass,0.05342158302664757,,0,0,0
+81,3,embedded carbon,final energy,0.05322912707924843,,0,0,0
+81,4,asic,final energy,0.05315307527780533,,0,0,0
+81,5,biomass,deposit,0.053036872297525406,2013,0,0,1
+81,6,asic,embedded carbon,0.05302942544221878,,0,0,0
+81,7,final energy,hydrocarbon,0.052989281713962555,,0,0,0
+81,8,biomass,final energy,0.05295303463935852,,0,0,0
+81,9,asic,hydrocarbon,0.05292399972677231,,0,0,0
+81,10,asic,carbon monoxide,0.05292167142033577,,0,0,0
+81,11,asic,biofuel,0.05286232382059097,,0,0,0
+81,12,deposit,embedded carbon,0.052832476794719696,,0,0,0
+81,13,biomass,carbon carbon,0.05279106646776199,2011,0,1,1
+81,14,biomass,carbon black,0.05273858830332756,,0,0,0
+81,15,carbon monoxide,embedded carbon,0.05273711308836937,,0,0,0
+81,16,biofuel,final energy,0.05266938358545303,,0,0,0
+81,17,asic,biodegradation,0.05263640359044075,,0,0,0
+81,18,asic,carbon source,0.052626967430114746,,0,0,0
+81,19,asic,carbon carbon,0.0526234433054924,,0,0,0
+81,20,deposit,final energy,0.05262131989002228,,0,0,0
+82,1,embedded carbon,final energy,0.0557573065161705,,0,0,0
+82,2,carbon source,final energy,0.05489704757928848,,0,0,0
+82,3,carbon source,embedded carbon,0.05487498268485069,,0,0,0
+82,4,carbon fiber,embedded carbon,0.05477696284651756,,0,0,0
+82,5,final energy,hydrogen,0.05444600433111191,,0,0,0
+82,6,carbon black,embedded carbon,0.05443720147013664,,0,0,0
+82,7,final energy,hydrocarbon,0.0544096939265728,,0,0,0
+82,8,embedded carbon,hydrocarbon,0.0543702095746994,,0,0,0
+82,9,activated,embedded carbon,0.05436823517084122,,0,0,0
+82,10,atmosphere,embedded carbon,0.054338909685611725,,0,0,0
+82,11,carbon carbon,final energy,0.05431690067052841,,0,0,0
+82,12,embedded carbon,hydrogen,0.05431557819247246,,0,0,0
+82,13,carbon carbon,embedded carbon,0.054261572659015656,,0,0,0
+82,14,carbon black,final energy,0.05413198843598366,,0,0,0
+82,15,activated carbon,embedded carbon,0.05409545451402664,,0,0,0
+82,16,biomass,embedded carbon,0.05407407879829407,,0,0,0
+82,17,carbon fiber,final energy,0.054064471274614334,,0,0,0
+82,18,embedded carbon,recycling,0.05395727604627609,,0,0,0
+82,19,carbon carbon,carbon source,0.05389927327632904,2011,0,1,1
+82,20,carbon nanotube,final energy,0.0538041815161705,,0,0,0
+83,1,bio-based,carbon dioxide,0.054056182503700256,,0,0,0
+83,2,bio-based,biofuel,0.053403340280056,2014,0,0,1
+83,3,bio-based,final energy,0.053206589072942734,,0,0,0
+83,4,carbon dioxide,final energy,0.053136195987463,,0,0,0
+83,5,bio-based,hydrocarbon,0.05307695269584656,,0,0,0
+83,6,carbon dioxide,emission factor;emissions factor,0.05306437239050865,,0,0,0
+83,7,biofuel,gas,0.05302990600466728,2010,1,1,1
+83,8,carbon dioxide,mitigation,0.052978456020355225,2011,0,1,1
+83,9,final energy,gas,0.05291922762989998,,0,0,0
+83,10,bio-based,carbon monoxide,0.05291244760155678,,0,0,0
+83,11,bio-based,emission factor;emissions factor,0.05291237309575081,,0,0,0
+83,12,carbon dioxide,fugitive emissions,0.05288949981331825,,0,0,0
+83,13,atmosphere,bio-based,0.05286885425448418,2011,0,1,1
+83,14,carbon dioxide,carbon source,0.05282234773039818,2010,1,1,1
+83,15,anoxic,carbon dioxide,0.052778441458940506,2014,0,0,1
+83,16,asic,carbon dioxide,0.052694883197546005,,0,0,0
+83,17,anoxic,bio-based,0.052694808691740036,,0,0,0
+83,18,baseline,carbon dioxide,0.052691563963890076,2010,1,1,1
+83,19,biomass,final energy,0.05268917977809906,,0,0,0
+83,20,bio-based,deposit,0.052681051194667816,,0,0,0
+84,1,carbon composite,final energy,0.05525609850883484,,0,0,0
+84,2,carbon composite,gas,0.05490375682711601,2011,0,1,1
+84,3,carbon black,carbon composite,0.05483833700418472,,0,0,0
+84,4,biomass,carbon composite,0.05468397215008736,,0,0,0
+84,5,carbon composite,carbon source,0.054680608212947845,2011,0,1,1
+84,6,carbon composite,embedded carbon,0.054573893547058105,,0,0,0
+84,7,activity,carbon composite,0.05454361438751221,,0,0,0
+84,8,carbon composite,recycling,0.05453617498278618,,0,0,0
+84,9,anoxic,carbon composite,0.05447673425078392,,0,0,0
+84,10,carbon composite,carbon monoxide,0.05443678796291351,,0,0,0
+84,11,carbon composite,hydrocarbon,0.054434884339571,,0,0,0
+84,12,biofuel,carbon composite,0.05433637648820877,,0,0,0
+84,13,carbon composite,emission factor;emissions factor,0.05432674661278725,,0,0,0
+84,14,carbon composite,deposit,0.0542963370680809,2010,1,1,1
+84,15,carbon composite,hydrogen,0.054258208721876144,2014,0,0,1
+84,16,carbon composite,carbon dioxide,0.05414419621229172,,0,0,0
+84,17,carbon fiber,final energy,0.054120857268571854,,0,0,0
+84,18,carbon composite,fossil fuels,0.05409136414527893,,0,0,0
+84,19,baseline,carbon composite,0.05406821891665459,,0,0,0
+84,20,aerosols,carbon composite,0.054041165858507156,,0,0,0
+85,1,aggregation,carbon black,0.054804522544145584,2010,1,1,1
+85,2,aggregation,carbon source,0.05448649823665619,,0,0,0
+85,3,aggregation,atmosphere,0.05439209192991257,2010,1,1,1
+85,4,aggregation,carbon monoxide,0.05438977852463722,2014,0,0,1
+85,5,aggregation,bio-based,0.05426449701189995,2012,0,1,1
+85,6,carbon black,ecosystem,0.054050013422966,,0,0,0
+85,7,aggregation,biofuel,0.05400539189577103,,0,0,0
+85,8,aggregation,deposit,0.05396900698542595,2010,1,1,1
+85,9,aggregation,removal unit;rmu,0.053964026272296906,2010,1,1,1
+85,10,aggregation,hydrocarbon,0.05393010750412941,2010,1,1,1
+85,11,aggregation,biomass,0.05384314805269241,2012,0,1,1
+85,12,aggregation,mitigation,0.05383673310279846,,0,0,0
+85,13,activity,bio-based,0.053805556148290634,2014,0,0,1
+85,14,deposit,ecosystem,0.053777508437633514,,0,0,0
+85,15,aggregation,carbon fiber,0.053716085851192474,,0,0,0
+85,16,aggregation,asic,0.05371196195483208,,0,0,0
+85,17,activity,carbon carbon,0.053651534020900726,2010,1,1,1
+85,18,aggregation,fugitive emissions,0.053650204092264175,,0,0,0
+85,19,activated,aggregation,0.0536501444876194,2010,1,1,1
+85,20,activity,removal unit;rmu,0.05363030731678009,,0,0,0
+86,1,bio-based,carbon source,0.054516278207302094,2014,0,0,1
+86,2,bio-based,embedded carbon,0.05441297963261604,,0,0,0
+86,3,activated,bio-based,0.0539897084236145,2013,0,0,1
+86,4,bio-based,carbon carbon,0.053977735340595245,,0,0,0
+86,5,bio-based,carbon composite,0.05384223535656929,,0,0,0
+86,6,carbon carbon,carbon source,0.05365855619311333,2011,0,1,1
+86,7,bio-based,recycling,0.05359060689806938,,0,0,0
+86,8,bio-based,carbon nanotube,0.053539663553237915,,0,0,0
+86,9,carbon composite,carbon source,0.05336279794573784,2011,0,1,1
+86,10,asic,bio-based,0.05316266417503357,,0,0,0
+86,11,bio-based,hydrocarbon,0.053063079714775085,,0,0,0
+86,12,bio-based,water,0.05292484909296036,2011,0,1,1
+86,13,biomass,carbon source,0.05290320888161659,2012,0,1,1
+86,14,activated,carbon carbon,0.05290038138628006,2011,0,1,1
+86,15,bio-based,final energy,0.0528765432536602,,0,0,0
+86,16,atmosphere,bio-based,0.052874963730573654,2011,0,1,1
+86,17,embedded carbon,gas,0.05287247896194458,,0,0,0
+86,18,bio-based,carbon dioxide,0.05286025628447533,,0,0,0
+86,19,carbon carbon,embedded carbon,0.05285557731986046,,0,0,0
+86,20,carbon source,embedded carbon,0.052855268120765686,,0,0,0
+87,1,carbon source,embedded carbon,0.05723337456583977,,0,0,0
+87,2,carbon source,final energy,0.05567307770252228,,0,0,0
+87,3,activated,carbon source,0.05530612915754318,2011,0,1,1
+87,4,carbon source,hydrocarbon,0.05499650537967682,2010,1,1,1
+87,5,activated carbon,carbon source,0.05488506704568863,,0,0,0
+87,6,carbon source,water,0.05471392720937729,2010,1,1,1
+87,7,deposit,embedded carbon,0.0547027550637722,,0,0,0
+87,8,embedded carbon,final energy,0.05469973757863045,,0,0,0
+87,9,activated,embedded carbon,0.05454280227422714,,0,0,0
+87,10,carbon fiber,embedded carbon,0.054514288902282715,,0,0,0
+87,11,carbon dioxide,embedded carbon,0.05449468642473221,,0,0,0
+87,12,carbon dioxide,carbon source,0.0543314591050148,2010,1,1,1
+87,13,atmosphere,embedded carbon,0.054322998970746994,,0,0,0
+87,14,bio-based,embedded carbon,0.05431670323014259,,0,0,0
+87,15,carbon source,emission factor;emissions factor,0.05431027710437775,,0,0,0
+87,16,embedded carbon,hydrocarbon,0.054257046431303024,,0,0,0
+87,17,biogas,carbon source,0.054252102971076965,2012,0,1,1
+87,18,embedded carbon,water,0.054158177226781845,2013,0,0,1
+87,19,carbon black,carbon source,0.05406154692173004,,0,0,0
+87,20,activity,embedded carbon,0.05403784662485123,,0,0,0
+88,1,carbon dioxide removal;cdr,embedded carbon,0.05377419665455818,,0,0,0
+88,2,bio-based,embedded carbon,0.05363485962152481,,0,0,0
+88,3,embedded carbon,greenhouse gas;ghg,0.05361175909638405,,0,0,0
+88,4,embedded carbon,water,0.05343932658433914,2013,0,0,1
+88,5,carbon dioxide,embedded carbon,0.053213849663734436,,0,0,0
+88,6,carbon nanotube,greenhouse gas;ghg,0.05272628739476204,,0,0,0
+88,7,activated,embedded carbon,0.05270704627037048,,0,0,0
+88,8,carbon dioxide removal;cdr,carbon nanotube,0.052626997232437134,,0,0,0
+88,9,bio-based,carbon nanotube,0.05260501801967621,,0,0,0
+88,10,embedded carbon,hydrogen,0.05254117026925087,,0,0,0
+88,11,embedded carbon,recycling,0.052535783499479294,,0,0,0
+88,12,biofuel,embedded carbon,0.0525306798517704,,0,0,0
+88,13,carbon monoxide,embedded carbon,0.05248866230249405,,0,0,0
+88,14,carbon carbon,embedded carbon,0.052476558834314346,,0,0,0
+88,15,embedded carbon,mitigation,0.0524059496819973,,0,0,0
+88,16,embedded carbon,urban,0.052382394671440125,,0,0,0
+88,17,carbon material,embedded carbon,0.05237625166773796,,0,0,0
+88,18,aggregation,embedded carbon,0.052356161177158356,,0,0,0
+88,19,biomass,embedded carbon,0.0523483082652092,,0,0,0
+88,20,embedded carbon,renewable energy,0.05233921483159065,,0,0,0
+89,1,emission factor;emissions factor,hydrocarbon,0.05507994070649147,,0,0,0
+89,2,emission factor;emissions factor,recycling,0.054572541266679764,,0,0,0
+89,3,emission factor;emissions factor,fossil fuels,0.05424768850207329,,0,0,0
+89,4,deposit,emission factor;emissions factor,0.054218973964452744,,0,0,0
+89,5,biomass,emission factor;emissions factor,0.054170310497283936,,0,0,0
+89,6,bio-based,hydrocarbon,0.05414874106645584,,0,0,0
+89,7,anoxic,hydrocarbon,0.05412616953253746,2010,1,1,1
+89,8,carbon black,emission factor;emissions factor,0.054120659828186035,,0,0,0
+89,9,activated carbon,emission factor;emissions factor,0.05408236384391785,,0,0,0
+89,10,embedded carbon,gas,0.05404664948582649,,0,0,0
+89,11,asic,hydrocarbon,0.05400601401925087,,0,0,0
+89,12,embedded carbon,hydrocarbon,0.05390889570116997,,0,0,0
+89,13,biomass,deposit,0.05388845503330231,2013,0,0,1
+89,14,activated carbon,deposit,0.05385938659310341,2010,1,1,1
+89,15,fugitive emissions,gas,0.05385280400514603,2011,0,1,1
+89,16,carbon source,hydrocarbon,0.0537848025560379,2010,1,1,1
+89,17,final energy,hydrocarbon,0.053775981068611145,,0,0,0
+89,18,biogas,hydrocarbon,0.05376541242003441,2010,1,1,1
+89,19,final energy,gas,0.05375552922487259,,0,0,0
+89,20,carbon material,hydrocarbon,0.05372212827205658,2011,0,1,1
+90,1,embedded carbon,final energy,0.054710883647203445,,0,0,0
+90,2,final energy,sink,0.0544901080429554,,0,0,0
+90,3,activated carbon,final energy,0.05445929989218712,,0,0,0
+90,4,emission factor;emissions factor,final energy,0.054439157247543335,,0,0,0
+90,5,final energy,sequestration,0.05439036712050438,,0,0,0
+90,6,biofuel,final energy,0.05438179895281792,,0,0,0
+90,7,carbon carbon,final energy,0.05434596911072731,,0,0,0
+90,8,carbon material,final energy,0.054341744631528854,,0,0,0
+90,9,carbon fiber,final energy,0.05434171482920647,,0,0,0
+90,10,final energy,water,0.054223936051130295,,0,0,0
+90,11,atmosphere,final energy,0.053961001336574554,,0,0,0
+90,12,final energy,hydrogen,0.053949255496263504,,0,0,0
+90,13,final energy,recycling,0.053904734551906586,,0,0,0
+90,14,final energy,hydrocarbon,0.05388568714261055,,0,0,0
+90,15,aerosols,final energy,0.05377667397260666,,0,0,0
+90,16,carbon nanotube,final energy,0.053770266473293304,,0,0,0
+90,17,final energy,fugitive emissions,0.05373695492744446,,0,0,0
+90,18,final energy,leakage,0.053683336824178696,,0,0,0
+90,19,carbon monoxide,final energy,0.05365365371108055,,0,0,0
+90,20,carbon composite,final energy,0.05361653119325638,,0,0,0
+91,1,activated carbon,final energy,0.05364261567592621,,0,0,0
+91,2,activated carbon,carbon carbon,0.05355839058756828,2011,0,1,1
+91,3,activated carbon,sink,0.05316402018070221,,0,0,0
+91,4,activated carbon,carbon composite,0.05311071127653122,2014,0,0,1
+91,5,carbon carbon,final energy,0.05299781635403633,,0,0,0
+91,6,activated carbon,deposit,0.052948273718357086,2010,1,1,1
+91,7,carbon composite,final energy,0.05291672423481941,,0,0,0
+91,8,final energy,sink,0.05275780335068703,,0,0,0
+91,9,carbon material,final energy,0.05272801220417023,,0,0,0
+91,10,carbon fiber,final energy,0.05269905552268028,,0,0,0
+91,11,activated,carbon carbon,0.05265909433364868,2011,0,1,1
+91,12,deposit,final energy,0.05265720188617706,,0,0,0
+91,13,carbon black,carbon carbon,0.05264749750494957,2011,0,1,1
+91,14,carbon dioxide,final energy,0.05259060114622116,,0,0,0
+91,15,activated,carbon composite,0.052589915692806244,2014,0,0,1
+91,16,carbon carbon,carbon dioxide,0.05258242040872574,2013,0,0,1
+91,17,activated carbon,urban,0.052569590508937836,,0,0,0
+91,18,activated carbon,carbon monoxide,0.05256836861371994,2012,0,1,1
+91,19,carbon carbon,deposit,0.05255785211920738,2010,1,1,1
+91,20,activated carbon,bio-based,0.05254356935620308,,0,0,0
+92,1,final energy,removal unit;rmu,0.05676133558154106,,0,0,0
+92,2,carbon monoxide,final energy,0.05621645599603653,,0,0,0
+92,3,final energy,recycling,0.05620541796088219,,0,0,0
+92,4,carbon source,final energy,0.0560850091278553,,0,0,0
+92,5,activity,final energy,0.05551943928003311,,0,0,0
+92,6,carbon nanotube,final energy,0.05545767769217491,,0,0,0
+92,7,emission factor;emissions factor,final energy,0.05543653666973114,,0,0,0
+92,8,final energy,gas,0.05537610501050949,,0,0,0
+92,9,deposit,final energy,0.055139146745204926,,0,0,0
+92,10,carbon layer,final energy,0.05505770817399025,,0,0,0
+92,11,bio-based,final energy,0.05501117184758186,,0,0,0
+92,12,final energy,water,0.05494724586606026,,0,0,0
+92,13,biomass,final energy,0.05484965443611145,,0,0,0
+92,14,carbon material,final energy,0.05482855811715126,,0,0,0
+92,15,final energy,fossil fuels,0.05482526123523712,,0,0,0
+92,16,carbon black,final energy,0.054799411445856094,,0,0,0
+92,17,activated carbon,final energy,0.05478134751319885,,0,0,0
+92,18,final energy,mitigation,0.05464380979537964,,0,0,0
+92,19,baseline,final energy,0.05462321639060974,,0,0,0
+92,20,final energy,hydrogen,0.05461617931723595,,0,0,0
+93,1,carbon monoxide,embedded carbon,0.053196899592876434,,0,0,0
+93,2,embedded carbon,hydrogen,0.05314420536160469,,0,0,0
+93,3,embedded carbon,recycling,0.05309366062283516,,0,0,0
+93,4,activated,embedded carbon,0.052995312958955765,,0,0,0
+93,5,carbon dioxide removal;cdr,embedded carbon,0.05291825160384178,,0,0,0
+93,6,deposit,embedded carbon,0.0528455413877964,,0,0,0
+93,7,biofuel,embedded carbon,0.05283791199326515,,0,0,0
+93,8,baseline,embedded carbon,0.05275942385196686,,0,0,0
+93,9,embedded carbon,final energy,0.05269921198487282,,0,0,0
+93,10,carbon source,embedded carbon,0.05267011746764183,,0,0,0
+93,11,embedded carbon,emission factor;emissions factor,0.05260153114795685,,0,0,0
+93,12,activated carbon,embedded carbon,0.052572015672922134,,0,0,0
+93,13,biomass,embedded carbon,0.05256098508834839,,0,0,0
+93,14,carbon material,embedded carbon,0.05249717831611633,,0,0,0
+93,15,embedded carbon,removal unit;rmu,0.052460502833127975,,0,0,0
+93,16,baseline,recycling,0.05245563015341759,,0,0,0
+93,17,carbon monoxide,carbon source,0.05245078355073929,2010,1,1,1
+93,18,anoxic,embedded carbon,0.052440889179706573,,0,0,0
+93,19,carbon black,embedded carbon,0.05243726447224617,,0,0,0
+93,20,carbon dioxide removal;cdr,recycling,0.05241183564066887,,0,0,0
+94,1,activated carbon,embedded carbon,0.05604346841573715,,0,0,0
+94,2,biofuel,embedded carbon,0.055680785328149796,,0,0,0
+94,3,activated,embedded carbon,0.05551741644740105,,0,0,0
+94,4,embedded carbon,hydrogen,0.05539925768971443,,0,0,0
+94,5,carbon layer,embedded carbon,0.05535155162215233,,0,0,0
+94,6,activated carbon,carbon nanotube,0.05523398518562317,2013,0,0,1
+94,7,carbon dioxide,embedded carbon,0.05507320538163185,,0,0,0
+94,8,activated carbon,biofuel,0.05491700768470764,,0,0,0
+94,9,embedded carbon,leakage,0.05483403429389,,0,0,0
+94,10,atmosphere,embedded carbon,0.054809458553791046,,0,0,0
+94,11,embedded carbon,hydrocarbon,0.0547824464738369,,0,0,0
+94,12,embedded carbon,renewable energy,0.054746173322200775,,0,0,0
+94,13,biofuel,carbon layer,0.054728295654058456,,0,0,0
+94,14,carbon layer,carbon nanotube,0.054710958153009415,2010,1,1,1
+94,15,biofuel,carbon nanotube,0.05465676262974739,2014,0,0,1
+94,16,biomass,embedded carbon,0.05456247553229332,,0,0,0
+94,17,embedded carbon,fossil fuels,0.0545504130423069,,0,0,0
+94,18,embedded carbon,recycling,0.05446208268404007,,0,0,0
+94,19,embedded carbon,fugitive emissions,0.054355133324861526,,0,0,0
+94,20,activity,embedded carbon,0.05429516360163689,,0,0,0
+95,1,carbon composite,carbon dioxide,0.055304087698459625,,0,0,0
+95,2,activated carbon,carbon composite,0.05434028431773186,2014,0,0,1
+95,3,carbon composite,carbon dioxide removal;cdr,0.054284896701574326,,0,0,0
+95,4,carbon composite,greenhouse gas;ghg,0.05423909053206444,,0,0,0
+95,5,carbon composite,deposit,0.054227739572525024,2010,1,1,1
+95,6,carbon composite,hydrogen,0.054056644439697266,2014,0,0,1
+95,7,carbon composite,hydrocarbon,0.05405349284410477,,0,0,0
+95,8,carbon composite,carbon monoxide,0.05401008948683739,,0,0,0
+95,9,carbon composite,carbon material,0.053933072835206985,2011,0,1,1
+95,10,carbon composite,sink,0.053745295852422714,,0,0,0
+95,11,biofuel,carbon composite,0.05369490385055542,,0,0,0
+95,12,carbon carbon,carbon dioxide,0.053679533302783966,2013,0,0,1
+95,13,carbon black,carbon composite,0.05352791026234627,,0,0,0
+95,14,carbon composite,fossil fuels,0.05344439297914505,,0,0,0
+95,15,carbon dioxide,carbon fiber,0.05340546369552612,,0,0,0
+95,16,aerosols,carbon composite,0.053377531468868256,,0,0,0
+95,17,carbon composite,urban,0.05325602740049362,,0,0,0
+95,18,activity,carbon composite,0.05320693925023079,,0,0,0
+95,19,anoxic,carbon composite,0.05317915230989456,,0,0,0
+95,20,asic,carbon composite,0.05317680165171623,,0,0,0
+96,1,biodegradation,final energy,0.05499487742781639,,0,0,0
+96,2,biodegradation,carbon fiber,0.05457492545247078,,0,0,0
+96,3,biodegradation,sink,0.05454912409186363,,0,0,0
+96,4,biodegradation,hydrogen,0.05450035259127617,2010,1,1,1
+96,5,carbon fiber,final energy,0.05445987731218338,,0,0,0
+96,6,asic,biodegradation,0.0542246550321579,,0,0,0
+96,7,biodegradation,carbon monoxide,0.05405068397521973,,0,0,0
+96,8,final energy,sink,0.05402939394116402,,0,0,0
+96,9,aggregation,biodegradation,0.054026227444410324,,0,0,0
+96,10,biodegradation,gas,0.05398007482290268,2012,0,1,1
+96,11,activity,biodegradation,0.05393713712692261,2010,1,1,1
+96,12,asic,final energy,0.05386700481176376,,0,0,0
+96,13,biodegradation,leakage,0.05384024232625961,,0,0,0
+96,14,final energy,hydrogen,0.05383197218179703,,0,0,0
+96,15,activated,biodegradation,0.053737714886665344,2013,0,0,1
+96,16,biodegradation,carbon carbon,0.05372615158557892,,0,0,0
+96,17,final energy,gas,0.053695157170295715,,0,0,0
+96,18,activated carbon,biodegradation,0.05367951840162277,2013,0,0,1
+96,19,aggregation,final energy,0.05364425107836723,,0,0,0
+96,20,atmosphere,biodegradation,0.05364198982715607,2011,0,1,1
+97,1,carbon source,fugitive emissions,0.05297796055674553,,0,0,0
+97,2,carbon source,final energy,0.052943505346775055,,0,0,0
+97,3,carbon fiber,final energy,0.05270902067422867,,0,0,0
+97,4,carbon fiber,fugitive emissions,0.05263300612568855,,0,0,0
+97,5,emission factor;emissions factor,fossil fuels,0.05259323865175247,,0,0,0
+97,6,activated carbon,carbon source,0.05256793275475502,,0,0,0
+97,7,carbon source,greenhouse gas;ghg,0.05256160348653793,,0,0,0
+97,8,carbon source,emission factor;emissions factor,0.05256056785583496,,0,0,0
+97,9,carbon source,hydrocarbon,0.052547719329595566,2010,1,1,1
+97,10,emission factor;emissions factor,greenhouse gas;ghg,0.05252377316355705,,0,0,0
+97,11,bio-based,greenhouse gas;ghg,0.05249761790037155,,0,0,0
+97,12,bio-based,final energy,0.052444230765104294,,0,0,0
+97,13,carbon layer,carbon source,0.05242587998509407,2014,0,0,1
+97,14,carbon source,fossil fuels,0.052410319447517395,,0,0,0
+97,15,bio-based,deposit,0.05237894132733345,,0,0,0
+97,16,biomass,carbon source,0.052362654358148575,2012,0,1,1
+97,17,bio-based,fugitive emissions,0.05236206576228142,,0,0,0
+97,18,bio-based,carbon source,0.0522637702524662,2014,0,0,1
+97,19,fossil fuels,fugitive emissions,0.05226116254925728,,0,0,0
+97,20,emission factor;emissions factor,final energy,0.052246447652578354,,0,0,0
+98,1,carbon carbon,carbon material,0.05200944095849991,2011,0,1,1
+98,2,carbon composite,carbon material,0.051926709711551666,2011,0,1,1
+98,3,carbon dioxide equivalent;co2e,fossil fuels,0.051888979971408844,,0,0,0
+98,4,carbon black,carbon composite,0.051809895783662796,,0,0,0
+98,5,activity,carbon carbon,0.05179263651371002,2010,1,1,1
+98,6,activity,fossil fuels,0.0517856702208519,,0,0,0
+98,7,activated carbon,carbon carbon,0.051745425909757614,2011,0,1,1
+98,8,activity,carbon dioxide equivalent;co2e,0.05174538865685463,,0,0,0
+98,9,atmosphere,carbon black,0.05172920972108841,2010,1,1,1
+98,10,activated carbon,carbon dioxide equivalent;co2e,0.05172061547636986,,0,0,0
+98,11,activated carbon,activity,0.051710210740566254,2010,1,1,1
+98,12,carbon carbon,carbon dioxide,0.05167757719755173,2013,0,0,1
+98,13,carbon black,carbon carbon,0.05166657269001007,2011,0,1,1
+98,14,activity,carbon composite,0.051663100719451904,,0,0,0
+98,15,activated carbon,carbon composite,0.05166170001029968,2014,0,0,1
+98,16,carbon carbon,fossil fuels,0.0516611710190773,,0,0,0
+98,17,carbon material,fossil fuels,0.051653556525707245,,0,0,0
+98,18,carbon composite,sink,0.051636453717947006,,0,0,0
+98,19,carbon black,fossil fuels,0.05161739140748978,,0,0,0
+98,20,atmosphere,carbon dioxide equivalent;co2e,0.051600467413663864,,0,0,0
+99,1,bio-based,renewable energy,0.05359072610735893,,0,0,0
+99,2,bio-based,water,0.05350903049111366,2011,0,1,1
+99,3,gas,renewable energy,0.05339936539530754,2010,1,1,1
+99,4,gas,global warming potential;gwp,0.05338574945926666,2010,1,1,1
+99,5,final energy,gas,0.05326993390917778,,0,0,0
+99,6,activated,bio-based,0.053223900496959686,2013,0,0,1
+99,7,bio-based,recycling,0.05321510508656502,,0,0,0
+99,8,hydrogen,renewable energy,0.0532103069126606,2010,1,1,1
+99,9,asic,bio-based,0.053143322467803955,,0,0,0
+99,10,bio-based,global warming potential;gwp,0.053107138723134995,,0,0,0
+99,11,final energy,water,0.053097594529390335,,0,0,0
+99,12,greenhouse gas;ghg,water,0.053088296204805374,2010,1,1,1
+99,13,activated,renewable energy,0.0530598945915699,2011,0,1,1
+99,14,recycling,renewable energy,0.05305173993110657,2010,1,1,1
+99,15,bio-based,carbon black,0.052994657307863235,,0,0,0
+99,16,asic,water,0.052993521094322205,,0,0,0
+99,17,final energy,renewable energy,0.05294261872768402,,0,0,0
+99,18,carbon black,renewable energy,0.0528951920568943,,0,0,0
+99,19,bio-based,carbon material,0.05286732316017151,,0,0,0
+99,20,bio-based,final energy,0.05286172777414322,,0,0,0
+100,1,deposit,embedded carbon,0.05274615064263344,,0,0,0
+100,2,asic,embedded carbon,0.05248859524726868,,0,0,0
+100,3,activated,embedded carbon,0.05248257517814636,,0,0,0
+100,4,carbon source,embedded carbon,0.05237805098295212,,0,0,0
+100,5,activated,baseline,0.052367743104696274,2010,1,1,1
+100,6,activated,carbon source,0.05232013016939163,2011,0,1,1
+100,7,activated,bio-based,0.0522942841053009,2013,0,0,1
+100,8,activated,aggregation,0.05221143364906311,2010,1,1,1
+100,9,asic,carbon layer,0.05218048393726349,,0,0,0
+100,10,bio-based,deposit,0.05216342210769653,,0,0,0
+100,11,asic,final energy,0.05211298540234566,,0,0,0
+100,12,carbon layer,deposit,0.052104730159044266,2012,0,1,1
+100,13,embedded carbon,gas,0.05207505077123642,,0,0,0
+100,14,deposit,final energy,0.05207262188196182,,0,0,0
+100,15,asic,baseline,0.05203734338283539,2012,0,1,1
+100,16,activity,embedded carbon,0.05203519016504288,,0,0,0
+100,17,activated,fossil fuels,0.05203048512339592,2014,0,0,1
+100,18,embedded carbon,final energy,0.05197127163410187,,0,0,0
+100,19,baseline,deposit,0.05196889117360115,,0,0,0
+100,20,asic,bio-based,0.05195526406168938,,0,0,0

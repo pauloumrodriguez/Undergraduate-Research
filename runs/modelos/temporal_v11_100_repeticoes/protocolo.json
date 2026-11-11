@@ -1,0 +1,3582 @@
+{
+  "anos_base": [
+    2006,
+    2007,
+    2008,
+    2009,
+    2010
+  ],
+  "candidatos": "Pares sem aresta no ano-base, com os dois termos ativos nesse ano.",
+  "horizontes": [
+    1,
+    3,
+    5
+  ],
+  "perfil": {
+    "class_weight": null,
+    "dimensions": 128,
+    "edge_operator": "hadamard",
+    "epochs": 5,
+    "fracao_arestas_removidas": 0.2,
+    "hs": 0,
+    "limiares": [
+      0.5,
+      0.7,
+      0.85
+    ],
+    "logistic_C": 1.0,
+    "logistic_max_iter": 5000,
+    "logistic_solver": "lbfgs",
+    "min_count": 1,
+    "negative": 5,
+    "negative_ratio": null,
+    "negativos": "todos",
+    "nota": "Só 70/30, regressão logística, 100 repetições e limiares vêm do texto. Os demais valores são hipóteses explícitas.",
+    "num_walks": 10,
+    "p": 1.0,
+    "q": 1.0,
+    "repeticoes": 100,
+    "rotulo": "hipotese_congelada",
+    "sample": 0.001,
+    "seed_base": 42000,
+    "sg": 1,
+    "standard_scaler": false,
+    "test_size": 0.3,
+    "walk_length": 80,
+    "weighted": false,
+    "window": 10,
+    "workers": 1
+  },
+  "perfil_origem": "reconstrucao_tcc_v1",
+  "ranking": "Top 20 fixo. A taxa de referência é calculada sobre todos os candidatos do ano-base.",
+  "redes_sha256": {
+    "relacoes_2006.csv": "d3eeca567c398b678e57898e94c5b4914558410050e4bf777eb155d5a05b67ce",
+    "relacoes_2007.csv": "1523b19fe57286f378719bec330f110e13d70ca986fe6588484fc5603fdd6676",
+    "relacoes_2008.csv": "d105a6a8b4c3fb81f3c73a5ac2729cd3a88ca6094e54192ca01dd48beb6252ef",
+    "relacoes_2009.csv": "49054c7d9e1842f6e82d0f4c6436e48c0dae4e50990a8e94d89ec545ad7477ae",
+    "relacoes_2010.csv": "513c6c0f4a7803b6af1282b606573b24ef7a6021758ce2973f91869d53e62ca9",
+    "relacoes_2011.csv": "6eb6adb4cddcf3b0491ce4c8d2fefabb8769715a31c2fb6d6ffa22dd2d57c8d5",
+    "relacoes_2012.csv": "d8a4cd72f1e3f3de224dd02d810c7094ec00d745ddcd18b2fd85a3f868b61129",
+    "relacoes_2013.csv": "108827da72f73aed6d6a848e3c419cb3ce19914f598962cd1fd457464c91b821",
+    "relacoes_2014.csv": "b8de9236f01294225d602ee2e869ee1acfd597cc6356781236bf3d6a8ecba23d",
+    "relacoes_2015.csv": "694ebb65657f1f58c6a540702801ce19e230b1dcf957478ff5a75bdbfaaaf8f5"
+  },
+  "regra": "Primeira coocorrência observada entre o ano seguinte e o ano-alvo inclusive.",
+  "repeticoes_por_ano": 100,
+  "script_sha256": "2870ce49c605419a40fae105b73746e1123cb657cd8d82207f49638c5c29bebc",
+  "sementes_por_ano": {
+    "2006": {
+      "1": {
+        "amostras": 43001,
+        "divisao": 43004,
+        "passeios": 43002,
+        "regressao": 43005,
+        "word2vec": 43003
+      },
+      "2": {
+        "amostras": 44001,
+        "divisao": 44004,
+        "passeios": 44002,
+        "regressao": 44005,
+        "word2vec": 44003
+      },
+      "3": {
+        "amostras": 45001,
+        "divisao": 45004,
+        "passeios": 45002,
+        "regressao": 45005,
+        "word2vec": 45003
+      },
+      "4": {
+        "amostras": 46001,
+        "divisao": 46004,
+        "passeios": 46002,
+        "regressao": 46005,
+        "word2vec": 46003
+      },
+      "5": {
+        "amostras": 47001,
+        "divisao": 47004,
+        "passeios": 47002,
+        "regressao": 47005,
+        "word2vec": 47003
+      },
+      "6": {
+        "amostras": 48001,
+        "divisao": 48004,
+        "passeios": 48002,
+        "regressao": 48005,
+        "word2vec": 48003
+      },
+      "7": {
+        "amostras": 49001,
+        "divisao": 49004,
+        "passeios": 49002,
+        "regressao": 49005,
+        "word2vec": 49003
+      },
+      "8": {
+        "amostras": 50001,
+        "divisao": 50004,
+        "passeios": 50002,
+        "regressao": 50005,
+        "word2vec": 50003
+      },
+      "9": {
+        "amostras": 51001,
+        "divisao": 51004,
+        "passeios": 51002,
+        "regressao": 51005,
+        "word2vec": 51003
+      },
+      "10": {
+        "amostras": 52001,
+        "divisao": 52004,
+        "passeios": 52002,
+        "regressao": 52005,
+        "word2vec": 52003
+      },
+      "11": {
+        "amostras": 53001,
+        "divisao": 53004,
+        "passeios": 53002,
+        "regressao": 53005,
+        "word2vec": 53003
+      },
+      "12": {
+        "amostras": 54001,
+        "divisao": 54004,
+        "passeios": 54002,
+        "regressao": 54005,
+        "word2vec": 54003
+      },
+      "13": {
+        "amostras": 55001,
+        "divisao": 55004,
+        "passeios": 55002,
+        "regressao": 55005,
+        "word2vec": 55003
+      },
+      "14": {
+        "amostras": 56001,
+        "divisao": 56004,
+        "passeios": 56002,
+        "regressao": 56005,
+        "word2vec": 56003
+      },
+      "15": {
+        "amostras": 57001,
+        "divisao": 57004,
+        "passeios": 57002,
+        "regressao": 57005,
+        "word2vec": 57003
+      },
+      "16": {
+        "amostras": 58001,
+        "divisao": 58004,
+        "passeios": 58002,
+        "regressao": 58005,
+        "word2vec": 58003
+      },
+      "17": {
+        "amostras": 59001,
+        "divisao": 59004,
+        "passeios": 59002,
+        "regressao": 59005,
+        "word2vec": 59003
+      },
+      "18": {
+        "amostras": 60001,
+        "divisao": 60004,
+        "passeios": 60002,
+        "regressao": 60005,
+        "word2vec": 60003
+      },
+      "19": {
+        "amostras": 61001,
+        "divisao": 61004,
+        "passeios": 61002,
+        "regressao": 61005,
+        "word2vec": 61003
+      },
+      "20": {
+        "amostras": 62001,
+        "divisao": 62004,
+        "passeios": 62002,
+        "regressao": 62005,
+        "word2vec": 62003
+      },
+      "21": {
+        "amostras": 63001,
+        "divisao": 63004,
+        "passeios": 63002,
+        "regressao": 63005,
+        "word2vec": 63003
+      },
+      "22": {
+        "amostras": 64001,
+        "divisao": 64004,
+        "passeios": 64002,
+        "regressao": 64005,
+        "word2vec": 64003
+      },
+      "23": {
+        "amostras": 65001,
+        "divisao": 65004,
+        "passeios": 65002,
+        "regressao": 65005,
+        "word2vec": 65003
+      },
+      "24": {
+        "amostras": 66001,
+        "divisao": 66004,
+        "passeios": 66002,
+        "regressao": 66005,
+        "word2vec": 66003
+      },
+      "25": {
+        "amostras": 67001,
+        "divisao": 67004,
+        "passeios": 67002,
+        "regressao": 67005,
+        "word2vec": 67003
+      },
+      "26": {
+        "amostras": 68001,
+        "divisao": 68004,
+        "passeios": 68002,
+        "regressao": 68005,
+        "word2vec": 68003
+      },
+      "27": {
+        "amostras": 69001,
+        "divisao": 69004,
+        "passeios": 69002,
+        "regressao": 69005,
+        "word2vec": 69003
+      },
+      "28": {
+        "amostras": 70001,
+        "divisao": 70004,
+        "passeios": 70002,
+        "regressao": 70005,
+        "word2vec": 70003
+      },
+      "29": {
+        "amostras": 71001,
+        "divisao": 71004,
+        "passeios": 71002,
+        "regressao": 71005,
+        "word2vec": 71003
+      },
+      "30": {
+        "amostras": 72001,
+        "divisao": 72004,
+        "passeios": 72002,
+        "regressao": 72005,
+        "word2vec": 72003
+      },
+      "31": {
+        "amostras": 73001,
+        "divisao": 73004,
+        "passeios": 73002,
+        "regressao": 73005,
+        "word2vec": 73003
+      },
+      "32": {
+        "amostras": 74001,
+        "divisao": 74004,
+        "passeios": 74002,
+        "regressao": 74005,
+        "word2vec": 74003
+      },
+      "33": {
+        "amostras": 75001,
+        "divisao": 75004,
+        "passeios": 75002,
+        "regressao": 75005,
+        "word2vec": 75003
+      },
+      "34": {
+        "amostras": 76001,
+        "divisao": 76004,
+        "passeios": 76002,
+        "regressao": 76005,
+        "word2vec": 76003
+      },
+      "35": {
+        "amostras": 77001,
+        "divisao": 77004,
+        "passeios": 77002,
+        "regressao": 77005,
+        "word2vec": 77003
+      },
+      "36": {
+        "amostras": 78001,
+        "divisao": 78004,
+        "passeios": 78002,
+        "regressao": 78005,
+        "word2vec": 78003
+      },
+      "37": {
+        "amostras": 79001,
+        "divisao": 79004,
+        "passeios": 79002,
+        "regressao": 79005,
+        "word2vec": 79003
+      },
+      "38": {
+        "amostras": 80001,
+        "divisao": 80004,
+        "passeios": 80002,
+        "regressao": 80005,
+        "word2vec": 80003
+      },
+      "39": {
+        "amostras": 81001,
+        "divisao": 81004,
+        "passeios": 81002,
+        "regressao": 81005,
+        "word2vec": 81003
+      },
+      "40": {
+        "amostras": 82001,
+        "divisao": 82004,
+        "passeios": 82002,
+        "regressao": 82005,
+        "word2vec": 82003
+      },
+      "41": {
+        "amostras": 83001,
+        "divisao": 83004,
+        "passeios": 83002,
+        "regressao": 83005,
+        "word2vec": 83003
+      },
+      "42": {
+        "amostras": 84001,
+        "divisao": 84004,
+        "passeios": 84002,
+        "regressao": 84005,
+        "word2vec": 84003
+      },
+      "43": {
+        "amostras": 85001,
+        "divisao": 85004,
+        "passeios": 85002,
+        "regressao": 85005,
+        "word2vec": 85003
+      },
+      "44": {
+        "amostras": 86001,
+        "divisao": 86004,
+        "passeios": 86002,
+        "regressao": 86005,
+        "word2vec": 86003
+      },
+      "45": {
+        "amostras": 87001,
+        "divisao": 87004,
+        "passeios": 87002,
+        "regressao": 87005,
+        "word2vec": 87003
+      },
+      "46": {
+        "amostras": 88001,
+        "divisao": 88004,
+        "passeios": 88002,
+        "regressao": 88005,
+        "word2vec": 88003
+      },
+      "47": {
+        "amostras": 89001,
+        "divisao": 89004,
+        "passeios": 89002,
+        "regressao": 89005,
+        "word2vec": 89003
+      },
+      "48": {
+        "amostras": 90001,
+        "divisao": 90004,
+        "passeios": 90002,
+        "regressao": 90005,
+        "word2vec": 90003
+      },
+      "49": {
+        "amostras": 91001,
+        "divisao": 91004,
+        "passeios": 91002,
+        "regressao": 91005,
+        "word2vec": 91003
+      },
+      "50": {
+        "amostras": 92001,
+        "divisao": 92004,
+        "passeios": 92002,
+        "regressao": 92005,
+        "word2vec": 92003
+      },
+      "51": {
+        "amostras": 93001,
+        "divisao": 93004,
+        "passeios": 93002,
+        "regressao": 93005,
+        "word2vec": 93003
+      },
+      "52": {
+        "amostras": 94001,
+        "divisao": 94004,
+        "passeios": 94002,
+        "regressao": 94005,
+        "word2vec": 94003
+      },
+      "53": {
+        "amostras": 95001,
+        "divisao": 95004,
+        "passeios": 95002,
+        "regressao": 95005,
+        "word2vec": 95003
+      },
+      "54": {
+        "amostras": 96001,
+        "divisao": 96004,
+        "passeios": 96002,
+        "regressao": 96005,
+        "word2vec": 96003
+      },
+      "55": {
+        "amostras": 97001,
+        "divisao": 97004,
+        "passeios": 97002,
+        "regressao": 97005,
+        "word2vec": 97003
+      },
+      "56": {
+        "amostras": 98001,
+        "divisao": 98004,
+        "passeios": 98002,
+        "regressao": 98005,
+        "word2vec": 98003
+      },
+      "57": {
+        "amostras": 99001,
+        "divisao": 99004,
+        "passeios": 99002,
+        "regressao": 99005,
+        "word2vec": 99003
+      },
+      "58": {
+        "amostras": 100001,
+        "divisao": 100004,
+        "passeios": 100002,
+        "regressao": 100005,
+        "word2vec": 100003
+      },
+      "59": {
+        "amostras": 101001,
+        "divisao": 101004,
+        "passeios": 101002,
+        "regressao": 101005,
+        "word2vec": 101003
+      },
+      "60": {
+        "amostras": 102001,
+        "divisao": 102004,
+        "passeios": 102002,
+        "regressao": 102005,
+        "word2vec": 102003
+      },
+      "61": {
+        "amostras": 103001,
+        "divisao": 103004,
+        "passeios": 103002,
+        "regressao": 103005,
+        "word2vec": 103003
+      },
+      "62": {
+        "amostras": 104001,
+        "divisao": 104004,
+        "passeios": 104002,
+        "regressao": 104005,
+        "word2vec": 104003
+      },
+      "63": {
+        "amostras": 105001,
+        "divisao": 105004,
+        "passeios": 105002,
+        "regressao": 105005,
+        "word2vec": 105003
+      },
+      "64": {
+        "amostras": 106001,
+        "divisao": 106004,
+        "passeios": 106002,
+        "regressao": 106005,
+        "word2vec": 106003
+      },
+      "65": {
+        "amostras": 107001,
+        "divisao": 107004,
+        "passeios": 107002,
+        "regressao": 107005,
+        "word2vec": 107003
+      },
+      "66": {
+        "amostras": 108001,
+        "divisao": 108004,
+        "passeios": 108002,
+        "regressao": 108005,
+        "word2vec": 108003
+      },
+      "67": {
+        "amostras": 109001,
+        "divisao": 109004,
+        "passeios": 109002,
+        "regressao": 109005,
+        "word2vec": 109003
+      },
+      "68": {
+        "amostras": 110001,
+        "divisao": 110004,
+        "passeios": 110002,
+        "regressao": 110005,
+        "word2vec": 110003
+      },
+      "69": {
+        "amostras": 111001,
+        "divisao": 111004,
+        "passeios": 111002,
+        "regressao": 111005,
+        "word2vec": 111003
+      },
+      "70": {
+        "amostras": 112001,
+        "divisao": 112004,
+        "passeios": 112002,
+        "regressao": 112005,
+        "word2vec": 112003
+      },
+      "71": {
+        "amostras": 113001,
+        "divisao": 113004,
+        "passeios": 113002,
+        "regressao": 113005,
+        "word2vec": 113003
+      },
+      "72": {
+        "amostras": 114001,
+        "divisao": 114004,
+        "passeios": 114002,
+        "regressao": 114005,
+        "word2vec": 114003
+      },
+      "73": {
+        "amostras": 115001,
+        "divisao": 115004,
+        "passeios": 115002,
+        "regressao": 115005,
+        "word2vec": 115003
+      },
+      "74": {
+        "amostras": 116001,
+        "divisao": 116004,
+        "passeios": 116002,
+        "regressao": 116005,
+        "word2vec": 116003
+      },
+      "75": {
+        "amostras": 117001,
+        "divisao": 117004,
+        "passeios": 117002,
+        "regressao": 117005,
+        "word2vec": 117003
+      },
+      "76": {
+        "amostras": 118001,
+        "divisao": 118004,
+        "passeios": 118002,
+        "regressao": 118005,
+        "word2vec": 118003
+      },
+      "77": {
+        "amostras": 119001,
+        "divisao": 119004,
+        "passeios": 119002,
+        "regressao": 119005,
+        "word2vec": 119003
+      },
+      "78": {
+        "amostras": 120001,
+        "divisao": 120004,
+        "passeios": 120002,
+        "regressao": 120005,
+        "word2vec": 120003
+      },
+      "79": {
+        "amostras": 121001,
+        "divisao": 121004,
+        "passeios": 121002,
+        "regressao": 121005,
+        "word2vec": 121003
+      },
+      "80": {
+        "amostras": 122001,
+        "divisao": 122004,
+        "passeios": 122002,
+        "regressao": 122005,
+        "word2vec": 122003
+      },
+      "81": {
+        "amostras": 123001,
+        "divisao": 123004,
+        "passeios": 123002,
+        "regressao": 123005,
+        "word2vec": 123003
+      },
+      "82": {
+        "amostras": 124001,
+        "divisao": 124004,
+        "passeios": 124002,
+        "regressao": 124005,
+        "word2vec": 124003
+      },
+      "83": {
+        "amostras": 125001,
+        "divisao": 125004,
+        "passeios": 125002,
+        "regressao": 125005,
+        "word2vec": 125003
+      },
+      "84": {
+        "amostras": 126001,
+        "divisao": 126004,
+        "passeios": 126002,
+        "regressao": 126005,
+        "word2vec": 126003
+      },
+      "85": {
+        "amostras": 127001,
+        "divisao": 127004,
+        "passeios": 127002,
+        "regressao": 127005,
+        "word2vec": 127003
+      },
+      "86": {
+        "amostras": 128001,
+        "divisao": 128004,
+        "passeios": 128002,
+        "regressao": 128005,
+        "word2vec": 128003
+      },
+      "87": {
+        "amostras": 129001,
+        "divisao": 129004,
+        "passeios": 129002,
+        "regressao": 129005,
+        "word2vec": 129003
+      },
+      "88": {
+        "amostras": 130001,
+        "divisao": 130004,
+        "passeios": 130002,
+        "regressao": 130005,
+        "word2vec": 130003
+      },
+      "89": {
+        "amostras": 131001,
+        "divisao": 131004,
+        "passeios": 131002,
+        "regressao": 131005,
+        "word2vec": 131003
+      },
+      "90": {
+        "amostras": 132001,
+        "divisao": 132004,
+        "passeios": 132002,
+        "regressao": 132005,
+        "word2vec": 132003
+      },
+      "91": {
+        "amostras": 133001,
+        "divisao": 133004,
+        "passeios": 133002,
+        "regressao": 133005,
+        "word2vec": 133003
+      },
+      "92": {
+        "amostras": 134001,
+        "divisao": 134004,
+        "passeios": 134002,
+        "regressao": 134005,
+        "word2vec": 134003
+      },
+      "93": {
+        "amostras": 135001,
+        "divisao": 135004,
+        "passeios": 135002,
+        "regressao": 135005,
+        "word2vec": 135003
+      },
+      "94": {
+        "amostras": 136001,
+        "divisao": 136004,
+        "passeios": 136002,
+        "regressao": 136005,
+        "word2vec": 136003
+      },
+      "95": {
+        "amostras": 137001,
+        "divisao": 137004,
+        "passeios": 137002,
+        "regressao": 137005,
+        "word2vec": 137003
+      },
+      "96": {
+        "amostras": 138001,
+        "divisao": 138004,
+        "passeios": 138002,
+        "regressao": 138005,
+        "word2vec": 138003
+      },
+      "97": {
+        "amostras": 139001,
+        "divisao": 139004,
+        "passeios": 139002,
+        "regressao": 139005,
+        "word2vec": 139003
+      },
+      "98": {
+        "amostras": 140001,
+        "divisao": 140004,
+        "passeios": 140002,
+        "regressao": 140005,
+        "word2vec": 140003
+      },
+      "99": {
+        "amostras": 141001,
+        "divisao": 141004,
+        "passeios": 141002,
+        "regressao": 141005,
+        "word2vec": 141003
+      },
+      "100": {
+        "amostras": 142001,
+        "divisao": 142004,
+        "passeios": 142002,
+        "regressao": 142005,
+        "word2vec": 142003
+      }
+    },
+    "2007": {
+      "1": {
+        "amostras": 43011,
+        "divisao": 43014,
+        "passeios": 43012,
+        "regressao": 43015,
+        "word2vec": 43013
+      },
+      "2": {
+        "amostras": 44011,
+        "divisao": 44014,
+        "passeios": 44012,
+        "regressao": 44015,
+        "word2vec": 44013
+      },
+      "3": {
+        "amostras": 45011,
+        "divisao": 45014,
+        "passeios": 45012,
+        "regressao": 45015,
+        "word2vec": 45013
+      },
+      "4": {
+        "amostras": 46011,
+        "divisao": 46014,
+        "passeios": 46012,
+        "regressao": 46015,
+        "word2vec": 46013
+      },
+      "5": {
+        "amostras": 47011,
+        "divisao": 47014,
+        "passeios": 47012,
+        "regressao": 47015,
+        "word2vec": 47013
+      },
+      "6": {
+        "amostras": 48011,
+        "divisao": 48014,
+        "passeios": 48012,
+        "regressao": 48015,
+        "word2vec": 48013
+      },
+      "7": {
+        "amostras": 49011,
+        "divisao": 49014,
+        "passeios": 49012,
+        "regressao": 49015,
+        "word2vec": 49013
+      },
+      "8": {
+        "amostras": 50011,
+        "divisao": 50014,
+        "passeios": 50012,
+        "regressao": 50015,
+        "word2vec": 50013
+      },
+      "9": {
+        "amostras": 51011,
+        "divisao": 51014,
+        "passeios": 51012,
+        "regressao": 51015,
+        "word2vec": 51013
+      },
+      "10": {
+        "amostras": 52011,
+        "divisao": 52014,
+        "passeios": 52012,
+        "regressao": 52015,
+        "word2vec": 52013
+      },
+      "11": {
+        "amostras": 53011,
+        "divisao": 53014,
+        "passeios": 53012,
+        "regressao": 53015,
+        "word2vec": 53013
+      },
+      "12": {
+        "amostras": 54011,
+        "divisao": 54014,
+        "passeios": 54012,
+        "regressao": 54015,
+        "word2vec": 54013
+      },
+      "13": {
+        "amostras": 55011,
+        "divisao": 55014,
+        "passeios": 55012,
+        "regressao": 55015,
+        "word2vec": 55013
+      },
+      "14": {
+        "amostras": 56011,
+        "divisao": 56014,
+        "passeios": 56012,
+        "regressao": 56015,
+        "word2vec": 56013
+      },
+      "15": {
+        "amostras": 57011,
+        "divisao": 57014,
+        "passeios": 57012,
+        "regressao": 57015,
+        "word2vec": 57013
+      },
+      "16": {
+        "amostras": 58011,
+        "divisao": 58014,
+        "passeios": 58012,
+        "regressao": 58015,
+        "word2vec": 58013
+      },
+      "17": {
+        "amostras": 59011,
+        "divisao": 59014,
+        "passeios": 59012,
+        "regressao": 59015,
+        "word2vec": 59013
+      },
+      "18": {
+        "amostras": 60011,
+        "divisao": 60014,
+        "passeios": 60012,
+        "regressao": 60015,
+        "word2vec": 60013
+      },
+      "19": {
+        "amostras": 61011,
+        "divisao": 61014,
+        "passeios": 61012,
+        "regressao": 61015,
+        "word2vec": 61013
+      },
+      "20": {
+        "amostras": 62011,
+        "divisao": 62014,
+        "passeios": 62012,
+        "regressao": 62015,
+        "word2vec": 62013
+      },
+      "21": {
+        "amostras": 63011,
+        "divisao": 63014,
+        "passeios": 63012,
+        "regressao": 63015,
+        "word2vec": 63013
+      },
+      "22": {
+        "amostras": 64011,
+        "divisao": 64014,
+        "passeios": 64012,
+        "regressao": 64015,
+        "word2vec": 64013
+      },
+      "23": {
+        "amostras": 65011,
+        "divisao": 65014,
+        "passeios": 65012,
+        "regressao": 65015,
+        "word2vec": 65013
+      },
+      "24": {
+        "amostras": 66011,
+        "divisao": 66014,
+        "passeios": 66012,
+        "regressao": 66015,
+        "word2vec": 66013
+      },
+      "25": {
+        "amostras": 67011,
+        "divisao": 67014,
+        "passeios": 67012,
+        "regressao": 67015,
+        "word2vec": 67013
+      },
+      "26": {
+        "amostras": 68011,
+        "divisao": 68014,
+        "passeios": 68012,
+        "regressao": 68015,
+        "word2vec": 68013
+      },
+      "27": {
+        "amostras": 69011,
+        "divisao": 69014,
+        "passeios": 69012,
+        "regressao": 69015,
+        "word2vec": 69013
+      },
+      "28": {
+        "amostras": 70011,
+        "divisao": 70014,
+        "passeios": 70012,
+        "regressao": 70015,
+        "word2vec": 70013
+      },
+      "29": {
+        "amostras": 71011,
+        "divisao": 71014,
+        "passeios": 71012,
+        "regressao": 71015,
+        "word2vec": 71013
+      },
+      "30": {
+        "amostras": 72011,
+        "divisao": 72014,
+        "passeios": 72012,
+        "regressao": 72015,
+        "word2vec": 72013
+      },
+      "31": {
+        "amostras": 73011,
+        "divisao": 73014,
+        "passeios": 73012,
+        "regressao": 73015,
+        "word2vec": 73013
+      },
+      "32": {
+        "amostras": 74011,
+        "divisao": 74014,
+        "passeios": 74012,
+        "regressao": 74015,
+        "word2vec": 74013
+      },
+      "33": {
+        "amostras": 75011,
+        "divisao": 75014,
+        "passeios": 75012,
+        "regressao": 75015,
+        "word2vec": 75013
+      },
+      "34": {
+        "amostras": 76011,
+        "divisao": 76014,
+        "passeios": 76012,
+        "regressao": 76015,
+        "word2vec": 76013
+      },
+      "35": {
+        "amostras": 77011,
+        "divisao": 77014,
+        "passeios": 77012,
+        "regressao": 77015,
+        "word2vec": 77013
+      },
+      "36": {
+        "amostras": 78011,
+        "divisao": 78014,
+        "passeios": 78012,
+        "regressao": 78015,
+        "word2vec": 78013
+      },
+      "37": {
+        "amostras": 79011,
+        "divisao": 79014,
+        "passeios": 79012,
+        "regressao": 79015,
+        "word2vec": 79013
+      },
+      "38": {
+        "amostras": 80011,
+        "divisao": 80014,
+        "passeios": 80012,
+        "regressao": 80015,
+        "word2vec": 80013
+      },
+      "39": {
+        "amostras": 81011,
+        "divisao": 81014,
+        "passeios": 81012,
+        "regressao": 81015,
+        "word2vec": 81013
+      },
+      "40": {
+        "amostras": 82011,
+        "divisao": 82014,
+        "passeios": 82012,
+        "regressao": 82015,
+        "word2vec": 82013
+      },
+      "41": {
+        "amostras": 83011,
+        "divisao": 83014,
+        "passeios": 83012,
+        "regressao": 83015,
+        "word2vec": 83013
+      },
+      "42": {
+        "amostras": 84011,
+        "divisao": 84014,
+        "passeios": 84012,
+        "regressao": 84015,
+        "word2vec": 84013
+      },
+      "43": {
+        "amostras": 85011,
+        "divisao": 85014,
+        "passeios": 85012,
+        "regressao": 85015,
+        "word2vec": 85013
+      },
+      "44": {
+        "amostras": 86011,
+        "divisao": 86014,
+        "passeios": 86012,
+        "regressao": 86015,
+        "word2vec": 86013
+      },
+      "45": {
+        "amostras": 87011,
+        "divisao": 87014,
+        "passeios": 87012,
+        "regressao": 87015,
+        "word2vec": 87013
+      },
+      "46": {
+        "amostras": 88011,
+        "divisao": 88014,
+        "passeios": 88012,
+        "regressao": 88015,
+        "word2vec": 88013
+      },
+      "47": {
+        "amostras": 89011,
+        "divisao": 89014,
+        "passeios": 89012,
+        "regressao": 89015,
+        "word2vec": 89013
+      },
+      "48": {
+        "amostras": 90011,
+        "divisao": 90014,
+        "passeios": 90012,
+        "regressao": 90015,
+        "word2vec": 90013
+      },
+      "49": {
+        "amostras": 91011,
+        "divisao": 91014,
+        "passeios": 91012,
+        "regressao": 91015,
+        "word2vec": 91013
+      },
+      "50": {
+        "amostras": 92011,
+        "divisao": 92014,
+        "passeios": 92012,
+        "regressao": 92015,
+        "word2vec": 92013
+      },
+      "51": {
+        "amostras": 93011,
+        "divisao": 93014,
+        "passeios": 93012,
+        "regressao": 93015,
+        "word2vec": 93013
+      },
+      "52": {
+        "amostras": 94011,
+        "divisao": 94014,
+        "passeios": 94012,
+        "regressao": 94015,
+        "word2vec": 94013
+      },
+      "53": {
+        "amostras": 95011,
+        "divisao": 95014,
+        "passeios": 95012,
+        "regressao": 95015,
+        "word2vec": 95013
+      },
+      "54": {
+        "amostras": 96011,
+        "divisao": 96014,
+        "passeios": 96012,
+        "regressao": 96015,
+        "word2vec": 96013
+      },
+      "55": {
+        "amostras": 97011,
+        "divisao": 97014,
+        "passeios": 97012,
+        "regressao": 97015,
+        "word2vec": 97013
+      },
+      "56": {
+        "amostras": 98011,
+        "divisao": 98014,
+        "passeios": 98012,
+        "regressao": 98015,
+        "word2vec": 98013
+      },
+      "57": {
+        "amostras": 99011,
+        "divisao": 99014,
+        "passeios": 99012,
+        "regressao": 99015,
+        "word2vec": 99013
+      },
+      "58": {
+        "amostras": 100011,
+        "divisao": 100014,
+        "passeios": 100012,
+        "regressao": 100015,
+        "word2vec": 100013
+      },
+      "59": {
+        "amostras": 101011,
+        "divisao": 101014,
+        "passeios": 101012,
+        "regressao": 101015,
+        "word2vec": 101013
+      },
+      "60": {
+        "amostras": 102011,
+        "divisao": 102014,
+        "passeios": 102012,
+        "regressao": 102015,
+        "word2vec": 102013
+      },
+      "61": {
+        "amostras": 103011,
+        "divisao": 103014,
+        "passeios": 103012,
+        "regressao": 103015,
+        "word2vec": 103013
+      },
+      "62": {
+        "amostras": 104011,
+        "divisao": 104014,
+        "passeios": 104012,
+        "regressao": 104015,
+        "word2vec": 104013
+      },
+      "63": {
+        "amostras": 105011,
+        "divisao": 105014,
+        "passeios": 105012,
+        "regressao": 105015,
+        "word2vec": 105013
+      },
+      "64": {
+        "amostras": 106011,
+        "divisao": 106014,
+        "passeios": 106012,
+        "regressao": 106015,
+        "word2vec": 106013
+      },
+      "65": {
+        "amostras": 107011,
+        "divisao": 107014,
+        "passeios": 107012,
+        "regressao": 107015,
+        "word2vec": 107013
+      },
+      "66": {
+        "amostras": 108011,
+        "divisao": 108014,
+        "passeios": 108012,
+        "regressao": 108015,
+        "word2vec": 108013
+      },
+      "67": {
+        "amostras": 109011,
+        "divisao": 109014,
+        "passeios": 109012,
+        "regressao": 109015,
+        "word2vec": 109013
+      },
+      "68": {
+        "amostras": 110011,
+        "divisao": 110014,
+        "passeios": 110012,
+        "regressao": 110015,
+        "word2vec": 110013
+      },
+      "69": {
+        "amostras": 111011,
+        "divisao": 111014,
+        "passeios": 111012,
+        "regressao": 111015,
+        "word2vec": 111013
+      },
+      "70": {
+        "amostras": 112011,
+        "divisao": 112014,
+        "passeios": 112012,
+        "regressao": 112015,
+        "word2vec": 112013
+      },
+      "71": {
+        "amostras": 113011,
+        "divisao": 113014,
+        "passeios": 113012,
+        "regressao": 113015,
+        "word2vec": 113013
+      },
+      "72": {
+        "amostras": 114011,
+        "divisao": 114014,
+        "passeios": 114012,
+        "regressao": 114015,
+        "word2vec": 114013
+      },
+      "73": {
+        "amostras": 115011,
+        "divisao": 115014,
+        "passeios": 115012,
+        "regressao": 115015,
+        "word2vec": 115013
+      },
+      "74": {
+        "amostras": 116011,
+        "divisao": 116014,
+        "passeios": 116012,
+        "regressao": 116015,
+        "word2vec": 116013
+      },
+      "75": {
+        "amostras": 117011,
+        "divisao": 117014,
+        "passeios": 117012,
+        "regressao": 117015,
+        "word2vec": 117013
+      },
+      "76": {
+        "amostras": 118011,
+        "divisao": 118014,
+        "passeios": 118012,
+        "regressao": 118015,
+        "word2vec": 118013
+      },
+      "77": {
+        "amostras": 119011,
+        "divisao": 119014,
+        "passeios": 119012,
+        "regressao": 119015,
+        "word2vec": 119013
+      },
+      "78": {
+        "amostras": 120011,
+        "divisao": 120014,
+        "passeios": 120012,
+        "regressao": 120015,
+        "word2vec": 120013
+      },
+      "79": {
+        "amostras": 121011,
+        "divisao": 121014,
+        "passeios": 121012,
+        "regressao": 121015,
+        "word2vec": 121013
+      },
+      "80": {
+        "amostras": 122011,
+        "divisao": 122014,
+        "passeios": 122012,
+        "regressao": 122015,
+        "word2vec": 122013
+      },
+      "81": {
+        "amostras": 123011,
+        "divisao": 123014,
+        "passeios": 123012,
+        "regressao": 123015,
+        "word2vec": 123013
+      },
+      "82": {
+        "amostras": 124011,
+        "divisao": 124014,
+        "passeios": 124012,
+        "regressao": 124015,
+        "word2vec": 124013
+      },
+      "83": {
+        "amostras": 125011,
+        "divisao": 125014,
+        "passeios": 125012,
+        "regressao": 125015,
+        "word2vec": 125013
+      },
+      "84": {
+        "amostras": 126011,
+        "divisao": 126014,
+        "passeios": 126012,
+        "regressao": 126015,
+        "word2vec": 126013
+      },
+      "85": {
+        "amostras": 127011,
+        "divisao": 127014,
+        "passeios": 127012,
+        "regressao": 127015,
+        "word2vec": 127013
+      },
+      "86": {
+        "amostras": 128011,
+        "divisao": 128014,
+        "passeios": 128012,
+        "regressao": 128015,
+        "word2vec": 128013
+      },
+      "87": {
+        "amostras": 129011,
+        "divisao": 129014,
+        "passeios": 129012,
+        "regressao": 129015,
+        "word2vec": 129013
+      },
+      "88": {
+        "amostras": 130011,
+        "divisao": 130014,
+        "passeios": 130012,
+        "regressao": 130015,
+        "word2vec": 130013
+      },
+      "89": {
+        "amostras": 131011,
+        "divisao": 131014,
+        "passeios": 131012,
+        "regressao": 131015,
+        "word2vec": 131013
+      },
+      "90": {
+        "amostras": 132011,
+        "divisao": 132014,
+        "passeios": 132012,
+        "regressao": 132015,
+        "word2vec": 132013
+      },
+      "91": {
+        "amostras": 133011,
+        "divisao": 133014,
+        "passeios": 133012,
+        "regressao": 133015,
+        "word2vec": 133013
+      },
+      "92": {
+        "amostras": 134011,
+        "divisao": 134014,
+        "passeios": 134012,
+        "regressao": 134015,
+        "word2vec": 134013
+      },
+      "93": {
+        "amostras": 135011,
+        "divisao": 135014,
+        "passeios": 135012,
+        "regressao": 135015,
+        "word2vec": 135013
+      },
+      "94": {
+        "amostras": 136011,
+        "divisao": 136014,
+        "passeios": 136012,
+        "regressao": 136015,
+        "word2vec": 136013
+      },
+      "95": {
+        "amostras": 137011,
+        "divisao": 137014,
+        "passeios": 137012,
+        "regressao": 137015,
+        "word2vec": 137013
+      },
+      "96": {
+        "amostras": 138011,
+        "divisao": 138014,
+        "passeios": 138012,
+        "regressao": 138015,
+        "word2vec": 138013
+      },
+      "97": {
+        "amostras": 139011,
+        "divisao": 139014,
+        "passeios": 139012,
+        "regressao": 139015,
+        "word2vec": 139013
+      },
+      "98": {
+        "amostras": 140011,
+        "divisao": 140014,
+        "passeios": 140012,
+        "regressao": 140015,
+        "word2vec": 140013
+      },
+      "99": {
+        "amostras": 141011,
+        "divisao": 141014,
+        "passeios": 141012,
+        "regressao": 141015,
+        "word2vec": 141013
+      },
+      "100": {
+        "amostras": 142011,
+        "divisao": 142014,
+        "passeios": 142012,
+        "regressao": 142015,
+        "word2vec": 142013
+      }
+    },
+    "2008": {
+      "1": {
+        "amostras": 43021,
+        "divisao": 43024,
+        "passeios": 43022,
+        "regressao": 43025,
+        "word2vec": 43023
+      },
+      "2": {
+        "amostras": 44021,
+        "divisao": 44024,
+        "passeios": 44022,
+        "regressao": 44025,
+        "word2vec": 44023
+      },
+      "3": {
+        "amostras": 45021,
+        "divisao": 45024,
+        "passeios": 45022,
+        "regressao": 45025,
+        "word2vec": 45023
+      },
+      "4": {
+        "amostras": 46021,
+        "divisao": 46024,
+        "passeios": 46022,
+        "regressao": 46025,
+        "word2vec": 46023
+      },
+      "5": {
+        "amostras": 47021,
+        "divisao": 47024,
+        "passeios": 47022,
+        "regressao": 47025,
+        "word2vec": 47023
+      },
+      "6": {
+        "amostras": 48021,
+        "divisao": 48024,
+        "passeios": 48022,
+        "regressao": 48025,
+        "word2vec": 48023
+      },
+      "7": {
+        "amostras": 49021,
+        "divisao": 49024,
+        "passeios": 49022,
+        "regressao": 49025,
+        "word2vec": 49023
+      },
+      "8": {
+        "amostras": 50021,
+        "divisao": 50024,
+        "passeios": 50022,
+        "regressao": 50025,
+        "word2vec": 50023
+      },
+      "9": {
+        "amostras": 51021,
+        "divisao": 51024,
+        "passeios": 51022,
+        "regressao": 51025,
+        "word2vec": 51023
+      },
+      "10": {
+        "amostras": 52021,
+        "divisao": 52024,
+        "passeios": 52022,
+        "regressao": 52025,
+        "word2vec": 52023
+      },
+      "11": {
+        "amostras": 53021,
+        "divisao": 53024,
+        "passeios": 53022,
+        "regressao": 53025,
+        "word2vec": 53023
+      },
+      "12": {
+        "amostras": 54021,
+        "divisao": 54024,
+        "passeios": 54022,
+        "regressao": 54025,
+        "word2vec": 54023
+      },
+      "13": {
+        "amostras": 55021,
+        "divisao": 55024,
+        "passeios": 55022,
+        "regressao": 55025,
+        "word2vec": 55023
+      },
+      "14": {
+        "amostras": 56021,
+        "divisao": 56024,
+        "passeios": 56022,
+        "regressao": 56025,
+        "word2vec": 56023
+      },
+      "15": {
+        "amostras": 57021,
+        "divisao": 57024,
+        "passeios": 57022,
+        "regressao": 57025,
+        "word2vec": 57023
+      },
+      "16": {
+        "amostras": 58021,
+        "divisao": 58024,
+        "passeios": 58022,
+        "regressao": 58025,
+        "word2vec": 58023
+      },
+      "17": {
+        "amostras": 59021,
+        "divisao": 59024,
+        "passeios": 59022,
+        "regressao": 59025,
+        "word2vec": 59023
+      },
+      "18": {
+        "amostras": 60021,
+        "divisao": 60024,
+        "passeios": 60022,
+        "regressao": 60025,
+        "word2vec": 60023
+      },
+      "19": {
+        "amostras": 61021,
+        "divisao": 61024,
+        "passeios": 61022,
+        "regressao": 61025,
+        "word2vec": 61023
+      },
+      "20": {
+        "amostras": 62021,
+        "divisao": 62024,
+        "passeios": 62022,
+        "regressao": 62025,
+        "word2vec": 62023
+      },
+      "21": {
+        "amostras": 63021,
+        "divisao": 63024,
+        "passeios": 63022,
+        "regressao": 63025,
+        "word2vec": 63023
+      },
+      "22": {
+        "amostras": 64021,
+        "divisao": 64024,
+        "passeios": 64022,
+        "regressao": 64025,
+        "word2vec": 64023
+      },
+      "23": {
+        "amostras": 65021,
+        "divisao": 65024,
+        "passeios": 65022,
+        "regressao": 65025,
+        "word2vec": 65023
+      },
+      "24": {
+        "amostras": 66021,
+        "divisao": 66024,
+        "passeios": 66022,
+        "regressao": 66025,
+        "word2vec": 66023
+      },
+      "25": {
+        "amostras": 67021,
+        "divisao": 67024,
+        "passeios": 67022,
+        "regressao": 67025,
+        "word2vec": 67023
+      },
+      "26": {
+        "amostras": 68021,
+        "divisao": 68024,
+        "passeios": 68022,
+        "regressao": 68025,
+        "word2vec": 68023
+      },
+      "27": {
+        "amostras": 69021,
+        "divisao": 69024,
+        "passeios": 69022,
+        "regressao": 69025,
+        "word2vec": 69023
+      },
+      "28": {
+        "amostras": 70021,
+        "divisao": 70024,
+        "passeios": 70022,
+        "regressao": 70025,
+        "word2vec": 70023
+      },
+      "29": {
+        "amostras": 71021,
+        "divisao": 71024,
+        "passeios": 71022,
+        "regressao": 71025,
+        "word2vec": 71023
+      },
+      "30": {
+        "amostras": 72021,
+        "divisao": 72024,
+        "passeios": 72022,
+        "regressao": 72025,
+        "word2vec": 72023
+      },
+      "31": {
+        "amostras": 73021,
+        "divisao": 73024,
+        "passeios": 73022,
+        "regressao": 73025,
+        "word2vec": 73023
+      },
+      "32": {
+        "amostras": 74021,
+        "divisao": 74024,
+        "passeios": 74022,
+        "regressao": 74025,
+        "word2vec": 74023
+      },
+      "33": {
+        "amostras": 75021,
+        "divisao": 75024,
+        "passeios": 75022,
+        "regressao": 75025,
+        "word2vec": 75023
+      },
+      "34": {
+        "amostras": 76021,
+        "divisao": 76024,
+        "passeios": 76022,
+        "regressao": 76025,
+        "word2vec": 76023
+      },
+      "35": {
+        "amostras": 77021,
+        "divisao": 77024,
+        "passeios": 77022,
+        "regressao": 77025,
+        "word2vec": 77023
+      },
+      "36": {
+        "amostras": 78021,
+        "divisao": 78024,
+        "passeios": 78022,
+        "regressao": 78025,
+        "word2vec": 78023
+      },
+      "37": {
+        "amostras": 79021,
+        "divisao": 79024,
+        "passeios": 79022,
+        "regressao": 79025,
+        "word2vec": 79023
+      },
+      "38": {
+        "amostras": 80021,
+        "divisao": 80024,
+        "passeios": 80022,
+        "regressao": 80025,
+        "word2vec": 80023
+      },
+      "39": {
+        "amostras": 81021,
+        "divisao": 81024,
+        "passeios": 81022,
+        "regressao": 81025,
+        "word2vec": 81023
+      },
+      "40": {
+        "amostras": 82021,
+        "divisao": 82024,
+        "passeios": 82022,
+        "regressao": 82025,
+        "word2vec": 82023
+      },
+      "41": {
+        "amostras": 83021,
+        "divisao": 83024,
+        "passeios": 83022,
+        "regressao": 83025,
+        "word2vec": 83023
+      },
+      "42": {
+        "amostras": 84021,
+        "divisao": 84024,
+        "passeios": 84022,
+        "regressao": 84025,
+        "word2vec": 84023
+      },
+      "43": {
+        "amostras": 85021,
+        "divisao": 85024,
+        "passeios": 85022,
+        "regressao": 85025,
+        "word2vec": 85023
+      },
+      "44": {
+        "amostras": 86021,
+        "divisao": 86024,
+        "passeios": 86022,
+        "regressao": 86025,
+        "word2vec": 86023
+      },
+      "45": {
+        "amostras": 87021,
+        "divisao": 87024,
+        "passeios": 87022,
+        "regressao": 87025,
+        "word2vec": 87023
+      },
+      "46": {
+        "amostras": 88021,
+        "divisao": 88024,
+        "passeios": 88022,
+        "regressao": 88025,
+        "word2vec": 88023
+      },
+      "47": {
+        "amostras": 89021,
+        "divisao": 89024,
+        "passeios": 89022,
+        "regressao": 89025,
+        "word2vec": 89023
+      },
+      "48": {
+        "amostras": 90021,
+        "divisao": 90024,
+        "passeios": 90022,
+        "regressao": 90025,
+        "word2vec": 90023
+      },
+      "49": {
+        "amostras": 91021,
+        "divisao": 91024,
+        "passeios": 91022,
+        "regressao": 91025,
+        "word2vec": 91023
+      },
+      "50": {
+        "amostras": 92021,
+        "divisao": 92024,
+        "passeios": 92022,
+        "regressao": 92025,
+        "word2vec": 92023
+      },
+      "51": {
+        "amostras": 93021,
+        "divisao": 93024,
+        "passeios": 93022,
+        "regressao": 93025,
+        "word2vec": 93023
+      },
+      "52": {
+        "amostras": 94021,
+        "divisao": 94024,
+        "passeios": 94022,
+        "regressao": 94025,
+        "word2vec": 94023
+      },
+      "53": {
+        "amostras": 95021,
+        "divisao": 95024,
+        "passeios": 95022,
+        "regressao": 95025,
+        "word2vec": 95023
+      },
+      "54": {
+        "amostras": 96021,
+        "divisao": 96024,
+        "passeios": 96022,
+        "regressao": 96025,
+        "word2vec": 96023
+      },
+      "55": {
+        "amostras": 97021,
+        "divisao": 97024,
+        "passeios": 97022,
+        "regressao": 97025,
+        "word2vec": 97023
+      },
+      "56": {
+        "amostras": 98021,
+        "divisao": 98024,
+        "passeios": 98022,
+        "regressao": 98025,
+        "word2vec": 98023
+      },
+      "57": {
+        "amostras": 99021,
+        "divisao": 99024,
+        "passeios": 99022,
+        "regressao": 99025,
+        "word2vec": 99023
+      },
+      "58": {
+        "amostras": 100021,
+        "divisao": 100024,
+        "passeios": 100022,
+        "regressao": 100025,
+        "word2vec": 100023
+      },
+      "59": {
+        "amostras": 101021,
+        "divisao": 101024,
+        "passeios": 101022,
+        "regressao": 101025,
+        "word2vec": 101023
+      },
+      "60": {
+        "amostras": 102021,
+        "divisao": 102024,
+        "passeios": 102022,
+        "regressao": 102025,
+        "word2vec": 102023
+      },
+      "61": {
+        "amostras": 103021,
+        "divisao": 103024,
+        "passeios": 103022,
+        "regressao": 103025,
+        "word2vec": 103023
+      },
+      "62": {
+        "amostras": 104021,
+        "divisao": 104024,
+        "passeios": 104022,
+        "regressao": 104025,
+        "word2vec": 104023
+      },
+      "63": {
+        "amostras": 105021,
+        "divisao": 105024,
+        "passeios": 105022,
+        "regressao": 105025,
+        "word2vec": 105023
+      },
+      "64": {
+        "amostras": 106021,
+        "divisao": 106024,
+        "passeios": 106022,
+        "regressao": 106025,
+        "word2vec": 106023
+      },
+      "65": {
+        "amostras": 107021,
+        "divisao": 107024,
+        "passeios": 107022,
+        "regressao": 107025,
+        "word2vec": 107023
+      },
+      "66": {
+        "amostras": 108021,
+        "divisao": 108024,
+        "passeios": 108022,
+        "regressao": 108025,
+        "word2vec": 108023
+      },
+      "67": {
+        "amostras": 109021,
+        "divisao": 109024,
+        "passeios": 109022,
+        "regressao": 109025,
+        "word2vec": 109023
+      },
+      "68": {
+        "amostras": 110021,
+        "divisao": 110024,
+        "passeios": 110022,
+        "regressao": 110025,
+        "word2vec": 110023
+      },
+      "69": {
+        "amostras": 111021,
+        "divisao": 111024,
+        "passeios": 111022,
+        "regressao": 111025,
+        "word2vec": 111023
+      },
+      "70": {
+        "amostras": 112021,
+        "divisao": 112024,
+        "passeios": 112022,
+        "regressao": 112025,
+        "word2vec": 112023
+      },
+      "71": {
+        "amostras": 113021,
+        "divisao": 113024,
+        "passeios": 113022,
+        "regressao": 113025,
+        "word2vec": 113023
+      },
+      "72": {
+        "amostras": 114021,
+        "divisao": 114024,
+        "passeios": 114022,
+        "regressao": 114025,
+        "word2vec": 114023
+      },
+      "73": {
+        "amostras": 115021,
+        "divisao": 115024,
+        "passeios": 115022,
+        "regressao": 115025,
+        "word2vec": 115023
+      },
+      "74": {
+        "amostras": 116021,
+        "divisao": 116024,
+        "passeios": 116022,
+        "regressao": 116025,
+        "word2vec": 116023
+      },
+      "75": {
+        "amostras": 117021,
+        "divisao": 117024,
+        "passeios": 117022,
+        "regressao": 117025,
+        "word2vec": 117023
+      },
+      "76": {
+        "amostras": 118021,
+        "divisao": 118024,
+        "passeios": 118022,
+        "regressao": 118025,
+        "word2vec": 118023
+      },
+      "77": {
+        "amostras": 119021,
+        "divisao": 119024,
+        "passeios": 119022,
+        "regressao": 119025,
+        "word2vec": 119023
+      },
+      "78": {
+        "amostras": 120021,
+        "divisao": 120024,
+        "passeios": 120022,
+        "regressao": 120025,
+        "word2vec": 120023
+      },
+      "79": {
+        "amostras": 121021,
+        "divisao": 121024,
+        "passeios": 121022,
+        "regressao": 121025,
+        "word2vec": 121023
+      },
+      "80": {
+        "amostras": 122021,
+        "divisao": 122024,
+        "passeios": 122022,
+        "regressao": 122025,
+        "word2vec": 122023
+      },
+      "81": {
+        "amostras": 123021,
+        "divisao": 123024,
+        "passeios": 123022,
+        "regressao": 123025,
+        "word2vec": 123023
+      },
+      "82": {
+        "amostras": 124021,
+        "divisao": 124024,
+        "passeios": 124022,
+        "regressao": 124025,
+        "word2vec": 124023
+      },
+      "83": {
+        "amostras": 125021,
+        "divisao": 125024,
+        "passeios": 125022,
+        "regressao": 125025,
+        "word2vec": 125023
+      },
+      "84": {
+        "amostras": 126021,
+        "divisao": 126024,
+        "passeios": 126022,
+        "regressao": 126025,
+        "word2vec": 126023
+      },
+      "85": {
+        "amostras": 127021,
+        "divisao": 127024,
+        "passeios": 127022,
+        "regressao": 127025,
+        "word2vec": 127023
+      },
+      "86": {
+        "amostras": 128021,
+        "divisao": 128024,
+        "passeios": 128022,
+        "regressao": 128025,
+        "word2vec": 128023
+      },
+      "87": {
+        "amostras": 129021,
+        "divisao": 129024,
+        "passeios": 129022,
+        "regressao": 129025,
+        "word2vec": 129023
+      },
+      "88": {
+        "amostras": 130021,
+        "divisao": 130024,
+        "passeios": 130022,
+        "regressao": 130025,
+        "word2vec": 130023
+      },
+      "89": {
+        "amostras": 131021,
+        "divisao": 131024,
+        "passeios": 131022,
+        "regressao": 131025,
+        "word2vec": 131023
+      },
+      "90": {
+        "amostras": 132021,
+        "divisao": 132024,
+        "passeios": 132022,
+        "regressao": 132025,
+        "word2vec": 132023
+      },
+      "91": {
+        "amostras": 133021,
+        "divisao": 133024,
+        "passeios": 133022,
+        "regressao": 133025,
+        "word2vec": 133023
+      },
+      "92": {
+        "amostras": 134021,
+        "divisao": 134024,
+        "passeios": 134022,
+        "regressao": 134025,
+        "word2vec": 134023
+      },
+      "93": {
+        "amostras": 135021,
+        "divisao": 135024,
+        "passeios": 135022,
+        "regressao": 135025,
+        "word2vec": 135023
+      },
+      "94": {
+        "amostras": 136021,
+        "divisao": 136024,
+        "passeios": 136022,
+        "regressao": 136025,
+        "word2vec": 136023
+      },
+      "95": {
+        "amostras": 137021,
+        "divisao": 137024,
+        "passeios": 137022,
+        "regressao": 137025,
+        "word2vec": 137023
+      },
+      "96": {
+        "amostras": 138021,
+        "divisao": 138024,
+        "passeios": 138022,
+        "regressao": 138025,
+        "word2vec": 138023
+      },
+      "97": {
+        "amostras": 139021,
+        "divisao": 139024,
+        "passeios": 139022,
+        "regressao": 139025,
+        "word2vec": 139023
+      },
+      "98": {
+        "amostras": 140021,
+        "divisao": 140024,
+        "passeios": 140022,
+        "regressao": 140025,
+        "word2vec": 140023
+      },
+      "99": {
+        "amostras": 141021,
+        "divisao": 141024,
+        "passeios": 141022,
+        "regressao": 141025,
+        "word2vec": 141023
+      },
+      "100": {
+        "amostras": 142021,
+        "divisao": 142024,
+        "passeios": 142022,
+        "regressao": 142025,
+        "word2vec": 142023
+      }
+    },
+    "2009": {
+      "1": {
+        "amostras": 43031,
+        "divisao": 43034,
+        "passeios": 43032,
+        "regressao": 43035,
+        "word2vec": 43033
+      },
+      "2": {
+        "amostras": 44031,
+        "divisao": 44034,
+        "passeios": 44032,
+        "regressao": 44035,
+        "word2vec": 44033
+      },
+      "3": {
+        "amostras": 45031,
+        "divisao": 45034,
+        "passeios": 45032,
+        "regressao": 45035,
+        "word2vec": 45033
+      },
+      "4": {
+        "amostras": 46031,
+        "divisao": 46034,
+        "passeios": 46032,
+        "regressao": 46035,
+        "word2vec": 46033
+      },
+      "5": {
+        "amostras": 47031,
+        "divisao": 47034,
+        "passeios": 47032,
+        "regressao": 47035,
+        "word2vec": 47033
+      },
+      "6": {
+        "amostras": 48031,
+        "divisao": 48034,
+        "passeios": 48032,
+        "regressao": 48035,
+        "word2vec": 48033
+      },
+      "7": {
+        "amostras": 49031,
+        "divisao": 49034,
+        "passeios": 49032,
+        "regressao": 49035,
+        "word2vec": 49033
+      },
+      "8": {
+        "amostras": 50031,
+        "divisao": 50034,
+        "passeios": 50032,
+        "regressao": 50035,
+        "word2vec": 50033
+      },
+      "9": {
+        "amostras": 51031,
+        "divisao": 51034,
+        "passeios": 51032,
+        "regressao": 51035,
+        "word2vec": 51033
+      },
+      "10": {
+        "amostras": 52031,
+        "divisao": 52034,
+        "passeios": 52032,
+        "regressao": 52035,
+        "word2vec": 52033
+      },
+      "11": {
+        "amostras": 53031,
+        "divisao": 53034,
+        "passeios": 53032,
+        "regressao": 53035,
+        "word2vec": 53033
+      },
+      "12": {
+        "amostras": 54031,
+        "divisao": 54034,
+        "passeios": 54032,
+        "regressao": 54035,
+        "word2vec": 54033
+      },
+      "13": {
+        "amostras": 55031,
+        "divisao": 55034,
+        "passeios": 55032,
+        "regressao": 55035,
+        "word2vec": 55033
+      },
+      "14": {
+        "amostras": 56031,
+        "divisao": 56034,
+        "passeios": 56032,
+        "regressao": 56035,
+        "word2vec": 56033
+      },
+      "15": {
+        "amostras": 57031,
+        "divisao": 57034,
+        "passeios": 57032,
+        "regressao": 57035,
+        "word2vec": 57033
+      },
+      "16": {
+        "amostras": 58031,
+        "divisao": 58034,
+        "passeios": 58032,
+        "regressao": 58035,
+        "word2vec": 58033
+      },
+      "17": {
+        "amostras": 59031,
+        "divisao": 59034,
+        "passeios": 59032,
+        "regressao": 59035,
+        "word2vec": 59033
+      },
+      "18": {
+        "amostras": 60031,
+        "divisao": 60034,
+        "passeios": 60032,
+        "regressao": 60035,
+        "word2vec": 60033
+      },
+      "19": {
+        "amostras": 61031,
+        "divisao": 61034,
+        "passeios": 61032,
+        "regressao": 61035,
+        "word2vec": 61033
+      },
+      "20": {
+        "amostras": 62031,
+        "divisao": 62034,
+        "passeios": 62032,
+        "regressao": 62035,
+        "word2vec": 62033
+      },
+      "21": {
+        "amostras": 63031,
+        "divisao": 63034,
+        "passeios": 63032,
+        "regressao": 63035,
+        "word2vec": 63033
+      },
+      "22": {
+        "amostras": 64031,
+        "divisao": 64034,
+        "passeios": 64032,
+        "regressao": 64035,
+        "word2vec": 64033
+      },
+      "23": {
+        "amostras": 65031,
+        "divisao": 65034,
+        "passeios": 65032,
+        "regressao": 65035,
+        "word2vec": 65033
+      },
+      "24": {
+        "amostras": 66031,
+        "divisao": 66034,
+        "passeios": 66032,
+        "regressao": 66035,
+        "word2vec": 66033
+      },
+      "25": {
+        "amostras": 67031,
+        "divisao": 67034,
+        "passeios": 67032,
+        "regressao": 67035,
+        "word2vec": 67033
+      },
+      "26": {
+        "amostras": 68031,
+        "divisao": 68034,
+        "passeios": 68032,
+        "regressao": 68035,
+        "word2vec": 68033
+      },
+      "27": {
+        "amostras": 69031,
+        "divisao": 69034,
+        "passeios": 69032,
+        "regressao": 69035,
+        "word2vec": 69033
+      },
+      "28": {
+        "amostras": 70031,
+        "divisao": 70034,
+        "passeios": 70032,
+        "regressao": 70035,
+        "word2vec": 70033
+      },
+      "29": {
+        "amostras": 71031,
+        "divisao": 71034,
+        "passeios": 71032,
+        "regressao": 71035,
+        "word2vec": 71033
+      },
+      "30": {
+        "amostras": 72031,
+        "divisao": 72034,
+        "passeios": 72032,
+        "regressao": 72035,
+        "word2vec": 72033
+      },
+      "31": {
+        "amostras": 73031,
+        "divisao": 73034,
+        "passeios": 73032,
+        "regressao": 73035,
+        "word2vec": 73033
+      },
+      "32": {
+        "amostras": 74031,
+        "divisao": 74034,
+        "passeios": 74032,
+        "regressao": 74035,
+        "word2vec": 74033
+      },
+      "33": {
+        "amostras": 75031,
+        "divisao": 75034,
+        "passeios": 75032,
+        "regressao": 75035,
+        "word2vec": 75033
+      },
+      "34": {
+        "amostras": 76031,
+        "divisao": 76034,
+        "passeios": 76032,
+        "regressao": 76035,
+        "word2vec": 76033
+      },
+      "35": {
+        "amostras": 77031,
+        "divisao": 77034,
+        "passeios": 77032,
+        "regressao": 77035,
+        "word2vec": 77033
+      },
+      "36": {
+        "amostras": 78031,
+        "divisao": 78034,
+        "passeios": 78032,
+        "regressao": 78035,
+        "word2vec": 78033
+      },
+      "37": {
+        "amostras": 79031,
+        "divisao": 79034,
+        "passeios": 79032,
+        "regressao": 79035,
+        "word2vec": 79033
+      },
+      "38": {
+        "amostras": 80031,
+        "divisao": 80034,
+        "passeios": 80032,
+        "regressao": 80035,
+        "word2vec": 80033
+      },
+      "39": {
+        "amostras": 81031,
+        "divisao": 81034,
+        "passeios": 81032,
+        "regressao": 81035,
+        "word2vec": 81033
+      },
+      "40": {
+        "amostras": 82031,
+        "divisao": 82034,
+        "passeios": 82032,
+        "regressao": 82035,
+        "word2vec": 82033
+      },
+      "41": {
+        "amostras": 83031,
+        "divisao": 83034,
+        "passeios": 83032,
+        "regressao": 83035,
+        "word2vec": 83033
+      },
+      "42": {
+        "amostras": 84031,
+        "divisao": 84034,
+        "passeios": 84032,
+        "regressao": 84035,
+        "word2vec": 84033
+      },
+      "43": {
+        "amostras": 85031,
+        "divisao": 85034,
+        "passeios": 85032,
+        "regressao": 85035,
+        "word2vec": 85033
+      },
+      "44": {
+        "amostras": 86031,
+        "divisao": 86034,
+        "passeios": 86032,
+        "regressao": 86035,
+        "word2vec": 86033
+      },
+      "45": {
+        "amostras": 87031,
+        "divisao": 87034,
+        "passeios": 87032,
+        "regressao": 87035,
+        "word2vec": 87033
+      },
+      "46": {
+        "amostras": 88031,
+        "divisao": 88034,
+        "passeios": 88032,
+        "regressao": 88035,
+        "word2vec": 88033
+      },
+      "47": {
+        "amostras": 89031,
+        "divisao": 89034,
+        "passeios": 89032,
+        "regressao": 89035,
+        "word2vec": 89033
+      },
+      "48": {
+        "amostras": 90031,
+        "divisao": 90034,
+        "passeios": 90032,
+        "regressao": 90035,
+        "word2vec": 90033
+      },
+      "49": {
+        "amostras": 91031,
+        "divisao": 91034,
+        "passeios": 91032,
+        "regressao": 91035,
+        "word2vec": 91033
+      },
+      "50": {
+        "amostras": 92031,
+        "divisao": 92034,
+        "passeios": 92032,
+        "regressao": 92035,
+        "word2vec": 92033
+      },
+      "51": {
+        "amostras": 93031,
+        "divisao": 93034,
+        "passeios": 93032,
+        "regressao": 93035,
+        "word2vec": 93033
+      },
+      "52": {
+        "amostras": 94031,
+        "divisao": 94034,
+        "passeios": 94032,
+        "regressao": 94035,
+        "word2vec": 94033
+      },
+      "53": {
+        "amostras": 95031,
+        "divisao": 95034,
+        "passeios": 95032,
+        "regressao": 95035,
+        "word2vec": 95033
+      },
+      "54": {
+        "amostras": 96031,
+        "divisao": 96034,
+        "passeios": 96032,
+        "regressao": 96035,
+        "word2vec": 96033
+      },
+      "55": {
+        "amostras": 97031,
+        "divisao": 97034,
+        "passeios": 97032,
+        "regressao": 97035,
+        "word2vec": 97033
+      },
+      "56": {
+        "amostras": 98031,
+        "divisao": 98034,
+        "passeios": 98032,
+        "regressao": 98035,
+        "word2vec": 98033
+      },
+      "57": {
+        "amostras": 99031,
+        "divisao": 99034,
+        "passeios": 99032,
+        "regressao": 99035,
+        "word2vec": 99033
+      },
+      "58": {
+        "amostras": 100031,
+        "divisao": 100034,
+        "passeios": 100032,
+        "regressao": 100035,
+        "word2vec": 100033
+      },
+      "59": {
+        "amostras": 101031,
+        "divisao": 101034,
+        "passeios": 101032,
+        "regressao": 101035,
+        "word2vec": 101033
+      },
+      "60": {
+        "amostras": 102031,
+        "divisao": 102034,
+        "passeios": 102032,
+        "regressao": 102035,
+        "word2vec": 102033
+      },
+      "61": {
+        "amostras": 103031,
+        "divisao": 103034,
+        "passeios": 103032,
+        "regressao": 103035,
+        "word2vec": 103033
+      },
+      "62": {
+        "amostras": 104031,
+        "divisao": 104034,
+        "passeios": 104032,
+        "regressao": 104035,
+        "word2vec": 104033
+      },
+      "63": {
+        "amostras": 105031,
+        "divisao": 105034,
+        "passeios": 105032,
+        "regressao": 105035,
+        "word2vec": 105033
+      },
+      "64": {
+        "amostras": 106031,
+        "divisao": 106034,
+        "passeios": 106032,
+        "regressao": 106035,
+        "word2vec": 106033
+      },
+      "65": {
+        "amostras": 107031,
+        "divisao": 107034,
+        "passeios": 107032,
+        "regressao": 107035,
+        "word2vec": 107033
+      },
+      "66": {
+        "amostras": 108031,
+        "divisao": 108034,
+        "passeios": 108032,
+        "regressao": 108035,
+        "word2vec": 108033
+      },
+      "67": {
+        "amostras": 109031,
+        "divisao": 109034,
+        "passeios": 109032,
+        "regressao": 109035,
+        "word2vec": 109033
+      },
+      "68": {
+        "amostras": 110031,
+        "divisao": 110034,
+        "passeios": 110032,
+        "regressao": 110035,
+        "word2vec": 110033
+      },
+      "69": {
+        "amostras": 111031,
+        "divisao": 111034,
+        "passeios": 111032,
+        "regressao": 111035,
+        "word2vec": 111033
+      },
+      "70": {
+        "amostras": 112031,
+        "divisao": 112034,
+        "passeios": 112032,
+        "regressao": 112035,
+        "word2vec": 112033
+      },
+      "71": {
+        "amostras": 113031,
+        "divisao": 113034,
+        "passeios": 113032,
+        "regressao": 113035,
+        "word2vec": 113033
+      },
+      "72": {
+        "amostras": 114031,
+        "divisao": 114034,
+        "passeios": 114032,
+        "regressao": 114035,
+        "word2vec": 114033
+      },
+      "73": {
+        "amostras": 115031,
+        "divisao": 115034,
+        "passeios": 115032,
+        "regressao": 115035,
+        "word2vec": 115033
+      },
+      "74": {
+        "amostras": 116031,
+        "divisao": 116034,
+        "passeios": 116032,
+        "regressao": 116035,
+        "word2vec": 116033
+      },
+      "75": {
+        "amostras": 117031,
+        "divisao": 117034,
+        "passeios": 117032,
+        "regressao": 117035,
+        "word2vec": 117033
+      },
+      "76": {
+        "amostras": 118031,
+        "divisao": 118034,
+        "passeios": 118032,
+        "regressao": 118035,
+        "word2vec": 118033
+      },
+      "77": {
+        "amostras": 119031,
+        "divisao": 119034,
+        "passeios": 119032,
+        "regressao": 119035,
+        "word2vec": 119033
+      },
+      "78": {
+        "amostras": 120031,
+        "divisao": 120034,
+        "passeios": 120032,
+        "regressao": 120035,
+        "word2vec": 120033
+      },
+      "79": {
+        "amostras": 121031,
+        "divisao": 121034,
+        "passeios": 121032,
+        "regressao": 121035,
+        "word2vec": 121033
+      },
+      "80": {
+        "amostras": 122031,
+        "divisao": 122034,
+        "passeios": 122032,
+        "regressao": 122035,
+        "word2vec": 122033
+      },
+      "81": {
+        "amostras": 123031,
+        "divisao": 123034,
+        "passeios": 123032,
+        "regressao": 123035,
+        "word2vec": 123033
+      },
+      "82": {
+        "amostras": 124031,
+        "divisao": 124034,
+        "passeios": 124032,
+        "regressao": 124035,
+        "word2vec": 124033
+      },
+      "83": {
+        "amostras": 125031,
+        "divisao": 125034,
+        "passeios": 125032,
+        "regressao": 125035,
+        "word2vec": 125033
+      },
+      "84": {
+        "amostras": 126031,
+        "divisao": 126034,
+        "passeios": 126032,
+        "regressao": 126035,
+        "word2vec": 126033
+      },
+      "85": {
+        "amostras": 127031,
+        "divisao": 127034,
+        "passeios": 127032,
+        "regressao": 127035,
+        "word2vec": 127033
+      },
+      "86": {
+        "amostras": 128031,
+        "divisao": 128034,
+        "passeios": 128032,
+        "regressao": 128035,
+        "word2vec": 128033
+      },
+      "87": {
+        "amostras": 129031,
+        "divisao": 129034,
+        "passeios": 129032,
+        "regressao": 129035,
+        "word2vec": 129033
+      },
+      "88": {
+        "amostras": 130031,
+        "divisao": 130034,
+        "passeios": 130032,
+        "regressao": 130035,
+        "word2vec": 130033
+      },
+      "89": {
+        "amostras": 131031,
+        "divisao": 131034,
+        "passeios": 131032,
+        "regressao": 131035,
+        "word2vec": 131033
+      },
+      "90": {
+        "amostras": 132031,
+        "divisao": 132034,
+        "passeios": 132032,
+        "regressao": 132035,
+        "word2vec": 132033
+      },
+      "91": {
+        "amostras": 133031,
+        "divisao": 133034,
+        "passeios": 133032,
+        "regressao": 133035,
+        "word2vec": 133033
+      },
+      "92": {
+        "amostras": 134031,
+        "divisao": 134034,
+        "passeios": 134032,
+        "regressao": 134035,
+        "word2vec": 134033
+      },
+      "93": {
+        "amostras": 135031,
+        "divisao": 135034,
+        "passeios": 135032,
+        "regressao": 135035,
+        "word2vec": 135033
+      },
+      "94": {
+        "amostras": 136031,
+        "divisao": 136034,
+        "passeios": 136032,
+        "regressao": 136035,
+        "word2vec": 136033
+      },
+      "95": {
+        "amostras": 137031,
+        "divisao": 137034,
+        "passeios": 137032,
+        "regressao": 137035,
+        "word2vec": 137033
+      },
+      "96": {
+        "amostras": 138031,
+        "divisao": 138034,
+        "passeios": 138032,
+        "regressao": 138035,
+        "word2vec": 138033
+      },
+      "97": {
+        "amostras": 139031,
+        "divisao": 139034,
+        "passeios": 139032,
+        "regressao": 139035,
+        "word2vec": 139033
+      },
+      "98": {
+        "amostras": 140031,
+        "divisao": 140034,
+        "passeios": 140032,
+        "regressao": 140035,
+        "word2vec": 140033
+      },
+      "99": {
+        "amostras": 141031,
+        "divisao": 141034,
+        "passeios": 141032,
+        "regressao": 141035,
+        "word2vec": 141033
+      },
+      "100": {
+        "amostras": 142031,
+        "divisao": 142034,
+        "passeios": 142032,
+        "regressao": 142035,
+        "word2vec": 142033
+      }
+    },
+    "2010": {
+      "1": {
+        "amostras": 43041,
+        "divisao": 43044,
+        "passeios": 43042,
+        "regressao": 43045,
+        "word2vec": 43043
+      },
+      "2": {
+        "amostras": 44041,
+        "divisao": 44044,
+        "passeios": 44042,
+        "regressao": 44045,
+        "word2vec": 44043
+      },
+      "3": {
+        "amostras": 45041,
+        "divisao": 45044,
+        "passeios": 45042,
+        "regressao": 45045,
+        "word2vec": 45043
+      },
+      "4": {
+        "amostras": 46041,
+        "divisao": 46044,
+        "passeios": 46042,
+        "regressao": 46045,
+        "word2vec": 46043
+      },
+      "5": {
+        "amostras": 47041,
+        "divisao": 47044,
+        "passeios": 47042,
+        "regressao": 47045,
+        "word2vec": 47043
+      },
+      "6": {
+        "amostras": 48041,
+        "divisao": 48044,
+        "passeios": 48042,
+        "regressao": 48045,
+        "word2vec": 48043
+      },
+      "7": {
+        "amostras": 49041,
+        "divisao": 49044,
+        "passeios": 49042,
+        "regressao": 49045,
+        "word2vec": 49043
+      },
+      "8": {
+        "amostras": 50041,
+        "divisao": 50044,
+        "passeios": 50042,
+        "regressao": 50045,
+        "word2vec": 50043
+      },
+      "9": {
+        "amostras": 51041,
+        "divisao": 51044,
+        "passeios": 51042,
+        "regressao": 51045,
+        "word2vec": 51043
+      },
+      "10": {
+        "amostras": 52041,
+        "divisao": 52044,
+        "passeios": 52042,
+        "regressao": 52045,
+        "word2vec": 52043
+      },
+      "11": {
+        "amostras": 53041,
+        "divisao": 53044,
+        "passeios": 53042,
+        "regressao": 53045,
+        "word2vec": 53043
+      },
+      "12": {
+        "amostras": 54041,
+        "divisao": 54044,
+        "passeios": 54042,
+        "regressao": 54045,
+        "word2vec": 54043
+      },
+      "13": {
+        "amostras": 55041,
+        "divisao": 55044,
+        "passeios": 55042,
+        "regressao": 55045,
+        "word2vec": 55043
+      },
+      "14": {
+        "amostras": 56041,
+        "divisao": 56044,
+        "passeios": 56042,
+        "regressao": 56045,
+        "word2vec": 56043
+      },
+      "15": {
+        "amostras": 57041,
+        "divisao": 57044,
+        "passeios": 57042,
+        "regressao": 57045,
+        "word2vec": 57043
+      },
+      "16": {
+        "amostras": 58041,
+        "divisao": 58044,
+        "passeios": 58042,
+        "regressao": 58045,
+        "word2vec": 58043
+      },
+      "17": {
+        "amostras": 59041,
+        "divisao": 59044,
+        "passeios": 59042,
+        "regressao": 59045,
+        "word2vec": 59043
+      },
+      "18": {
+        "amostras": 60041,
+        "divisao": 60044,
+        "passeios": 60042,
+        "regressao": 60045,
+        "word2vec": 60043
+      },
+      "19": {
+        "amostras": 61041,
+        "divisao": 61044,
+        "passeios": 61042,
+        "regressao": 61045,
+        "word2vec": 61043
+      },
+      "20": {
+        "amostras": 62041,
+        "divisao": 62044,
+        "passeios": 62042,
+        "regressao": 62045,
+        "word2vec": 62043
+      },
+      "21": {
+        "amostras": 63041,
+        "divisao": 63044,
+        "passeios": 63042,
+        "regressao": 63045,
+        "word2vec": 63043
+      },
+      "22": {
+        "amostras": 64041,
+        "divisao": 64044,
+        "passeios": 64042,
+        "regressao": 64045,
+        "word2vec": 64043
+      },
+      "23": {
+        "amostras": 65041,
+        "divisao": 65044,
+        "passeios": 65042,
+        "regressao": 65045,
+        "word2vec": 65043
+      },
+      "24": {
+        "amostras": 66041,
+        "divisao": 66044,
+        "passeios": 66042,
+        "regressao": 66045,
+        "word2vec": 66043
+      },
+      "25": {
+        "amostras": 67041,
+        "divisao": 67044,
+        "passeios": 67042,
+        "regressao": 67045,
+        "word2vec": 67043
+      },
+      "26": {
+        "amostras": 68041,
+        "divisao": 68044,
+        "passeios": 68042,
+        "regressao": 68045,
+        "word2vec": 68043
+      },
+      "27": {
+        "amostras": 69041,
+        "divisao": 69044,
+        "passeios": 69042,
+        "regressao": 69045,
+        "word2vec": 69043
+      },
+      "28": {
+        "amostras": 70041,
+        "divisao": 70044,
+        "passeios": 70042,
+        "regressao": 70045,
+        "word2vec": 70043
+      },
+      "29": {
+        "amostras": 71041,
+        "divisao": 71044,
+        "passeios": 71042,
+        "regressao": 71045,
+        "word2vec": 71043
+      },
+      "30": {
+        "amostras": 72041,
+        "divisao": 72044,
+        "passeios": 72042,
+        "regressao": 72045,
+        "word2vec": 72043
+      },
+      "31": {
+        "amostras": 73041,
+        "divisao": 73044,
+        "passeios": 73042,
+        "regressao": 73045,
+        "word2vec": 73043
+      },
+      "32": {
+        "amostras": 74041,
+        "divisao": 74044,
+        "passeios": 74042,
+        "regressao": 74045,
+        "word2vec": 74043
+      },
+      "33": {
+        "amostras": 75041,
+        "divisao": 75044,
+        "passeios": 75042,
+        "regressao": 75045,
+        "word2vec": 75043
+      },
+      "34": {
+        "amostras": 76041,
+        "divisao": 76044,
+        "passeios": 76042,
+        "regressao": 76045,
+        "word2vec": 76043
+      },
+      "35": {
+        "amostras": 77041,
+        "divisao": 77044,
+        "passeios": 77042,
+        "regressao": 77045,
+        "word2vec": 77043
+      },
+      "36": {
+        "amostras": 78041,
+        "divisao": 78044,
+        "passeios": 78042,
+        "regressao": 78045,
+        "word2vec": 78043
+      },
+      "37": {
+        "amostras": 79041,
+        "divisao": 79044,
+        "passeios": 79042,
+        "regressao": 79045,
+        "word2vec": 79043
+      },
+      "38": {
+        "amostras": 80041,
+        "divisao": 80044,
+        "passeios": 80042,
+        "regressao": 80045,
+        "word2vec": 80043
+      },
+      "39": {
+        "amostras": 81041,
+        "divisao": 81044,
+        "passeios": 81042,
+        "regressao": 81045,
+        "word2vec": 81043
+      },
+      "40": {
+        "amostras": 82041,
+        "divisao": 82044,
+        "passeios": 82042,
+        "regressao": 82045,
+        "word2vec": 82043
+      },
+      "41": {
+        "amostras": 83041,
+        "divisao": 83044,
+        "passeios": 83042,
+        "regressao": 83045,
+        "word2vec": 83043
+      },
+      "42": {
+        "amostras": 84041,
+        "divisao": 84044,
+        "passeios": 84042,
+        "regressao": 84045,
+        "word2vec": 84043
+      },
+      "43": {
+        "amostras": 85041,
+        "divisao": 85044,
+        "passeios": 85042,
+        "regressao": 85045,
+        "word2vec": 85043
+      },
+      "44": {
+        "amostras": 86041,
+        "divisao": 86044,
+        "passeios": 86042,
+        "regressao": 86045,
+        "word2vec": 86043
+      },
+      "45": {
+        "amostras": 87041,
+        "divisao": 87044,
+        "passeios": 87042,
+        "regressao": 87045,
+        "word2vec": 87043
+      },
+      "46": {
+        "amostras": 88041,
+        "divisao": 88044,
+        "passeios": 88042,
+        "regressao": 88045,
+        "word2vec": 88043
+      },
+      "47": {
+        "amostras": 89041,
+        "divisao": 89044,
+        "passeios": 89042,
+        "regressao": 89045,
+        "word2vec": 89043
+      },
+      "48": {
+        "amostras": 90041,
+        "divisao": 90044,
+        "passeios": 90042,
+        "regressao": 90045,
+        "word2vec": 90043
+      },
+      "49": {
+        "amostras": 91041,
+        "divisao": 91044,
+        "passeios": 91042,
+        "regressao": 91045,
+        "word2vec": 91043
+      },
+      "50": {
+        "amostras": 92041,
+        "divisao": 92044,
+        "passeios": 92042,
+        "regressao": 92045,
+        "word2vec": 92043
+      },
+      "51": {
+        "amostras": 93041,
+        "divisao": 93044,
+        "passeios": 93042,
+        "regressao": 93045,
+        "word2vec": 93043
+      },
+      "52": {
+        "amostras": 94041,
+        "divisao": 94044,
+        "passeios": 94042,
+        "regressao": 94045,
+        "word2vec": 94043
+      },
+      "53": {
+        "amostras": 95041,
+        "divisao": 95044,
+        "passeios": 95042,
+        "regressao": 95045,
+        "word2vec": 95043
+      },
+      "54": {
+        "amostras": 96041,
+        "divisao": 96044,
+        "passeios": 96042,
+        "regressao": 96045,
+        "word2vec": 96043
+      },
+      "55": {
+        "amostras": 97041,
+        "divisao": 97044,
+        "passeios": 97042,
+        "regressao": 97045,
+        "word2vec": 97043
+      },
+      "56": {
+        "amostras": 98041,
+        "divisao": 98044,
+        "passeios": 98042,
+        "regressao": 98045,
+        "word2vec": 98043
+      },
+      "57": {
+        "amostras": 99041,
+        "divisao": 99044,
+        "passeios": 99042,
+        "regressao": 99045,
+        "word2vec": 99043
+      },
+      "58": {
+        "amostras": 100041,
+        "divisao": 100044,
+        "passeios": 100042,
+        "regressao": 100045,
+        "word2vec": 100043
+      },
+      "59": {
+        "amostras": 101041,
+        "divisao": 101044,
+        "passeios": 101042,
+        "regressao": 101045,
+        "word2vec": 101043
+      },
+      "60": {
+        "amostras": 102041,
+        "divisao": 102044,
+        "passeios": 102042,
+        "regressao": 102045,
+        "word2vec": 102043
+      },
+      "61": {
+        "amostras": 103041,
+        "divisao": 103044,
+        "passeios": 103042,
+        "regressao": 103045,
+        "word2vec": 103043
+      },
+      "62": {
+        "amostras": 104041,
+        "divisao": 104044,
+        "passeios": 104042,
+        "regressao": 104045,
+        "word2vec": 104043
+      },
+      "63": {
+        "amostras": 105041,
+        "divisao": 105044,
+        "passeios": 105042,
+        "regressao": 105045,
+        "word2vec": 105043
+      },
+      "64": {
+        "amostras": 106041,
+        "divisao": 106044,
+        "passeios": 106042,
+        "regressao": 106045,
+        "word2vec": 106043
+      },
+      "65": {
+        "amostras": 107041,
+        "divisao": 107044,
+        "passeios": 107042,
+        "regressao": 107045,
+        "word2vec": 107043
+      },
+      "66": {
+        "amostras": 108041,
+        "divisao": 108044,
+        "passeios": 108042,
+        "regressao": 108045,
+        "word2vec": 108043
+      },
+      "67": {
+        "amostras": 109041,
+        "divisao": 109044,
+        "passeios": 109042,
+        "regressao": 109045,
+        "word2vec": 109043
+      },
+      "68": {
+        "amostras": 110041,
+        "divisao": 110044,
+        "passeios": 110042,
+        "regressao": 110045,
+        "word2vec": 110043
+      },
+      "69": {
+        "amostras": 111041,
+        "divisao": 111044,
+        "passeios": 111042,
+        "regressao": 111045,
+        "word2vec": 111043
+      },
+      "70": {
+        "amostras": 112041,
+        "divisao": 112044,
+        "passeios": 112042,
+        "regressao": 112045,
+        "word2vec": 112043
+      },
+      "71": {
+        "amostras": 113041,
+        "divisao": 113044,
+        "passeios": 113042,
+        "regressao": 113045,
+        "word2vec": 113043
+      },
+      "72": {
+        "amostras": 114041,
+        "divisao": 114044,
+        "passeios": 114042,
+        "regressao": 114045,
+        "word2vec": 114043
+      },
+      "73": {
+        "amostras": 115041,
+        "divisao": 115044,
+        "passeios": 115042,
+        "regressao": 115045,
+        "word2vec": 115043
+      },
+      "74": {
+        "amostras": 116041,
+        "divisao": 116044,
+        "passeios": 116042,
+        "regressao": 116045,
+        "word2vec": 116043
+      },
+      "75": {
+        "amostras": 117041,
+        "divisao": 117044,
+        "passeios": 117042,
+        "regressao": 117045,
+        "word2vec": 117043
+      },
+      "76": {
+        "amostras": 118041,
+        "divisao": 118044,
+        "passeios": 118042,
+        "regressao": 118045,
+        "word2vec": 118043
+      },
+      "77": {
+        "amostras": 119041,
+        "divisao": 119044,
+        "passeios": 119042,
+        "regressao": 119045,
+        "word2vec": 119043
+      },
+      "78": {
+        "amostras": 120041,
+        "divisao": 120044,
+        "passeios": 120042,
+        "regressao": 120045,
+        "word2vec": 120043
+      },
+      "79": {
+        "amostras": 121041,
+        "divisao": 121044,
+        "passeios": 121042,
+        "regressao": 121045,
+        "word2vec": 121043
+      },
+      "80": {
+        "amostras": 122041,
+        "divisao": 122044,
+        "passeios": 122042,
+        "regressao": 122045,
+        "word2vec": 122043
+      },
+      "81": {
+        "amostras": 123041,
+        "divisao": 123044,
+        "passeios": 123042,
+        "regressao": 123045,
+        "word2vec": 123043
+      },
+      "82": {
+        "amostras": 124041,
+        "divisao": 124044,
+        "passeios": 124042,
+        "regressao": 124045,
+        "word2vec": 124043
+      },
+      "83": {
+        "amostras": 125041,
+        "divisao": 125044,
+        "passeios": 125042,
+        "regressao": 125045,
+        "word2vec": 125043
+      },
+      "84": {
+        "amostras": 126041,
+        "divisao": 126044,
+        "passeios": 126042,
+        "regressao": 126045,
+        "word2vec": 126043
+      },
+      "85": {
+        "amostras": 127041,
+        "divisao": 127044,
+        "passeios": 127042,
+        "regressao": 127045,
+        "word2vec": 127043
+      },
+      "86": {
+        "amostras": 128041,
+        "divisao": 128044,
+        "passeios": 128042,
+        "regressao": 128045,
+        "word2vec": 128043
+      },
+      "87": {
+        "amostras": 129041,
+        "divisao": 129044,
+        "passeios": 129042,
+        "regressao": 129045,
+        "word2vec": 129043
+      },
+      "88": {
+        "amostras": 130041,
+        "divisao": 130044,
+        "passeios": 130042,
+        "regressao": 130045,
+        "word2vec": 130043
+      },
+      "89": {
+        "amostras": 131041,
+        "divisao": 131044,
+        "passeios": 131042,
+        "regressao": 131045,
+        "word2vec": 131043
+      },
+      "90": {
+        "amostras": 132041,
+        "divisao": 132044,
+        "passeios": 132042,
+        "regressao": 132045,
+        "word2vec": 132043
+      },
+      "91": {
+        "amostras": 133041,
+        "divisao": 133044,
+        "passeios": 133042,
+        "regressao": 133045,
+        "word2vec": 133043
+      },
+      "92": {
+        "amostras": 134041,
+        "divisao": 134044,
+        "passeios": 134042,
+        "regressao": 134045,
+        "word2vec": 134043
+      },
+      "93": {
+        "amostras": 135041,
+        "divisao": 135044,
+        "passeios": 135042,
+        "regressao": 135045,
+        "word2vec": 135043
+      },
+      "94": {
+        "amostras": 136041,
+        "divisao": 136044,
+        "passeios": 136042,
+        "regressao": 136045,
+        "word2vec": 136043
+      },
+      "95": {
+        "amostras": 137041,
+        "divisao": 137044,
+        "passeios": 137042,
+        "regressao": 137045,
+        "word2vec": 137043
+      },
+      "96": {
+        "amostras": 138041,
+        "divisao": 138044,
+        "passeios": 138042,
+        "regressao": 138045,
+        "word2vec": 138043
+      },
+      "97": {
+        "amostras": 139041,
+        "divisao": 139044,
+        "passeios": 139042,
+        "regressao": 139045,
+        "word2vec": 139043
+      },
+      "98": {
+        "amostras": 140041,
+        "divisao": 140044,
+        "passeios": 140042,
+        "regressao": 140045,
+        "word2vec": 140043
+      },
+      "99": {
+        "amostras": 141041,
+        "divisao": 141044,
+        "passeios": 141042,
+        "regressao": 141045,
+        "word2vec": 141043
+      },
+      "100": {
+        "amostras": 142041,
+        "divisao": 142044,
+        "passeios": 142042,
+        "regressao": 142045,
+        "word2vec": 142043
+      }
+    }
+  },
+  "tamanho_top": 20,
+  "taxas": "Rodadas sem previsões têm taxa em branco; a média por limiar usa apenas rodadas com previsões.",
+  "treino": "Amostras do ano-base. Cada grupo de pares ausentes é pontuado por um modelo treinado nos outros quatro e nas positivas ocultadas."
+}

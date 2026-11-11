@@ -1,0 +1,7 @@
+# Preserve the byte hashes recorded in the final experiment manifests.
+runs/redes/v11_anual_2006_2015/** -text
+runs/modelos/roc_auc_v11_100_repeticoes/** -text
+runs/modelos/temporal_v11_100_repeticoes/** -text
+runs/redes/v11_anual_2006_2015/*.csv whitespace=cr-at-eol
+runs/modelos/roc_auc_v11_100_repeticoes/*.csv whitespace=cr-at-eol
+runs/modelos/temporal_v11_100_repeticoes/*.csv whitespace=cr-at-eol

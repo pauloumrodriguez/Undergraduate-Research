@@ -177,6 +177,26 @@ os totais publicados não determinam sozinhos a metodologia.
 
 ## 10. Executar o classificador exploratório
 
+### Reexecutar a rodada final com as redes publicadas
+
+Com o ambiente Python preparado, rode na raiz do repositório. Os dez CSVs
+anuais da v11 já estão disponíveis. O Solr só é necessário para reconstruí-los
+a partir das patentes.
+
+```powershell
+$rede = '.\runs\redes\v11_anual_2006_2015'
+python .\src\05_executar_modelo.py --redes $rede --avaliacao "$rede\avaliacao_redes.json" --perfil reconstrucao_tcc_v1 --anos 2006 2007 2008 2009 2010 --repeticoes 100 --permitir-rede-divergente --saida .\runs\modelos\roc_auc_reexecucao
+python .\src\11_avaliar_previsoes_temporais.py --redes $rede --anos 2006 2007 2008 2009 2010 --repeticoes 100 --saida .\runs\modelos\temporal_reexecucao
+```
+
+Para um teste curto, use `--anos 2006 --repeticoes 1` e indique uma pasta de
+saída própria para cada comando. As saídas principais são `resumo.csv`,
+`ranking_top20_consolidado.csv` e `limiares_consolidados.csv`. Se gerar novas
+redes da v11 com Solr, passe `--anos (2006..2015)` ao gerador e avalie a nova
+pasta com `04_avaliar_redes.py` antes de usá-la nos dois comandos acima.
+
+### Exemplo com a rede preservada da fase de hipóteses
+
 Exemplo usando a v11 e apenas uma repetição inicial:
 
 ```powershell

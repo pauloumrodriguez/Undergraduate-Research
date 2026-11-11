@@ -1,6 +1,6 @@
 # Estado da replicação nova
 
-Atualizado em 28/10/2026.
+Atualizado em 11/11/2026.
 
 ## Organização
 
@@ -21,6 +21,16 @@ Atualizado em 28/10/2026.
 - variantes metodológicas de consulta e rede;
 - testes automatizados do pipeline.
 
+## Experimento final com a v11 anual
+
+- Dez redes anuais de 2006 a 2015.
+- 100 repetições por ano-base de 2006 a 2010 no teste de ligações ocultadas. ROC-AUC média de 0,7152.
+- Outras 100 repetições por ano-base na avaliação em até 1, 3 e 5 anos.
+- Top 20 em até cinco anos: 32,3% de acerto em média, frente a 21,3% entre todos os candidatos.
+- Zero previsões nos limiares publicados. Os 53,98% de Kochan ficaram sem reprodução.
+
+Veja o [relatório final](docs/RELATORIO_FINAL.md) e os [resultados completos](runs/modelos/).
+
 ## Melhor aproximação
 
 `v11_apenas_termo_principal`, interpretada cumulativamente, contém todos os 50
@@ -40,7 +50,7 @@ análise de sensibilidade pós-hoc, não uma confirmação independente.
 - consultas Solr exatas;
 - configuração completa de Node2Vec/Word2Vec;
 - estratégia exata de amostragem negativa;
-- executor temporal de horizontes 1/3/5 anos.
+- regras exatas do protocolo temporal original.
 
 Assim, o classificador só pode ser tratado como exploração até que o autor
 forneça pelo menos a rede original, o código ou as consultas.

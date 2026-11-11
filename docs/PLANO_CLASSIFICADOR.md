@@ -31,15 +31,15 @@ o protocolo é uma especificação, não um resultado.
 
 ## Avaliação temporal
 
-O executor atual mede predição contemporânea de ligações ocultadas. Ele ainda
-não reproduz os horizontes de 1, 3 e 5 anos. O futuro executor deve separar:
+O executor `05_executar_modelo.py` mede predição contemporânea de ligações
+ocultadas. O executor `11_avaliar_previsoes_temporais.py` avalia, separadamente,
+pares ausentes no ano-base nos horizontes de 1, 3 e 5 anos.
 
-- presença em qualquer ano até o horizonte;
-- presença exatamente no ano-alvo;
-- primeira ocorrência no ano-alvo;
-- macro média estrita, incluindo zero quando não há previsões;
-- taxa microagregada;
-- volume de previsões por execução.
+O protocolo adotado considera a presença em qualquer ano entre o seguinte e o
+fim do horizonte. Cada par recebe uma pontuação de um modelo ajustado em outros
+grupos de candidatos do mesmo ano-base. A avaliação registra quantas rodadas
+geram previsões, o volume previsto, a taxa agrupada e a média das rodadas com
+previsões. As taxas ficam em branco quando não há previsões. O Top 20 é um
+diagnóstico exploratório e as regras exatas usadas por Kochan seguem incertas.
 
-Sem essas definições e sem código original, resultados temporais não devem ser
-comparados diretamente aos percentuais publicados.
+Veja o [relatório final](RELATORIO_FINAL.md) e os [resultados](../runs/modelos/).
