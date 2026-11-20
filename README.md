@@ -84,8 +84,7 @@ Este repositório é uma replicação e adaptação independente, sem vínculo c
 
 ## Autoria
 
-Paulo Ubiratan Muniz Rodrigues — Iniciação Científica, Universidade de São Paulo.
-Contato: pauloumrodriguez@gmail.com
-
-Orientador: Prof. Dr. Esteban Tuesta
-Contato: tuesta@usp.br
+- **Autor:** Paulo Ubiratan Muniz Rodrigues — Iniciação Científica, Universidade de São Paulo.
+  - Contato: pauloumrodriguez@gmail.com
+- **Orientador:** Prof. Dr. Esteban Tuesta
+  - Contato: tuesta@usp.br
