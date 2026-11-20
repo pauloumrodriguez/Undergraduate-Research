@@ -1,0 +1,83 @@
+{
+  "anos": [
+    {
+      "ano": 2006,
+      "ano_aprovado": false,
+      "arestas_esperadas": 261,
+      "arestas_observadas": 594,
+      "delta_arestas": 333,
+      "delta_nos": 40,
+      "nos_esperados": 50,
+      "nos_observados": 90
+    },
+    {
+      "ano": 2007,
+      "ano_aprovado": false,
+      "arestas_esperadas": 325,
+      "arestas_observadas": 552,
+      "delta_arestas": 227,
+      "delta_nos": 29,
+      "nos_esperados": 52,
+      "nos_observados": 81
+    },
+    {
+      "ano": 2008,
+      "ano_aprovado": false,
+      "arestas_esperadas": 359,
+      "arestas_observadas": 522,
+      "delta_arestas": 163,
+      "delta_nos": 29,
+      "nos_esperados": 54,
+      "nos_observados": 83
+    },
+    {
+      "ano": 2009,
+      "ano_aprovado": false,
+      "arestas_esperadas": 397,
+      "arestas_observadas": 604,
+      "delta_arestas": 207,
+      "delta_nos": 26,
+      "nos_esperados": 59,
+      "nos_observados": 85
+    },
+    {
+      "ano": 2010,
+      "ano_aprovado": false,
+      "arestas_esperadas": 461,
+      "arestas_observadas": 767,
+      "delta_arestas": 306,
+      "delta_nos": 28,
+      "nos_esperados": 63,
+      "nos_observados": 91
+    }
+  ],
+  "assinatura_avaliacao": "65aae3430999632ff60bb76e5b9c154d69c8846366b0405f00943abab7718568",
+  "contagens_reproduzidas": false,
+  "erro_relativo_medio": 0.639339934273283,
+  "escopo_materializado": "anual",
+  "gate_modelagem": "bloqueado",
+  "modo": "anual",
+  "motivo_gate": "A topologia original não está disponível para confirmação. Use a opção exploratória do modelador somente com esse rótulo explícito.",
+  "motivo_rede_identica_indeterminada": "As arestas originais não estão disponíveis; nem contagens nem rótulos iguais demonstram topologia ou pesos iguais.",
+  "nos_2006_identicos_figura_6": false,
+  "pasta_redes": "C:\\Users\\paulo\\OneDrive\\Desktop\\Iniciação Científica\\25242010_replicacao_nova\\runs\\redes\\v03_consulta_analisada_and",
+  "provas_tcc_aprovadas": true,
+  "rede_identica": null,
+  "requisitos_confirmatorios": {
+    "contagens_publicadas": false,
+    "provas_binarias_tabela_3": true,
+    "rotulos_figura_6_2006": false,
+    "topologia_original_disponivel": false
+  },
+  "vinculo_criptografico": {
+    "alvos_publicados_sha256": "850be17471d55db042c52dafbb52e1f9a873794e14917d92c9253ed8d3f0bb82",
+    "redes_sha256": {
+      "relacoes_2006.csv": "ff86fced9ea550259f8ba6e8023ce5f211016dd4f58364a4f6e00cef4e0c059a",
+      "relacoes_2007.csv": "855221ec82a88b37b077cdb451599f6700975bf287e642812b37225c7e1ea4de",
+      "relacoes_2008.csv": "e128828d3d3f2f09aac66cd1d661b87d6d7f9f380c8f46fccf0c71a672fd8553",
+      "relacoes_2009.csv": "f688b0678b261009f48ba89dc4b9c36bc85380f10a3a15e72a38769ae9abed46",
+      "relacoes_2010.csv": "7fca75124f1c206f8f2a0d67ddf87b1dc10bdbfeea84e6e34d99407fb63b7047"
+    },
+    "resumo_execucao_sha256": "5ebdde49970d6f493fe5fd16121e1c97ed9999de7e97530b785966ed52dab88a"
+  }
+}

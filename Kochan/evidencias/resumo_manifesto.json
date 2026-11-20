@@ -1,0 +1,30 @@
+{
+  "arquivos_ausentes": 0,
+  "arquivos_presentes": 95,
+  "auditoria_completa": true,
+  "ausentes_obrigatorios": [],
+  "corpus": {
+    "ids_duplicados": 0,
+    "ids_unicos": 2000147,
+    "ids_vazios": 0,
+    "por_ano": {
+      "2006": 175499,
+      "2007": 158896,
+      "2008": 159669,
+      "2009": 168923,
+      "2010": 221761,
+      "2011": 226718,
+      "2012": 255293,
+      "2013": 280154,
+      "2014": 303334,
+      "2015": 49900
+    },
+    "resumos_em_branco_apos_strip": 19,
+    "resumos_vazios_exatos": 19,
+    "titulos_em_branco_apos_strip": 4551,
+    "titulos_vazios_exatos": 17,
+    "total": 2000147
+  },
+  "dados": "C:\\Users\\paulo\\OneDrive\\Desktop\\Iniciação Científica\\25242010_replicacao_nova\\dados\\brutos",
+  "projeto": "C:\\Users\\paulo\\OneDrive\\Desktop\\Iniciação Científica\\25242010_replicacao_nova"
+}
