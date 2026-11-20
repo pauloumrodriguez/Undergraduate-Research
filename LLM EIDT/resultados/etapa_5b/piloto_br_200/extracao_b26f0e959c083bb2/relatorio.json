@@ -1,0 +1,143 @@
+{
+  "ambiente": {
+    "gpu": "Tesla T4",
+    "pacotes": {
+      "accelerate": "1.12.0",
+      "bitsandbytes": "0.49.2",
+      "huggingface-hub": "0.36.2",
+      "jinja2": "3.1.6",
+      "jsonschema": "4.25.1",
+      "peft": "0.18.1",
+      "safetensors": "0.7.0",
+      "tokenizers": "0.22.2",
+      "torch": "2.11.0+cu130",
+      "transformers": "4.57.6"
+    },
+    "python": "3.13.16 (main, Oct  1 2026, 15:40:24) [GCC 13.3.0]"
+  },
+  "anotacao_humana": "pendente",
+  "duracao_chamada_segundos": 4450.85,
+  "erro": null,
+  "estado": "extracao_piloto_concluida_revisao_pendente",
+  "etapa": "concluido",
+  "familias": 6,
+  "geracoes_concluidas": 12,
+  "geracoes_previstas": 12,
+  "limite": "Diagnóstico em seis validações. Qualidade semântica e métricas contra referência humana pendentes.",
+  "memoria_apos_carregamento": {
+    "alocada_gib": 7.992,
+    "livre_gib": 3.058,
+    "pico_alocado_gib": 9.137,
+    "pico_reservado_gib": 12.562,
+    "reservada_gib": 11.387,
+    "total_gib": 14.563
+  },
+  "memoria_final": {
+    "alocada_gib": 8.0,
+    "livre_gib": 3.037,
+    "pico_alocado_gib": 10.421,
+    "pico_reservado_gib": 12.562,
+    "reservada_gib": 11.395,
+    "total_gib": 14.563
+  },
+  "metricas_automaticas": {
+    "adaptado": {
+      "concluidas": 6,
+      "estrutura_e_evidencias_validas": 0,
+      "json_parseavel": 1,
+      "limites_atingidos": 5,
+      "previstas": 6,
+      "schema_valido": 0
+    },
+    "base": {
+      "concluidas": 6,
+      "estrutura_e_evidencias_validas": 0,
+      "json_parseavel": 4,
+      "limites_atingidos": 1,
+      "previstas": 6,
+      "schema_valido": 0
+    }
+  },
+  "particao": "validacao",
+  "pasta_execucao": "resultados/etapa_5b/piloto_br_200/extracao_b26f0e959c083bb2",
+  "perfil": {
+    "amostra": {
+      "familias": 6,
+      "ids": [
+        "45975308",
+        "50390156",
+        "65439381",
+        "68698300",
+        "74045448",
+        "80949080"
+      ],
+      "particao": "validacao",
+      "por_janela": 2,
+      "regra": "Menores SHA-256 de 08|42|id_familia_docdb em cada janela; ordem de execução por ID."
+    },
+    "checkpoint": {
+      "diretorio": "resultados/etapa_2/piloto_br_200/treino_qlora_20261104T211425654278Z/checkpoints/passo_000030",
+      "epoca": 3,
+      "passo": 30,
+      "sha256_manifest": "c04a7db533395d009c8f91b8a21f19696b6564e25eecaf23bf1eeef7a421f10f"
+    },
+    "decisoes": {
+      "citacoes": "Banco compartilhado, busca literal exata e ocorrência única no campo; ausência/ambiguidade rejeitadas.",
+      "limites": "Mudam formato, prompt e orçamento simultaneamente; não permite atribuir melhora isoladamente a um fator.",
+      "normalizacao": "Preservar texto bruto 2.0. Derivar offsets e idioma de evidências; validar objeto normalizado pelo schema 1.0.",
+      "saida": "JSON compacto, sem cota de itens. Até 3072 tokens de saída; sem recorte de entrada nem reparação de JSON.",
+      "semantica": "Evitar unidades genéricas e coocorrência sem integração; revisão humana permanece necessária."
+    },
+    "finalidade": "Revisão de desenvolvimento em seis validações; não avaliação final, sem seleção por teste.",
+    "geracao": {
+      "contexto_total": 5120,
+      "do_sample": false,
+      "enable_thinking": false,
+      "max_new_tokens": 3072,
+      "max_prompt_tokens": 2048,
+      "num_beams": 1,
+      "use_cache": true
+    },
+    "id": "br_patstat_200_extracao_validacao6_v2",
+    "modelo": {
+      "id": "Qwen/Qwen3-8B",
+      "revisao": "b968826d9c46dd6066d109eabc6255188de91218"
+    },
+    "motivacao": {
+      "citacoes_literais_com_posicoes_incorretas": 55,
+      "citacoes_nao_literais": 3,
+      "evidencias_examinadas_nos_5_jsons_completos": 58,
+      "extracoes_truncadas_08": 7,
+      "geracoes_08": 12,
+      "sha256_extracoes_08": "409c829c366d422ca8441d6378857631877d5c04080c2f20e34ccfd5dce10424"
+    },
+    "origem": {
+      "perfil_08": "config/perfil_extracao_validacao6.json",
+      "prompt": "prompts/extracao_patstat_br_v2.txt",
+      "schema": "schemas/extracao_patstat_br_v2.schema.json",
+      "script_08": "scripts/extrair_evidencias.py",
+      "sha256_perfil_08": "394ce3431265b6e057228a91ee3029a152390cbf9e600c71ef875fc2b91ab0e0",
+      "sha256_prompt": "24eaa95f58e82f8926b1a15bd0d4a7b0ef9b24528c2d23384733d6f55a665d76",
+      "sha256_schema": "d9cfc949b43751fcb77fdd12858ea84674b481b5bce27f6d5d82521e71e65077",
+      "sha256_script_08": "5c029ebded89a25030e9e9198b48605c937356a367793f69817ca5bd15a57b75"
+    },
+    "quantizacao": {
+      "compute_dtype": "float16",
+      "double_quant": true,
+      "tipo": "nf4"
+    },
+    "resultados": "resultados/etapa_5b/piloto_br_200",
+    "semente": 42,
+    "versao": "2.0"
+  },
+  "retomadas_do_drive": 0,
+  "sha256_extracoes": "027cea047f68c543e7fa17f042acb9bf0383544fea9b129e44099f1e59661e39",
+  "sha256_perfil": "b26f0e959c083bb255160922c5b0fb31e5742864e5daa1e575e242b2a4d71a0e",
+  "sha256_script": "913afa8af87a7fbd8e20273309533222f4c3c73a624209adbb23b318c88be939",
+  "teste_extracao_executado": false,
+  "tokenizacao": {
+    "max_tokens_prompt": 1651,
+    "recortadas": 0
+  },
+  "treinamento_executado": false
+}

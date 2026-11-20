@@ -1,0 +1,30 @@
+{
+  "tipo": "conferencia_local_de_resultados_colab_enviados_pelo_usuario",
+  "fonte_02": "Texto colado.txt fornecido pelo usuário",
+  "sha256_anexo_02": "b84139be7d50e6684815725c39cf27dbe0583156431656776be015f781cb967b",
+  "fonte_03": "Resumo e hashes enviados na conversa pelo usuário; confrontados com os arquivos locais congelados",
+  "acesso_direto_ao_drive": false,
+  "auditoria_02_igual_local": true,
+  "sha256_config_confere": "3673e9c86eb2b4f3c4f9a5bdb0ed6715b8015ce43951fb0807dfa0677e5b22fb",
+  "sha256_arquivos_03_conferidos": {
+    "entradas_extracao.jsonl": "a53ea21af0cd8b51bc5aef2af8d4369e1fbfd6e512510ef2e413047b825688f0",
+    "metadados.jsonl": "c4af1de480ba1b40ba4cd2490953a42e51420e1f7fc21712be3e73ca5881bbeb",
+    "treino_cpc.jsonl": "52c87c6251ace477715578dea24da5ab5dab7c30056a952264565e6af351c15b",
+    "validacao_cpc.jsonl": "428660f6a7969af3eb0e607648d4294c0264e2ad05c61f49f203ddd56c382f8c",
+    "teste_cpc.jsonl": "f78aa665dee9fe1cd2bf760f8f13d89f4ff7dbd91b27c3d448c3326cc83d99b0"
+  },
+  "resultado": "02 e 03 coerentes com a entrega local congelada",
+  "total_familias": 200,
+  "particoes": {
+    "treino": 160,
+    "validacao": 20,
+    "teste": 20
+  },
+  "janelas": {
+    "2010-2014": 67,
+    "2015-2019": 67,
+    "2020-2024": 66
+  },
+  "campos_vazios": 0,
+  "treinamento_real_realizado": false
+}

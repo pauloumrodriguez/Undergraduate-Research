@@ -1,0 +1,15 @@
+{
+  "referencia_original_sha256": "9b2fbbc717e9d1608fca435fadd130348281b2bd91c0d4d6a3b8ae3baa48bce1",
+  "comparacao_v1_sha256": "9dbb9ed861e305a234004096bebbbe7d8fbe0011845748d37390661333f0cb01",
+  "fontes_sha256": "9c5dc21de02cab25c64f15300dfc2b00e9884835453fee31968ee50bde5a5fc7",
+  "modelo_resultados_preservados": {
+    "extracoes.jsonl": "ddf0279baef7a682e66c0ea0b6e3b6a9c3ac186d266f6efe1f2053d23cee9de5",
+    "geracoes.jsonl": "c75c017e94fd7b244c46b816ea55639e63622d12b4b6c19a78520d96aa4da00a",
+    "relatorio.json": "a45d16c8f7c4daf4472c40dda6c8d970b6efd0438c86b10c0b58ca5d2c82d209",
+    "revisao_humana_preenchida_original.json": "9b2fbbc717e9d1608fca435fadd130348281b2bd91c0d4d6a3b8ae3baa48bce1",
+    "textos_originais.json": "9c5dc21de02cab25c64f15300dfc2b00e9884835453fee31968ee50bde5a5fc7"
+  },
+  "data": "2026-11-15",
+  "novas_geracoes": 0,
+  "novo_treinamento": false
+}

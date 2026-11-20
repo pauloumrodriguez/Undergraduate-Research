@@ -1,0 +1,42 @@
+[
+  {
+    "candidato": "A",
+    "id_familia_docdb": "45975308",
+    "variante": "base"
+  },
+  {
+    "candidato": "B",
+    "id_familia_docdb": "45975308",
+    "variante": "adaptado"
+  },
+  {
+    "candidato": "B",
+    "id_familia_docdb": "65439381",
+    "variante": "base"
+  },
+  {
+    "candidato": "A",
+    "id_familia_docdb": "65439381",
+    "variante": "adaptado"
+  },
+  {
+    "candidato": "B",
+    "id_familia_docdb": "74045448",
+    "variante": "base"
+  },
+  {
+    "candidato": "A",
+    "id_familia_docdb": "74045448",
+    "variante": "adaptado"
+  },
+  {
+    "candidato": "A",
+    "id_familia_docdb": "80949080",
+    "variante": "base"
+  },
+  {
+    "candidato": "B",
+    "id_familia_docdb": "80949080",
+    "variante": "adaptado"
+  }
+]

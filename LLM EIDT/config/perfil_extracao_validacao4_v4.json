@@ -1,0 +1,103 @@
+{
+  "modelo": {
+    "id": "Qwen/Qwen3-8B",
+    "revisao": "b968826d9c46dd6066d109eabc6255188de91218"
+  },
+  "quantizacao": {
+    "tipo": "nf4",
+    "double_quant": true,
+    "compute_dtype": "float16"
+  },
+  "checkpoint": {
+    "diretorio": "resultados/etapa_2/piloto_br_200/treino_qlora_20261104T211425654278Z/checkpoints/passo_000030",
+    "sha256_manifest": "c04a7db533395d009c8f91b8a21f19696b6564e25eecaf23bf1eeef7a421f10f",
+    "epoca": 3,
+    "passo": 30
+  },
+  "semente": 42,
+  "id": "br_patstat_200_extracao_validacao4_v4",
+  "versao": "4.0-val4",
+  "resultados": "resultados/etapa_5e/piloto_br_200",
+  "geracao": {
+    "max_prompt_tokens": 3072,
+    "max_new_tokens": 1024,
+    "contexto_total": 4096,
+    "do_sample": false,
+    "num_beams": 1,
+    "use_cache": true,
+    "enable_thinking": false,
+    "repeat_window": 32,
+    "repeat_count": 3
+  },
+  "amostra": {
+    "familias": 4,
+    "particao": "validacao",
+    "ids": [
+      "45975308",
+      "65439381",
+      "74045448",
+      "80949080"
+    ],
+    "ids_excluidos_ja_revisados": [
+      "50390156",
+      "68698300"
+    ],
+    "regra": "Quatro famílias restantes das seis congeladas em 08/08b, após retirar 68698300 e 50390156 (usadas no desenvolvimento D1–D5). Ordem crescente de ID. Sem seleção por acerto.",
+    "comprimentos": {
+      "45975308": 1313,
+      "65439381": 935,
+      "74045448": 542,
+      "80949080": 725
+    }
+  },
+  "etapas": [
+    "elementos",
+    "relacoes"
+  ],
+  "maximo_geracoes": 16,
+  "estrutura": {
+    "biblioteca": "lm-format-enforcer",
+    "versao": "0.11.3",
+    "ordem_chaves_fixa": true,
+    "max_whitespace": 1,
+    "max_array_length": 1024,
+    "trechos_caracteres": 256,
+    "rejeitar_repeticao": "últimos 32 tokens repetidos três vezes; sem reparação"
+  },
+  "limites": "Primeira execução das instruções D1–D5 congeladas do 08d em famílias não usadas para formulá-las. Ainda não é teste independente: as quatro famílias tiveram previsões em 08/08b, a referência é de um único anotador e as regras nasceram de outras duas famílias. Não recebe referência humana no prompt. Não usa as 20 famílias de teste.",
+  "origem": {
+    "perfil_08c": "config/perfil_extracao_validacao2_v3.json",
+    "script_08c": "scripts/extrair_evidencias_v3.py",
+    "schemas": "schemas/extracao_etapas_v3.templates.json",
+    "prompt_elementos": "prompts/extracao_elementos_v4.txt",
+    "prompt_relacoes": "prompts/extracao_relacoes_v4.txt",
+    "requirements": "requirements_extracao08c.txt",
+    "regras": "docs/REGRAS_EXTRACAO_D1_D5_V1.md",
+    "sha256_perfil_08c": "1c271b9726967546f772303070b89d59453dfa61565b127d30bb9e5d353fc08a",
+    "sha256_script_08c": "9b43e97d1984414cf31c3dc12d7ba496c25a98ebe4a15747393279205913613c",
+    "sha256_schemas": "f14e132b96c123cfb42fe3e9fa1f4402e97f0e797ecfca37b2b633397ecd1c72",
+    "sha256_prompt_elementos": "326fc17b21bc71b42e5b8005c3db7723a209a31c76f67301c3e58e340a4f48fb",
+    "sha256_prompt_relacoes": "99487a4469026c7abd4bf45438333a26463f293747a577bb4982c740a0ee7aa6",
+    "sha256_requirements": "5cd260bc58e8b8e11dced19dbd3e0db6a53ea237c492c38b4304d61081a7a520",
+    "sha256_regras": "4301b78ef1de151ac062d747681fa608fe4babc6c3dddb8430adff1a0606e9c4",
+    "perfil_08d": "config/perfil_extracao_validacao2_v4.json",
+    "script_08d": "scripts/extrair_evidencias_v4.py",
+    "sha256_perfil_08d": "2bc27b7acb9d74d32e3707a8d91f66ad2e1ab249faffb670a098ed02ff23aecc",
+    "sha256_script_08d": "ccfc1d9e0ba41d14819832a532d42a1902fae033c852b13a9a3bf5a0fbc71407"
+  },
+  "desenvolvimento": {
+    "decisoes": "D1–D5 congeladas em 2026-11-15; nenhuma instrução alterada após ver estas famílias",
+    "referencia_usada_na_geracao": false,
+    "instrucoes_alteradas_apos_ver_novas_familias": false,
+    "pos_exposicao_parcial": true,
+    "exposicao": "Previsões de 08/08b já vistas para estas famílias (autodeclaração: anotador não as viu).",
+    "referencia_para_analise_posterior": "resultados/etapa_5e/piloto_br_200/referencia_consolidada_20261119_v3/referencia_consolidada.json",
+    "sha256_referencia_para_analise_posterior": "3fea669a357dd25d37f88105db96313ad0c6d13db08d5d1b56412edde9c7a379",
+    "variaveis_alteradas": [
+      "amostra",
+      "maximo_geracoes",
+      "resultados"
+    ],
+    "geracao_schema_e_instrucoes_preservados": true
+  }
+}

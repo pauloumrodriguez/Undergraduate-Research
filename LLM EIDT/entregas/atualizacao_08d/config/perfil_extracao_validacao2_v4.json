@@ -1,0 +1,88 @@
+{
+  "modelo": {
+    "id": "Qwen/Qwen3-8B",
+    "revisao": "b968826d9c46dd6066d109eabc6255188de91218"
+  },
+  "quantizacao": {
+    "tipo": "nf4",
+    "double_quant": true,
+    "compute_dtype": "float16"
+  },
+  "checkpoint": {
+    "diretorio": "resultados/etapa_2/piloto_br_200/treino_qlora_20261104T211425654278Z/checkpoints/passo_000030",
+    "sha256_manifest": "c04a7db533395d009c8f91b8a21f19696b6564e25eecaf23bf1eeef7a421f10f",
+    "epoca": 3,
+    "passo": 30
+  },
+  "semente": 42,
+  "id": "br_patstat_200_extracao_validacao2_v4",
+  "versao": "4.0",
+  "resultados": "resultados/etapa_5d/piloto_br_200",
+  "geracao": {
+    "max_prompt_tokens": 3072,
+    "max_new_tokens": 1024,
+    "contexto_total": 4096,
+    "do_sample": false,
+    "num_beams": 1,
+    "use_cache": true,
+    "enable_thinking": false,
+    "repeat_window": 32,
+    "repeat_count": 3
+  },
+  "amostra": {
+    "familias": 2,
+    "particao": "validacao",
+    "regra": "Menor e maior soma de caracteres Unicode de título e resumo entre as seis famílias do 08b; desempate por ID crescente; execução curta primeiro.",
+    "ids": [
+      "68698300",
+      "50390156"
+    ],
+    "comprimentos": {
+      "68698300": 407,
+      "50390156": 1984
+    }
+  },
+  "etapas": [
+    "elementos",
+    "relacoes"
+  ],
+  "maximo_geracoes": 8,
+  "estrutura": {
+    "biblioteca": "lm-format-enforcer",
+    "versao": "0.11.3",
+    "ordem_chaves_fixa": true,
+    "max_whitespace": 1,
+    "max_array_length": 1024,
+    "trechos_caracteres": 256,
+    "rejeitar_repeticao": "últimos 32 tokens repetidos três vezes; sem reparação"
+  },
+  "limites": "Desenvolvimento após revisão D1–D5 nas mesmas duas famílias já observadas. Não é teste independente, generalização ou nova seleção de adaptador. Não recebe referência humana nos prompts.",
+  "origem": {
+    "perfil_08c": "config/perfil_extracao_validacao2_v3.json",
+    "script_08c": "scripts/extrair_evidencias_v3.py",
+    "schemas": "schemas/extracao_etapas_v3.templates.json",
+    "prompt_elementos": "prompts/extracao_elementos_v4.txt",
+    "prompt_relacoes": "prompts/extracao_relacoes_v4.txt",
+    "requirements": "requirements_extracao08c.txt",
+    "regras": "docs/REGRAS_EXTRACAO_D1_D5_V1.md",
+    "sha256_perfil_08c": "1c271b9726967546f772303070b89d59453dfa61565b127d30bb9e5d353fc08a",
+    "sha256_script_08c": "9b43e97d1984414cf31c3dc12d7ba496c25a98ebe4a15747393279205913613c",
+    "sha256_schemas": "f14e132b96c123cfb42fe3e9fa1f4402e97f0e797ecfca37b2b633397ecd1c72",
+    "sha256_prompt_elementos": "326fc17b21bc71b42e5b8005c3db7723a209a31c76f67301c3e58e340a4f48fb",
+    "sha256_prompt_relacoes": "99487a4469026c7abd4bf45438333a26463f293747a577bb4982c740a0ee7aa6",
+    "sha256_requirements": "5cd260bc58e8b8e11dced19dbd3e0db6a53ea237c492c38b4304d61081a7a520",
+    "sha256_regras": "4301b78ef1de151ac062d747681fa608fe4babc6c3dddb8430adff1a0606e9c4"
+  },
+  "desenvolvimento": {
+    "decisoes": "D1–D5 recebidas em 2026-11-15",
+    "pos_exposicao": true,
+    "referencia_usada_na_geracao": false,
+    "sha256_referencia_para_analise_posterior": "1306e0eefb5afe6135c42a91e9999a52c2004cd43c6fae71dd15eb2dafe25999",
+    "sha256_decisoes_humanas": "85cd4f9ca59ce426c1003130b815d8466800457a3756b992e462538550465ddb",
+    "variaveis_alteradas": [
+      "instrucoes_elementos",
+      "instrucoes_relacoes"
+    ],
+    "geracao_e_schema_preservados": true
+  }
+}

@@ -1,0 +1,451 @@
+{
+  "protocolo": {
+    "id": "llm-eidt-br-patstat-piloto-200-8b",
+    "versao": "3.0",
+    "data": "2026-11-03",
+    "etapa": 1,
+    "artigo": "https://doi.org/10.21203/rs.3.rs-9585548/v1",
+    "escopo": "Adaptação metodológica ao contexto brasileiro, com reutilização autorizada de 1.000 famílias PATSTAT e seleção de 200 famílias elegíveis por CPC A61 ou C12N. Preparação para Qwen3-8B + LoRA, extração, alinhamento e indicadores exploratórios.",
+    "convencao": "Publicado registra o que consta na v1. Adotado registra decisões da replicação. Pendente registra o que deve ser confirmado em material dos autores ou definido antes da análise correspondente.",
+    "auditoria": "docs/ADAPTACAO_METODOLOGICA_BR.md"
+  },
+  "modelos": {
+    "qwen": {
+      "id": "Qwen/Qwen3-8B",
+      "revisao": "b968826d9c46dd6066d109eabc6255188de91218",
+      "fonte": "https://huggingface.co/Qwen/Qwen3-8B/tree/b968826d9c46dd6066d109eabc6255188de91218",
+      "licenca_declarada": "Apache-2.0",
+      "papel": "Modelo de base do piloto. Adaptar ao CPC e usar a mesma base e adaptador para a extração de evidências."
+    },
+    "embeddings": {
+      "id": "intfloat/multilingual-e5-large",
+      "revisao": "ab10c1a7f42e74530fe7ae5be82e6d4f11a719eb",
+      "fonte": "https://huggingface.co/intfloat/multilingual-e5-large/tree/ab10c1a7f42e74530fe7ae5be82e6d4f11a719eb",
+      "licenca_declarada": "MIT",
+      "papel": "Representação vetorial de elementos extraídos e de patentes."
+    },
+    "proveniencia": "O piloto usa Qwen3-8B por escolha do projeto e mantém o encoder E5 do artigo. Usar a mesma revisão para configuração, tokenizador e pesos de cada modelo."
+  },
+  "publicado": {
+    "corpus": {
+      "referencia": "Seções 4.1 e 4.3",
+      "base": "AI Pat+",
+      "plataforma": "https://aipat.cnki.net/",
+      "pais": "China",
+      "idioma": "chinês",
+      "tipos": [
+        "pedido de invenção",
+        "concessão de invenção"
+      ],
+      "busca_descrita": "Life Sciences em Keywords OU TI-DWPI OU ABSTRACT-DWPI",
+      "operacao_familia": "Expansão com agrupamento por família",
+      "depositos_inclusive": [
+        "2000-01-01",
+        "2025-06-30"
+      ],
+      "contagem_bruta": 15238,
+      "contagem_apos_limpeza": 14265,
+      "janelas_anos_inclusivos": [
+        [
+          2010,
+          2014
+        ],
+        [
+          2015,
+          2019
+        ],
+        [
+          2020,
+          2024
+        ]
+      ],
+      "citacoes_ate_ano": 2025
+    },
+    "adaptacao_cpc": {
+      "referencia": "Seção 4.2 e Tabela 1",
+      "tecnica": "LoRA",
+      "alvo": "categoria CPC principal",
+      "entrada_descrita": [
+        "título",
+        "resumo",
+        "rótulos manuais CPC"
+      ],
+      "amostra_aleatoria": 1000,
+      "quantidades": {
+        "treino": 800,
+        "validacao": 100,
+        "teste": 100
+      },
+      "batch_size": 16,
+      "eval_steps": 50,
+      "learning_rate": 0.0003,
+      "lora_rank": 8,
+      "max_length": 8192,
+      "num_train_epochs": 3,
+      "weight_decay": 0.01,
+      "modelo": "Qwen3-14B",
+      "nota": "Amostras e hiperparâmetros desta seção documentam o estudo original."
+    },
+    "micro": {
+      "referencia": "Seção 3.1, Algoritmo 1, Figura 3 e Apêndices A.1–A.2",
+      "entradas_extracao": [
+        "título",
+        "resumo"
+      ],
+      "campos": [
+        "memes técnicos",
+        "pares em convergência",
+        "funções",
+        "materiais",
+        "fluxos de processo",
+        "efeitos"
+      ],
+      "formato": "JSON",
+      "idioma_saida": "chinês com rótulos de efeito especificados no A.1",
+      "alinhamento": [
+        "multilingual-e5-large",
+        "UMAP",
+        "k-means",
+        "equivalência semântica por LLM dentro de cada grupo"
+      ],
+      "dimensoes_umap": 2,
+      "k_alinhamento": 50,
+      "intervalo_k_figura_3": [
+        10,
+        300
+      ]
+    },
+    "meso_e_macro": {
+      "referencia": "Seções 3.2–3.3 e 5.3, Equações 13–15, Algoritmo 2 e Apêndice A.3",
+      "novidade": "Primeiro ano de depósito observado no corpus para cada elemento alinhado.",
+      "regra_dp": "convergência nova E (função nova OU padrão técnico descontínuo)",
+      "criterio_padrao": "Material ou fluxo de processo novo associado a redução de custos ou ganho de eficiência.",
+      "entradas_temas": [
+        "título",
+        "memes técnicos alinhados"
+      ],
+      "agrupamento_temas": [
+        "multilingual-e5-large",
+        "UMAP em duas dimensões",
+        "k-means",
+        "LLM nomeia grupos e reúne nomes em temas"
+      ],
+      "numero_temas_observado": 16,
+      "referencia_citacional": "Dh por tema calculado com citações acumuladas até 2025."
+    },
+    "avaliacao": {
+      "referencia": "Seção 4.4 e Tabelas 2, 4, 5 e 9",
+      "amostra_anotada": 600,
+      "f1_alinhamento": 0.7454,
+      "f1_agrupamento": 0.8155,
+      "regra_selecao": "Selecionar temas cujo EDh ou Dh seja maior ou igual à respectiva média da janela.",
+      "comparacao": [
+        "precisão",
+        "revocação",
+        "F1",
+        "NDCG sobre os 16 temas"
+      ],
+      "tabela_9": [
+        {
+          "anos": [
+            2010,
+            2014
+          ],
+          "precisao": 0.75,
+          "revocacao": 0.8571,
+          "f1": 0.8,
+          "ndcg": 0.9961
+        },
+        {
+          "anos": [
+            2015,
+            2019
+          ],
+          "precisao": 1.0,
+          "revocacao": 0.8,
+          "f1": 0.8889,
+          "ndcg": 0.7597
+        },
+        {
+          "anos": [
+            2020,
+            2024
+          ],
+          "precisao": 1.0,
+          "revocacao": 0.9091,
+          "f1": 0.9524,
+          "ndcg": 0.7366
+        }
+      ],
+      "media_tabela_9": {
+        "precisao": 0.9167,
+        "revocacao": 0.8554,
+        "f1": 0.8804,
+        "ndcg": 0.8308
+      }
+    }
+  },
+  "adotado": {
+    "semente_inicial": 42,
+    "hardware": {
+      "perfil": "As chaves do treino e da extração do piloto estão em piloto.treino e piloto.extracao."
+    },
+    "historico": {
+      "referencia_anterioridade": [
+        2000,
+        2009
+      ],
+      "novidade": "Na amostra de 200, relatar a primeira aparição observada na amostra; marcar a base histórica 2000–2009 como insumo de expansão. Em um histórico elegível completo, conservar todas as ocorrências do primeiro ano de depósito.",
+      "sensibilidade_publicacao": "Pendente: o pacote não contém identificadores/datas de publicação nem disponibilidade histórica de CPC. Não executar nem alegar avaliação retrospectiva com informação disponível à época sem nova aquisição desses dados.",
+      "limite_simulacao": "O Qwen3 foi publicado após as três janelas. Restringir textos por data não elimina o conhecimento posterior incorporado no modelo.",
+      "fonte_lancamento": "https://qwenlm.github.io/blog/qwen3/"
+    },
+    "auditoria_semantica": {
+      "ausencia": "Converter nan textual em ausência de evidência antes de contar novidades.",
+      "pares": "Contar uma vez cada par de memes alinhados em uma patente, independentemente da ordem. Guardar termos originais e fragmento de suporte.",
+      "conjunto_ouro": "Criar anotação independente para o teste do piloto. Usar dois anotadores quando possível, pré-especificar correspondência, registrar acordo e adjudicação por campo.",
+      "controle_amostras": "Validar que cada família da amostra pertence a uma única partição e congelar os IDs antes dos ajustes.",
+      "controle_rotulo_cpc": "O alvo cpc_proxy é o primeiro símbolo CPC integral da família em ordem alfanumérica na exportação antiga. Não é rótulo principal oficial nem anotação humana. Título e resumo entram no modelo; CPC fica em arquivo separado para supervisão."
+    },
+    "indices": {
+      "edh": "Maior h inteiro tal que ao menos h patentes DP do tema na janela tenham ao menos h relações novas distintas cada, segundo a definição verbal da seção 3.3.",
+      "edh_sem_dp": 0,
+      "corte_principal": "Comparar com a média aritmética exata dos temas da janela, incluindo a igualdade e sem arredondar o limiar.",
+      "controle_tabela_7": {
+        "anos": [
+          2015,
+          2019
+        ],
+        "media_edh_impressa_recalculada": 5.4375,
+        "media_dh_impressa_recalculada": 10.25,
+        "regra_escrita": {
+          "temas_edh": 8,
+          "temas_dh": 6,
+          "intersecao": 5,
+          "f1_arredondado": 0.7143
+        },
+        "corte_grafico": {
+          "temas_edh": 8,
+          "temas_dh": 10,
+          "intersecao": 8,
+          "f1_arredondado": 0.8889
+        },
+        "tratamento": "Apresentar as duas leituras. A coluna Dh repete dois nomes. Exigir a correspondência original ou uma correção documentada antes de recalcular o NDCG desta janela a partir da tabela."
+      },
+      "controle_ablacao": "Mantidos temas e contagens de relações, retirar somente o filtro de convergência insere patentes de contagem zero e preserva EDh. Testar o invariante e documentar a divergência com a Tabela 11.",
+      "ndcg_reconstruido": {
+        "universo": "Todos os temas correspondentes da janela. Para comparação direta com o artigo devem ser os mesmos 16, cada um com um identificador único e as duas pontuações.",
+        "ordem_prevista": "EDh decrescente",
+        "relevancia": "Dh do tema",
+        "ganho": "linear",
+        "desconto": "1/log2(posição+1), com posições iniciadas em 1",
+        "empates": "Média do ganho no bloco de escores EDh empatados, equivalente à média das permutações possíveis.",
+        "denominador": "DCG ideal obtido ordenando os mesmos ganhos por Dh decrescente. Se for zero, marcar como indefinido.",
+        "proveniencia": "Convenção da replicação a verificar contra a implementação dos autores."
+      },
+      "dh": "Isolar o grafo de citações das entradas do modelo. Confirmar a adaptação do índice ao tema antes de validar o resultado quantitativo.",
+      "sensibilidade_citacoes": "Repetir para horizontes iguais de observação entre coortes elegíveis, além do corte comum até 2025."
+    }
+  },
+  "pendente": {
+    "para_selecao": [],
+    "para_ajuste_e_extracao": [
+      "Validar em Colab os arquivos atualizados e a preparação em CPU.",
+      "Resolver o perfil de GPU antes do treino real: a sessão anterior tinha 14,46 GiB livres e não suportava BF16 nativo; o perfil BF16 configurado não é viável nela. QLoRA seria uma decisão adicional explícita.",
+      "Revisar cobertura dos CPCs e definir a avaliação do alvo proxy antes de treinar.",
+      "Criar anotação humana independente pt/en nos seis campos e fixar a regra de correspondência.",
+      "Medir comprimentos reais com o tokenizador Qwen e preservar a rastreabilidade dos trechos efetivamente apresentados."
+    ],
+    "para_avaliacao_tematica": [
+      "Adquirir histórico anterior a 2010 para análise histórica de novidade, datas de publicação e rede de citações datada para Dh/NDCG.",
+      "Fixar o alinhamento bilíngue e os critérios de agrupamento/avaliação antes de observar previsões do teste."
+    ],
+    "referencias_opcionais_do_artigo": [
+      "O corpus chinês e as amostras CPC/humana originais são referências de desenho. Os resultados brasileiros não constituem reprodução numérica dos resultados chineses.",
+      "As inconsistências matemáticas documentadas em adotado.indices continuam aplicáveis à reconstrução do método."
+    ]
+  },
+  "piloto": {
+    "id": "br_patstat_200_qwen3_8b_v1",
+    "objetivo": "Validar o pipeline no subconjunto brasileiro do pacote PATSTAT existente, conservando famílias e partições e auditando o recorte temporal, temático e linguístico.",
+    "coleta": {
+      "fonte": "PATSTAT Global — EPO Technology Intelligence Platform",
+      "ambiente_origem": "PROD",
+      "modo": "reutilizacao_de_extracao_existente_autorizada",
+      "arquivo": "dados/brutos/patstat_br_1000/LLM_EIDT_LORA_1000.zip",
+      "sha256_zip": "09cf45526d9270cd92ed1d7d4339166f4562e92576c47a24353c753f4e6a5283",
+      "notebook_origem": "dados/referencia/02_extrair_1000_lora_patstat_origem.ipynb",
+      "proveniencia": "dados/brutos/patstat_br_1000/proveniencia.json",
+      "familias_pacote": 1000,
+      "pais_vinculo": "BR",
+      "criterio_brasil_origem": "Pedido com appln_auth = 'BR' OU inventor/depositante com person_ctry_code = 'BR', na consulta registrada no notebook de origem.",
+      "comprovacao_vinculo_no_pacote": "Critério documentado no código da consulta; as relações pessoa-pedido não foram exportadas e não podem ser revalidadas individualmente com este pacote.",
+      "ano_deposito_inclusive": [
+        2010,
+        2024
+      ],
+      "prefixos_ipc_consulta_origem": [
+        "A61",
+        "C12N",
+        "C12Q"
+      ],
+      "prefixos_escopo_solicitado": [
+        "A61",
+        "C12N"
+      ],
+      "prefixos_cpc_piloto": [
+        "A61",
+        "C12N"
+      ],
+      "regra_elegibilidade": "Pelo menos um código CPC da família com prefixo A61 OU C12N. A família pode ter outros códigos. Aplicar antes da amostragem, sobre todos os cpc_codes, não apenas cpc_proxy.",
+      "justificativa_filtro_cpc": "A extração antiga não conserva IPC. O recorte verificável usa CPC, permitido pelo escopo IPC/CPC solicitado. Famílias elegíveis apenas por IPC mas sem esses CPCs não são recuperáveis nesta subamostra.",
+      "cpc_nao_equivale_ipc": true,
+      "representante": "Pedido mais antigo entre os membros recuperados da família; identificadores appln_id, appln_auth e appln_nr referem-se a esse pedido.",
+      "titulo_resumo": "Escolhidos independentemente entre membros da família, priorizando pt e depois en; o pedido de origem de cada texto não foi retido.",
+      "edicao_patstat": null,
+      "data_extracao": null,
+      "publicacao_disponivel": false,
+      "cenario": "Adaptação brasileira com base secundária congelada. A fonte chinesa do artigo permanece apenas como referência documental."
+    },
+    "amostragem": {
+      "total": 200,
+      "semente": 42,
+      "unidade": "Família DOCDB identificada por patent_id na origem e id_familia_docdb no piloto. Um registro por família; textos podem provir de membros diferentes.",
+      "janelas": [
+        {
+          "inicio": 2010,
+          "fim": 2014,
+          "total": 67,
+          "treino": 54,
+          "validacao": 7,
+          "teste": 6
+        },
+        {
+          "inicio": 2015,
+          "fim": 2019,
+          "total": 67,
+          "treino": 53,
+          "validacao": 7,
+          "teste": 7
+        },
+        {
+          "inicio": 2020,
+          "fim": 2024,
+          "total": 66,
+          "treino": 53,
+          "validacao": 6,
+          "teste": 7
+        }
+      ],
+      "particoes": {
+        "treino": 160,
+        "validacao": 20,
+        "teste": 20
+      },
+      "selecao": "Filtrar CPC A61 OU C12N. Estratificar por janela do depósito do representante e por partição original. Selecionar por ordem SHA-256 com semente 42; conservar as partições antigas. Alocação quase uniforme entre janelas, não proporcional ao universo.",
+      "cpc": "Preservar cpc_codes e cpc_proxy integral (antigo cpc_primary). Não reinterpretar o primeiro símbolo alfanumérico como classificação principal oficial. Auditar classes ausentes no treino.",
+      "saida": "dados/processados/piloto_br_200/piloto_200.csv",
+      "auditoria": "dados/processados/piloto_br_200/auditoria.json",
+      "preservar_particoes_originais": true,
+      "estratos": [
+        "janela_deposito_representante",
+        "particao_original"
+      ]
+    },
+    "treino": {
+      "modelo": "Qwen/Qwen3-8B",
+      "tarefa": "predição do cpc_proxy integral herdado do pacote PATSTAT",
+      "entradas": [
+        "título",
+        "resumo"
+      ],
+      "cpc_na_entrada": false,
+      "precisao": "bf16",
+      "quantizacao": null,
+      "num_gpus": 1,
+      "r": 8,
+      "alpha": 16,
+      "dropout": 0.05,
+      "target_modules": [
+        "q_proj",
+        "v_proj"
+      ],
+      "max_length": 2048,
+      "microbatch": 1,
+      "acumulacao": 16,
+      "batch_efetivo": 16,
+      "learning_rate": 0.0003,
+      "epocas": 3,
+      "weight_decay": 0.01,
+      "gradient_checkpointing": true,
+      "use_cache": false,
+      "avaliacao": "epoch",
+      "sequencia": "O limite de 2.048 tokens inclui prompt, marcadores e resposta CPC. Registrar comprimento antes do recorte, fração recortada e tokens de resposta preservados. Aplicar a perda apenas aos tokens da resposta.",
+      "motivo": "Microlote 1, contexto menor e recomputação das ativações reduzem a memória de pico. Ajustar q_proj e v_proj limita a quantidade de pesos treináveis. Manter r, taxa de aprendizado, lote efetivo e épocas facilita a comparação de desenho. A configuração do artigo omite os módulos alvo, alpha e dropout.",
+      "validacao": "Com 160 exemplos válidos em uma GPU, são dez atualizações do otimizador por época e trinta em três épocas. Avaliar a cada época para observar a validação antes do fim. Escolher o adaptador apenas pela validação, com critério definido previamente, e preservar o teste para o fechamento.",
+      "fallback": "Havendo limitação de VRAM ou BF16, documentar a sessão. QLoRA NF4 exige escolha explícita, outro identificador de execução e registro da precisão de cálculo e memória.",
+      "alvo": "cpc_proxy",
+      "idiomas_entrada": [
+        "pt",
+        "en"
+      ],
+      "rotulos_sao_anotacao_humana": false
+    },
+    "extracao": {
+      "modelo": "Qwen/Qwen3-8B",
+      "adaptador": "LoRA do próprio piloto selecionado na validação CPC",
+      "entradas": [
+        "título",
+        "resumo"
+      ],
+      "lote": 1,
+      "do_sample": false,
+      "enable_thinking": false,
+      "max_entrada": 2048,
+      "max_new_tokens": 1024,
+      "truncamento": "Contar tokens do prompt completo antes da geração, incluindo instruções e título. Se exceder 2.048, conservar o título e as instruções, sinalizar a extensão excedente e registrar o trecho efetivamente apresentado. Se as instruções e o título excederem o limite, marcar para revisão. Registrar respostas interrompidas pelo limite de saída.",
+      "validacao": "Validar JSON Schema e relações entre IDs, idiomas e trechos literais; offsets são índices Unicode Python [inicio:fim] nos campos normalizados fornecidos ao modelo. Preservar resposta bruta e não imputar achados.",
+      "qualidade": "Anotação humana independente pt/en dos seis campos nas famílias reservadas de teste. Registrar resultados por idioma e pares mistos. Comparar base e LoRA com os mesmos dados, prompt, orçamento, revisão e decodificação. JSON inválido é erro de extração, nunca ausência de evidência.",
+      "recursos": "Para o E5 e o Qwen usar sessões ou carregamentos sequenciais e registrar tempo, memória de pico e tamanho dos arquivos por execução.",
+      "idiomas_entrada": [
+        "pt",
+        "en"
+      ],
+      "idioma_por_campo": true,
+      "traducao_previa": false,
+      "idioma_termos_e_evidencias": "Preservar o idioma do trecho de origem; permitir pt/en no mesmo registro.",
+      "schema": "schemas/extracao_patstat_br.schema.json",
+      "prompt": "prompts/extracao_patstat_br.txt",
+      "formato_chaves": "Chaves estruturais estáveis em português; termos/citações literais no idioma original."
+    },
+    "limites": "Piloto de conveniência condicionado a uma extração anterior de 1.000 famílias; 200 após filtro CPC e estratificação temporal/partição. Sem representatividade da população brasileira, comprovação de novidade histórica ou reprodução numérica do artigo. Resultados por janela são exploratórios. Publicações, citações, histórico anterior e referências humanas independentes ainda faltam.",
+    "preprocessamento": {
+      "entrada": "dados/processados/piloto_br_200/piloto_200.csv",
+      "saida": "dados/processados/piloto_br_200/preprocessado",
+      "idiomas_permitidos": [
+        "pt",
+        "en"
+      ],
+      "normalizacao": "Unicode NFC e padronização de quebras de linha; preservar caixa, acentos, pontuação e conteúdo. Guardar também os textos originais.",
+      "traducao_previa": false,
+      "cpc_no_prompt_extracao": false,
+      "schema_extracao": "schemas/extracao_patstat_br.schema.json",
+      "prompt_extracao": "prompts/extracao_patstat_br.txt",
+      "origem_texto": "appln_id de origem do título/resumo desconhecido; não inferir a partir do representante.",
+      "publicacao": "Campos de publicação ausentes, sem preenchimento artificial.",
+      "truncamento": "Não truncar nesta etapa CPU. Medir com o tokenizador e registrar os trechos realmente usados durante a etapa futura de geração."
+    },
+    "alinhamento": {
+      "modelo": "intfloat/multilingual-e5-large",
+      "revisao": "ab10c1a7f42e74530fe7ae5be82e6d4f11a719eb",
+      "idiomas": [
+        "pt",
+        "en"
+      ],
+      "traducao_previa": false,
+      "rastreabilidade": "Associar cada termo original e evidência a um identificador de conceito alinhado; preservar variantes pt/en.",
+      "equivalencia": "Semelhança vetorial sugere candidatos; a confirmação de equivalência deve considerar contexto, negação e função técnica. Não unir automaticamente apenas por tradução ou proximidade.",
+      "estado": "Planejado. Modelos, agrupamento e métricas ainda não executados nesta entrega."
+    }
+  }
+}

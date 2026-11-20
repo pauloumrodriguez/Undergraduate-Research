@@ -1,0 +1,24 @@
+{
+  "protocolo": "referencia-validacao4-d1d5-1.0",
+  "particao": "validacao",
+  "selecao": "Quatro famílias restantes das seis congeladas em 08/08b, removidas apenas as duas já revisadas em 08c/08d; ordem original por ID.",
+  "ids_selecionados": [
+    "45975308",
+    "65439381",
+    "74045448",
+    "80949080"
+  ],
+  "ids_excluidos_ja_revisados": [
+    "50390156",
+    "68698300"
+  ],
+  "perfil_seis_sha256": "b26f0e959c083bb255160922c5b0fb31e5742864e5daa1e575e242b2a4d71a0e",
+  "entradas_sha256": "a53ea21af0cd8b51bc5aef2af8d4369e1fbfd6e512510ef2e413047b825688f0",
+  "regras_D1_D5_sha256": "4301b78ef1de151ac062d747681fa608fe4babc6c3dddb8430adff1a0606e9c4",
+  "historico": "Estas famílias já tiveram previsões em 08/08b. Não são teste virgem; exposição do anotador deve ser registrada.",
+  "fonte_documental": "Origem por aplicação de título e resumo não identificada. Os textos são os congelados usados no pré-processamento do projeto.",
+  "predicoes_incluidas": false,
+  "anotacao_preenchida_por_IA": false,
+  "novas_geracoes_executadas": false,
+  "sha256_textos": "223744700462b098b1f10e14c9598991202115f197e4d3bd28537ef058567a42"
+}

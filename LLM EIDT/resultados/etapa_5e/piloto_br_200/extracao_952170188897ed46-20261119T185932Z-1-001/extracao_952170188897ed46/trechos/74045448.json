@@ -1,0 +1,33 @@
+{
+  "familia": "74045448",
+  "textos": {
+    "resumo": "USO DE UMA PROTEÍNA DE FUSÃO DEFICIENTE PARA ATIVIDADE NUCLEASE PARA INDUZIR RECOMBINAÇÕES MEIÓTICAS. A presente invenção está relacionada a uma proteína de fusão compreendendo um domínio de uma nuclease do sistema CRISPR de classe II e um domínio Spo11, em que ambos os domínios da proteína de fusão têm atividade nuclease deficiente, bem como o uso desta proteína para induzir recombinações meióticas direcionadas em uma célula eucariótica.",
+    "titulo": "USO DE UMA PROTEÍNA DE FUSÃO DEFICIENTE PARA ATIVIDADE NUCLEASE PARA INDUZIR RECOMBINAÇÕES MEIÓTICAS"
+  },
+  "trechos": [
+    {
+      "campo": "titulo",
+      "fim": 100,
+      "id": "T001",
+      "idioma": "pt",
+      "inicio": 0,
+      "texto": "USO DE UMA PROTEÍNA DE FUSÃO DEFICIENTE PARA ATIVIDADE NUCLEASE PARA INDUZIR RECOMBINAÇÕES MEIÓTICAS"
+    },
+    {
+      "campo": "resumo",
+      "fim": 255,
+      "id": "R001",
+      "idioma": "pt",
+      "inicio": 0,
+      "texto": "USO DE UMA PROTEÍNA DE FUSÃO DEFICIENTE PARA ATIVIDADE NUCLEASE PARA INDUZIR RECOMBINAÇÕES MEIÓTICAS. A presente invenção está relacionada a uma proteína de fusão compreendendo um domínio de uma nuclease do sistema CRISPR de classe II e um domínio Spo11, "
+    },
+    {
+      "campo": "resumo",
+      "fim": 442,
+      "id": "R002",
+      "idioma": "pt",
+      "inicio": 255,
+      "texto": "em que ambos os domínios da proteína de fusão têm atividade nuclease deficiente, bem como o uso desta proteína para induzir recombinações meióticas direcionadas em uma célula eucariótica."
+    }
+  ]
+}

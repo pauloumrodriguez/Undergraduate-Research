@@ -1,0 +1,88 @@
+{
+  "estado": "extracao_concluida",
+  "perfil": "br_patstat_200_extracao_validacao4_v4",
+  "particao": "validacao",
+  "hashes": {
+    "config/perfil_extracao_validacao4_v4.json": "952170188897ed46c281ecd492f7eec624adab0baabc1ebe005498bab5b35e41",
+    "scripts/extrair_evidencias_v4_validacao4.py": "5a653f51f4fb6c6d17f3daa5e1bac6e700625e57c14cf35f6a4e72180b56df54",
+    "config/perfil_extracao_validacao2_v4.json": "2bc27b7acb9d74d32e3707a8d91f66ad2e1ab249faffb670a098ed02ff23aecc",
+    "scripts/extrair_evidencias_v4.py": "ccfc1d9e0ba41d14819832a532d42a1902fae033c852b13a9a3bf5a0fbc71407",
+    "prompts/extracao_elementos_v4.txt": "326fc17b21bc71b42e5b8005c3db7723a209a31c76f67301c3e58e340a4f48fb",
+    "prompts/extracao_relacoes_v4.txt": "99487a4469026c7abd4bf45438333a26463f293747a577bb4982c740a0ee7aa6",
+    "docs/REGRAS_EXTRACAO_D1_D5_V1.md": "4301b78ef1de151ac062d747681fa608fe4babc6c3dddb8430adff1a0606e9c4",
+    "config/perfil_extracao_validacao2_v3.json": "1c271b9726967546f772303070b89d59453dfa61565b127d30bb9e5d353fc08a",
+    "scripts/extrair_evidencias_v3.py": "9b43e97d1984414cf31c3dc12d7ba496c25a98ebe4a15747393279205913613c",
+    "schemas/extracao_etapas_v3.templates.json": "f14e132b96c123cfb42fe3e9fa1f4402e97f0e797ecfca37b2b633397ecd1c72",
+    "requirements_extracao08c.txt": "5cd260bc58e8b8e11dced19dbd3e0db6a53ea237c492c38b4304d61081a7a520",
+    "resultados/etapa_5e/piloto_br_200/referencia_consolidada_20261119_v3/referencia_consolidada.json": "3fea669a357dd25d37f88105db96313ad0c6d13db08d5d1b56412edde9c7a379"
+  },
+  "atualizado_utc": "2026-11-19T18:50:59.357057+00:00",
+  "versoes_protegidas": {
+    "torch": "2.14.1+cu130",
+    "numpy": "2.4.6"
+  },
+  "pacotes_que_requeriam_instalacao": [
+    "transformers",
+    "peft",
+    "accelerate",
+    "bitsandbytes",
+    "huggingface-hub",
+    "tokenizers",
+    "safetensors",
+    "sentencepiece",
+    "umap-learn",
+    "jsonschema",
+    "lm-format-enforcer",
+    "interegular"
+  ],
+  "pacotes_alterados": [
+    "accelerate",
+    "bitsandbytes",
+    "huggingface_hub",
+    "interegular",
+    "jsonschema",
+    "lm-format-enforcer",
+    "peft",
+    "safetensors",
+    "sentencepiece",
+    "tokenizers",
+    "transformers",
+    "umap-learn"
+  ],
+  "versoes_requisitos": {
+    "transformers": "4.57.6",
+    "peft": "0.18.1",
+    "accelerate": "1.12.0",
+    "bitsandbytes": "0.49.2",
+    "huggingface-hub": "0.36.2",
+    "tokenizers": "0.22.2",
+    "safetensors": "0.7.0",
+    "sentencepiece": "0.2.1",
+    "scikit-learn": "1.6.1",
+    "umap-learn": "0.5.9.post2",
+    "jsonschema": "4.25.1",
+    "lm-format-enforcer": "0.11.3",
+    "interegular": "0.3.3"
+  },
+  "recursos": {
+    "python": "3.13.16",
+    "torch": "2.14.1+cu130",
+    "cuda_pytorch": "13.0",
+    "cuda_disponivel": true,
+    "disco_livre_gib": 112.08,
+    "ram_gib": {
+      "MemTotal": 12.67,
+      "MemAvailable": 11.04
+    },
+    "gpu": "Tesla T4",
+    "capacidade_cuda": [
+      7,
+      5
+    ],
+    "vram_livre_gib": 14.461,
+    "vram_total_gib": 14.563,
+    "cache_pesos_completo": false,
+    "disco_minimo_gib": 22
+  },
+  "pasta_execucao": "/content/drive/MyDrive/Replicação LLM EIDT IC/resultados/etapa_5e/piloto_br_200/extracao_952170188897ed46"
+}

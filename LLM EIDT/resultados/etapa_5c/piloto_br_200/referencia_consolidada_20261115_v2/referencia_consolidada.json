@@ -1,0 +1,473 @@
+{
+  "versao": "revisao-humana-08c-1.0",
+  "sha256_textos": "9c5dc21de02cab25c64f15300dfc2b00e9884835453fee31968ee50bde5a5fc7",
+  "anotador": "Paulo Rodrigues",
+  "exposicao_previa": "sim",
+  "observacoes": "",
+  "familias": [
+    {
+      "id_familia_docdb": "68698300",
+      "ambiguidades": "Falta de especificidade clínica: O resumo menciona de forma genérica a prevenção ou tratamento de \"doenças associadas à modulação da autofagia\", sem nomear ou especificar quais doenças exatas são contempladas.\n\nOmissão estrutural: O título é extremamente genérico (\"novo composto e composição farmacêutica compreendendo o mesmo\") e o resumo cita uma \"fórmula química 1\" e um \"sal farmaceuticamente aceitável\", mas não detalha a estrutura química ou dados específicos do composto no texto apresentado.",
+      "grupos": {
+        "memes_tecnicos": {
+          "estado": "ausente",
+          "justificativa": "O título e o resumo referem-se apenas a um \"novo composto representado pela fórmula química 1\" e a \"um sal farmaceuticamente aceitável\", sem especificar a composição estrutural, componentes químicos ou técnicas. Conforme a regra da seção, etiquetas genéricas de fórmula não devem ser anotadas como tecnologia por si só. Além disso, embora cite a \"modulação da autofagia\", o texto não descreve nenhum mecanismo técnico específico de atuação.",
+          "itens": []
+        },
+        "funcoes": {
+          "estado": "anotado",
+          "justificativa": "",
+          "itens": [
+            {
+              "id": "funcao_1",
+              "descricao": "prevenção ou tratamento de doenças associadas à modulação da autofagia",
+              "idioma": "pt",
+              "categoria": "",
+              "relacionado_a": [],
+              "evidencias": {
+                "titulo": "",
+                "resumo": "prevenção ou tratamento de doenças associadas à modulação da autofagia"
+              },
+              "observacoes": "Alegação de utilidade terapêutica explícita no resumo (\"eficazmente útil para\"), porém sem comprovação clínica apresentada no texto e sem especificação das doenças individuais.",
+              "localizacao_evidencias": {
+                "titulo": null,
+                "resumo": {
+                  "texto": "prevenção ou tratamento de doenças associadas à modulação da autofagia",
+                  "inicio": 275,
+                  "fim": 345
+                }
+              }
+            }
+          ]
+        },
+        "materiais": {
+          "estado": "anotado",
+          "justificativa": "",
+          "itens": [
+            {
+              "id": "material_1",
+              "descricao": "composição farmacêutica",
+              "idioma": "pt",
+              "categoria": "",
+              "relacionado_a": [],
+              "evidencias": {
+                "titulo": "composição farmacêutica compreendendo o mesmo",
+                "resumo": ""
+              },
+              "observacoes": "D3: composição separada do composto e da alternativa salina; composição específica não apresentada.",
+              "localizacao_evidencias": {
+                "titulo": {
+                  "texto": "composição farmacêutica compreendendo o mesmo",
+                  "inicio": 16,
+                  "fim": 61
+                },
+                "resumo": null
+              }
+            },
+            {
+              "id": "material_2",
+              "descricao": "novo composto",
+              "idioma": "pt",
+              "categoria": "",
+              "relacionado_a": [],
+              "evidencias": {
+                "titulo": "",
+                "resumo": "novo composto representado pela fórmula química 1"
+              },
+              "observacoes": "D3: composto apresentado de forma genérica; não inferir estrutura química.",
+              "localizacao_evidencias": {
+                "titulo": null,
+                "resumo": {
+                  "texto": "novo composto representado pela fórmula química 1",
+                  "inicio": 100,
+                  "fim": 149
+                }
+              }
+            },
+            {
+              "id": "material_3",
+              "descricao": "sal farmaceuticamente aceitável do composto",
+              "idioma": "pt",
+              "categoria": "",
+              "relacionado_a": [],
+              "evidencias": {
+                "titulo": "",
+                "resumo": "ou um sal farmaceuticamente aceitável do mesmo"
+              },
+              "observacoes": "D3: alternativa explicitada por “ou”, não ingrediente concomitante ou integração técnica.",
+              "localizacao_evidencias": {
+                "titulo": null,
+                "resumo": {
+                  "texto": "ou um sal farmaceuticamente aceitável do mesmo",
+                  "inicio": 151,
+                  "fim": 197
+                }
+              }
+            }
+          ]
+        },
+        "processos": {
+          "estado": "ausente",
+          "justificativa": "O título e o resumo restringem-se a apresentar um novo composto e sua utilidade terapêutica geral, sem detalhar operações, métodos de síntese ou procedimentos técnicos específicos de fabricação ou processamento.",
+          "itens": []
+        },
+        "pares_convergencia": {
+          "estado": "ausente",
+          "justificativa": "O título e o resumo apresentam apenas uma menção genérica a um composto e à modulação da autofagia, sem descrever dois memes técnicos distintos ou demonstrar uma integração técnica estruturada entre eles, tratando-se no máximo de uma coocorrência simples sem suporte para par de convergência.",
+          "itens": []
+        },
+        "efeitos": {
+          "estado": "anotado",
+          "justificativa": "",
+          "itens": [
+            {
+              "id": "efeito_1",
+              "descricao": "eficazmente útil para a(o) prevenção ou tratamento de doenças associadas à modulação da autofagia",
+              "idioma": "pt",
+              "categoria": "outro",
+              "relacionado_a": [],
+              "evidencias": {
+                "titulo": "",
+                "resumo": "eficazmente útil para a(o) prevenção ou tratamento de doenças associadas à modulação da autofagia"
+              },
+              "observacoes": "Resultado terapêutico alegado explicitamente no resumo, sem detalhamento de eficácia clínica ou doenças específicas.",
+              "localizacao_evidencias": {
+                "titulo": null,
+                "resumo": {
+                  "texto": "eficazmente útil para a(o) prevenção ou tratamento de doenças associadas à modulação da autofagia",
+                  "inicio": 248,
+                  "fim": 345
+                }
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id_familia_docdb": "50390156",
+      "ambiguidades": "Origem documental não identificada; título e resumo apresentam finalidades diferentes. O título enfatiza promoção de crescimento celular ou tecidual/função restaurada, enquanto o resumo descreve atenuação/prevenção de adesão e/ou vascularização. Não se comprovou que os textos pertençam a documentos diferentes.",
+      "grupos": {
+        "memes_tecnicos": {
+          "estado": "anotado",
+          "justificativa": "",
+          "itens": [
+            {
+              "id": "meme_1",
+              "descricao": "derivado do esqueleto de organismo marinho",
+              "idioma": "pt",
+              "categoria": "",
+              "relacionado_a": [],
+              "evidencias": {
+                "titulo": "derivado do esqueleto de organismo marinho",
+                "resumo": "derivado do esqueleto de organismo marinho"
+              },
+              "observacoes": "Componente material base especificado no título e no resumo como o esqueleto de organismo marinho/coral.",
+              "localizacao_evidencias": {
+                "titulo": {
+                  "texto": "derivado do esqueleto de organismo marinho",
+                  "inicio": 54,
+                  "fim": 96
+                },
+                "resumo": {
+                  "texto": "derivado do esqueleto de organismo marinho",
+                  "inicio": 257,
+                  "fim": 299
+                }
+              }
+            }
+          ]
+        },
+        "funcoes": {
+          "estado": "anotado",
+          "justificativa": "",
+          "itens": [
+            {
+              "id": "funcao_1",
+              "descricao": "promoção de crescimento celular ou de tecido ou função restaurada",
+              "idioma": "pt",
+              "categoria": "",
+              "relacionado_a": [],
+              "evidencias": {
+                "titulo": "otimizado para promoção de crescimento celular ou de tecido ou função restaurada, processo para conversão",
+                "resumo": ""
+              },
+              "observacoes": "D5: finalidade explicitada no título; origem documental não identificada. Não atribuir a divergência a documentos distintos como fato comprovado.",
+              "localizacao_evidencias": {
+                "titulo": {
+                  "texto": "otimizado para promoção de crescimento celular ou de tecido ou função restaurada, processo para conversão",
+                  "inicio": 97,
+                  "fim": 202
+                },
+                "resumo": null
+              }
+            },
+            {
+              "id": "funcao_2",
+              "descricao": "atenuar ou prevenir a adesão e/ou vascularização de células ou de tecidos",
+              "idioma": "pt",
+              "categoria": "",
+              "relacionado_a": [],
+              "evidencias": {
+                "titulo": "",
+                "resumo": "atenuar ou prevenir a adesão e/ou vascularização de células ou de tecidos"
+              },
+              "observacoes": "D3/D5: expressão conjunta preservada com “e/ou”; finalidade do resumo mantida separada da finalidade do título.",
+              "localizacao_evidencias": {
+                "titulo": null,
+                "resumo": {
+                  "texto": "atenuar ou prevenir a adesão e/ou vascularização de células ou de tecidos",
+                  "inicio": 146,
+                  "fim": 219
+                }
+              }
+            }
+          ]
+        },
+        "materiais": {
+          "estado": "anotado",
+          "justificativa": "",
+          "itens": [
+            {
+              "id": "material_1",
+              "descricao": "substrato sólido",
+              "idioma": "pt",
+              "categoria": "",
+              "relacionado_a": [],
+              "evidencias": {
+                "titulo": "",
+                "resumo": "cujo substrato sólido compreende um derivado do esqueleto de organismo marinho"
+              },
+              "observacoes": "D3: suporte material separado da matéria de origem. Não converter relação parte–todo em equivalência.",
+              "localizacao_evidencias": {
+                "titulo": null,
+                "resumo": {
+                  "texto": "cujo substrato sólido compreende um derivado do esqueleto de organismo marinho",
+                  "inicio": 221,
+                  "fim": 299
+                }
+              }
+            },
+            {
+              "id": "material_2",
+              "descricao": "derivado do esqueleto de organismo marinho",
+              "idioma": "pt",
+              "categoria": "",
+              "relacionado_a": [],
+              "evidencias": {
+                "titulo": "",
+                "resumo": "um derivado do esqueleto de organismo marinho e é caracterizado"
+              },
+              "observacoes": "D3: matéria de origem do substrato, explicitamente identificada.",
+              "localizacao_evidencias": {
+                "titulo": null,
+                "resumo": {
+                  "texto": "um derivado do esqueleto de organismo marinho e é caracterizado",
+                  "inicio": 254,
+                  "fim": 317
+                }
+              }
+            }
+          ]
+        },
+        "processos": {
+          "estado": "anotado",
+          "justificativa": "",
+          "itens": [
+            {
+              "id": "processo_1",
+              "descricao": "processo para seleção de substrato sólido com base no derivado do esqueleto de organismo marinho",
+              "idioma": "pt",
+              "categoria": "",
+              "relacionado_a": [],
+              "evidencias": {
+                "titulo": "processo para seleção de substrato sólido com base no derivado do esqueleto de organismo marinho otimizado para promoção de crescimento celular",
+                "resumo": "processos para a seleção de um substrato sólido à base de derivado de esqueleto de organismo marinho otimizado"
+              },
+              "observacoes": "D2: seleção é anotada separadamente da conversão; descrições explícitas de operações não exigem detalhamento de etapas.",
+              "localizacao_evidencias": {
+                "titulo": {
+                  "texto": "processo para seleção de substrato sólido com base no derivado do esqueleto de organismo marinho otimizado para promoção de crescimento celular",
+                  "inicio": 0,
+                  "fim": 143
+                },
+                "resumo": {
+                  "texto": "processos para a seleção de um substrato sólido à base de derivado de esqueleto de organismo marinho otimizado",
+                  "inicio": 590,
+                  "fim": 700
+                }
+              }
+            },
+            {
+              "id": "processo_2",
+              "descricao": "determinação do valor de capacidade de absorção específica de fluido",
+              "idioma": "pt",
+              "categoria": "",
+              "relacionado_a": [],
+              "evidencias": {
+                "titulo": "",
+                "resumo": "cujo valor de capacidade de absorção específica de fluido é determinado através do estabelecimento de um valor de absorção de fluido espontânea dividido por um valor de absorção de fluido total"
+              },
+              "observacoes": "D2: determinação pela razão explicitada no texto; não inferir protocolo experimental ausente.",
+              "localizacao_evidencias": {
+                "titulo": null,
+                "resumo": {
+                  "texto": "cujo valor de capacidade de absorção específica de fluido é determinado através do estabelecimento de um valor de absorção de fluido espontânea dividido por um valor de absorção de fluido total",
+                  "inicio": 394,
+                  "fim": 587
+                }
+              }
+            },
+            {
+              "id": "processo_3",
+              "descricao": "medição de rugosidade superficial",
+              "idioma": "pt",
+              "categoria": "",
+              "relacionado_a": [],
+              "evidencias": {
+                "titulo": "",
+                "resumo": "rugosidade superficial mínima (ra) ou lisura superficial substancial, tal como medido por microscopia eletrônica de varredura ou microscopia de força atômica"
+              },
+              "observacoes": "D1/D2: medição como processo; microscopias auxiliares não são memes centrais. Métodos alternativos permanecem unidos.",
+              "localizacao_evidencias": {
+                "titulo": null,
+                "resumo": {
+                  "texto": "rugosidade superficial mínima (ra) ou lisura superficial substancial, tal como medido por microscopia eletrônica de varredura ou microscopia de força atômica",
+                  "inicio": 1227,
+                  "fim": 1384
+                }
+              }
+            },
+            {
+              "id": "processo_4",
+              "descricao": "conversão de substrato sólido subótimo em substrato sólido otimizado",
+              "idioma": "pt",
+              "categoria": "",
+              "relacionado_a": [],
+              "evidencias": {
+                "titulo": "processo para conversão de substrato sólido subótimo em substrato sólido otimizado",
+                "resumo": ""
+              },
+              "observacoes": "D2: operação explicitamente nomeada apenas no título; não inventar etapas nem fundir seleção/conversão.",
+              "localizacao_evidencias": {
+                "titulo": {
+                  "texto": "processo para conversão de substrato sólido subótimo em substrato sólido otimizado",
+                  "inicio": 179,
+                  "fim": 261
+                },
+                "resumo": null
+              }
+            }
+          ]
+        },
+        "pares_convergencia": {
+          "estado": "ausente",
+          "justificativa": "O texto apresenta múltiplos parâmetros e características técnicas (como absorção, ângulo de contato e rugosidade), mas não demonstra de forma estruturada uma integração técnica entre dois memes distintos que caracterize um par de convergência nos moldes exigidos.",
+          "itens": []
+        },
+        "efeitos": {
+          "estado": "ausente",
+          "justificativa": "D4: a finalidade de promoção de crescimento/restauração do título é função, não resultado alcançado explicitamente alegado. Mantida ausência de efeitos explícitos alegados segundo decisão humana.",
+          "itens": []
+        }
+      }
+    }
+  ],
+  "origem": {
+    "protocolo": "extracao08c",
+    "perfil": {
+      "amostra": {
+        "comprimentos": {
+          "50390156": 1984,
+          "68698300": 407
+        },
+        "familias": 2,
+        "ids": [
+          "68698300",
+          "50390156"
+        ],
+        "particao": "validacao",
+        "regra": "Menor e maior soma de caracteres Unicode de título e resumo entre as seis famílias do 08b; desempate por ID crescente; execução curta primeiro."
+      },
+      "checkpoint": {
+        "diretorio": "resultados/etapa_2/piloto_br_200/treino_qlora_20261104T211425654278Z/checkpoints/passo_000030",
+        "epoca": 3,
+        "passo": 30,
+        "sha256_manifest": "c04a7db533395d009c8f91b8a21f19696b6564e25eecaf23bf1eeef7a421f10f"
+      },
+      "estrutura": {
+        "biblioteca": "lm-format-enforcer",
+        "max_array_length": 1024,
+        "max_whitespace": 1,
+        "ordem_chaves_fixa": true,
+        "rejeitar_repeticao": "últimos 32 tokens repetidos três vezes; sem reparação",
+        "trechos_caracteres": 256,
+        "versao": "0.11.3"
+      },
+      "etapas": [
+        "elementos",
+        "relacoes"
+      ],
+      "geracao": {
+        "contexto_total": 4096,
+        "do_sample": false,
+        "enable_thinking": false,
+        "max_new_tokens": 1024,
+        "max_prompt_tokens": 3072,
+        "num_beams": 1,
+        "repeat_count": 3,
+        "repeat_window": 32,
+        "use_cache": true
+      },
+      "id": "br_patstat_200_extracao_validacao2_v3",
+      "limites": "Teste de engenharia em extremos de comprimento, sem representatividade nem prova de qualidade. O segundo estágio depende dos elementos de cada variante. Schema não comprova suporte semântico.",
+      "maximo_geracoes": 8,
+      "modelo": {
+        "id": "Qwen/Qwen3-8B",
+        "revisao": "b968826d9c46dd6066d109eabc6255188de91218"
+      },
+      "origem": {
+        "perfil_08b": "config/perfil_extracao_validacao6_v2.json",
+        "prompt_elementos": "prompts/extracao_elementos_v3.txt",
+        "prompt_relacoes": "prompts/extracao_relacoes_v3.txt",
+        "requirements": "requirements_extracao08c.txt",
+        "schemas": "schemas/extracao_etapas_v3.templates.json",
+        "script_08b": "scripts/extrair_evidencias_v2.py",
+        "sha256_perfil_08b": "b26f0e959c083bb255160922c5b0fb31e5742864e5daa1e575e242b2a4d71a0e",
+        "sha256_prompt_elementos": "eff7a22ec869892b7857b0f76450c1d4e32ebf6326c97cf709c1a455a3f8d47d",
+        "sha256_prompt_relacoes": "038c6beab049bfafc1b75dbee293c245fb144c063eb93936a18a11a591639895",
+        "sha256_requirements": "5cd260bc58e8b8e11dced19dbd3e0db6a53ea237c492c38b4304d61081a7a520",
+        "sha256_schemas": "f14e132b96c123cfb42fe3e9fa1f4402e97f0e797ecfca37b2b633397ecd1c72",
+        "sha256_script_08b": "913afa8af87a7fbd8e20273309533222f4c3c73a624209adbb23b318c88be939"
+      },
+      "quantizacao": {
+        "compute_dtype": "float16",
+        "double_quant": true,
+        "tipo": "nf4"
+      },
+      "resultados": "resultados/etapa_5c/piloto_br_200",
+      "semente": 42,
+      "versao": "3.0"
+    },
+    "sha256_perfil": "1c271b9726967546f772303070b89d59453dfa61565b127d30bb9e5d353fc08a",
+    "arquivos_recebidos_sha256": {
+      "relatorio.json": "a45d16c8f7c4daf4472c40dda6c8d970b6efd0438c86b10c0b58ca5d2c82d209",
+      "extracoes.jsonl": "ddf0279baef7a682e66c0ea0b6e3b6a9c3ac186d266f6efe1f2053d23cee9de5",
+      "geracoes.jsonl": "c75c017e94fd7b244c46b816ea55639e63622d12b4b6c19a78520d96aa4da00a"
+    }
+  },
+  "estado": "referencia_desenvolvimento_consolidada_por_decisoes_D1_D5",
+  "referencia_independente_comprovada": false,
+  "nota": "Edição assistida conforme decisões humanas D1–D5. Correspondências e métricas calculadas pelo assistente são operacionais e condicionais à referência; não foram adjudicadas item a item por segundo avaliador.",
+  "exportado_em_origem": "2026-11-15T22:37:10.625Z",
+  "revisao_metodologica": {
+    "versao": "08c-referencia-2.0",
+    "data": "2026-11-15",
+    "anotacao_origem_sha256": "9b2fbbc717e9d1608fca435fadd130348281b2bd91c0d4d6a3b8ae3baa48bce1",
+    "decisoes_humanas": "decisoes_humanas_D1_D5.json",
+    "execucao_edicoes": "assistente de IA",
+    "segundo_anotador": false,
+    "independencia": false,
+    "limite": "Referência de desenvolvimento pós-exposição, revista após inspeção das previsões. Não é padrão-ouro independente nem consenso entre avaliadores."
+  }
+}

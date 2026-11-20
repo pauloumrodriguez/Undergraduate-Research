@@ -1,0 +1,212 @@
+{
+  "amostragem": {
+    "estratos": "janela temporal do depósito do representante e partição original",
+    "ordem": "SHA256 UTF-8 de {semente}|{janela}|{particao}|{id_familia_docdb}; desempate por ID textual",
+    "particoes_originais_preservadas": true,
+    "quotas_janelas": [
+      {
+        "fim": 2014,
+        "inicio": 2010,
+        "teste": 6,
+        "total": 67,
+        "treino": 54,
+        "validacao": 7
+      },
+      {
+        "fim": 2019,
+        "inicio": 2015,
+        "teste": 7,
+        "total": 67,
+        "treino": 53,
+        "validacao": 7
+      },
+      {
+        "fim": 2024,
+        "inicio": 2020,
+        "teste": 7,
+        "total": 66,
+        "treino": 53,
+        "validacao": 6
+      }
+    ],
+    "semente": 42
+  },
+  "cobertura_cpc": {
+    "teste": {
+      "familias_com_rotulo_nao_observado_no_treino": 17,
+      "familias_com_rotulo_observado_no_treino": 3,
+      "rotulos_com_uma_familia": 20,
+      "rotulos_distintos": 20
+    },
+    "treino": {
+      "familias_com_rotulo_nao_observado_no_treino": 0,
+      "familias_com_rotulo_observado_no_treino": 160,
+      "rotulos_com_uma_familia": 129,
+      "rotulos_distintos": 142
+    },
+    "validacao": {
+      "familias_com_rotulo_nao_observado_no_treino": 17,
+      "familias_com_rotulo_observado_no_treino": 3,
+      "rotulos_com_uma_familia": 20,
+      "rotulos_distintos": 20
+    }
+  },
+  "contagens": {
+    "elegiveis": 960,
+    "excluidas_sem_cpc_a61_c12n": 40,
+    "selecionadas": 200,
+    "universo": 1000
+  },
+  "cpc_proxy": "Primeiro símbolo CPC da família em ordem alfanumérica, integral e sem remapeamento; não é CPC principal oficial.",
+  "elegibilidade": {
+    "c12q": "C12Q isoladamente não torna a família elegível; coexistência com A61/C12N é permitida.",
+    "campo": "cpc_codes",
+    "consulta_origem": "IPC A61 OU C12N OU C12Q; depósito ou inventor/depositante BR; 2010–2024",
+    "ids_excluidos": [
+      "42125020",
+      "43500337",
+      "43648774",
+      "44645527",
+      "44763293",
+      "46244639",
+      "46379699",
+      "47107957",
+      "47148544",
+      "47757704",
+      "47915292",
+      "47996425",
+      "48182831",
+      "48482985",
+      "49627121",
+      "51017855",
+      "51418106",
+      "51625507",
+      "51948338",
+      "54332586",
+      "55358013",
+      "55759940",
+      "55761514",
+      "58688040",
+      "59676794",
+      "59759527",
+      "60988408",
+      "67843731",
+      "68235855",
+      "69191905",
+      "70327923",
+      "70480818",
+      "70918844",
+      "70976698",
+      "71733381",
+      "74875289",
+      "76575154",
+      "77079478",
+      "78023617",
+      "82611110"
+    ],
+    "interpretacao": "Recorte verificável por CPC da família dentro da base antiga; IPC original não foi exportado.",
+    "ipc_disponivel": false,
+    "prefixos": [
+      "A61",
+      "C12N"
+    ],
+    "regra": "qualquer CPC da família começa com A61 OU C12N"
+  },
+  "idiomas": {
+    "elegiveis": {
+      "en/en": 23,
+      "en/pt": 1,
+      "pt/en": 62,
+      "pt/pt": 874
+    },
+    "formato": "idioma_titulo/idioma_resumo",
+    "piloto": {
+      "en/en": 5,
+      "en/pt": 1,
+      "pt/en": 9,
+      "pt/pt": 185
+    },
+    "universo": {
+      "en/en": 24,
+      "en/pt": 1,
+      "pt/en": 64,
+      "pt/pt": 911
+    }
+  },
+  "janelas": {
+    "2010-2014": {
+      "disponiveis_por_particao": {
+        "teste": 37,
+        "treino": 310,
+        "validacao": 39
+      },
+      "selecionadas": 67,
+      "teste": 6,
+      "treino": 54,
+      "validacao": 7
+    },
+    "2015-2019": {
+      "disponiveis_por_particao": {
+        "teste": 39,
+        "treino": 301,
+        "validacao": 42
+      },
+      "selecionadas": 67,
+      "teste": 7,
+      "treino": 53,
+      "validacao": 7
+    },
+    "2020-2024": {
+      "disponiveis_por_particao": {
+        "teste": 19,
+        "treino": 158,
+        "validacao": 15
+      },
+      "selecionadas": 66,
+      "teste": 7,
+      "treino": 53,
+      "validacao": 6
+    }
+  },
+  "limites": [
+    "Vínculo brasileiro decorre da consulta original; o país do pedido representante pode ser outro.",
+    "Título e resumo foram escolhidos separadamente entre membros da família; IDs dos documentos textuais não foram retidos.",
+    "appln_nr é número de pedido; número e data de publicação não estão disponíveis neste pacote.",
+    "Edição PATSTAT e data da extração original não foram registradas.",
+    "Representante temporal e textos podem provir de membros diferentes; não inferir disponibilidade histórica dos textos.",
+    "200 famílias sustentam um piloto; frequências e indicadores temáticos são exploratórios."
+  ],
+  "manifesto_origem": {
+    "area": "ambas",
+    "cpc_label_rule": "primeiro símbolo CPC da família em ordem alfanumérica",
+    "end_year": 2024,
+    "seed": 42,
+    "start_year": 2010,
+    "test": 100,
+    "total": 1000,
+    "train": 800,
+    "validation": 100
+  },
+  "membros_zip": {
+    "csv": "patents_lora_1000_preview.csv",
+    "manifesto": "manifest.json"
+  },
+  "particoes": {
+    "teste": {
+      "com_cpc_proxy": 20,
+      "total": 20
+    },
+    "treino": {
+      "com_cpc_proxy": 160,
+      "total": 160
+    },
+    "validacao": {
+      "com_cpc_proxy": 20,
+      "total": 20
+    }
+  },
+  "piloto_id": "br_patstat_200_qwen3_8b_v1",
+  "schema_version": "1.0",
+  "sha256_entrada": "09cf45526d9270cd92ed1d7d4339166f4562e92576c47a24353c753f4e6a5283",
+  "sha256_piloto": "9cf3747f8dec5cc9add77ce2632a63abe678dcf860feb56b6215cdf09c91cf74"
+}

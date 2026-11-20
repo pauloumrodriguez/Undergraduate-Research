@@ -1,0 +1,406 @@
+{
+  "origem_sha256": "9b2fbbc717e9d1608fca435fadd130348281b2bd91c0d4d6a3b8ae3baa48bce1",
+  "decisoes": "D1–D5",
+  "alteracoes": [
+    {
+      "campo": "/estado",
+      "antes": "revisao_preenchida_pendente_validacao_humana",
+      "depois": "referencia_desenvolvimento_consolidada_por_decisoes_D1_D5",
+      "tipo": "alteracao"
+    },
+    {
+      "campo": "/exportado_em",
+      "antes": "2026-11-15T22:37:10.625Z",
+      "depois": null,
+      "tipo": "remocao"
+    },
+    {
+      "campo": "/exportado_em_origem",
+      "antes": null,
+      "depois": "2026-11-15T22:37:10.625Z",
+      "tipo": "adicao"
+    },
+    {
+      "campo": "/familias/0/grupos/materiais/itens",
+      "antes": [
+        {
+          "id": "material_1",
+          "descricao": "composição farmacêutica compreendendo novo composto",
+          "idioma": "pt",
+          "categoria": "",
+          "relacionado_a": [],
+          "evidencias": {
+            "titulo": "composição farmacêutica compreendendo o mesmo",
+            "resumo": "novo composto representado pela fórmula química 1, ou um sal farmaceuticamente aceitável do mesmo"
+          },
+          "observacoes": "Material apresentado de forma genérica como composição farmacêutica e composto de fórmula química 1 ou seu sal.",
+          "localizacao_evidencias": {
+            "titulo": {
+              "texto": "composição farmacêutica compreendendo o mesmo",
+              "inicio": 16,
+              "fim": 61
+            },
+            "resumo": {
+              "texto": "novo composto representado pela fórmula química 1, ou um sal farmaceuticamente aceitável do mesmo",
+              "inicio": 100,
+              "fim": 197
+            }
+          }
+        }
+      ],
+      "depois": [
+        {
+          "id": "material_1",
+          "descricao": "composição farmacêutica",
+          "idioma": "pt",
+          "categoria": "",
+          "relacionado_a": [],
+          "evidencias": {
+            "titulo": "composição farmacêutica compreendendo o mesmo",
+            "resumo": ""
+          },
+          "observacoes": "D3: composição separada do composto e da alternativa salina; composição específica não apresentada.",
+          "localizacao_evidencias": {
+            "titulo": {
+              "texto": "composição farmacêutica compreendendo o mesmo",
+              "inicio": 16,
+              "fim": 61
+            },
+            "resumo": null
+          }
+        },
+        {
+          "id": "material_2",
+          "descricao": "novo composto",
+          "idioma": "pt",
+          "categoria": "",
+          "relacionado_a": [],
+          "evidencias": {
+            "titulo": "",
+            "resumo": "novo composto representado pela fórmula química 1"
+          },
+          "observacoes": "D3: composto apresentado de forma genérica; não inferir estrutura química.",
+          "localizacao_evidencias": {
+            "titulo": null,
+            "resumo": {
+              "texto": "novo composto representado pela fórmula química 1",
+              "inicio": 100,
+              "fim": 149
+            }
+          }
+        },
+        {
+          "id": "material_3",
+          "descricao": "sal farmaceuticamente aceitável do composto",
+          "idioma": "pt",
+          "categoria": "",
+          "relacionado_a": [],
+          "evidencias": {
+            "titulo": "",
+            "resumo": "ou um sal farmaceuticamente aceitável do mesmo"
+          },
+          "observacoes": "D3: alternativa explicitada por “ou”, não ingrediente concomitante ou integração técnica.",
+          "localizacao_evidencias": {
+            "titulo": null,
+            "resumo": {
+              "texto": "ou um sal farmaceuticamente aceitável do mesmo",
+              "inicio": 151,
+              "fim": 197
+            }
+          }
+        }
+      ],
+      "tipo": "alteracao"
+    },
+    {
+      "campo": "/familias/1/ambiguidades",
+      "antes": "Divergência entre fontes: o título enfatiza o processo otimizado para promoção de crescimento celular ou tecidual, enquanto o resumo foca na aplicação de substratos sólidos para atenuar ou prevenir a adesão e/ou vascularização.",
+      "depois": "Origem documental não identificada; título e resumo apresentam finalidades diferentes. O título enfatiza promoção de crescimento celular ou tecidual/função restaurada, enquanto o resumo descreve atenuação/prevenção de adesão e/ou vascularização. Não se comprovou que os textos pertençam a documentos diferentes.",
+      "tipo": "alteracao"
+    },
+    {
+      "campo": "/familias/1/grupos/efeitos/estado",
+      "antes": "anotado",
+      "depois": "ausente",
+      "tipo": "alteracao"
+    },
+    {
+      "campo": "/familias/1/grupos/efeitos/itens",
+      "antes": [
+        {
+          "id": "efeito_1",
+          "descricao": "promoção de crescimento celular ou de tecido ou função restaurada",
+          "idioma": "pt",
+          "categoria": "outro",
+          "relacionado_a": [],
+          "evidencias": {
+            "titulo": "substrato sólido otimizado para promoção de crescimento celular ou de tecido ou função restaurada",
+            "resumo": ""
+          },
+          "observacoes": "Efeito explicitamente alegado no título relacionado ao crescimento e restauração celular/tecidual.",
+          "localizacao_evidencias": {
+            "titulo": {
+              "texto": "substrato sólido otimizado para promoção de crescimento celular ou de tecido ou função restaurada",
+              "inicio": 235,
+              "fim": 332
+            },
+            "resumo": null
+          }
+        }
+      ],
+      "depois": [],
+      "tipo": "alteracao"
+    },
+    {
+      "campo": "/familias/1/grupos/efeitos/justificativa",
+      "antes": "",
+      "depois": "D4: a finalidade de promoção de crescimento/restauração do título é função, não resultado alcançado explicitamente alegado. Mantida ausência de efeitos explícitos alegados segundo decisão humana.",
+      "tipo": "alteracao"
+    },
+    {
+      "campo": "/familias/1/grupos/funcoes/itens/0/observacoes",
+      "antes": "Função explícita exclusiva do título (aplicação/documento diferente do resumo), sem menção correspondente no resumo.",
+      "depois": "D5: finalidade explicitada no título; origem documental não identificada. Não atribuir a divergência a documentos distintos como fato comprovado.",
+      "tipo": "alteracao"
+    },
+    {
+      "campo": "/familias/1/grupos/funcoes/itens/1/evidencias/resumo",
+      "antes": "substratos sólidos para atenuar ou prevenir a adesão e vascularização de tecidos e células",
+      "depois": "atenuar ou prevenir a adesão e/ou vascularização de células ou de tecidos",
+      "tipo": "alteracao"
+    },
+    {
+      "campo": "/familias/1/grupos/funcoes/itens/1/localizacao_evidencias/resumo/fim",
+      "antes": 98,
+      "depois": 219,
+      "tipo": "alteracao"
+    },
+    {
+      "campo": "/familias/1/grupos/funcoes/itens/1/localizacao_evidencias/resumo/inicio",
+      "antes": 8,
+      "depois": 146,
+      "tipo": "alteracao"
+    },
+    {
+      "campo": "/familias/1/grupos/funcoes/itens/1/localizacao_evidencias/resumo/texto",
+      "antes": "substratos sólidos para atenuar ou prevenir a adesão e vascularização de tecidos e células",
+      "depois": "atenuar ou prevenir a adesão e/ou vascularização de células ou de tecidos",
+      "tipo": "alteracao"
+    },
+    {
+      "campo": "/familias/1/grupos/funcoes/itens/1/observacoes",
+      "antes": "Função explícita exclusiva do resumo, divergindo da finalidade de promoção de crescimento descrita no título.",
+      "depois": "D3/D5: expressão conjunta preservada com “e/ou”; finalidade do resumo mantida separada da finalidade do título.",
+      "tipo": "alteracao"
+    },
+    {
+      "campo": "/familias/1/grupos/materiais/itens",
+      "antes": [
+        {
+          "id": "material_1",
+          "descricao": "substrato sólido à base de derivado do esqueleto de organismo marinho",
+          "idioma": "pt",
+          "categoria": "",
+          "relacionado_a": [],
+          "evidencias": {
+            "titulo": "substrato sólido e kit compreendendo o referido substrato sólido",
+            "resumo": "substrato sólido compreende um derivado do esqueleto de organismo marinho"
+          },
+          "observacoes": "Material suporte explicitamente definido como substrato sólido derivado de esqueleto marinho/coral.",
+          "localizacao_evidencias": {
+            "titulo": {
+              "texto": "substrato sólido e kit compreendendo o referido substrato sólido",
+              "inicio": 334,
+              "fim": 398
+            },
+            "resumo": {
+              "texto": "substrato sólido compreende um derivado do esqueleto de organismo marinho",
+              "inicio": 226,
+              "fim": 299
+            }
+          }
+        }
+      ],
+      "depois": [
+        {
+          "id": "material_1",
+          "descricao": "substrato sólido",
+          "idioma": "pt",
+          "categoria": "",
+          "relacionado_a": [],
+          "evidencias": {
+            "titulo": "",
+            "resumo": "cujo substrato sólido compreende um derivado do esqueleto de organismo marinho"
+          },
+          "observacoes": "D3: suporte material separado da matéria de origem. Não converter relação parte–todo em equivalência.",
+          "localizacao_evidencias": {
+            "titulo": null,
+            "resumo": {
+              "texto": "cujo substrato sólido compreende um derivado do esqueleto de organismo marinho",
+              "inicio": 221,
+              "fim": 299
+            }
+          }
+        },
+        {
+          "id": "material_2",
+          "descricao": "derivado do esqueleto de organismo marinho",
+          "idioma": "pt",
+          "categoria": "",
+          "relacionado_a": [],
+          "evidencias": {
+            "titulo": "",
+            "resumo": "um derivado do esqueleto de organismo marinho e é caracterizado"
+          },
+          "observacoes": "D3: matéria de origem do substrato, explicitamente identificada.",
+          "localizacao_evidencias": {
+            "titulo": null,
+            "resumo": {
+              "texto": "um derivado do esqueleto de organismo marinho e é caracterizado",
+              "inicio": 254,
+              "fim": 317
+            }
+          }
+        }
+      ],
+      "tipo": "alteracao"
+    },
+    {
+      "campo": "/familias/1/grupos/processos/itens",
+      "antes": [
+        {
+          "id": "processo_1",
+          "descricao": "processo para seleção de substrato sólido com base no derivado do esqueleto de organismo marinho",
+          "idioma": "pt",
+          "categoria": "",
+          "relacionado_a": [],
+          "evidencias": {
+            "titulo": "processo para seleção de substrato sólido com base no derivado do esqueleto de organismo marinho otimizado para promoção de crescimento celular",
+            "resumo": "processos para a seleção de um substrato sólido à base de derivado de esqueleto de organismo marinho otimizado"
+          },
+          "observacoes": "Operação técnica de seleção e conversão de substrato descrita de forma recorrente no título e no resumo.",
+          "localizacao_evidencias": {
+            "titulo": {
+              "texto": "processo para seleção de substrato sólido com base no derivado do esqueleto de organismo marinho otimizado para promoção de crescimento celular",
+              "inicio": 0,
+              "fim": 143
+            },
+            "resumo": {
+              "texto": "processos para a seleção de um substrato sólido à base de derivado de esqueleto de organismo marinho otimizado",
+              "inicio": 590,
+              "fim": 700
+            }
+          }
+        }
+      ],
+      "depois": [
+        {
+          "id": "processo_1",
+          "descricao": "processo para seleção de substrato sólido com base no derivado do esqueleto de organismo marinho",
+          "idioma": "pt",
+          "categoria": "",
+          "relacionado_a": [],
+          "evidencias": {
+            "titulo": "processo para seleção de substrato sólido com base no derivado do esqueleto de organismo marinho otimizado para promoção de crescimento celular",
+            "resumo": "processos para a seleção de um substrato sólido à base de derivado de esqueleto de organismo marinho otimizado"
+          },
+          "observacoes": "D2: seleção é anotada separadamente da conversão; descrições explícitas de operações não exigem detalhamento de etapas.",
+          "localizacao_evidencias": {
+            "titulo": {
+              "texto": "processo para seleção de substrato sólido com base no derivado do esqueleto de organismo marinho otimizado para promoção de crescimento celular",
+              "inicio": 0,
+              "fim": 143
+            },
+            "resumo": {
+              "texto": "processos para a seleção de um substrato sólido à base de derivado de esqueleto de organismo marinho otimizado",
+              "inicio": 590,
+              "fim": 700
+            }
+          }
+        },
+        {
+          "id": "processo_2",
+          "descricao": "determinação do valor de capacidade de absorção específica de fluido",
+          "idioma": "pt",
+          "categoria": "",
+          "relacionado_a": [],
+          "evidencias": {
+            "titulo": "",
+            "resumo": "cujo valor de capacidade de absorção específica de fluido é determinado através do estabelecimento de um valor de absorção de fluido espontânea dividido por um valor de absorção de fluido total"
+          },
+          "observacoes": "D2: determinação pela razão explicitada no texto; não inferir protocolo experimental ausente.",
+          "localizacao_evidencias": {
+            "titulo": null,
+            "resumo": {
+              "texto": "cujo valor de capacidade de absorção específica de fluido é determinado através do estabelecimento de um valor de absorção de fluido espontânea dividido por um valor de absorção de fluido total",
+              "inicio": 394,
+              "fim": 587
+            }
+          }
+        },
+        {
+          "id": "processo_3",
+          "descricao": "medição de rugosidade superficial",
+          "idioma": "pt",
+          "categoria": "",
+          "relacionado_a": [],
+          "evidencias": {
+            "titulo": "",
+            "resumo": "rugosidade superficial mínima (ra) ou lisura superficial substancial, tal como medido por microscopia eletrônica de varredura ou microscopia de força atômica"
+          },
+          "observacoes": "D1/D2: medição como processo; microscopias auxiliares não são memes centrais. Métodos alternativos permanecem unidos.",
+          "localizacao_evidencias": {
+            "titulo": null,
+            "resumo": {
+              "texto": "rugosidade superficial mínima (ra) ou lisura superficial substancial, tal como medido por microscopia eletrônica de varredura ou microscopia de força atômica",
+              "inicio": 1227,
+              "fim": 1384
+            }
+          }
+        },
+        {
+          "id": "processo_4",
+          "descricao": "conversão de substrato sólido subótimo em substrato sólido otimizado",
+          "idioma": "pt",
+          "categoria": "",
+          "relacionado_a": [],
+          "evidencias": {
+            "titulo": "processo para conversão de substrato sólido subótimo em substrato sólido otimizado",
+            "resumo": ""
+          },
+          "observacoes": "D2: operação explicitamente nomeada apenas no título; não inventar etapas nem fundir seleção/conversão.",
+          "localizacao_evidencias": {
+            "titulo": {
+              "texto": "processo para conversão de substrato sólido subótimo em substrato sólido otimizado",
+              "inicio": 179,
+              "fim": 261
+            },
+            "resumo": null
+          }
+        }
+      ],
+      "tipo": "alteracao"
+    },
+    {
+      "campo": "/nota",
+      "antes": "Exposição autodeclarada; preenchimento não comprova independência, adjudicação ou correção semântica.",
+      "depois": "Edição assistida conforme decisões humanas D1–D5. Correspondências e métricas calculadas pelo assistente são operacionais e condicionais à referência; não foram adjudicadas item a item por segundo avaliador.",
+      "tipo": "alteracao"
+    },
+    {
+      "campo": "/revisao_metodologica",
+      "antes": null,
+      "depois": {
+        "versao": "08c-referencia-2.0",
+        "data": "2026-11-15",
+        "anotacao_origem_sha256": "9b2fbbc717e9d1608fca435fadd130348281b2bd91c0d4d6a3b8ae3baa48bce1",
+        "decisoes_humanas": "decisoes_humanas_D1_D5.json",
+        "execucao_edicoes": "assistente de IA",
+        "segundo_anotador": false,
+        "independencia": false,
+        "limite": "Referência de desenvolvimento pós-exposição, revista após inspeção das previsões. Não é padrão-ouro independente nem consenso entre avaliadores."
+      },
+      "tipo": "adicao"
+    }
+  ]
+}

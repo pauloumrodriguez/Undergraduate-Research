@@ -1,0 +1,854 @@
+{
+  "versao": "revisao-humana-validacao4-d1d5-1.0",
+  "sha256_textos": "223744700462b098b1f10e14c9598991202115f197e4d3bd28537ef058567a42",
+  "anotador": "Paulo",
+  "exposicao_previa": "nao",
+  "observacoes": "Não houve exposição prévia às previsões do modelo para estas quatro famílias.",
+  "familias": [
+    {
+      "id_familia_docdb": "45975308",
+      "ambiguidades": "Falhas de redação/OCR no resumo: O resumo apresenta erros tipográficos e de digitação (\"formma\", \"constituide corresponderdo\", \"ácool superior\") e omissão da definição explícita da unidade constituinte correspondente a \"(a) um monômero\" antes de passar diretamente para \"(b) um monômero de vinila representado pela seguinte fórmula (1)\".\n\nDiferença de escopo entre título e resumo: O título cita apenas \"composição cosmética, cosmético de cabelo e cosmético de tratamento de cabelo\", enquanto o resumo apresenta a formulação com copolímero de fórmula (1), tensoativo catiônico, álcool superior e óleo de silicone, além de alegar desempenho de adsorção, viscosidade e suavidade.",
+      "grupos": {
+        "memes_tecnicos": {
+          "estado": "anotado",
+          "justificativa": "",
+          "itens": [
+            {
+              "id": "meme_1",
+              "descricao": "copolímero tendo uma unidade constituinte correspondendo a um monômero de vinila de fórmula (1)",
+              "idioma": "pt",
+              "categoria": "",
+              "relacionado_a": [],
+              "evidencias": {
+                "titulo": "",
+                "resumo": "um copolímero tendo uma unidade constituinte correspondendo (a) um monômero (b) um monômero de vinila representado pela seguinte fórmula (1)"
+              },
+              "observacoes": "Componente polimérico central associado à fórmula química estruturada no resumo; propriedades como adsorção, viscosidade e suavidade são tratadas como atributos/efeitos e não como memes.",
+              "localizacao_evidencias": {
+                "titulo": null,
+                "resumo": {
+                  "texto": "um copolímero tendo uma unidade constituinte correspondendo (a) um monômero (b) um monômero de vinila representado pela seguinte fórmula (1)",
+                  "inicio": 535,
+                  "fim": 675
+                }
+              }
+            }
+          ]
+        },
+        "funcoes": {
+          "estado": "anotado",
+          "justificativa": "",
+          "itens": [
+            {
+              "id": "funcao_1",
+              "descricao": "composição cosmética, cosmético de cabelo e cosmético de tratamento de cabelo",
+              "idioma": "pt",
+              "categoria": "",
+              "relacionado_a": [],
+              "evidencias": {
+                "titulo": "composição cosmética, cosmético de cabelo e cosmético de tratamento de cabelo",
+                "resumo": ""
+              },
+              "observacoes": "Finalidades de aplicação cosmética e capilar explicitadas no título, preservando os diferentes termos de aplicação.",
+              "localizacao_evidencias": {
+                "titulo": {
+                  "texto": "composição cosmética, cosmético de cabelo e cosmético de tratamento de cabelo",
+                  "inicio": 0,
+                  "fim": 77
+                },
+                "resumo": null
+              }
+            },
+            {
+              "id": "funcao_2",
+              "descricao": "uso como cosmético de cabelo",
+              "idioma": "pt",
+              "categoria": "",
+              "relacionado_a": [],
+              "evidencias": {
+                "titulo": "",
+                "resumo": "quando usado como um cosmético de cabelo"
+              },
+              "observacoes": "Finalidade de aplicação capilar explicitada no resumo. Mantida separada dos termos do título para preservar a proveniência documental.",
+              "localizacao_evidencias": {
+                "titulo": null,
+                "resumo": {
+                  "texto": "quando usado como um cosmético de cabelo",
+                  "inicio": 363,
+                  "fim": 403
+                }
+              }
+            }
+          ]
+        },
+        "materiais": {
+          "estado": "anotado",
+          "justificativa": "",
+          "itens": [
+            {
+              "id": "material_1",
+              "descricao": "copolímero de fórmula (1)",
+              "idioma": "pt",
+              "categoria": "",
+              "relacionado_a": [],
+              "evidencias": {
+                "titulo": "",
+                "resumo": "um copolímero tendo uma unidade constituinte correspondendo (a) um monômero (b) um monômero de vinila representado pela seguinte fórmula (1)"
+              },
+              "observacoes": "Entidade material separada conforme regra D3.",
+              "localizacao_evidencias": {
+                "titulo": null,
+                "resumo": {
+                  "texto": "um copolímero tendo uma unidade constituinte correspondendo (a) um monômero (b) um monômero de vinila representado pela seguinte fórmula (1)",
+                  "inicio": 535,
+                  "fim": 675
+                }
+              }
+            },
+            {
+              "id": "material_2",
+              "descricao": "tensoativo catiônico",
+              "idioma": "pt",
+              "categoria": "",
+              "relacionado_a": [],
+              "evidencias": {
+                "titulo": "",
+                "resumo": "um tensoativo catiônico;"
+              },
+              "observacoes": "Entidade material separada conforme regra D3.",
+              "localizacao_evidencias": {
+                "titulo": null,
+                "resumo": {
+                  "texto": "um tensoativo catiônico;",
+                  "inicio": 677,
+                  "fim": 701
+                }
+              }
+            },
+            {
+              "id": "material_3",
+              "descricao": "álcool superior",
+              "idioma": "pt",
+              "categoria": "",
+              "relacionado_a": [],
+              "evidencias": {
+                "titulo": "",
+                "resumo": "um ácool superior;"
+              },
+              "observacoes": "Entidade material separada conforme regra D3; grafia literal preservada do resumo.",
+              "localizacao_evidencias": {
+                "titulo": null,
+                "resumo": {
+                  "texto": "um ácool superior;",
+                  "inicio": 702,
+                  "fim": 720
+                }
+              }
+            },
+            {
+              "id": "material_4",
+              "descricao": "óleo de silicone",
+              "idioma": "pt",
+              "categoria": "",
+              "relacionado_a": [],
+              "evidencias": {
+                "titulo": "",
+                "resumo": "e um óleo de silicone:"
+              },
+              "observacoes": "Entidade material separada conforme regra D3.",
+              "localizacao_evidencias": {
+                "titulo": null,
+                "resumo": {
+                  "texto": "e um óleo de silicone:",
+                  "inicio": 721,
+                  "fim": 743
+                }
+              }
+            },
+            {
+              "id": "material_5",
+              "descricao": "composição cosmética",
+              "idioma": "pt",
+              "categoria": "",
+              "relacionado_a": [],
+              "evidencias": {
+                "titulo": "composição cosmética",
+                "resumo": "fornecer uma composição cosmética contendo um copolímero"
+              },
+              "observacoes": "Composição mantida como entidade distinta dos seus componentes individuais conforme regra D3.",
+              "localizacao_evidencias": {
+                "titulo": {
+                  "texto": "composição cosmética",
+                  "inicio": 0,
+                  "fim": 20
+                },
+                "resumo": {
+                  "texto": "fornecer uma composição cosmética contendo um copolímero",
+                  "inicio": 103,
+                  "fim": 159
+                }
+              }
+            }
+          ]
+        },
+        "processos": {
+          "estado": "ausente",
+          "justificativa": "O título e o resumo apresentam a composição química e os usos/propriedades pretendidos, sem explicitar operações ou procedimentos técnicos de fabricação, síntese ou aplicação.",
+          "itens": []
+        },
+        "pares_convergencia": {
+          "estado": "ausente",
+          "justificativa": "O texto enumera os componentes da formulação e cita a adsorção do tensoativo catiônico, mas não apresenta integração técnica sustentada entre dois memes centrais distintos além da coocorrência/composição.",
+          "itens": []
+        },
+        "efeitos": {
+          "estado": "anotado",
+          "justificativa": "",
+          "itens": [
+            {
+              "id": "efeito_1",
+              "descricao": "excelente na quantidade de adsorção de um tensoativo catiônico e na viscosidade ou suavidade em aplicação",
+              "idioma": "pt",
+              "categoria": "outro",
+              "relacionado_a": [
+                "meme_1",
+                "material_2"
+              ],
+              "evidencias": {
+                "titulo": "",
+                "resumo": "excelente na quantidade de adsorção de um tensoativo catiônico e da mesma formma na viscosidade ou suavidade em aplicação"
+              },
+              "observacoes": "Resultado alegado explicitamente no resumo, preservado como alegação sem dados experimentais no resumo.",
+              "localizacao_evidencias": {
+                "titulo": null,
+                "resumo": {
+                  "texto": "excelente na quantidade de adsorção de um tensoativo catiônico e da mesma formma na viscosidade ou suavidade em aplicação",
+                  "inicio": 241,
+                  "fim": 362
+                }
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id_familia_docdb": "65439381",
+      "ambiguidades": "Origem documental não identificada; título e resumo apresentam finalidades diferentes: o título declara o uso para tratar dor ou irritação em uma articulação, enquanto o resumo descreve uma composição farmacêutica para lubrificação das articulações (essencialmente livre de um agente farmaceuticamente ativo adicional), sem reiterar dor ou irritação.",
+      "grupos": {
+        "memes_tecnicos": {
+          "estado": "anotado",
+          "justificativa": "",
+          "itens": [
+            {
+              "id": "meme_1",
+              "descricao": "lipossomas com membrana contendo fosfolipídios",
+              "idioma": "pt",
+              "categoria": "",
+              "relacionado_a": [],
+              "evidencias": {
+                "titulo": "compreende lipossomas",
+                "resumo": "lipossomas compreendendo pelo menos uma membrana compreendendo pelo menos um fosfolipídio (pl)"
+              },
+              "observacoes": "Unidade técnica central baseada em lipossomas constituídos por membrana contendo fosfolipídios, incluindo glicerofosfolipídio ou esfingomielina. A temperatura de transição de fase é tratada como propriedade da membrana, não como técnica independente.",
+              "localizacao_evidencias": {
+                "titulo": {
+                  "texto": "compreende lipossomas",
+                  "inicio": 28,
+                  "fim": 49
+                },
+                "resumo": {
+                  "texto": "lipossomas compreendendo pelo menos uma membrana compreendendo pelo menos um fosfolipídio (pl)",
+                  "inicio": 195,
+                  "fim": 289
+                }
+              }
+            }
+          ]
+        },
+        "funcoes": {
+          "estado": "anotado",
+          "justificativa": "",
+          "itens": [
+            {
+              "id": "funcao_1",
+              "descricao": "tratar dor ou irritação em uma articulação",
+              "idioma": "pt",
+              "categoria": "",
+              "relacionado_a": [],
+              "evidencias": {
+                "titulo": "uso da dita composição para tratar dor ou irritação em uma articulação",
+                "resumo": ""
+              },
+              "observacoes": "Finalidade terapêutica exclusiva do título, preservando a alternativa (\"dor ou irritação\") e o alvo (\"em uma articulação\").",
+              "localizacao_evidencias": {
+                "titulo": {
+                  "texto": "uso da dita composição para tratar dor ou irritação em uma articulação",
+                  "inicio": 52,
+                  "fim": 122
+                },
+                "resumo": null
+              }
+            },
+            {
+              "id": "funcao_2",
+              "descricao": "lubrificação das articulações",
+              "idioma": "pt",
+              "categoria": "",
+              "relacionado_a": [],
+              "evidencias": {
+                "titulo": "",
+                "resumo": "composição farmacêutica para a lubrificação das articulações"
+              },
+              "observacoes": "Finalidade mecânica/funcional exclusiva do resumo, mantida separada da finalidade do título conforme regra D5.",
+              "localizacao_evidencias": {
+                "titulo": null,
+                "resumo": {
+                  "texto": "composição farmacêutica para a lubrificação das articulações",
+                  "inicio": 32,
+                  "fim": 92
+                }
+              }
+            }
+          ]
+        },
+        "materiais": {
+          "estado": "anotado",
+          "justificativa": "",
+          "itens": [
+            {
+              "id": "material_1",
+              "descricao": "composição farmacêutica",
+              "idioma": "pt",
+              "categoria": "",
+              "relacionado_a": [],
+              "evidencias": {
+                "titulo": "Composição farmacêutica que compreende",
+                "resumo": "fornece uma composição farmacêutica para a lubrificação"
+              },
+              "observacoes": "Preservada a negação explícita do resumo de ser \"essencialmente livre de um agente farmaceuticamente ativo adicional\".",
+              "localizacao_evidencias": {
+                "titulo": {
+                  "texto": "Composição farmacêutica que compreende",
+                  "inicio": 0,
+                  "fim": 38
+                },
+                "resumo": {
+                  "texto": "fornece uma composição farmacêutica para a lubrificação",
+                  "inicio": 20,
+                  "fim": 75
+                }
+              }
+            },
+            {
+              "id": "material_2",
+              "descricao": "agente de tonicidade não iônico compreendendo um poliol",
+              "idioma": "pt",
+              "categoria": "",
+              "relacionado_a": [],
+              "evidencias": {
+                "titulo": "",
+                "resumo": "um agente de tonicidade não iônico compreendendo um poliol"
+              },
+              "observacoes": "",
+              "localizacao_evidencias": {
+                "titulo": null,
+                "resumo": {
+                  "texto": "um agente de tonicidade não iônico compreendendo um poliol",
+                  "inicio": 134,
+                  "fim": 192
+                }
+              }
+            },
+            {
+              "id": "material_3",
+              "descricao": "lipossomas",
+              "idioma": "pt",
+              "categoria": "",
+              "relacionado_a": [],
+              "evidencias": {
+                "titulo": "que compreende lipossomas e",
+                "resumo": "e lipossomas compreendendo pelo menos uma membrana"
+              },
+              "observacoes": "",
+              "localizacao_evidencias": {
+                "titulo": {
+                  "texto": "que compreende lipossomas e",
+                  "inicio": 24,
+                  "fim": 51
+                },
+                "resumo": {
+                  "texto": "e lipossomas compreendendo pelo menos uma membrana",
+                  "inicio": 193,
+                  "fim": 243
+                }
+              }
+            },
+            {
+              "id": "material_4",
+              "descricao": "glicerofosfolipídio (gpl) com duas cadeias de hidrocarboneto c12-c18",
+              "idioma": "pt",
+              "categoria": "",
+              "relacionado_a": [],
+              "evidencias": {
+                "titulo": "",
+                "resumo": "glicerofosfolipídio (gpl), o referido gpl tendo duas cadeias de hidrocarboneto c12-c18, sendo elas iguais ou diferentes"
+              },
+              "observacoes": "",
+              "localizacao_evidencias": {
+                "titulo": null,
+                "resumo": {
+                  "texto": "glicerofosfolipídio (gpl), o referido gpl tendo duas cadeias de hidrocarboneto c12-c18, sendo elas iguais ou diferentes",
+                  "inicio": 312,
+                  "fim": 431
+                }
+              }
+            },
+            {
+              "id": "material_5",
+              "descricao": "esfingomielina (sm) com cadeia de hidrocarboneto c12-c18",
+              "idioma": "pt",
+              "categoria": "",
+              "relacionado_a": [],
+              "evidencias": {
+                "titulo": "",
+                "resumo": "e esfingomielina (sm) tendo uma cadeia de hidrocarboneto c12-c18"
+              },
+              "observacoes": "",
+              "localizacao_evidencias": {
+                "titulo": null,
+                "resumo": {
+                  "texto": "e esfingomielina (sm) tendo uma cadeia de hidrocarboneto c12-c18",
+                  "inicio": 433,
+                  "fim": 497
+                }
+              }
+            },
+            {
+              "id": "material_6",
+              "descricao": "membrana fosfolipídica",
+              "idioma": "pt",
+              "categoria": "",
+              "relacionado_a": [],
+              "evidencias": {
+                "titulo": "",
+                "resumo": "pelo menos uma membrana compreendendo pelo menos um fosfolipídio (pl)"
+              },
+              "observacoes": "Entidade material estrutural dos lipossomas, registrada separadamente dos lipossomas e dos fosfolipídios que constituem sua membrana, conforme a regra D3.",
+              "localizacao_evidencias": {
+                "titulo": null,
+                "resumo": {
+                  "texto": "pelo menos uma membrana compreendendo pelo menos um fosfolipídio (pl)",
+                  "inicio": 220,
+                  "fim": 289
+                }
+              }
+            }
+          ]
+        },
+        "processos": {
+          "estado": "ausente",
+          "justificativa": "O título e o resumo descrevem a composição farmacêutica, seus componentes, propriedades térmicas e finalidades de uso, sem nomear operações ou procedimentos técnicos de fabricação ou aplicação.",
+          "itens": []
+        },
+        "pares_convergencia": {
+          "estado": "ausente",
+          "justificativa": "O texto descreve a composição de lipossomas com membrana fosfolipídica associada a um agente de tonicidade (poliol), mas configura relação de composição/formulação e propriedade térmica, sem integração técnica sustentada entre dois memes centrais distintos.",
+          "itens": []
+        },
+        "efeitos": {
+          "estado": "ausente",
+          "justificativa": "Tanto o tratamento de dor ou irritação (título) quanto a lubrificação das articulações (resumo) são apresentados como finalidades pretendidas da composição, não havendo resultados clínicos ou experimentais alcançados explicitamente alegados no texto.",
+          "itens": []
+        }
+      }
+    },
+    {
+      "id_familia_docdb": "74045448",
+      "ambiguidades": "O resumo reproduz o título na primeira frase e acrescenta os domínios moleculares específicos da proteína de fusão (domínio de nuclease do sistema CRISPR de classe II e domínio Spo11, ambos com atividade nuclease deficiente) e o alvo celular (célula eucariótica), sem divergências entre as fontes.",
+      "grupos": {
+        "memes_tecnicos": {
+          "estado": "anotado",
+          "justificativa": "",
+          "itens": [
+            {
+              "id": "meme_1",
+              "descricao": "proteína de fusão com domínio de nuclease CRISPR de classe II e domínio Spo11 deficientes para atividade nuclease",
+              "idioma": "pt",
+              "categoria": "",
+              "relacionado_a": [],
+              "evidencias": {
+                "titulo": "PROTEÍNA DE FUSÃO DEFICIENTE PARA ATIVIDADE NUCLEASE",
+                "resumo": "proteína de fusão compreendendo um domínio de uma nuclease do sistema CRISPR de classe II e um domínio Spo11, em que ambos os domínios da proteína de fusão têm atividade nuclease deficiente"
+              },
+              "observacoes": "Unidade técnica central combinando dois domínios específicos com deficiência de atividade nuclease preservada.",
+              "localizacao_evidencias": {
+                "titulo": {
+                  "texto": "PROTEÍNA DE FUSÃO DEFICIENTE PARA ATIVIDADE NUCLEASE",
+                  "inicio": 11,
+                  "fim": 63
+                },
+                "resumo": {
+                  "texto": "proteína de fusão compreendendo um domínio de uma nuclease do sistema CRISPR de classe II e um domínio Spo11, em que ambos os domínios da proteína de fusão têm atividade nuclease deficiente",
+                  "inicio": 145,
+                  "fim": 334
+                }
+              }
+            }
+          ]
+        },
+        "funcoes": {
+          "estado": "anotado",
+          "justificativa": "",
+          "itens": [
+            {
+              "id": "funcao_1",
+              "descricao": "induzir recombinações meióticas direcionadas em uma célula eucariótica",
+              "idioma": "pt",
+              "categoria": "",
+              "relacionado_a": [],
+              "evidencias": {
+                "titulo": "PARA INDUZIR RECOMBINAÇÕES MEIÓTICAS",
+                "resumo": "para induzir recombinações meióticas direcionadas em uma célula eucariótica"
+              },
+              "observacoes": "Finalidade explícita com alvo celular (\"em uma célula eucariótica\") especificada no resumo.",
+              "localizacao_evidencias": {
+                "titulo": {
+                  "texto": "PARA INDUZIR RECOMBINAÇÕES MEIÓTICAS",
+                  "inicio": 64,
+                  "fim": 100
+                },
+                "resumo": {
+                  "texto": "para induzir recombinações meióticas direcionadas em uma célula eucariótica",
+                  "inicio": 366,
+                  "fim": 441
+                }
+              }
+            }
+          ]
+        },
+        "materiais": {
+          "estado": "anotado",
+          "justificativa": "",
+          "itens": [
+            {
+              "id": "material_1",
+              "descricao": "proteína de fusão com domínios CRISPR de classe II e Spo11 deficientes para nuclease",
+              "idioma": "pt",
+              "categoria": "",
+              "relacionado_a": [],
+              "evidencias": {
+                "titulo": "UMA PROTEÍNA DE FUSÃO DEFICIENTE PARA ATIVIDADE NUCLEASE",
+                "resumo": "uma proteína de fusão compreendendo um domínio de uma nuclease do sistema CRISPR de classe II e um domínio Spo11"
+              },
+              "observacoes": "",
+              "localizacao_evidencias": {
+                "titulo": {
+                  "texto": "UMA PROTEÍNA DE FUSÃO DEFICIENTE PARA ATIVIDADE NUCLEASE",
+                  "inicio": 7,
+                  "fim": 63
+                },
+                "resumo": {
+                  "texto": "uma proteína de fusão compreendendo um domínio de uma nuclease do sistema CRISPR de classe II e um domínio Spo11",
+                  "inicio": 141,
+                  "fim": 253
+                }
+              }
+            },
+            {
+              "id": "material_2",
+              "descricao": "célula eucariótica",
+              "idioma": "pt",
+              "categoria": "",
+              "relacionado_a": [],
+              "evidencias": {
+                "titulo": "",
+                "resumo": "em uma célula eucariótica."
+              },
+              "observacoes": "Entidade biológica alvo mantida separada da proteína de fusão conforme regra D3.",
+              "localizacao_evidencias": {
+                "titulo": null,
+                "resumo": {
+                  "texto": "em uma célula eucariótica.",
+                  "inicio": 416,
+                  "fim": 442
+                }
+              }
+            }
+          ]
+        },
+        "processos": {
+          "estado": "anotado",
+          "justificativa": "",
+          "itens": [
+            {
+              "id": "processo_1",
+              "descricao": "indução de recombinações meióticas direcionadas",
+              "idioma": "pt",
+              "categoria": "",
+              "relacionado_a": [],
+              "evidencias": {
+                "titulo": "PARA INDUZIR RECOMBINAÇÕES MEIÓTICAS",
+                "resumo": "para induzir recombinações meióticas direcionadas em uma célula eucariótica."
+              },
+              "observacoes": "Operação explicitamente nomeada no título e no resumo. A indução de recombinações meióticas direcionadas é registrada como processo, sem inferir etapas laboratoriais adicionais.",
+              "localizacao_evidencias": {
+                "titulo": {
+                  "texto": "PARA INDUZIR RECOMBINAÇÕES MEIÓTICAS",
+                  "inicio": 64,
+                  "fim": 100
+                },
+                "resumo": {
+                  "texto": "para induzir recombinações meióticas direcionadas em uma célula eucariótica.",
+                  "inicio": 366,
+                  "fim": 442
+                }
+              }
+            }
+          ]
+        },
+        "pares_convergencia": {
+          "estado": "ausente",
+          "justificativa": "O texto descreve uma única proteína de fusão constituída por dois domínios moleculares (domínio de nuclease do sistema CRISPR de classe II e domínio Spo11), ambos deficientes para atividade nuclease. A relação entre esses domínios é de composição parte–todo na mesma unidade técnica, não havendo suporte suficiente para identificar dois memes técnicos centrais distintos com integração técnica independente, conforme os critérios de pares de convergência.",
+          "itens": []
+        },
+        "efeitos": {
+          "estado": "ausente",
+          "justificativa": "O texto declara apenas a finalidade pretendida (\"para induzir recombinações meióticas direcionadas\"), sem alegar resultados experimentais alcançados, taxas de eficiência ou redução de custos.",
+          "itens": []
+        }
+      }
+    },
+    {
+      "id_familia_docdb": "80949080",
+      "ambiguidades": "Falta de especificidade do título: O título é inteiramente genérico (\"Disposição construtiva introduzida em endoprótese\"), enquanto toda a descrição estrutural consta apenas no resumo.\n\nRedação truncada no resumo: O resumo apresenta construção sintática incompleta em \"uma estrutura capilar axialmente que, disposta ao longo de pelo menos um segmento axial\", omitindo o substantivo/verbo esperado após \"axialmente\".",
+      "grupos": {
+        "memes_tecnicos": {
+          "estado": "anotado",
+          "justificativa": "",
+          "itens": [
+            {
+              "id": "meme_1",
+              "descricao": "estrutura capilar axial disposta entre as camadas fusionadas de revestimento da endoprótese",
+              "idioma": "pt",
+              "categoria": "",
+              "relacionado_a": [],
+              "evidencias": {
+                "titulo": "",
+                "resumo": "trata-se de uma estrutura capilar axialmente que, disposta ao longo de pelo menos um segmento axial da endoprótese"
+              },
+              "observacoes": "Componente construtivo central da endoprótese, caracterizado por uma estrutura capilar disposta axialmente entre as camadas fusionadas de revestimento. A finalidade de redução da expansão axial é registrada separadamente na categoria de funções.",
+              "localizacao_evidencias": {
+                "titulo": null,
+                "resumo": {
+                  "texto": "trata-se de uma estrutura capilar axialmente que, disposta ao longo de pelo menos um segmento axial da endoprótese",
+                  "inicio": 391,
+                  "fim": 505
+                }
+              }
+            }
+          ]
+        },
+        "funcoes": {
+          "estado": "anotado",
+          "justificativa": "",
+          "itens": [
+            {
+              "id": "funcao_1",
+              "descricao": "redução de expansão axial da endoprótese",
+              "idioma": "pt",
+              "categoria": "",
+              "relacionado_a": [],
+              "evidencias": {
+                "titulo": "",
+                "resumo": "meio de redução de expansão axial associado às camadas fusionadas"
+              },
+              "observacoes": "Finalidade funcional explícita associada ao componente capilar disposto entre as camadas fusionadas.",
+              "localizacao_evidencias": {
+                "titulo": null,
+                "resumo": {
+                  "texto": "meio de redução de expansão axial associado às camadas fusionadas",
+                  "inicio": 263,
+                  "fim": 328
+                }
+              }
+            }
+          ]
+        },
+        "materiais": {
+          "estado": "anotado",
+          "justificativa": "",
+          "itens": [
+            {
+              "id": "material_1",
+              "descricao": "endoprótese",
+              "idioma": "pt",
+              "categoria": "",
+              "relacionado_a": [],
+              "evidencias": {
+                "titulo": "introduzida em endoprótese",
+                "resumo": "nova disposição construtiva em endoprótese, a qual"
+              },
+              "observacoes": "",
+              "localizacao_evidencias": {
+                "titulo": {
+                  "texto": "introduzida em endoprótese",
+                  "inicio": 23,
+                  "fim": 49
+                },
+                "resumo": {
+                  "texto": "nova disposição construtiva em endoprótese, a qual",
+                  "inicio": 66,
+                  "fim": 116
+                }
+              }
+            },
+            {
+              "id": "material_2",
+              "descricao": "estrutura metálica",
+              "idioma": "pt",
+              "categoria": "",
+              "relacionado_a": [],
+              "evidencias": {
+                "titulo": "",
+                "resumo": "compreende uma estrutura metálica integralmente revestida"
+              },
+              "observacoes": "",
+              "localizacao_evidencias": {
+                "titulo": null,
+                "resumo": {
+                  "texto": "compreende uma estrutura metálica integralmente revestida",
+                  "inicio": 117,
+                  "fim": 174
+                }
+              }
+            },
+            {
+              "id": "material_4",
+              "descricao": "estrutura capilar",
+              "idioma": "pt",
+              "categoria": "",
+              "relacionado_a": [],
+              "evidencias": {
+                "titulo": "",
+                "resumo": "trata-se de uma estrutura capilar axialmente que"
+              },
+              "observacoes": "",
+              "localizacao_evidencias": {
+                "titulo": null,
+                "resumo": {
+                  "texto": "trata-se de uma estrutura capilar axialmente que",
+                  "inicio": 391,
+                  "fim": 439
+                }
+              }
+            },
+            {
+              "id": "material_5",
+              "descricao": "camada interna de revestimento",
+              "idioma": "pt",
+              "categoria": "",
+              "relacionado_a": [],
+              "evidencias": {
+                "titulo": "",
+                "resumo": "uma camada interna"
+              },
+              "observacoes": "Camada material individual da estrutura de revestimento da endoprótese, separada da camada externa conforme a regra D3.",
+              "localizacao_evidencias": {
+                "titulo": null,
+                "resumo": {
+                  "texto": "uma camada interna",
+                  "inicio": 179,
+                  "fim": 197
+                }
+              }
+            },
+            {
+              "id": "material_6",
+              "descricao": "camada externa de revestimento",
+              "idioma": "pt",
+              "categoria": "",
+              "relacionado_a": [],
+              "evidencias": {
+                "titulo": "",
+                "resumo": "uma camada externa de revestimento"
+              },
+              "observacoes": "Camada material individual da estrutura de revestimento da endoprótese, separada da camada interna conforme a regra D3.",
+              "localizacao_evidencias": {
+                "titulo": null,
+                "resumo": {
+                  "texto": "uma camada externa de revestimento",
+                  "inicio": 200,
+                  "fim": 234
+                }
+              }
+            }
+          ]
+        },
+        "processos": {
+          "estado": "anotado",
+          "justificativa": "",
+          "itens": [
+            {
+              "id": "processo_1",
+              "descricao": "termo-fusão entre laminado interno da camada externa e laminado interno da camada interna de revestimento",
+              "idioma": "pt",
+              "categoria": "",
+              "relacionado_a": [],
+              "evidencias": {
+                "titulo": "",
+                "resumo": "o resultado da termo-fusão entre o laminado interno da camada externa de revestimento e o laminado interno da camada interna de revestimento."
+              },
+              "observacoes": "Operação técnica de união térmica explicitamente nomeada no resumo (regra D2/D3).",
+              "localizacao_evidencias": {
+                "titulo": null,
+                "resumo": {
+                  "texto": "o resultado da termo-fusão entre o laminado interno da camada externa de revestimento e o laminado interno da camada interna de revestimento.",
+                  "inicio": 535,
+                  "fim": 676
+                }
+              }
+            }
+          ]
+        },
+        "pares_convergencia": {
+          "estado": "ausente",
+          "justificativa": "Os elementos descritos (estrutura metálica, camadas de revestimento fusionadas e estrutura capilar) constituem partes construtivas e arranjo físico de uma mesma endoprótese (relação parte–todo e disposição espacial), não configurando integração entre dois memes técnicos distintos conforme a regra de pares.",
+          "itens": []
+        },
+        "efeitos": {
+          "estado": "ausente",
+          "justificativa": "O texto descreve a configuração estrutural da endoprótese e a finalidade funcional de redução da expansão axial. Entretanto, não apresenta resultados experimentais ou clínicos explicitamente alegados como alcançados. A redução de expansão axial é apresentada como finalidade do meio construtivo, não como efeito comprovadamente obtido.",
+          "itens": []
+        }
+      }
+    }
+  ],
+  "exportado_em": "2026-11-19T18:14:17.465Z",
+  "origem": {
+    "protocolo": "referencia-validacao4-d1d5-1.0",
+    "particao": "validacao",
+    "selecao": "Quatro famílias restantes das seis congeladas em 08/08b, removidas apenas as duas já revisadas em 08c/08d; ordem original por ID.",
+    "ids_selecionados": [
+      "45975308",
+      "65439381",
+      "74045448",
+      "80949080"
+    ],
+    "ids_excluidos_ja_revisados": [
+      "50390156",
+      "68698300"
+    ],
+    "perfil_seis_sha256": "b26f0e959c083bb255160922c5b0fb31e5742864e5daa1e575e242b2a4d71a0e",
+    "entradas_sha256": "a53ea21af0cd8b51bc5aef2af8d4369e1fbfd6e512510ef2e413047b825688f0",
+    "regras_D1_D5_sha256": "4301b78ef1de151ac062d747681fa608fe4babc6c3dddb8430adff1a0606e9c4",
+    "historico": "Estas famílias já tiveram previsões em 08/08b. Não são teste virgem; exposição do anotador deve ser registrada.",
+    "fonte_documental": "Origem por aplicação de título e resumo não identificada. Os textos são os congelados usados no pré-processamento do projeto.",
+    "predicoes_incluidas": false,
+    "anotacao_preenchida_por_IA": false,
+    "novas_geracoes_executadas": false
+  },
+  "estado": "revisao_preenchida_pendente_validacao_humana",
+  "referencia_independente_comprovada": false,
+  "nota": "Referência de desenvolvimento com regras D1–D5. Exposição autodeclarada às quatro famílias, inclusive 08/08b. Preenchimento não comprova independência, adjudicação ou correção semântica."
+}

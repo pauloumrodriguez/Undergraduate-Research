@@ -1,0 +1,504 @@
+{
+ "regra": "TP=correspondência exata/equivalente; P=parcial (mesmo conceito, falta qualificador/alvo/operador da referência); FP=sem correspondência. Estrita: só TP credita. Branda: TP+P creditam. Um a um, mesmo grupo. Mapeamento feito pelo assistente de IA, sem adjudicação humana.",
+ "rotulos_por_familia_variante_grupo": {
+  "65439381|base|memes_tecnicos": [
+   {
+    "item": "lipossomas",
+    "rotulo": "P",
+    "ref": "meme_1",
+    "motivo": "sem a membrana com fosfolipídios do item humano"
+   },
+   {
+    "item": "fosfolipídio",
+    "rotulo": "FP",
+    "ref": null,
+    "motivo": "parte do todo"
+   },
+   {
+    "item": "glicerofosfolipídio",
+    "rotulo": "FP",
+    "ref": null,
+    "motivo": "parte do todo"
+   },
+   {
+    "item": "cadeia de hidrocarboneto",
+    "rotulo": "FP",
+    "ref": null,
+    "motivo": "parte/atributo"
+   },
+   {
+    "item": "esfingomielina",
+    "rotulo": "FP",
+    "ref": null,
+    "motivo": "parte do todo"
+   },
+   {
+    "item": "temperatura de transição de fase",
+    "rotulo": "FP",
+    "ref": null,
+    "motivo": "propriedade físico-química (D1)"
+   }
+  ],
+  "65439381|base|funcoes": [
+   {
+    "item": "tratar dor ou irritação",
+    "rotulo": "P",
+    "ref": "funcao_1",
+    "motivo": "omite o alvo \"em uma articulação\""
+   },
+   {
+    "item": "lubrificação das articulações",
+    "rotulo": "TP",
+    "ref": "funcao_2",
+    "motivo": ""
+   }
+  ],
+  "65439381|base|materiais": [
+   {
+    "item": "agente de tonicidade não iônico",
+    "rotulo": "P",
+    "ref": "material_2",
+    "motivo": "separa o poliol do agente"
+   },
+   {
+    "item": "poliol",
+    "rotulo": "FP",
+    "ref": null,
+    "motivo": "parte do material_2 humano, sem item próprio na referência"
+   },
+   {
+    "item": "membrana",
+    "rotulo": "P",
+    "ref": "material_6",
+    "motivo": "omite \"fosfolipídica\""
+   },
+   {
+    "item": "agente farmaceuticamente ativo adicional",
+    "rotulo": "FP",
+    "ref": null,
+    "motivo": "o texto o nega (\"essencialmente livre\")"
+   }
+  ],
+  "65439381|base|pares_convergencia": [
+   {
+    "item": "par lipossomas + temperatura de transição",
+    "rotulo": "FP",
+    "ref": null,
+    "motivo": "referência sem pares; parte–todo/propriedade"
+   },
+   {
+    "item": "par lipossomas + glicerofosfolipídio",
+    "rotulo": "FP",
+    "ref": null,
+    "motivo": "referência sem pares; parte–todo/propriedade"
+   }
+  ],
+  "65439381|base|efeitos": [
+   {
+    "item": "efeito reducao_custos ligado a funcao_2",
+    "rotulo": "FP",
+    "ref": null,
+    "motivo": "finalidade duplicada como efeito; custo sem suporte"
+   },
+   {
+    "item": "efeito ganho_eficiencia ligado a meme_6",
+    "rotulo": "FP",
+    "ref": null,
+    "motivo": "eficiência sem suporte explícito"
+   }
+  ],
+  "65439381|adaptado|memes_tecnicos": [
+   {
+    "item": "lipossomas",
+    "rotulo": "P",
+    "ref": "meme_1",
+    "motivo": "sem a membrana com fosfolipídios"
+   },
+   {
+    "item": "agente de tonicidade não iônico",
+    "rotulo": "FP",
+    "ref": null,
+    "motivo": "material, não meme central"
+   },
+   {
+    "item": "poliol",
+    "rotulo": "FP",
+    "ref": null,
+    "motivo": "parte do todo"
+   },
+   {
+    "item": "fosfolipídio (PL) selecionado entre GPL e SM com cadeia C12-C18",
+    "rotulo": "FP",
+    "ref": null,
+    "motivo": "parte do todo"
+   },
+   {
+    "item": "temperatura de transição de fase",
+    "rotulo": "FP",
+    "ref": null,
+    "motivo": "propriedade físico-química (D1)"
+   }
+  ],
+  "65439381|adaptado|funcoes": [
+   {
+    "item": "tratar dor ou irritação em uma articulação",
+    "rotulo": "TP",
+    "ref": "funcao_1",
+    "motivo": ""
+   },
+   {
+    "item": "lubrificação das articulações",
+    "rotulo": "TP",
+    "ref": "funcao_2",
+    "motivo": ""
+   }
+  ],
+  "65439381|adaptado|materiais": [
+   {
+    "item": "lipossomas",
+    "rotulo": "TP",
+    "ref": "material_3",
+    "motivo": ""
+   },
+   {
+    "item": "agente de tonicidade não iônico",
+    "rotulo": "P",
+    "ref": "material_2",
+    "motivo": "separa o poliol do agente"
+   },
+   {
+    "item": "poliol",
+    "rotulo": "FP",
+    "ref": null,
+    "motivo": "parte do material_2 humano"
+   },
+   {
+    "item": "GPL com duas cadeias C12-C18",
+    "rotulo": "TP",
+    "ref": "material_4",
+    "motivo": ""
+   },
+   {
+    "item": "SM com cadeia C12-C18",
+    "rotulo": "TP",
+    "ref": "material_5",
+    "motivo": ""
+   }
+  ],
+  "65439381|adaptado|processos": [
+   {
+    "item": "composição essencialmente livre de agente ativo adicional",
+    "rotulo": "FP",
+    "ref": null,
+    "motivo": "característica de composição, não operação"
+   }
+  ],
+  "65439381|adaptado|pares_convergencia": [
+   {
+    "item": "par lipossomas + temperatura de transição",
+    "rotulo": "FP",
+    "ref": null,
+    "motivo": "referência sem pares"
+   },
+   {
+    "item": "par lipossomas + PL/GPL/SM",
+    "rotulo": "FP",
+    "ref": null,
+    "motivo": "referência sem pares"
+   }
+  ],
+  "65439381|adaptado|efeitos": [
+   {
+    "item": "efeito outro ligado a funcao_2",
+    "rotulo": "FP",
+    "ref": null,
+    "motivo": "finalidade duplicada como efeito"
+   },
+   {
+    "item": "efeito reducao_custos ligado a funcao_1",
+    "rotulo": "FP",
+    "ref": null,
+    "motivo": "finalidade duplicada; custo sem suporte"
+   }
+  ],
+  "74045448|base|memes_tecnicos": [
+   {
+    "item": "proteína de fusão",
+    "rotulo": "P",
+    "ref": "meme_1",
+    "motivo": "sem os domínios CRISPR II e Spo11 deficientes"
+   },
+   {
+    "item": "domínio de nuclease",
+    "rotulo": "FP",
+    "ref": null,
+    "motivo": "parte do todo"
+   },
+   {
+    "item": "domínio Spo11",
+    "rotulo": "FP",
+    "ref": null,
+    "motivo": "parte do todo"
+   }
+  ],
+  "74045448|adaptado|memes_tecnicos": [
+   {
+    "item": "domínio de nuclease CRISPR II",
+    "rotulo": "FP",
+    "ref": null,
+    "motivo": "parte do todo"
+   },
+   {
+    "item": "domínio Spo11",
+    "rotulo": "FP",
+    "ref": null,
+    "motivo": "parte do todo"
+   },
+   {
+    "item": "atividade nuclease deficiente",
+    "rotulo": "FP",
+    "ref": null,
+    "motivo": "propriedade (D1)"
+   }
+  ],
+  "74045448|base|funcoes": [
+   {
+    "item": "induzir recombinações meióticas",
+    "rotulo": "P",
+    "ref": "funcao_1",
+    "motivo": "omite \"direcionadas\" e o alvo célula eucariótica"
+   },
+   {
+    "item": "uso de proteína de fusão",
+    "rotulo": "FP",
+    "ref": null,
+    "motivo": "não é finalidade com alvo"
+   }
+  ],
+  "74045448|adaptado|funcoes": [
+   {
+    "item": "induzir recombinações meióticas direcionadas",
+    "rotulo": "P",
+    "ref": "funcao_1",
+    "motivo": "omite o alvo célula eucariótica"
+   }
+  ],
+  "74045448|base|pares_convergencia": [
+   {
+    "item": "par proteína de fusão + domínio nuclease",
+    "rotulo": "FP",
+    "ref": null,
+    "motivo": "referência sem pares; parte–todo"
+   },
+   {
+    "item": "par proteína de fusão + Spo11",
+    "rotulo": "FP",
+    "ref": null,
+    "motivo": "referência sem pares; parte–todo"
+   }
+  ],
+  "74045448|adaptado|pares_convergencia": [
+   {
+    "item": "par domínio CRISPR II + Spo11",
+    "rotulo": "FP",
+    "ref": null,
+    "motivo": "referência sem pares; parte–todo"
+   },
+   {
+    "item": "par domínio CRISPR II + atividade deficiente",
+    "rotulo": "FP",
+    "ref": null,
+    "motivo": "referência sem pares; parte–todo"
+   }
+  ],
+  "74045448|base|efeitos": [
+   {
+    "item": "efeito outro ligado a funcao_1",
+    "rotulo": "FP",
+    "ref": null,
+    "motivo": "finalidade duplicada"
+   },
+   {
+    "item": "efeito outro ligado a memes",
+    "rotulo": "FP",
+    "ref": null,
+    "motivo": "sem resultado alegado"
+   }
+  ],
+  "74045448|adaptado|efeitos": [
+   {
+    "item": "efeito outro ligado a funcao_1",
+    "rotulo": "FP",
+    "ref": null,
+    "motivo": "finalidade duplicada"
+   }
+  ],
+  "80949080|adaptado|memes_tecnicos": [
+   {
+    "item": "disposição construtiva",
+    "rotulo": "FP",
+    "ref": null,
+    "motivo": "rótulo genérico"
+   },
+   {
+    "item": "estrutura metálica",
+    "rotulo": "FP",
+    "ref": null,
+    "motivo": "material, não meme central"
+   },
+   {
+    "item": "camada interna",
+    "rotulo": "FP",
+    "ref": null,
+    "motivo": "material"
+   },
+   {
+    "item": "camada externa de revestimento",
+    "rotulo": "FP",
+    "ref": null,
+    "motivo": "material"
+   },
+   {
+    "item": "camadas fusionadas",
+    "rotulo": "FP",
+    "ref": null,
+    "motivo": "parte do todo"
+   },
+   {
+    "item": "meio de redução de expansão axial",
+    "rotulo": "FP",
+    "ref": null,
+    "motivo": "função"
+   },
+   {
+    "item": "segmento axial",
+    "rotulo": "FP",
+    "ref": null,
+    "motivo": "parte"
+   },
+   {
+    "item": "termo-fusão",
+    "rotulo": "FP",
+    "ref": null,
+    "motivo": "processo"
+   },
+   {
+    "item": "laminado interno",
+    "rotulo": "FP",
+    "ref": null,
+    "motivo": "parte"
+   },
+   {
+    "item": "estrutura capilar axialmente",
+    "rotulo": "P",
+    "ref": "meme_1",
+    "motivo": "sem a disposição entre as camadas fusionadas da endoprótese"
+   }
+  ],
+  "80949080|adaptado|funcoes": [
+   {
+    "item": "revelar uma nova disposição construtiva",
+    "rotulo": "FP",
+    "ref": null,
+    "motivo": "meta do documento, não função técnica"
+   },
+   {
+    "item": "reduzir expansão axial",
+    "rotulo": "P",
+    "ref": "funcao_1",
+    "motivo": "omite o alvo \"da endoprótese\""
+   },
+   {
+    "item": "dispor estrutura capilar axialmente",
+    "rotulo": "FP",
+    "ref": null,
+    "motivo": "disposição estrutural, não finalidade"
+   },
+   {
+    "item": "termo-fusão entre laminados",
+    "rotulo": "FP",
+    "ref": null,
+    "motivo": "processo"
+   }
+  ],
+  "80949080|adaptado|materiais": [
+   {
+    "item": "estrutura metálica",
+    "rotulo": "TP",
+    "ref": "material_2",
+    "motivo": ""
+   },
+   {
+    "item": "camada interna",
+    "rotulo": "P",
+    "ref": "material_5",
+    "motivo": "omite \"de revestimento\""
+   },
+   {
+    "item": "camada externa de revestimento",
+    "rotulo": "TP",
+    "ref": "material_6",
+    "motivo": ""
+   },
+   {
+    "item": "estrutura capilar",
+    "rotulo": "TP",
+    "ref": "material_4",
+    "motivo": ""
+   }
+  ],
+  "80949080|adaptado|processos": [
+   {
+    "item": "fusionar camadas",
+    "rotulo": "P",
+    "ref": "processo_1",
+    "motivo": "omite os laminados e camadas envolvidos"
+   },
+   {
+    "item": "dispor estrutura capilar axialmente",
+    "rotulo": "FP",
+    "ref": null,
+    "motivo": "disposição estrutural, não operação nomeada"
+   }
+  ],
+  "80949080|adaptado|pares_convergencia": [
+   {
+    "item": "par disposição + camadas fusionadas",
+    "rotulo": "FP",
+    "ref": null,
+    "motivo": "referência sem pares; parte–todo"
+   },
+   {
+    "item": "par camadas fusionadas + laminado interno",
+    "rotulo": "FP",
+    "ref": null,
+    "motivo": "referência sem pares; parte–todo"
+   }
+  ],
+  "80949080|adaptado|efeitos": [
+   {
+    "item": "efeito reducao_custos ligado a funcao",
+    "rotulo": "FP",
+    "ref": null,
+    "motivo": "custo sem suporte; finalidade duplicada"
+   },
+   {
+    "item": "efeito outro ligado a estrutura capilar",
+    "rotulo": "FP",
+    "ref": null,
+    "motivo": "sem resultado alegado"
+   },
+   {
+    "item": "efeito outro ligado a termo-fusão",
+    "rotulo": "FP",
+    "ref": null,
+    "motivo": "sem resultado alegado"
+   }
+  ]
+ },
+ "sha256": {
+  "extracoes": "e8f08a96f3302441e521e3cc56e6bfd0ed6996ced6800fb5162892c692c27fc3",
+  "geracoes": "170714a355a076e0dd73459a68c7ba669de02472ce86695d40ae0e47d02fe4c4",
+  "referencia_v3": "3fea669a357dd25d37f88105db96313ad0c6d13db08d5d1b56412edde9c7a379"
+ }
+}

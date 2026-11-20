@@ -1,0 +1,39 @@
+{
+  "estado": "qa_avaliacao06_peft_cpu_aprovado",
+  "fixture": "Qwen3 pequeno aleatório com LoRA não nulo; entradas sintéticas sem alvos",
+  "torch": "2.9.1+cpu",
+  "geracao": {
+    "do_sample": false,
+    "num_beams": 1,
+    "max_new_tokens": 32
+  },
+  "casos": [
+    {
+      "tokens_prompt": 4,
+      "base_desabilitada_identica": true,
+      "adaptador_reabilitado_identico": true,
+      "reload_identico": true,
+      "pesos_preservados": true
+    },
+    {
+      "tokens_prompt": 3,
+      "base_desabilitada_identica": true,
+      "adaptador_reabilitado_identico": true,
+      "reload_identico": true,
+      "pesos_preservados": true
+    },
+    {
+      "tokens_prompt": 6,
+      "base_desabilitada_identica": true,
+      "adaptador_reabilitado_identico": true,
+      "reload_identico": true,
+      "pesos_preservados": true
+    }
+  ],
+  "efeito_lora_nao_nulo": true,
+  "base_comparada_com_instancia_limpa": true,
+  "adaptadores_sem_merge": true,
+  "sem_parametros_alterados": true,
+  "sem_labels_na_geracao": true,
+  "limite": "Não executa Qwen3-8B, quantização NF4, FP16 CUDA ou checkpoint real do Drive."
+}

@@ -1,0 +1,89 @@
+{
+  "id": "br_patstat_200_qwen3_8b_qlora_nf4_fp16_smoke_v2_ctx1024",
+  "versao": "2.0",
+  "finalidade": "Repetir o teste de capacidade com tensor de 1.024 posições após falta de memória na variante de 2.048. Um passo diagnóstico, sem treinamento completo.",
+  "situacao": "perfil_adicional_para_teste_no_colab",
+  "modelo": {
+    "id": "Qwen/Qwen3-8B",
+    "revisao": "b968826d9c46dd6066d109eabc6255188de91218"
+  },
+  "origem": {
+    "config": "config/experimento.json",
+    "sha256_config": "3673e9c86eb2b4f3c4f9a5bdb0ed6715b8015ce43951fb0807dfa0677e5b22fb",
+    "auditoria_preprocessamento": "dados/processados/piloto_br_200/preprocessado/auditoria_preprocessamento.json",
+    "sha256_auditoria_preprocessamento": "db3558b4772b4c3eb34b43c48cb754e0ff6d4d36ef22b1afc52adb25af5836ee",
+    "treino": "dados/processados/piloto_br_200/preprocessado/treino_cpc.jsonl",
+    "sha256_treino": "52c87c6251ace477715578dea24da5ab5dab7c30056a952264565e6af351c15b"
+  },
+  "quantizacao": {
+    "tipo": "nf4",
+    "double_quant": true,
+    "compute_dtype": "float16"
+  },
+  "lora": {
+    "r": 8,
+    "alpha": 16,
+    "dropout": 0.05,
+    "target_modules": [
+      "q_proj",
+      "v_proj"
+    ]
+  },
+  "teste": {
+    "max_length": 1024,
+    "microbatch": 1,
+    "acumulacao": 1,
+    "passos_otimizador": 1
+  },
+  "treino_futuro": {
+    "acumulacao": 16,
+    "estado": "a_implementar_apos_teste_de_capacidade_e_definicao_da_avaliacao"
+  },
+  "otimizador": {
+    "learning_rate": 0.0003,
+    "weight_decay": 0.01
+  },
+  "semente": 42,
+  "resultados": "resultados/etapa_1/piloto_br_200",
+  "limites": [
+    "Sucesso do teste comprova somente carregamento, perda/gradientes finitos e um passo de atualização nessa sessão.",
+    "Não garante estabilidade de três épocas nem qualidade do CPC ou dos seis campos de extração.",
+    "A base quantizada é uma variante computacional do desenho LoRA BF16; comparações devem registrar essa diferença.",
+    "Os pesos de origem continuam sendo baixados em sua precisão original antes da quantização no carregamento; a economia de VRAM não equivale ao tamanho do download.",
+    "O Qwen3-8B e o E5 devem ocupar a GPU em sessões ou carregamentos separados."
+  ],
+  "ajuste_contexto": {
+    "perfil_anterior": "br_patstat_200_qwen3_8b_qlora_nf4_fp16_smoke_v1",
+    "contexto_anterior": 2048,
+    "contexto_atual": 1024,
+    "evidencia_falha": "Captura de tela enviada pelo pesquisador: memoria_gpu_insuficiente na fase passo_de_treinamento_diagnostico.",
+    "relatorio_completo_anterior_obtido": false,
+    "max_tokens_treino_conferido_em_cpu": 744,
+    "familias_treino_conferidas": 160,
+    "hipotese": "Reduzir o comprimento do tensor diminui memória de ativações/logits e padding. A suficiência da VRAM precisa ser medida na GPU.",
+    "alteracoes": [
+      "max_length de 2048 para 1024",
+      "identificador de perfil próprio",
+      "relatório passa a distinguir forward, backward e passo do otimizador"
+    ],
+    "nao_conclui": "O trecho confirma uma alocação de 1,16 GiB negada por falta de memória. A subfase exata (forward/backward/otimizador) não foi individualizada pelo relatório anterior. A redução de contexto ainda precisa de teste GPU.",
+    "trecho_erro_e_memoria_obtido": true,
+    "erro_confirmado": {
+      "tipo": "OutOfMemoryError",
+      "alocacao_solicitada_gib": 1.16,
+      "gpu_total_gib": 14.56,
+      "gpu_livre_mib": 739.81,
+      "memoria_processo_gib": 13.84,
+      "pytorch_alocado_gib": 13.22,
+      "pytorch_reservado_nao_alocado_mib": 501.89
+    },
+    "memoria_apos_carregamento": {
+      "alocada_gib": 5.659,
+      "livre_gib": 6.545,
+      "pico_alocado_gib": 6.819,
+      "pico_reservado_gib": 7.9,
+      "reservada_gib": 7.9,
+      "total_gib": 14.563
+    }
+  }
+}

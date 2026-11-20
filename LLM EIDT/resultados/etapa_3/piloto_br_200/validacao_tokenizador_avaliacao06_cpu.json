@@ -1,0 +1,17 @@
+{
+  "estado": "tokenizador_avaliacao06_aprovado_cpu",
+  "familias_validacao": 20,
+  "min_tokens_prompt": 168,
+  "max_tokens_prompt": 688,
+  "limite_prompt": 992,
+  "max_new_tokens": 32,
+  "recortes": 0,
+  "prompt_identico_ao_prefixo_05": true,
+  "prompt_independente_do_alvo": true,
+  "pontuacao_alvos_reais_testada": true,
+  "sem_eos_nao_conta_como_acerto": true,
+  "entrada_longa_rejeitada": true,
+  "teste_aberto": false,
+  "gpu_executada": false,
+  "pesos_baixados": false
+}

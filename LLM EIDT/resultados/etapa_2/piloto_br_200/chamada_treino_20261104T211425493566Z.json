@@ -1,0 +1,324 @@
+{
+  "adaptador_selecionado": "resultados/etapa_2/piloto_br_200/treino_qlora_20261104T211425654278Z/checkpoints/passo_000030/adapter",
+  "ambiente": {
+    "pacotes": {
+      "accelerate": "1.12.0",
+      "bitsandbytes": "0.49.2",
+      "huggingface-hub": "0.36.2",
+      "jinja2": "3.1.6",
+      "peft": "0.18.1",
+      "safetensors": "0.7.0",
+      "tokenizers": "0.22.2",
+      "torch": "2.11.0+cu130",
+      "transformers": "4.57.6"
+    },
+    "python": "3.13.16 (main, Oct  1 2026, 15:40:24) [GCC 13.3.0]"
+  },
+  "compatibilidade": {
+    "gpu": {
+      "capacidade_cuda": [
+        7,
+        5
+      ],
+      "cuda_pytorch": "13.0",
+      "nome": "Tesla T4",
+      "quantidade": 1
+    },
+    "origem": {
+      "auditoria_preprocessamento": "dados/processados/piloto_br_200/preprocessado/auditoria_preprocessamento.json",
+      "config": "config/experimento.json",
+      "helper": "scripts/testar_qlora_gpu.py",
+      "perfil_capacidade": "config/perfil_qlora_teste_1024.json",
+      "sha256_auditoria_preprocessamento": "db3558b4772b4c3eb34b43c48cb754e0ff6d4d36ef22b1afc52adb25af5836ee",
+      "sha256_config": "3673e9c86eb2b4f3c4f9a5bdb0ed6715b8015ce43951fb0807dfa0677e5b22fb",
+      "sha256_helper": "3349923a809283eccb0aca80ed1586a8de8d4cacf367f2545379986ca6a5290f",
+      "sha256_perfil_capacidade": "1c3a6e5d3750f8fa4281f459caaefd92be00797f786581f09363baa5fe3640d6",
+      "sha256_treino": "52c87c6251ace477715578dea24da5ab5dab7c30056a952264565e6af351c15b",
+      "sha256_validacao": "428660f6a7969af3eb0e607648d4294c0264e2ad05c61f49f203ddd56c382f8c",
+      "treino": "dados/processados/piloto_br_200/preprocessado/treino_cpc.jsonl",
+      "validacao": "dados/processados/piloto_br_200/preprocessado/validacao_cpc.jsonl"
+    },
+    "pacotes": {
+      "accelerate": "1.12.0",
+      "bitsandbytes": "0.49.2",
+      "huggingface-hub": "0.36.2",
+      "jinja2": "3.1.6",
+      "peft": "0.18.1",
+      "safetensors": "0.7.0",
+      "tokenizers": "0.22.2",
+      "torch": "2.11.0+cu130",
+      "transformers": "4.57.6"
+    },
+    "python": [
+      3,
+      13
+    ],
+    "sha256_diagnostico": "5e0195d4d9b6ab5dde3ae268225a357f54b8a3df9290528659e864e2e802f4ce",
+    "sha256_perfil": "8931f1847423f6ad9cf77f7f1ae2023e982c41697ba5fb75b56f5782fc8bbec8",
+    "sha256_script": "ada0a21cac6ec36e9d2d8df053dc0a1416dccfd0fe11674046c328d02727de25"
+  },
+  "delta_validacao_baseline": -3.7736300213537257,
+  "duracao_segundos": 1270.478,
+  "epocas_concluidas": 3,
+  "erro": null,
+  "estado": "treino_qlora_concluido",
+  "etapa": "concluido",
+  "finalizado_em_utc": "2026-11-04T21:35:36.174571+00:00",
+  "gpu": {
+    "capacidade_cuda": [
+      7,
+      5
+    ],
+    "cuda_pytorch": "13.0",
+    "nome": "Tesla T4",
+    "quantidade": 1
+  },
+  "historico_epocas": [
+    {
+      "checkpoint": "resultados/etapa_2/piloto_br_200/treino_qlora_20261104T211425654278Z/checkpoints/passo_000010",
+      "epoca": 1,
+      "treino_loss": 2.4498896798299206,
+      "treino_tokens": 1984,
+      "validacao": {
+        "familias": 20,
+        "loss": 0.9684133854557256,
+        "tokens": 244
+      }
+    },
+    {
+      "checkpoint": "resultados/etapa_2/piloto_br_200/treino_qlora_20261104T211425654278Z/checkpoints/passo_000020",
+      "epoca": 2,
+      "treino_loss": 0.8946755049119313,
+      "treino_tokens": 1984,
+      "validacao": {
+        "familias": 20,
+        "loss": 0.6762735791137962,
+        "tokens": 244
+      }
+    },
+    {
+      "checkpoint": "resultados/etapa_2/piloto_br_200/treino_qlora_20261104T211425654278Z/checkpoints/passo_000030",
+      "epoca": 3,
+      "treino_loss": 0.6835374417113921,
+      "treino_tokens": 1984,
+      "validacao": {
+        "familias": 20,
+        "loss": 0.60021918883822,
+        "tokens": 244
+      }
+    }
+  ],
+  "iniciado_em_utc": "2026-11-04T21:14:25.659818+00:00",
+  "limite": "Treino do CPC proxy; conclusão não demonstra qualidade de extração ou generalização.",
+  "lora": {
+    "dtype_calculo": "float16",
+    "dtype_treinavel": "float32",
+    "parametros_treinaveis": 3833856
+  },
+  "melhor_epoca": 3,
+  "melhor_validacao_loss": 0.60021918883822,
+  "melhorou_sobre_baseline": true,
+  "memoria": {
+    "apos_preparacao": {
+      "alocada_gib": 7.992,
+      "livre_gib": 1.898,
+      "pico_alocado_gib": 9.137,
+      "pico_reservado_gib": 12.547,
+      "reservada_gib": 12.547,
+      "total_gib": 14.563
+    },
+    "final": {
+      "alocada_gib": 8.036,
+      "livre_gib": 1.818,
+      "pico_alocado_gib": 11.105,
+      "pico_reservado_gib": 12.605,
+      "reservada_gib": 12.605,
+      "total_gib": 14.563
+    },
+    "inicial": {
+      "alocada_gib": 0.0,
+      "livre_gib": 14.461,
+      "pico_alocado_gib": 0.0,
+      "pico_reservado_gib": 0.0,
+      "reservada_gib": 0.0,
+      "total_gib": 14.563
+    },
+    "ultimo_passo": {
+      "alocada_gib": 8.036,
+      "livre_gib": 1.818,
+      "pico_alocado_gib": 11.105,
+      "pico_reservado_gib": 12.605,
+      "reservada_gib": 12.605,
+      "total_gib": 14.563
+    }
+  },
+  "origem": {
+    "cpc_distintos_treino": 142,
+    "diagnostico": "resultados/etapa_1/piloto_br_200/qlora_teste_20261104T014632833741Z.json",
+    "familias_treino": 160,
+    "familias_validacao": 20,
+    "limite": "CPC proxy é o primeiro símbolo integral em ordem alfabética; não é anotação de extração.",
+    "sha256_diagnostico": "5e0195d4d9b6ab5dde3ae268225a357f54b8a3df9290528659e864e2e802f4ce",
+    "teste": "Partição reservada: nenhum arquivo de teste foi aberto.",
+    "validacao_cpc_ausente_treino": 17
+  },
+  "passos_concluidos": 30,
+  "pasta_execucao": "resultados/etapa_2/piloto_br_200/treino_qlora_20261104T211425654278Z",
+  "perda": "Média por token CPC+EOS; treino da época agrega previsões antes de cada atualização.",
+  "perfil": {
+    "avaliacao": {
+      "baseline": "modelo base com adaptador inicial sem treinamento; apenas referência, fora da seleção",
+      "candidatos": "adaptadores das épocas 1, 2 e 3; em empate, primeira época",
+      "criterio": "menor perda média por token de CPC+EOS nas 20 famílias de validação",
+      "frequencia": "antes do treino e ao final de cada época",
+      "melhoria_nao_garantida": true,
+      "teste": "partição reservada: não abrir nem avaliar durante treinamento ou seleção"
+    },
+    "decisoes": {
+      "checkpoints": "A cada cinco atualizações e ao fim das épocas; adaptador, otimizador, scaler, RNG e progresso necessários para retomada.",
+      "comprimento": "Uma família por microbatch, sem padding até 1024. Reutiliza tokenização do diagnóstico; qualquer recorte de resumo é auditado.",
+      "limite_metodologico": "CPC proxy não é classificação principal oficial nem anotação de extração; desempenho de extração deve ser validado separadamente.",
+      "perda": "Somente CPC proxy e EOS; instruções e título/resumo mascarados. Acumulação ponderada pela contagem de tokens supervisionados do grupo de 16 famílias.",
+      "raridade_cpc": "17 das 20 famílias de validação têm CPC integral ausente nos 160 exemplos de treino. Não reagrupar classes após observar resultados.",
+      "scheduler": "Taxa constante e warmup zero são escolhas explícitas deste piloto; não foram especificados no artigo."
+    },
+    "finalidade": "Treinamento exploratório supervisionado pelo CPC proxy no piloto brasileiro; seleção por perda de validação, sem consultar a partição teste.",
+    "id": "br_patstat_200_qwen3_8b_qlora_nf4_fp16_train_v1",
+    "lora": {
+      "alpha": 16,
+      "dropout": 0.05,
+      "r": 8,
+      "target_modules": [
+        "q_proj",
+        "v_proj"
+      ]
+    },
+    "modelo": {
+      "id": "Qwen/Qwen3-8B",
+      "revisao": "b968826d9c46dd6066d109eabc6255188de91218"
+    },
+    "origem": {
+      "auditoria_preprocessamento": "dados/processados/piloto_br_200/preprocessado/auditoria_preprocessamento.json",
+      "config": "config/experimento.json",
+      "helper": "scripts/testar_qlora_gpu.py",
+      "perfil_capacidade": "config/perfil_qlora_teste_1024.json",
+      "sha256_auditoria_preprocessamento": "db3558b4772b4c3eb34b43c48cb754e0ff6d4d36ef22b1afc52adb25af5836ee",
+      "sha256_config": "3673e9c86eb2b4f3c4f9a5bdb0ed6715b8015ce43951fb0807dfa0677e5b22fb",
+      "sha256_helper": "3349923a809283eccb0aca80ed1586a8de8d4cacf367f2545379986ca6a5290f",
+      "sha256_perfil_capacidade": "1c3a6e5d3750f8fa4281f459caaefd92be00797f786581f09363baa5fe3640d6",
+      "sha256_treino": "52c87c6251ace477715578dea24da5ab5dab7c30056a952264565e6af351c15b",
+      "sha256_validacao": "428660f6a7969af3eb0e607648d4294c0264e2ad05c61f49f203ddd56c382f8c",
+      "treino": "dados/processados/piloto_br_200/preprocessado/treino_cpc.jsonl",
+      "validacao": "dados/processados/piloto_br_200/preprocessado/validacao_cpc.jsonl"
+    },
+    "otimizador": {
+      "learning_rate": 0.0003,
+      "max_grad_norm": 1.0,
+      "scheduler": "constant",
+      "warmup_steps": 0,
+      "weight_decay": 0.01
+    },
+    "quantizacao": {
+      "compute_dtype": "float16",
+      "double_quant": true,
+      "tipo": "nf4"
+    },
+    "resultados": "resultados/etapa_2/piloto_br_200",
+    "semente": 42,
+    "treino": {
+      "acumulacao": 16,
+      "checkpoint_cada_passos": 5,
+      "epocas": 3,
+      "max_length": 1024,
+      "microbatch": 1
+    },
+    "versao": "1.0"
+  },
+  "pico_alocado_gib": 11.105,
+  "pico_reservado_gib": 12.605,
+  "progresso": {
+    "baseline": {
+      "familias": 20,
+      "loss": 4.3738492101919455,
+      "tokens": 244
+    },
+    "epocas": [
+      {
+        "checkpoint": "resultados/etapa_2/piloto_br_200/treino_qlora_20261104T211425654278Z/checkpoints/passo_000010",
+        "epoca": 1,
+        "treino_loss": 2.4498896798299206,
+        "treino_tokens": 1984,
+        "validacao": {
+          "familias": 20,
+          "loss": 0.9684133854557256,
+          "tokens": 244
+        }
+      },
+      {
+        "checkpoint": "resultados/etapa_2/piloto_br_200/treino_qlora_20261104T211425654278Z/checkpoints/passo_000020",
+        "epoca": 2,
+        "treino_loss": 0.8946755049119313,
+        "treino_tokens": 1984,
+        "validacao": {
+          "familias": 20,
+          "loss": 0.6762735791137962,
+          "tokens": 244
+        }
+      },
+      {
+        "checkpoint": "resultados/etapa_2/piloto_br_200/treino_qlora_20261104T211425654278Z/checkpoints/passo_000030",
+        "epoca": 3,
+        "treino_loss": 0.6835374417113921,
+        "treino_tokens": 1984,
+        "validacao": {
+          "familias": 20,
+          "loss": 0.60021918883822,
+          "tokens": 244
+        }
+      }
+    ],
+    "epoch_loss_sum": 0.0,
+    "epoch_tokens": 0,
+    "global_step": 30,
+    "melhor": {
+      "checkpoint": "resultados/etapa_2/piloto_br_200/treino_qlora_20261104T211425654278Z/checkpoints/passo_000030",
+      "epoca": 3,
+      "loss": 0.60021918883822
+    },
+    "next_epoch": 4,
+    "next_group": 0
+  },
+  "relatorio": "resultados/etapa_2/piloto_br_200/treino_qlora_20261104T211425654278Z/relatorio.json",
+  "reprodutibilidade": "Ordem e RNG preservados; não se promete igualdade bit a bit entre kernels CUDA.",
+  "retomada_de": null,
+  "scheduler": "constant",
+  "selecao": {
+    "adaptador": "resultados/etapa_2/piloto_br_200/treino_qlora_20261104T211425654278Z/checkpoints/passo_000030/adapter",
+    "checkpoint": "resultados/etapa_2/piloto_br_200/treino_qlora_20261104T211425654278Z/checkpoints/passo_000030",
+    "criterio": "Menor perda por token na validação entre épocas 1–3; empate favorece a primeira.",
+    "epoca": 3,
+    "sha256_manifest_checkpoint": "c04a7db533395d009c8f91b8a21f19696b6564e25eecaf23bf1eeef7a421f10f",
+    "teste_executado": false,
+    "validacao_loss": 0.60021918883822
+  },
+  "sha256_perfil": "8931f1847423f6ad9cf77f7f1ae2023e982c41697ba5fb75b56f5782fc8bbec8",
+  "teste_executado": false,
+  "tokenizacao": {
+    "arquivo": "resultados/etapa_2/piloto_br_200/treino_qlora_20261104T211425654278Z/tokenizacao_treino_validacao.json",
+    "familias": 180,
+    "max_tokens": 744,
+    "recortadas": 0,
+    "sha256": "3a53e48188b5cd1f194275723bf12f2c375afcf03dcb184038c31471a21f5c27"
+  },
+  "ultima_atualizacao": {
+    "familias": 16,
+    "grad_scaler": 128.0,
+    "loss": 0.7344553127204101,
+    "loss_soma_tokens": 144.6876966059208,
+    "norma_gradiente_antes_clip": 1.5039217472076416,
+    "tokens": 197
+  },
+  "ultimo_checkpoint": "resultados/etapa_2/piloto_br_200/treino_qlora_20261104T211425654278Z/checkpoints/passo_000030",
+  "validacao_baseline_loss": 4.3738492101919455,
+  "warmup_steps": 0
+}

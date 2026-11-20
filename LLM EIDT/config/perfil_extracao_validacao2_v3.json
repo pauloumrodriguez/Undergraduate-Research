@@ -1,0 +1,74 @@
+{
+  "modelo": {
+    "id": "Qwen/Qwen3-8B",
+    "revisao": "b968826d9c46dd6066d109eabc6255188de91218"
+  },
+  "quantizacao": {
+    "tipo": "nf4",
+    "double_quant": true,
+    "compute_dtype": "float16"
+  },
+  "checkpoint": {
+    "diretorio": "resultados/etapa_2/piloto_br_200/treino_qlora_20261104T211425654278Z/checkpoints/passo_000030",
+    "sha256_manifest": "c04a7db533395d009c8f91b8a21f19696b6564e25eecaf23bf1eeef7a421f10f",
+    "epoca": 3,
+    "passo": 30
+  },
+  "semente": 42,
+  "id": "br_patstat_200_extracao_validacao2_v3",
+  "versao": "3.0",
+  "resultados": "resultados/etapa_5c/piloto_br_200",
+  "geracao": {
+    "max_prompt_tokens": 3072,
+    "max_new_tokens": 1024,
+    "contexto_total": 4096,
+    "do_sample": false,
+    "num_beams": 1,
+    "use_cache": true,
+    "enable_thinking": false,
+    "repeat_window": 32,
+    "repeat_count": 3
+  },
+  "amostra": {
+    "familias": 2,
+    "particao": "validacao",
+    "regra": "Menor e maior soma de caracteres Unicode de título e resumo entre as seis famílias do 08b; desempate por ID crescente; execução curta primeiro.",
+    "ids": [
+      "68698300",
+      "50390156"
+    ],
+    "comprimentos": {
+      "68698300": 407,
+      "50390156": 1984
+    }
+  },
+  "etapas": [
+    "elementos",
+    "relacoes"
+  ],
+  "maximo_geracoes": 8,
+  "estrutura": {
+    "biblioteca": "lm-format-enforcer",
+    "versao": "0.11.3",
+    "ordem_chaves_fixa": true,
+    "max_whitespace": 1,
+    "max_array_length": 1024,
+    "trechos_caracteres": 256,
+    "rejeitar_repeticao": "últimos 32 tokens repetidos três vezes; sem reparação"
+  },
+  "limites": "Teste de engenharia em extremos de comprimento, sem representatividade nem prova de qualidade. O segundo estágio depende dos elementos de cada variante. Schema não comprova suporte semântico.",
+  "origem": {
+    "perfil_08b": "config/perfil_extracao_validacao6_v2.json",
+    "script_08b": "scripts/extrair_evidencias_v2.py",
+    "schemas": "schemas/extracao_etapas_v3.templates.json",
+    "prompt_elementos": "prompts/extracao_elementos_v3.txt",
+    "prompt_relacoes": "prompts/extracao_relacoes_v3.txt",
+    "requirements": "requirements_extracao08c.txt",
+    "sha256_perfil_08b": "b26f0e959c083bb255160922c5b0fb31e5742864e5daa1e575e242b2a4d71a0e",
+    "sha256_script_08b": "913afa8af87a7fbd8e20273309533222f4c3c73a624209adbb23b318c88be939",
+    "sha256_schemas": "f14e132b96c123cfb42fe3e9fa1f4402e97f0e797ecfca37b2b633397ecd1c72",
+    "sha256_prompt_elementos": "eff7a22ec869892b7857b0f76450c1d4e32ebf6326c97cf709c1a455a3f8d47d",
+    "sha256_prompt_relacoes": "038c6beab049bfafc1b75dbee293c245fb144c063eb93936a18a11a591639895",
+    "sha256_requirements": "5cd260bc58e8b8e11dced19dbd3e0db6a53ea237c492c38b4304d61081a7a520"
+  }
+}

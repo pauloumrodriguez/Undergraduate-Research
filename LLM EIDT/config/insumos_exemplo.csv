@@ -1,0 +1,14 @@
+id,material,uso,acesso_declarado,arquivo_relativo,sha256_esperado
+artigo_v1,Preprint anexado de Ding e Lu na versão 1,Fixar a versão do texto analisado,disponivel,dados/referencia/artigo_llm_eidt_v1.pdf,e4043b0d8e06c77d1d4cd2c18dfcdf491e745c6a8aac734d5b6dfe68ce6b2a6c
+busca_aipat,Comprovante de acesso e consulta original AI Pat+ com filtros e data de exportação,Reexecutar a busca,nao_verificado,,
+exportacao_bruta,Registros de patentes e famílias com datas de depósito e publicação e texto chinês,Reconstituir a população coletada,nao_verificado,,
+corpus_retido,IDs e metadados das 14265 patentes retidas,Conferir seleção e concordância por ano,nao_verificado,,
+exclusoes_familias,Chaves de famílias e representantes e motivos das exclusões,Reconciliar os 973 registros excluídos,nao_verificado,,
+amostra_cpc,Amostra CPC de 1000 registros com entradas e alvo e partição 800 100 100,Replicar a adaptação LoRA e verificar sobreposição,nao_verificado,,
+amostra_ouro,Amostra de 600 patentes com IDs e anotações humanas e instruções de correspondência,Avaliar extração e alinhamento e temas,nao_verificado,,
+referencias_citacoes,Rede dirigida de referências e citações posteriores com datas e corte em 2025,Reconstruir o Dh,nao_verificado,,
+metodo_dh,Definição operacional de citação disruptiva e agregação por tema,Reconstruir o Dh,nao_verificado,,
+codigo_configuracao,Código ou configurações dos autores com versões e critérios de corte e ablação,Esclarecer decisões não especificadas,nao_verificado,,
+prompts,Prompts originais em chinês com exemplos completos e configurações de geração,Verificar inferência,nao_verificado,,
+lora_autores,Adaptador LoRA dos autores e referência ao modelo de base,Comparar a adaptação original,nao_verificado,,
+resultados_temas,Mapas patente a tema e relações alinhadas e saídas por janela dos autores,Investigar discrepâncias de EDh e ranking,nao_verificado,,

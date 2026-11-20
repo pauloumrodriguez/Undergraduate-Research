@@ -1,0 +1,364 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Extração LLM-EIDT adaptada a famílias PATSTAT com vínculo brasileiro",
+  "description": "Termos e evidências em português/inglês sem tradução prévia. Este schema é uma decisão da adaptação e não o schema original do artigo.",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "versao_schema",
+    "id_familia_docdb",
+    "idiomas_entrada",
+    "memes_tecnicos",
+    "pares_convergencia",
+    "funcoes",
+    "materiais",
+    "processos",
+    "efeitos"
+  ],
+  "properties": {
+    "versao_schema": {
+      "const": "patstat-br-extracao-1.0"
+    },
+    "id_familia_docdb": {
+      "type": "string",
+      "pattern": "^[1-9][0-9]*$"
+    },
+    "idiomas_entrada": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "titulo",
+        "resumo"
+      ],
+      "properties": {
+        "titulo": {
+          "type": "string",
+          "enum": [
+            "pt",
+            "en"
+          ]
+        },
+        "resumo": {
+          "type": "string",
+          "enum": [
+            "pt",
+            "en"
+          ]
+        }
+      }
+    },
+    "memes_tecnicos": {
+      "type": "array",
+      "items": {
+        "$ref": "#/$defs/meme"
+      },
+      "description": "Usar [] somente quando nenhuma evidência for encontrada em uma geração completa e válida."
+    },
+    "pares_convergencia": {
+      "type": "array",
+      "items": {
+        "$ref": "#/$defs/par"
+      },
+      "description": "Usar [] somente quando nenhuma evidência for encontrada em uma geração completa e válida."
+    },
+    "funcoes": {
+      "type": "array",
+      "items": {
+        "$ref": "#/$defs/funcao"
+      },
+      "description": "Usar [] somente quando nenhuma evidência for encontrada em uma geração completa e válida."
+    },
+    "materiais": {
+      "type": "array",
+      "items": {
+        "$ref": "#/$defs/material"
+      },
+      "description": "Usar [] somente quando nenhuma evidência for encontrada em uma geração completa e válida."
+    },
+    "processos": {
+      "type": "array",
+      "items": {
+        "$ref": "#/$defs/processo"
+      },
+      "description": "Usar [] somente quando nenhuma evidência for encontrada em uma geração completa e válida."
+    },
+    "efeitos": {
+      "type": "array",
+      "items": {
+        "$ref": "#/$defs/efeito"
+      },
+      "description": "Usar [] somente quando nenhuma evidência for encontrada em uma geração completa e válida."
+    }
+  },
+  "$defs": {
+    "evidencia": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "campo",
+        "texto",
+        "idioma",
+        "inicio",
+        "fim"
+      ],
+      "properties": {
+        "campo": {
+          "type": "string",
+          "enum": [
+            "titulo",
+            "resumo"
+          ]
+        },
+        "texto": {
+          "type": "string",
+          "minLength": 1
+        },
+        "idioma": {
+          "type": "string",
+          "enum": [
+            "pt",
+            "en"
+          ]
+        },
+        "inicio": {
+          "type": "integer",
+          "minimum": 0
+        },
+        "fim": {
+          "type": "integer",
+          "minimum": 1
+        }
+      },
+      "description": "Citação literal do campo normalizado. Índices em pontos de código Unicode Python, início inclusivo e fim exclusivo. Validação semântica exige texto[inicio:fim] == texto citado."
+    },
+    "meme": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "id",
+        "termo",
+        "idioma",
+        "evidencias"
+      ],
+      "properties": {
+        "id": {
+          "type": "string",
+          "pattern": "^meme_[1-9][0-9]*$"
+        },
+        "termo": {
+          "type": "string",
+          "minLength": 1
+        },
+        "idioma": {
+          "type": "string",
+          "enum": [
+            "pt",
+            "en"
+          ]
+        },
+        "evidencias": {
+          "type": "array",
+          "minItems": 1,
+          "items": {
+            "$ref": "#/$defs/evidencia"
+          },
+          "uniqueItems": true
+        }
+      }
+    },
+    "par": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "id",
+        "memes",
+        "evidencias"
+      ],
+      "properties": {
+        "id": {
+          "type": "string",
+          "pattern": "^par_[1-9][0-9]*$"
+        },
+        "memes": {
+          "type": "array",
+          "items": {
+            "type": "string",
+            "pattern": "^meme_[1-9][0-9]*$"
+          },
+          "minItems": 2,
+          "uniqueItems": true,
+          "maxItems": 2
+        },
+        "evidencias": {
+          "type": "array",
+          "minItems": 1,
+          "items": {
+            "$ref": "#/$defs/evidencia"
+          },
+          "uniqueItems": true
+        }
+      },
+      "description": "Integração técnica de dois memes distintos. Coocorrência isolada não sustenta convergência. Não repetir o mesmo par em ordem inversa."
+    },
+    "funcao": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "id",
+        "termo",
+        "idioma",
+        "evidencias"
+      ],
+      "properties": {
+        "id": {
+          "type": "string",
+          "pattern": "^funcao_[1-9][0-9]*$"
+        },
+        "termo": {
+          "type": "string",
+          "minLength": 1
+        },
+        "idioma": {
+          "type": "string",
+          "enum": [
+            "pt",
+            "en"
+          ]
+        },
+        "evidencias": {
+          "type": "array",
+          "minItems": 1,
+          "items": {
+            "$ref": "#/$defs/evidencia"
+          },
+          "uniqueItems": true
+        }
+      }
+    },
+    "material": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "id",
+        "termo",
+        "idioma",
+        "evidencias"
+      ],
+      "properties": {
+        "id": {
+          "type": "string",
+          "pattern": "^material_[1-9][0-9]*$"
+        },
+        "termo": {
+          "type": "string",
+          "minLength": 1
+        },
+        "idioma": {
+          "type": "string",
+          "enum": [
+            "pt",
+            "en"
+          ]
+        },
+        "evidencias": {
+          "type": "array",
+          "minItems": 1,
+          "items": {
+            "$ref": "#/$defs/evidencia"
+          },
+          "uniqueItems": true
+        }
+      }
+    },
+    "processo": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "id",
+        "termo",
+        "idioma",
+        "evidencias"
+      ],
+      "properties": {
+        "id": {
+          "type": "string",
+          "pattern": "^processo_[1-9][0-9]*$"
+        },
+        "termo": {
+          "type": "string",
+          "minLength": 1
+        },
+        "idioma": {
+          "type": "string",
+          "enum": [
+            "pt",
+            "en"
+          ]
+        },
+        "evidencias": {
+          "type": "array",
+          "minItems": 1,
+          "items": {
+            "$ref": "#/$defs/evidencia"
+          },
+          "uniqueItems": true
+        }
+      }
+    },
+    "efeito": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "id",
+        "descricao",
+        "idioma",
+        "categoria",
+        "relacionado_a",
+        "evidencias"
+      ],
+      "properties": {
+        "id": {
+          "type": "string",
+          "pattern": "^efeito_[1-9][0-9]*$"
+        },
+        "descricao": {
+          "type": "string",
+          "minLength": 1
+        },
+        "idioma": {
+          "type": "string",
+          "enum": [
+            "pt",
+            "en"
+          ]
+        },
+        "categoria": {
+          "type": "string",
+          "enum": [
+            "reducao_custos",
+            "ganho_eficiencia",
+            "outro"
+          ]
+        },
+        "relacionado_a": {
+          "type": "array",
+          "items": {
+            "type": "string",
+            "pattern": "^(meme|funcao|material|processo)_[1-9][0-9]*$"
+          },
+          "minItems": 0,
+          "uniqueItems": true
+        },
+        "evidencias": {
+          "type": "array",
+          "minItems": 1,
+          "items": {
+            "$ref": "#/$defs/evidencia"
+          },
+          "uniqueItems": true
+        }
+      },
+      "description": "Efeito explicitamente sustentado. Lista relacionado_a vazia quando o texto não permite atribuir um elemento específico. Não inferir eficiência a partir de uma vantagem genérica."
+    }
+  }
+}

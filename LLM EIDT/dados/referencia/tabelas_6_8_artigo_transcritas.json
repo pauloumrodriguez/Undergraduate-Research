@@ -1,0 +1,435 @@
+{
+ "fonte": "Ding & Lu (2026), preprint v1, DOI 10.21203/rs.3.rs-9585548/v1, Tabelas 6, 7, 8 e 9, transcritas do PDF (dados/referencia/artigo_llm_eidt_v1.pdf).",
+ "nota": "Nomes de temas preservados como impressos. Na Tabela 7 a coluna Dh repete Biotechnology e Cell culture & engineering nas duas últimas posições e não traz Gene therapy nem Biomaterials & delivery. Ver docs/EDH_METRICAS_V1.md.",
+ "media_tabela9": {
+  "precisao": 0.9167,
+  "revocacao": 0.8554,
+  "f1": 0.8804,
+  "ndcg": 0.8308
+ },
+ "janelas": {
+  "2010-2014": {
+   "tabela": "Tabela 6",
+   "ranking_edh": [
+    {
+     "tema": "Gene engineering",
+     "valor": 5
+    },
+    {
+     "tema": "Protein engineering",
+     "valor": 5
+    },
+    {
+     "tema": "Molecular diagnostics &detection",
+     "valor": 5
+    },
+    {
+     "tema": "Gene sequencing",
+     "valor": 5
+    },
+    {
+     "tema": "Biotechnology",
+     "valor": 5
+    },
+    {
+     "tema": "Immunotherapy",
+     "valor": 5
+    },
+    {
+     "tema": "Antibody engineering",
+     "valor": 5
+    },
+    {
+     "tema": "Gene therapy",
+     "valor": 5
+    },
+    {
+     "tema": "Cell culture and engineering",
+     "valor": 4
+    },
+    {
+     "tema": "Nucleic acid",
+     "valor": 4
+    },
+    {
+     "tema": "Stem cell therapy",
+     "valor": 4
+    },
+    {
+     "tema": "Microfluidic chip",
+     "valor": 4
+    },
+    {
+     "tema": "Gene editing",
+     "valor": 4
+    },
+    {
+     "tema": "Bioinformatics",
+     "valor": 3
+    },
+    {
+     "tema": "Synthetic biology",
+     "valor": 3
+    },
+    {
+     "tema": "Biomaterials & delivery",
+     "valor": 2
+    }
+   ],
+   "ranking_dh": [
+    {
+     "tema": "Gene engineering",
+     "valor": 6
+    },
+    {
+     "tema": "Protein engineering",
+     "valor": 6
+    },
+    {
+     "tema": "Molecular diagnostics & detection",
+     "valor": 6
+    },
+    {
+     "tema": "Gene sequencing",
+     "valor": 6
+    },
+    {
+     "tema": "Biotechnology",
+     "valor": 6
+    },
+    {
+     "tema": "Cell culture & engineering",
+     "valor": 6
+    },
+    {
+     "tema": "Immunotherapy",
+     "valor": 6
+    },
+    {
+     "tema": "Antibody engineering",
+     "valor": 5
+    },
+    {
+     "tema": "Nucleic acid",
+     "valor": 5
+    },
+    {
+     "tema": "Gene therapy",
+     "valor": 5
+    },
+    {
+     "tema": "Stem cell therapy",
+     "valor": 5
+    },
+    {
+     "tema": "Microfluidic chip",
+     "valor": 5
+    },
+    {
+     "tema": "Bioinformatics",
+     "valor": 5
+    },
+    {
+     "tema": "Gene editing",
+     "valor": 4
+    },
+    {
+     "tema": "Synthetic biology",
+     "valor": 4
+    },
+    {
+     "tema": "Biomaterials & delivery",
+     "valor": 2
+    }
+   ],
+   "tabela9": {
+    "precisao": 0.75,
+    "revocacao": 0.8571,
+    "f1": 0.8,
+    "ndcg": 0.9961
+   }
+  },
+  "2015-2019": {
+   "tabela": "Tabela 7",
+   "ranking_edh": [
+    {
+     "tema": "Antibody engineering",
+     "valor": 7
+    },
+    {
+     "tema": "Gene sequencing",
+     "valor": 6
+    },
+    {
+     "tema": "Cell culture & engineering",
+     "valor": 6
+    },
+    {
+     "tema": "Biotechnology",
+     "valor": 6
+    },
+    {
+     "tema": "Protein engineering",
+     "valor": 6
+    },
+    {
+     "tema": "Gene editing",
+     "valor": 6
+    },
+    {
+     "tema": "Gene engineering",
+     "valor": 6
+    },
+    {
+     "tema": "Immunotherapy",
+     "valor": 6
+    },
+    {
+     "tema": "Molecular diagnostics & detection",
+     "valor": 5
+    },
+    {
+     "tema": "Microfluidic chip",
+     "valor": 5
+    },
+    {
+     "tema": "Nucleic acid",
+     "valor": 5
+    },
+    {
+     "tema": "Bioinformatics",
+     "valor": 5
+    },
+    {
+     "tema": "Synthetic biology",
+     "valor": 5
+    },
+    {
+     "tema": "Gene therapy",
+     "valor": 5
+    },
+    {
+     "tema": "Stem cell therapy",
+     "valor": 4
+    },
+    {
+     "tema": "Biomaterials & delivery",
+     "valor": 4
+    }
+   ],
+   "ranking_dh": [
+    {
+     "tema": "Gene sequencing",
+     "valor": 14
+    },
+    {
+     "tema": "Cell culture & engineering",
+     "valor": 13
+    },
+    {
+     "tema": "Biotechnology",
+     "valor": 13
+    },
+    {
+     "tema": "Protein engineering",
+     "valor": 12
+    },
+    {
+     "tema": "Gene editing",
+     "valor": 11
+    },
+    {
+     "tema": "Molecular diagnostics & detection",
+     "valor": 11
+    },
+    {
+     "tema": "Gene engineering",
+     "valor": 10
+    },
+    {
+     "tema": "Antibody engineering",
+     "valor": 10
+    },
+    {
+     "tema": "Immunotherapy",
+     "valor": 10
+    },
+    {
+     "tema": "Microfluidic chip",
+     "valor": 10
+    },
+    {
+     "tema": "Nucleic acid",
+     "valor": 9
+    },
+    {
+     "tema": "Bioinformatics",
+     "valor": 9
+    },
+    {
+     "tema": "Stem cell therapy",
+     "valor": 9
+    },
+    {
+     "tema": "Synthetic biology",
+     "valor": 8
+    },
+    {
+     "tema": "Biotechnology",
+     "valor": 8
+    },
+    {
+     "tema": "Cell culture & engineering",
+     "valor": 7
+    }
+   ],
+   "tabela9": {
+    "precisao": 1.0,
+    "revocacao": 0.8,
+    "f1": 0.8889,
+    "ndcg": 0.7597
+   }
+  },
+  "2020-2024": {
+   "tabela": "Tabela 8",
+   "ranking_edh": [
+    {
+     "tema": "Gene editing",
+     "valor": 7
+    },
+    {
+     "tema": "Antibody engineering",
+     "valor": 7
+    },
+    {
+     "tema": "Gene sequencing",
+     "valor": 6
+    },
+    {
+     "tema": "Molecular diagnostics & detection",
+     "valor": 6
+    },
+    {
+     "tema": "Gene engineering",
+     "valor": 6
+    },
+    {
+     "tema": "Cell culture & engineering",
+     "valor": 6
+    },
+    {
+     "tema": "Biotechnology",
+     "valor": 6
+    },
+    {
+     "tema": "Immunotherapy",
+     "valor": 6
+    },
+    {
+     "tema": "Protein engineering",
+     "valor": 6
+    },
+    {
+     "tema": "Bioinformatics",
+     "valor": 6
+    },
+    {
+     "tema": "Microfluidic chip",
+     "valor": 5
+    },
+    {
+     "tema": "Nucleic acid",
+     "valor": 5
+    },
+    {
+     "tema": "Stem cell therapy",
+     "valor": 5
+    },
+    {
+     "tema": "Gene therapy",
+     "valor": 5
+    },
+    {
+     "tema": "Synthetic biology",
+     "valor": 5
+    },
+    {
+     "tema": "Biomaterials & delivery",
+     "valor": 5
+    }
+   ],
+   "ranking_dh": [
+    {
+     "tema": "Gene sequencing",
+     "valor": 13
+    },
+    {
+     "tema": "Molecular diagnostics & detection",
+     "valor": 13
+    },
+    {
+     "tema": "Gene editing",
+     "valor": 12
+    },
+    {
+     "tema": "Gene engineering",
+     "valor": 12
+    },
+    {
+     "tema": "Cell culture and engineering",
+     "valor": 12
+    },
+    {
+     "tema": "Biotechnology",
+     "valor": 12
+    },
+    {
+     "tema": "Antibody engineering",
+     "valor": 11
+    },
+    {
+     "tema": "Immunotherapy",
+     "valor": 11
+    },
+    {
+     "tema": "Protein engineering",
+     "valor": 11
+    },
+    {
+     "tema": "Bioinformatics",
+     "valor": 11
+    },
+    {
+     "tema": "Microfluidic chip",
+     "valor": 11
+    },
+    {
+     "tema": "Nucleic acid",
+     "valor": 9
+    },
+    {
+     "tema": "Stem cell therapy",
+     "valor": 9
+    },
+    {
+     "tema": "Gene therapy",
+     "valor": 8
+    },
+    {
+     "tema": "Synthetic biology",
+     "valor": 8
+    },
+    {
+     "tema": "Biomaterials & delivery",
+     "valor": 8
+    }
+   ],
+   "tabela9": {
+    "precisao": 1.0,
+    "revocacao": 0.9091,
+    "f1": 0.9524,
+    "ndcg": 0.7366
+   }
+  }
+ }
+}

@@ -1,0 +1,41 @@
+﻿id_familia_docdb,variante,alvo_cpc_proxy,codigo_normalizado,texto_avaliado,acerto_exato,formato_sintatico_valido,terminou_em_eos,atingiu_limite
+44514972,base,A61K  31/50,,CPC: A61K38/00,False,False,True,False
+44933389,base,A61B  17/06166,,A1,False,False,True,False
+46354215,base,A61K  39/12,,CPC02G02,False,False,True,False
+47172832,base,A61B   6/035,,A,False,False,True,False
+49551273,base,A61K  31/4188,,CPC: A61K 38/00,False,False,True,False
+50972561,base,A61K  31/496,,A,False,False,True,False
+53541651,base,C11D   3/386,,A,False,False,True,False
+56740217,base,A61K  38/00,,A1,False,False,True,False
+58530700,base,A61K   8/042,,A1,False,False,True,False
+59966359,base,A61M  16/0616,A01J9/00,A01J9/00,False,True,True,False
+62002112,base,A61K  39/39,,A1,False,False,True,False
+62145755,base,A61K  31/416,,CPC: A61K31/4456,False,False,True,False
+68728249,base,B01L   7/52,,CPC: C07D491/04,False,False,True,False
+74236316,base,A61K  39/39533,,CPC: A61K45/00,False,False,True,False
+74873668,base,A23L  29/206,,A,False,False,True,False
+75746092,base,A61K   9/1271,,A1,False,False,True,False
+76221486,base,A61K   9/1611,,A1,False,False,True,False
+76444669,base,A61K  31/4439,,A01N,False,False,True,False
+76730348,base,A61K   8/39,,CPC04,False,False,True,False
+80036631,base,A61K   9/284,,C07D,False,False,True,False
+44514972,adaptado,A61K  31/50,A61K31/416,A61K   31/416,False,True,True,False
+44933389,adaptado,A61B  17/06166,A61B17/04,A61B  17/04,False,True,True,False
+46354215,adaptado,A61K  39/12,A61K39/00,A61K  39/00,False,True,True,False
+47172832,adaptado,A61B   6/035,A61B6/00,A61B   6/00,False,True,True,False
+49551273,adaptado,A61K  31/4188,A01N63/02,A01N  63/02,False,True,True,False
+50972561,adaptado,A61K  31/496,A61K31/414,A61K  31/414,False,True,True,False
+53541651,adaptado,C11D   3/386,A01N21/13,A01N  21/13,False,True,True,False
+56740217,adaptado,A61K  38/00,A61K39/39,A61K  39/39,False,True,True,False
+58530700,adaptado,A61K   8/042,A61K8/02,A61K   8/02,False,True,True,False
+59966359,adaptado,A61M  16/0616,A61M16/04,A61M  16/04,False,True,True,False
+62002112,adaptado,A61K  39/39,A61K9/00,A61K   9/00,False,True,True,False
+62145755,adaptado,A61K  31/416,A61K31/519,A61K   31/519,False,True,True,False
+68728249,adaptado,B01L   7/52,C07L1/00,C07L   1/00,False,True,True,False
+74236316,adaptado,A61K  39/39533,A61K39/3905,A61K   39/3905,False,True,True,False
+74873668,adaptado,A23L  29/206,A61K9/0048,A61K   9/0048,False,True,True,False
+75746092,adaptado,A61K   9/1271,A61K9/0019,A61K   9/0019,False,True,True,False
+76221486,adaptado,A61K   9/1611,A61K9/0014,A61K  9/0014,False,True,True,False
+76444669,adaptado,A61K  31/4439,A61K9/0078,A61K   9/0078,False,True,True,False
+76730348,adaptado,A61K   8/39,A23L29/04,A23L   29/04,False,True,True,False
+80036631,adaptado,A61K   9/284,A61K9/001,A61K   9/001,False,True,True,False

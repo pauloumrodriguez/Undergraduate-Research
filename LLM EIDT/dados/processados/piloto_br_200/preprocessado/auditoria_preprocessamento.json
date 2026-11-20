@@ -1,0 +1,48 @@
+{
+  "campos_alterados_por_normalizacao": {
+    "resumo": 0,
+    "titulo": 0
+  },
+  "campos_vazios": 0,
+  "cpc_no_prompt_extracao": false,
+  "estado": "entradas_preparadas_sem_execucao_de_modelo",
+  "janelas": {
+    "2010-2014": 67,
+    "2015-2019": 67,
+    "2020-2024": 66
+  },
+  "normalizacao": "Unicode NFC e quebras LF; texto original preservado em metadados.jsonl",
+  "origem_textos": "aplicações fonte de título e resumo não registradas",
+  "pares_idiomas": {
+    "en/en": 5,
+    "en/pt": 1,
+    "pt/en": 9,
+    "pt/pt": 185
+  },
+  "particoes": {
+    "teste": 20,
+    "treino": 160,
+    "validacao": 20
+  },
+  "protocolo": "llm-eidt-br-patstat-piloto-200-8b",
+  "schema_extracao": "patstat-br-extracao-1.0",
+  "sha256_arquivos": {
+    "entradas_extracao.jsonl": "a53ea21af0cd8b51bc5aef2af8d4369e1fbfd6e512510ef2e413047b825688f0",
+    "metadados.jsonl": "c4af1de480ba1b40ba4cd2490953a42e51420e1f7fc21712be3e73ca5881bbeb",
+    "teste_cpc.jsonl": "f78aa665dee9fe1cd2bf760f8f13d89f4ff7dbd91b27c3d448c3326cc83d99b0",
+    "treino_cpc.jsonl": "52c87c6251ace477715578dea24da5ab5dab7c30056a952264565e6af351c15b",
+    "validacao_cpc.jsonl": "428660f6a7969af3eb0e607648d4294c0264e2ad05c61f49f203ddd56c382f8c"
+  },
+  "sha256_auditoria_selecao": "db9d8d1cb86be0f14db1335b24d3beed5067da8fcce4d250746cbc749d583ea1",
+  "sha256_config": "3673e9c86eb2b4f3c4f9a5bdb0ed6715b8015ce43951fb0807dfa0677e5b22fb",
+  "sha256_entrada": "9cf3747f8dec5cc9add77ce2632a63abe678dcf860feb56b6215cdf09c91cf74",
+  "sha256_prompt": "dd92023e68170bad8313acb5826534414c21867ff3a5ab373c7aa3ae19bc8a83",
+  "sha256_schema": "e8fcc83d41f6d347e75e750933a4dce0f46b4c0a518c4adab895ebde5d0111d1",
+  "tokens": {
+    "estado": "pendente_tokenizador_Qwen3",
+    "recorte": "nao_aplicado_nesta_etapa"
+  },
+  "total_familias": 200,
+  "traducao": "nao_aplicada",
+  "validacao_futura": "Preservar retorno bruto e erro. JSON inválido ou interrompido não conta como ausência de evidência."
+}

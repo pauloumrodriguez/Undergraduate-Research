@@ -1,0 +1,49 @@
+{
+  "familia": "65439381",
+  "textos": {
+    "resumo": "a presente invenção fornece uma composição farmacêutica para a lubrificação das articulações, a composição farmacêutica compreendendo um agente de tonicidade não iônico compreendendo um poliol e lipossomas compreendendo pelo menos uma membrana compreendendo pelo menos um fosfolipídio (pl) selecionado dentre um glicerofosfolipídio (gpl), o referido gpl tendo duas cadeias de hidrocarboneto c12-c18, sendo elas iguais ou diferentes, e esfingomielina (sm) tendo uma cadeia de hidrocarboneto c12-c18, a composição farmacêutica sendo essencialmente livre de um agente farmaceuticamente ativo adicional, em que a pelo menos uma membrana tem uma temperatura de transição de fase na faixa de cerca de 20°c a cerca de 39°c e a articulação tem uma temperatura articular que está acima da temperatura de transição de fase.",
+    "titulo": "Composição farmacêutica que compreende lipossomas e uso da dita composição para tratar dor ou irritação em uma articulação"
+  },
+  "trechos": [
+    {
+      "campo": "titulo",
+      "fim": 122,
+      "id": "T001",
+      "idioma": "pt",
+      "inicio": 0,
+      "texto": "Composição farmacêutica que compreende lipossomas e uso da dita composição para tratar dor ou irritação em uma articulação"
+    },
+    {
+      "campo": "resumo",
+      "fim": 244,
+      "id": "R001",
+      "idioma": "pt",
+      "inicio": 0,
+      "texto": "a presente invenção fornece uma composição farmacêutica para a lubrificação das articulações, a composição farmacêutica compreendendo um agente de tonicidade não iônico compreendendo um poliol e lipossomas compreendendo pelo menos uma membrana "
+    },
+    {
+      "campo": "resumo",
+      "fim": 499,
+      "id": "R002",
+      "idioma": "pt",
+      "inicio": 244,
+      "texto": "compreendendo pelo menos um fosfolipídio (pl) selecionado dentre um glicerofosfolipídio (gpl), o referido gpl tendo duas cadeias de hidrocarboneto c12-c18, sendo elas iguais ou diferentes, e esfingomielina (sm) tendo uma cadeia de hidrocarboneto c12-c18, "
+    },
+    {
+      "campo": "resumo",
+      "fim": 752,
+      "id": "R003",
+      "idioma": "pt",
+      "inicio": 499,
+      "texto": "a composição farmacêutica sendo essencialmente livre de um agente farmaceuticamente ativo adicional, em que a pelo menos uma membrana tem uma temperatura de transição de fase na faixa de cerca de 20°c a cerca de 39°c e a articulação tem uma temperatura "
+    },
+    {
+      "campo": "resumo",
+      "fim": 813,
+      "id": "R004",
+      "idioma": "pt",
+      "inicio": 752,
+      "texto": "articular que está acima da temperatura de transição de fase."
+    }
+  ]
+}

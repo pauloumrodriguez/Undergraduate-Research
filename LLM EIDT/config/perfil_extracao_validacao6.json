@@ -1,0 +1,66 @@
+{
+  "modelo": {
+    "id": "Qwen/Qwen3-8B",
+    "revisao": "b968826d9c46dd6066d109eabc6255188de91218"
+  },
+  "quantizacao": {
+    "tipo": "nf4",
+    "double_quant": true,
+    "compute_dtype": "float16"
+  },
+  "checkpoint": {
+    "diretorio": "resultados/etapa_2/piloto_br_200/treino_qlora_20261104T211425654278Z/checkpoints/passo_000030",
+    "sha256_manifest": "c04a7db533395d009c8f91b8a21f19696b6564e25eecaf23bf1eeef7a421f10f",
+    "epoca": 3,
+    "passo": 30
+  },
+  "id": "br_patstat_200_extracao_validacao6_v1",
+  "versao": "1.0",
+  "semente": 42,
+  "resultados": "resultados/etapa_5/piloto_br_200",
+  "geracao": {
+    "max_prompt_tokens": 2048,
+    "max_new_tokens": 2048,
+    "contexto_total": 4096,
+    "do_sample": false,
+    "num_beams": 1,
+    "use_cache": true,
+    "enable_thinking": false
+  },
+  "amostra": {
+    "familias": 6,
+    "particao": "validacao",
+    "por_janela": 2,
+    "regra": "Menores SHA-256 de 08|42|id_familia_docdb em cada janela; ordem de execução por ID.",
+    "ids": [
+      "45975308",
+      "50390156",
+      "65439381",
+      "68698300",
+      "74045448",
+      "80949080"
+    ]
+  },
+  "finalidade": "Qualificação da extração e revisão humana; não é avaliação final nem execução das 200 famílias.",
+  "decisoes": {
+    "contexto": "2048 tokens de entrada e 2048 de saída; textos integrais, sem recorte automático.",
+    "evidencia": "Preservar schema 1.0, offsets Unicode e prompt do 03. Não corrigir JSON/offsets ou repetir saídas inválidas.",
+    "comparacao": "Mesmo modelo quantizado, mesmo prompt e orçamento. Alternar adaptador sem mesclar.",
+    "qualidade": "Validade estrutural/literal não é qualidade semântica. Referência humana independente precede revisão de candidatos.",
+    "parametros_cpc": "Perfis dos notebooks 05–07 permanecem inalterados."
+  },
+  "origem": {
+    "perfil_cpc": "config/perfil_avaliacao_cpc_validacao.json",
+    "script_cpc": "scripts/avaliar_cpc_geracao.py",
+    "entradas": "dados/processados/piloto_br_200/preprocessado/entradas_extracao.jsonl",
+    "auditoria": "dados/processados/piloto_br_200/preprocessado/auditoria_preprocessamento.json",
+    "prompt": "prompts/extracao_patstat_br.txt",
+    "schema": "schemas/extracao_patstat_br.schema.json",
+    "sha256_perfil_cpc": "ac58a8fee416bdc2925950b2adae8908758e3561dbe08c6d53528ea2948c51ef",
+    "sha256_script_cpc": "16681c351cd2481fdae7c1d40f938ab31ee59a1e73b446242940c21a9fe19b4b",
+    "sha256_entradas": "a53ea21af0cd8b51bc5aef2af8d4369e1fbfd6e512510ef2e413047b825688f0",
+    "sha256_auditoria": "db3558b4772b4c3eb34b43c48cb754e0ff6d4d36ef22b1afc52adb25af5836ee",
+    "sha256_prompt": "dd92023e68170bad8313acb5826534414c21867ff3a5ab373c7aa3ae19bc8a83",
+    "sha256_schema": "e8fcc83d41f6d347e75e750933a4dce0f46b4c0a518c4adab895ebde5d0111d1"
+  }
+}

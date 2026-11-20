@@ -1,0 +1,81 @@
+{
+  "elemento": {
+    "type": "object",
+    "properties": {
+      "termo": {
+        "type": "string",
+        "minLength": 1
+      },
+      "idioma": {
+        "type": "string",
+        "enum": [
+          "pt",
+          "en"
+        ]
+      },
+      "evidencias": {
+        "type": "array"
+      }
+    },
+    "required": [
+      "termo",
+      "idioma",
+      "evidencias"
+    ],
+    "additionalProperties": false
+  },
+  "par": {
+    "type": "object",
+    "properties": {
+      "memes": {
+        "type": "array"
+      },
+      "evidencias": {
+        "type": "array"
+      }
+    },
+    "required": [
+      "memes",
+      "evidencias"
+    ],
+    "additionalProperties": false
+  },
+  "efeito": {
+    "type": "object",
+    "properties": {
+      "descricao": {
+        "type": "string",
+        "minLength": 1
+      },
+      "idioma": {
+        "type": "string",
+        "enum": [
+          "pt",
+          "en"
+        ]
+      },
+      "categoria": {
+        "type": "string",
+        "enum": [
+          "reducao_custos",
+          "ganho_eficiencia",
+          "outro"
+        ]
+      },
+      "relacionado_a": {
+        "type": "array"
+      },
+      "evidencias": {
+        "type": "array"
+      }
+    },
+    "required": [
+      "descricao",
+      "idioma",
+      "categoria",
+      "relacionado_a",
+      "evidencias"
+    ],
+    "additionalProperties": false
+  }
+}

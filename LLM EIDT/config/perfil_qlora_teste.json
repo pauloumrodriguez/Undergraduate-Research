@@ -1,0 +1,55 @@
+{
+  "id": "br_patstat_200_qwen3_8b_qlora_nf4_fp16_smoke_v1",
+  "versao": "1.0",
+  "finalidade": "Teste de viabilidade de QLoRA na GPU disponível após o diagnóstico BF16 inviável. Um passo de otimização de diagnóstico; não é o treino completo nem um adaptador para a avaliação.",
+  "situacao": "perfil_adicional_para_teste_no_colab",
+  "modelo": {
+    "id": "Qwen/Qwen3-8B",
+    "revisao": "b968826d9c46dd6066d109eabc6255188de91218"
+  },
+  "origem": {
+    "config": "config/experimento.json",
+    "sha256_config": "3673e9c86eb2b4f3c4f9a5bdb0ed6715b8015ce43951fb0807dfa0677e5b22fb",
+    "auditoria_preprocessamento": "dados/processados/piloto_br_200/preprocessado/auditoria_preprocessamento.json",
+    "sha256_auditoria_preprocessamento": "db3558b4772b4c3eb34b43c48cb754e0ff6d4d36ef22b1afc52adb25af5836ee",
+    "treino": "dados/processados/piloto_br_200/preprocessado/treino_cpc.jsonl",
+    "sha256_treino": "52c87c6251ace477715578dea24da5ab5dab7c30056a952264565e6af351c15b"
+  },
+  "quantizacao": {
+    "tipo": "nf4",
+    "double_quant": true,
+    "compute_dtype": "float16"
+  },
+  "lora": {
+    "r": 8,
+    "alpha": 16,
+    "dropout": 0.05,
+    "target_modules": [
+      "q_proj",
+      "v_proj"
+    ]
+  },
+  "teste": {
+    "max_length": 2048,
+    "microbatch": 1,
+    "acumulacao": 1,
+    "passos_otimizador": 1
+  },
+  "treino_futuro": {
+    "acumulacao": 16,
+    "estado": "a_implementar_apos_teste_de_capacidade_e_definicao_da_avaliacao"
+  },
+  "otimizador": {
+    "learning_rate": 0.0003,
+    "weight_decay": 0.01
+  },
+  "semente": 42,
+  "resultados": "resultados/etapa_1/piloto_br_200",
+  "limites": [
+    "Sucesso do teste comprova somente carregamento, perda/gradientes finitos e um passo de atualização nessa sessão.",
+    "Não garante estabilidade de três épocas nem qualidade do CPC ou dos seis campos de extração.",
+    "A base quantizada é uma variante computacional do desenho LoRA BF16; comparações devem registrar essa diferença.",
+    "Os pesos de origem continuam sendo baixados em sua precisão original antes da quantização no carregamento; a economia de VRAM não equivale ao tamanho do download.",
+    "O Qwen3-8B e o E5 devem ocupar a GPU em sessões ou carregamentos separados."
+  ]
+}

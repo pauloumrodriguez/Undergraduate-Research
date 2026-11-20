@@ -1,0 +1,33 @@
+{
+  "estado": "qa_peft_cpu_aprovado",
+  "tipo": "Qwen3 pequeno aleatorio e PEFT reais; dados sinteticos",
+  "torch": "2.9.1+cpu",
+  "passos": 30,
+  "microbatch": 1,
+  "acumulacao": 16,
+  "checks": [
+    {
+      "retomada_passo": 5,
+      "adaptadores_identicos": true,
+      "perdas_identicas": true,
+      "validacoes_identicas": true,
+      "fim_epoca_sem_pular_ou_repetir": true
+    },
+    {
+      "retomada_passo": 10,
+      "adaptadores_identicos": true,
+      "perdas_identicas": true,
+      "validacoes_identicas": true,
+      "fim_epoca_sem_pular_ou_repetir": true
+    },
+    {
+      "retomada_passo": 30,
+      "adaptadores_identicos": true,
+      "perdas_identicas": true,
+      "validacoes_identicas": true,
+      "fim_epoca_sem_pular_ou_repetir": true
+    }
+  ],
+  "corrupcao_rejeitada": true,
+  "limite": "Nao valida carregamento Qwen3-8B, bitsandbytes NF4, FP16 CUDA ou memoria/tempo no Colab."
+}

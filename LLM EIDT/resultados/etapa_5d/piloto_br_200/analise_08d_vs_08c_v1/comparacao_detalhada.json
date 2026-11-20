@@ -1,0 +1,3220 @@
+{
+  "versao": "analise-assistida-08d-vs-08c-1.0",
+  "data": "2026-11-15",
+  "integridade": {
+    "arquivos_recebidos": {
+      "relatorio.json": "52ea5121ffaa08a2242e8dcf9de6355b2a793ec74d7f1f168bebf9b8067659f7",
+      "extracoes.jsonl": "ac245c758fdec75f8b782eaa4ced0d40d0340f9967009a7ab8a305f5bfa034ba",
+      "geracoes.jsonl": "9a864857e6128da568b449079a448d862075177f0b53d15341074cecde9a056e"
+    },
+    "script_v4_sha256": "ccfc1d9e0ba41d14819832a532d42a1902fae033c852b13a9a3bf5a0fbc71407",
+    "perfil_v4_sha256": "2bc27b7acb9d74d32e3707a8d91f66ad2e1ab249faffb670a098ed02ff23aecc",
+    "referencia_congelada_sha256": "1306e0eefb5afe6135c42a91e9999a52c2004cd43c6fae71dd15eb2dafe25999",
+    "protocolo_avaliacao_sha256": "2511ea52243eb5133d35c488430986eea5ba031a7af50a235ebaef18dc596959",
+    "comparacao08c_sha256": "655fced585acbe7c2a715b5e43f4a94835dc86f922fda2142d4872b033efc2f8",
+    "oito_validacoes_reproduzidas": true,
+    "quatro_agregados_reproduzidos": true,
+    "metricas_automaticas_reproduzidas": true,
+    "ambiente_reportado_igual_08c": true
+  },
+  "referencia_alterada": false,
+  "regras_avaliacao_alteradas": false,
+  "autor_mapeamento": "assistente de IA",
+  "limites": "Duas famílias de desenvolvimento conhecidas e referência pós-exposição. Correspondências assistidas sem segunda adjudicação. FP operacional indica falta de correspondência na referência atual, não necessariamente invenção. Não prova generalização ou superioridade do modelo.",
+  "resultados08d": {
+    "base": {
+      "pipelines_validos": 2,
+      "pipelines_previstos": 2,
+      "previsoes": 22,
+      "por_grupo": {
+        "memes_tecnicos": {
+          "TP": 1,
+          "FP": 3,
+          "FN": 0,
+          "precisao": 0.25,
+          "revocacao": 1.0,
+          "F1": 0.4,
+          "itens_referencia": 1,
+          "previsoes": 4
+        },
+        "funcoes": {
+          "TP": 2,
+          "FP": 1,
+          "FN": 1,
+          "precisao": 0.6666666666666666,
+          "revocacao": 0.6666666666666666,
+          "F1": 0.6666666666666666,
+          "itens_referencia": 3,
+          "previsoes": 3
+        },
+        "materiais": {
+          "TP": 4,
+          "FP": 0,
+          "FN": 1,
+          "precisao": 1.0,
+          "revocacao": 0.8,
+          "F1": 0.8888888888888888,
+          "itens_referencia": 5,
+          "previsoes": 4
+        },
+        "processos": {
+          "TP": 2,
+          "FP": 0,
+          "FN": 2,
+          "precisao": 1.0,
+          "revocacao": 0.5,
+          "F1": 0.6666666666666666,
+          "itens_referencia": 4,
+          "previsoes": 2
+        },
+        "pares_convergencia": {
+          "TP": 0,
+          "FP": 4,
+          "FN": 0,
+          "precisao": 0.0,
+          "revocacao": null,
+          "F1": 0.0,
+          "itens_referencia": 0,
+          "previsoes": 4
+        },
+        "efeitos": {
+          "TP": 0,
+          "FP": 5,
+          "FN": 1,
+          "precisao": 0.0,
+          "revocacao": 0.0,
+          "F1": 0.0,
+          "itens_referencia": 1,
+          "previsoes": 5
+        }
+      },
+      "por_familia": {
+        "68698300": {
+          "TP": 3,
+          "FP": 2,
+          "FN": 2,
+          "precisao": 0.6,
+          "revocacao": 0.6,
+          "F1": 0.6
+        },
+        "50390156": {
+          "TP": 6,
+          "FP": 11,
+          "FN": 3,
+          "precisao": 0.35294117647058826,
+          "revocacao": 0.6666666666666666,
+          "F1": 0.46153846153846156
+        }
+      },
+      "micro_condicional": {
+        "TP": 9,
+        "FP": 13,
+        "FN": 5,
+        "precisao": 0.4090909090909091,
+        "revocacao": 0.6428571428571429,
+        "F1": 0.5
+      }
+    },
+    "adaptado": {
+      "pipelines_validos": 2,
+      "pipelines_previstos": 2,
+      "previsoes": 35,
+      "por_grupo": {
+        "memes_tecnicos": {
+          "TP": 1,
+          "FP": 14,
+          "FN": 0,
+          "precisao": 0.06666666666666667,
+          "revocacao": 1.0,
+          "F1": 0.125,
+          "itens_referencia": 1,
+          "previsoes": 15
+        },
+        "funcoes": {
+          "TP": 2,
+          "FP": 2,
+          "FN": 1,
+          "precisao": 0.5,
+          "revocacao": 0.6666666666666666,
+          "F1": 0.5714285714285714,
+          "itens_referencia": 3,
+          "previsoes": 4
+        },
+        "materiais": {
+          "TP": 2,
+          "FP": 0,
+          "FN": 3,
+          "precisao": 1.0,
+          "revocacao": 0.4,
+          "F1": 0.5714285714285714,
+          "itens_referencia": 5,
+          "previsoes": 2
+        },
+        "processos": {
+          "TP": 1,
+          "FP": 1,
+          "FN": 3,
+          "precisao": 0.5,
+          "revocacao": 0.25,
+          "F1": 0.3333333333333333,
+          "itens_referencia": 4,
+          "previsoes": 2
+        },
+        "pares_convergencia": {
+          "TP": 0,
+          "FP": 9,
+          "FN": 0,
+          "precisao": 0.0,
+          "revocacao": null,
+          "F1": 0.0,
+          "itens_referencia": 0,
+          "previsoes": 9
+        },
+        "efeitos": {
+          "TP": 0,
+          "FP": 3,
+          "FN": 1,
+          "precisao": 0.0,
+          "revocacao": 0.0,
+          "F1": 0.0,
+          "itens_referencia": 1,
+          "previsoes": 3
+        }
+      },
+      "por_familia": {
+        "68698300": {
+          "TP": 1,
+          "FP": 7,
+          "FN": 4,
+          "precisao": 0.125,
+          "revocacao": 0.2,
+          "F1": 0.15384615384615385
+        },
+        "50390156": {
+          "TP": 5,
+          "FP": 22,
+          "FN": 4,
+          "precisao": 0.18518518518518517,
+          "revocacao": 0.5555555555555556,
+          "F1": 0.2777777777777778
+        }
+      },
+      "micro_condicional": {
+        "TP": 6,
+        "FP": 29,
+        "FN": 8,
+        "precisao": 0.17142857142857143,
+        "revocacao": 0.42857142857142855,
+        "F1": 0.24489795918367346
+      }
+    }
+  },
+  "resultados08c": {
+    "base": {
+      "pipeline_validos": 0,
+      "pipeline_previstos": 2,
+      "por_grupo": {
+        "memes_tecnicos": {
+          "TP": 0,
+          "FP": 0,
+          "FN": 1,
+          "precisao": null,
+          "revocacao": 0.0,
+          "F1": 0.0,
+          "itens_referencia": 1,
+          "previsoes_aceitas_pipeline": 0
+        },
+        "funcoes": {
+          "TP": 0,
+          "FP": 0,
+          "FN": 3,
+          "precisao": null,
+          "revocacao": 0.0,
+          "F1": 0.0,
+          "itens_referencia": 3,
+          "previsoes_aceitas_pipeline": 0
+        },
+        "materiais": {
+          "TP": 0,
+          "FP": 0,
+          "FN": 5,
+          "precisao": null,
+          "revocacao": 0.0,
+          "F1": 0.0,
+          "itens_referencia": 5,
+          "previsoes_aceitas_pipeline": 0
+        },
+        "processos": {
+          "TP": 0,
+          "FP": 0,
+          "FN": 4,
+          "precisao": null,
+          "revocacao": 0.0,
+          "F1": 0.0,
+          "itens_referencia": 4,
+          "previsoes_aceitas_pipeline": 0
+        },
+        "pares_convergencia": {
+          "TP": 0,
+          "FP": 0,
+          "FN": 0,
+          "precisao": null,
+          "revocacao": null,
+          "F1": null,
+          "itens_referencia": 0,
+          "previsoes_aceitas_pipeline": 0
+        },
+        "efeitos": {
+          "TP": 0,
+          "FP": 0,
+          "FN": 1,
+          "precisao": null,
+          "revocacao": 0.0,
+          "F1": 0.0,
+          "itens_referencia": 1,
+          "previsoes_aceitas_pipeline": 0
+        }
+      },
+      "micro_condicional": {
+        "TP": 0,
+        "FP": 0,
+        "FN": 14,
+        "precisao": null,
+        "revocacao": 0.0,
+        "F1": 0.0
+      }
+    },
+    "adaptado": {
+      "pipeline_validos": 2,
+      "pipeline_previstos": 2,
+      "por_grupo": {
+        "memes_tecnicos": {
+          "TP": 1,
+          "FP": 11,
+          "FN": 0,
+          "precisao": 0.08333333333333333,
+          "revocacao": 1.0,
+          "F1": 0.15384615384615385,
+          "itens_referencia": 1,
+          "previsoes_aceitas_pipeline": 12
+        },
+        "funcoes": {
+          "TP": 0,
+          "FP": 6,
+          "FN": 3,
+          "precisao": 0.0,
+          "revocacao": 0.0,
+          "F1": 0.0,
+          "itens_referencia": 3,
+          "previsoes_aceitas_pipeline": 6
+        },
+        "materiais": {
+          "TP": 1,
+          "FP": 1,
+          "FN": 4,
+          "precisao": 0.5,
+          "revocacao": 0.2,
+          "F1": 0.2857142857142857,
+          "itens_referencia": 5,
+          "previsoes_aceitas_pipeline": 2
+        },
+        "processos": {
+          "TP": 3,
+          "FP": 1,
+          "FN": 1,
+          "precisao": 0.75,
+          "revocacao": 0.75,
+          "F1": 0.75,
+          "itens_referencia": 4,
+          "previsoes_aceitas_pipeline": 4
+        },
+        "pares_convergencia": {
+          "TP": 0,
+          "FP": 12,
+          "FN": 0,
+          "precisao": 0.0,
+          "revocacao": null,
+          "F1": 0.0,
+          "itens_referencia": 0,
+          "previsoes_aceitas_pipeline": 12
+        },
+        "efeitos": {
+          "TP": 0,
+          "FP": 4,
+          "FN": 1,
+          "precisao": 0.0,
+          "revocacao": 0.0,
+          "F1": 0.0,
+          "itens_referencia": 1,
+          "previsoes_aceitas_pipeline": 4
+        }
+      },
+      "micro_condicional": {
+        "TP": 5,
+        "FP": 35,
+        "FN": 9,
+        "precisao": 0.125,
+        "revocacao": 0.35714285714285715,
+        "F1": 0.18518518518518517
+      }
+    }
+  },
+  "comparacoes": [
+    {
+      "id_comparacao": "68698300|base|funcoes|funcao_1",
+      "familia": "68698300",
+      "variante": "base",
+      "grupo": "funcoes",
+      "item_modelo": {
+        "id": "funcao_1",
+        "termo": "prevenção ou tratamento de doenças",
+        "idioma": "pt",
+        "evidencias": [
+          {
+            "campo": "resumo",
+            "texto": "eficazmente útil para a(o) prevenção ou tratamento de doenças associadas à modulação da autofagia.",
+            "idioma": "pt",
+            "inicio": 248,
+            "fim": 346
+          }
+        ]
+      },
+      "elegivel_pipeline_completo": true,
+      "tipo": "correspondencia",
+      "justificativa": "Prevenção OU tratamento preservados conjuntamente. O alvo abreviado é desambiguado pela única evidência citada, que delimita doenças associadas à modulação da autofagia; não é inferência externa. A regra v2 já permite desambiguação contextual sem trocar operadores.",
+      "id_humano_correspondente": "funcao_1",
+      "ressalva": null,
+      "pontuacao": "TP_condicional",
+      "autor_mapeamento": "assistente de IA",
+      "adjudicacao_humana_item_a_item": false
+    },
+    {
+      "id_comparacao": "68698300|base|materiais|material_1",
+      "familia": "68698300",
+      "variante": "base",
+      "grupo": "materiais",
+      "item_modelo": {
+        "id": "material_1",
+        "termo": "novo composto",
+        "idioma": "pt",
+        "evidencias": [
+          {
+            "campo": "titulo",
+            "texto": "novo composto e composição farmacêutica compreendendo o mesmo",
+            "idioma": "pt",
+            "inicio": 0,
+            "fim": 61
+          },
+          {
+            "campo": "resumo",
+            "texto": "novo composto e composição farmacêutica compreendendo o mesmo. a presente divulgação se refere a um novo composto representado pela fórmula química 1, ou um sal farmaceuticamente aceitável do mesmo. o composto de acordo com a presente divulgação é ",
+            "idioma": "pt",
+            "inicio": 0,
+            "fim": 248
+          }
+        ]
+      },
+      "elegivel_pipeline_completo": true,
+      "tipo": "correspondencia",
+      "justificativa": "Composto reconhecido como material distinto, com evidência da referência.",
+      "id_humano_correspondente": "material_2",
+      "ressalva": null,
+      "pontuacao": "TP_condicional",
+      "autor_mapeamento": "assistente de IA",
+      "adjudicacao_humana_item_a_item": false
+    },
+    {
+      "id_comparacao": "68698300|base|materiais|material_2",
+      "familia": "68698300",
+      "variante": "base",
+      "grupo": "materiais",
+      "item_modelo": {
+        "id": "material_2",
+        "termo": "composição farmacêutica",
+        "idioma": "pt",
+        "evidencias": [
+          {
+            "campo": "titulo",
+            "texto": "novo composto e composição farmacêutica compreendendo o mesmo",
+            "idioma": "pt",
+            "inicio": 0,
+            "fim": 61
+          }
+        ]
+      },
+      "elegivel_pipeline_completo": true,
+      "tipo": "correspondencia",
+      "justificativa": "Composição farmacêutica reconhecida como material distinto, sem fusão com composto.",
+      "id_humano_correspondente": "material_1",
+      "ressalva": null,
+      "pontuacao": "TP_condicional",
+      "autor_mapeamento": "assistente de IA",
+      "adjudicacao_humana_item_a_item": false
+    },
+    {
+      "id_comparacao": "68698300|base|efeitos|efeito_1",
+      "familia": "68698300",
+      "variante": "base",
+      "grupo": "efeitos",
+      "item_modelo": {
+        "id": "efeito_1",
+        "descricao": "utilizado para prevenção ou tratamento de doenças",
+        "idioma": "pt",
+        "categoria": "outro",
+        "relacionado_a": [
+          "funcao_1"
+        ],
+        "evidencias": [
+          {
+            "campo": "resumo",
+            "texto": "eficazmente útil para a(o) prevenção ou tratamento de doenças associadas à modulação da autofagia.",
+            "idioma": "pt",
+            "inicio": 248,
+            "fim": 346
+          }
+        ]
+      },
+      "elegivel_pipeline_completo": true,
+      "tipo": "finalidade_em_vez_de_resultado",
+      "justificativa": "A descrição apenas diz “utilizado para”, repetindo finalidade. A evidência contém uma alegação de eficácia, mas esta não foi expressa como resultado na descrição. D4 impede duplicação automática de função. Sem crédito nesta aplicação estrita.",
+      "id_humano_correspondente": null,
+      "ressalva": "Julgamento de fronteira por paráfrase: outro avaliador pode considerar a descrição equivalente à utilidade alegada. A evidência está exposta para revisão; não houve decisão humana sobre este item novo.",
+      "pontuacao": "FP_operacional_condicional",
+      "autor_mapeamento": "assistente de IA",
+      "adjudicacao_humana_item_a_item": false
+    },
+    {
+      "id_comparacao": "68698300|base|efeitos|efeito_2",
+      "familia": "68698300",
+      "variante": "base",
+      "grupo": "efeitos",
+      "item_modelo": {
+        "id": "efeito_2",
+        "descricao": "aplicação do novo composto em composição farmacêutica",
+        "idioma": "pt",
+        "categoria": "outro",
+        "relacionado_a": [
+          "material_1",
+          "material_2"
+        ],
+        "evidencias": [
+          {
+            "campo": "titulo",
+            "texto": "novo composto e composição farmacêutica compreendendo o mesmo",
+            "idioma": "pt",
+            "inicio": 0,
+            "fim": 61
+          },
+          {
+            "campo": "resumo",
+            "texto": "novo composto e composição farmacêutica compreendendo o mesmo. a presente divulgação se refere a um novo composto representado pela fórmula química 1, ou um sal farmaceuticamente aceitável do mesmo. o composto de acordo com a presente divulgação é ",
+            "idioma": "pt",
+            "inicio": 0,
+            "fim": 248
+          }
+        ]
+      },
+      "elegivel_pipeline_completo": true,
+      "tipo": "finalidade_em_vez_de_resultado",
+      "justificativa": "Aplicação do composto na composição é relação de uso/composição, não resultado explicitamente alcançado.",
+      "id_humano_correspondente": null,
+      "ressalva": null,
+      "pontuacao": "FP_operacional_condicional",
+      "autor_mapeamento": "assistente de IA",
+      "adjudicacao_humana_item_a_item": false
+    },
+    {
+      "id_comparacao": "68698300|adaptado|memes_tecnicos|meme_1",
+      "familia": "68698300",
+      "variante": "adaptado",
+      "grupo": "memes_tecnicos",
+      "item_modelo": {
+        "id": "meme_1",
+        "termo": "composto",
+        "idioma": "pt",
+        "evidencias": [
+          {
+            "campo": "titulo",
+            "texto": "novo composto e composição farmacêutica compreendendo o mesmo",
+            "idioma": "pt",
+            "inicio": 0,
+            "fim": 61
+          },
+          {
+            "campo": "resumo",
+            "texto": "novo composto e composição farmacêutica compreendendo o mesmo. a presente divulgação se refere a um novo composto representado pela fórmula química 1, ou um sal farmaceuticamente aceitável do mesmo. o composto de acordo com a presente divulgação é ",
+            "idioma": "pt",
+            "inicio": 0,
+            "fim": 248
+          }
+        ]
+      },
+      "elegivel_pipeline_completo": true,
+      "tipo": "categoria_fora_regra",
+      "justificativa": "D1 e referência mantida: termos materiais genéricos não individualizam unidade técnica central. A citação literal não os torna memes.",
+      "id_humano_correspondente": null,
+      "ressalva": null,
+      "pontuacao": "FP_operacional_condicional",
+      "autor_mapeamento": "assistente de IA",
+      "adjudicacao_humana_item_a_item": false
+    },
+    {
+      "id_comparacao": "68698300|adaptado|memes_tecnicos|meme_2",
+      "familia": "68698300",
+      "variante": "adaptado",
+      "grupo": "memes_tecnicos",
+      "item_modelo": {
+        "id": "meme_2",
+        "termo": "composição farmacêutica",
+        "idioma": "pt",
+        "evidencias": [
+          {
+            "campo": "titulo",
+            "texto": "novo composto e composição farmacêutica compreendendo o mesmo",
+            "idioma": "pt",
+            "inicio": 0,
+            "fim": 61
+          }
+        ]
+      },
+      "elegivel_pipeline_completo": true,
+      "tipo": "categoria_fora_regra",
+      "justificativa": "D1 e referência mantida: termos materiais genéricos não individualizam unidade técnica central. A citação literal não os torna memes.",
+      "id_humano_correspondente": null,
+      "ressalva": null,
+      "pontuacao": "FP_operacional_condicional",
+      "autor_mapeamento": "assistente de IA",
+      "adjudicacao_humana_item_a_item": false
+    },
+    {
+      "id_comparacao": "68698300|adaptado|memes_tecnicos|meme_3",
+      "familia": "68698300",
+      "variante": "adaptado",
+      "grupo": "memes_tecnicos",
+      "item_modelo": {
+        "id": "meme_3",
+        "termo": "fórmula química",
+        "idioma": "pt",
+        "evidencias": [
+          {
+            "campo": "resumo",
+            "texto": "novo composto e composição farmacêutica compreendendo o mesmo. a presente divulgação se refere a um novo composto representado pela fórmula química 1, ou um sal farmaceuticamente aceitável do mesmo. o composto de acordo com a presente divulgação é ",
+            "idioma": "pt",
+            "inicio": 0,
+            "fim": 248
+          }
+        ]
+      },
+      "elegivel_pipeline_completo": true,
+      "tipo": "categoria_fora_regra",
+      "justificativa": "Rótulo genérico de fórmula sem estrutura apresentada; excluído por D1.",
+      "id_humano_correspondente": null,
+      "ressalva": null,
+      "pontuacao": "FP_operacional_condicional",
+      "autor_mapeamento": "assistente de IA",
+      "adjudicacao_humana_item_a_item": false
+    },
+    {
+      "id_comparacao": "68698300|adaptado|memes_tecnicos|meme_4",
+      "familia": "68698300",
+      "variante": "adaptado",
+      "grupo": "memes_tecnicos",
+      "item_modelo": {
+        "id": "meme_4",
+        "termo": "sal farmaceuticamente aceitável",
+        "idioma": "pt",
+        "evidencias": [
+          {
+            "campo": "resumo",
+            "texto": "novo composto e composição farmacêutica compreendendo o mesmo. a presente divulgação se refere a um novo composto representado pela fórmula química 1, ou um sal farmaceuticamente aceitável do mesmo. o composto de acordo com a presente divulgação é ",
+            "idioma": "pt",
+            "inicio": 0,
+            "fim": 248
+          }
+        ]
+      },
+      "elegivel_pipeline_completo": true,
+      "tipo": "categoria_fora_regra",
+      "justificativa": "D1 e referência mantida: termos materiais genéricos não individualizam unidade técnica central. A citação literal não os torna memes.",
+      "id_humano_correspondente": null,
+      "ressalva": null,
+      "pontuacao": "FP_operacional_condicional",
+      "autor_mapeamento": "assistente de IA",
+      "adjudicacao_humana_item_a_item": false
+    },
+    {
+      "id_comparacao": "68698300|adaptado|funcoes|funcao_1",
+      "familia": "68698300",
+      "variante": "adaptado",
+      "grupo": "funcoes",
+      "item_modelo": {
+        "id": "funcao_1",
+        "termo": "prevenção ou tratamento",
+        "idioma": "pt",
+        "evidencias": [
+          {
+            "campo": "resumo",
+            "texto": "eficazmente útil para a(o) prevenção ou tratamento de doenças associadas à modulação da autofagia.",
+            "idioma": "pt",
+            "inicio": 248,
+            "fim": 346
+          }
+        ]
+      },
+      "elegivel_pipeline_completo": true,
+      "tipo": "correspondencia",
+      "justificativa": "Prevenção OU tratamento preservados conjuntamente. O alvo abreviado é desambiguado pela única evidência citada, que delimita doenças associadas à modulação da autofagia; não é inferência externa. A regra v2 já permite desambiguação contextual sem trocar operadores.",
+      "id_humano_correspondente": "funcao_1",
+      "ressalva": null,
+      "pontuacao": "TP_condicional",
+      "autor_mapeamento": "assistente de IA",
+      "adjudicacao_humana_item_a_item": false
+    },
+    {
+      "id_comparacao": "68698300|adaptado|funcoes|funcao_2",
+      "familia": "68698300",
+      "variante": "adaptado",
+      "grupo": "funcoes",
+      "item_modelo": {
+        "id": "funcao_2",
+        "termo": "modulação da autofagia",
+        "idioma": "pt",
+        "evidencias": [
+          {
+            "campo": "resumo",
+            "texto": "eficazmente útil para a(o) prevenção ou tratamento de doenças associadas à modulação da autofagia.",
+            "idioma": "pt",
+            "inicio": 248,
+            "fim": 346
+          }
+        ]
+      },
+      "elegivel_pipeline_completo": true,
+      "tipo": "inferência_sem_suporte",
+      "justificativa": "O texto associa doenças à modulação da autofagia, sem afirmar que o composto realiza a modulação. Não atribuir essa função por associação.",
+      "id_humano_correspondente": null,
+      "ressalva": null,
+      "pontuacao": "FP_operacional_condicional",
+      "autor_mapeamento": "assistente de IA",
+      "adjudicacao_humana_item_a_item": false
+    },
+    {
+      "id_comparacao": "68698300|adaptado|pares_convergencia|par_1",
+      "familia": "68698300",
+      "variante": "adaptado",
+      "grupo": "pares_convergencia",
+      "item_modelo": {
+        "id": "par_1",
+        "memes": [
+          "meme_1",
+          "meme_2"
+        ],
+        "evidencias": [
+          {
+            "campo": "titulo",
+            "texto": "novo composto e composição farmacêutica compreendendo o mesmo",
+            "idioma": "pt",
+            "inicio": 0,
+            "fim": 61
+          }
+        ]
+      },
+      "elegivel_pipeline_completo": true,
+      "tipo": "convergencia_nao_sustentada",
+      "justificativa": "Composto e composição mantêm relação parte–todo; não há integração demonstrada entre unidades tecnológicas distintas.",
+      "id_humano_correspondente": null,
+      "ressalva": null,
+      "pontuacao": "FP_operacional_condicional",
+      "autor_mapeamento": "assistente de IA",
+      "adjudicacao_humana_item_a_item": false
+    },
+    {
+      "id_comparacao": "68698300|adaptado|efeitos|efeito_1",
+      "familia": "68698300",
+      "variante": "adaptado",
+      "grupo": "efeitos",
+      "item_modelo": {
+        "id": "efeito_1",
+        "descricao": "composto eficazmente útil para prevenção ou tratamento",
+        "idioma": "pt",
+        "categoria": "outro",
+        "relacionado_a": [
+          "funcao_1",
+          "funcao_2"
+        ],
+        "evidencias": [
+          {
+            "campo": "resumo",
+            "texto": "eficazmente útil para a(o) prevenção ou tratamento de doenças associadas à modulação da autofagia.",
+            "idioma": "pt",
+            "inicio": 248,
+            "fim": 346
+          }
+        ]
+      },
+      "elegivel_pipeline_completo": true,
+      "tipo": "vinculo_incorreto",
+      "justificativa": "Descrição e categoria se aproximam da alegação terapêutica e preservam as alternativas. Porém o objeto inclui vínculo com funcao_2 (modulação), cuja atribuição ao composto não foi sustentada. Pela regra v2 de objeto completo, não recebe crédito integral.",
+      "id_humano_correspondente": null,
+      "ressalva": null,
+      "pontuacao": "FP_operacional_condicional",
+      "autor_mapeamento": "assistente de IA",
+      "adjudicacao_humana_item_a_item": false
+    },
+    {
+      "id_comparacao": "50390156|base|memes_tecnicos|meme_1",
+      "familia": "50390156",
+      "variante": "base",
+      "grupo": "memes_tecnicos",
+      "item_modelo": {
+        "id": "meme_1",
+        "termo": "derivado do esqueleto de organismo marinho",
+        "idioma": "pt",
+        "evidencias": [
+          {
+            "campo": "titulo",
+            "texto": "processo para seleção de substrato sólido com base no derivado do esqueleto de organismo marinho otimizado para promoção de crescimento celular ou de tecido ou função restaurada, processo para conversão de substrato sólido subótimo em substrato sólido ",
+            "idioma": "pt",
+            "inicio": 0,
+            "fim": 252
+          },
+          {
+            "campo": "titulo",
+            "texto": "otimizado para promoção de crescimento celular ou de tecido ou função restaurada, substrato sólido e kit compreendendo o referido substrato sólido",
+            "idioma": "pt",
+            "inicio": 252,
+            "fim": 398
+          },
+          {
+            "campo": "resumo",
+            "texto": "resumo substratos sólidos para atenuar ou prevenir a adesão e vascularização de tecidos e células esta invenção fornece substratos sólidos para atenuar ou prevenir a adesão e/ou vascularização de células ou de tecidos, cujo substrato sólido compreende ",
+            "idioma": "pt",
+            "inicio": 0,
+            "fim": 254
+          },
+          {
+            "campo": "resumo",
+            "texto": "um derivado do esqueleto de organismo marinho e é caracterizado por um valor de capacidade de absorção específica de fluido inferior a 40%, cujo valor de capacidade de absorção específica de fluido é determinado através do estabelecimento de um valor de ",
+            "idioma": "pt",
+            "inicio": 254,
+            "fim": 508
+          },
+          {
+            "campo": "resumo",
+            "texto": "absorção de fluido espontânea dividido por um valor de absorção de fluido total e processos para a seleção de um substrato sólido à base de derivado de esqueleto de organismo marinho otimizado para atenuar ou prevenir a adesão e/ou vascularização de ",
+            "idioma": "pt",
+            "inicio": 508,
+            "fim": 758
+          },
+          {
+            "campo": "resumo",
+            "texto": "lisura superficial substancial, tal como medido por microscopia eletrônica de varredura ou microscopia de força atômica. a invenção também fornece processos para a seleção de um substrato sólido à base de coral otimizado para atenuar ou prevenir a adesão ",
+            "idioma": "pt",
+            "inicio": 1265,
+            "fim": 1520
+          }
+        ]
+      },
+      "elegivel_pipeline_completo": true,
+      "tipo": "correspondencia",
+      "justificativa": "Derivado do esqueleto marinho: mesmo componente e papel da referência, com suporte nos textos.",
+      "id_humano_correspondente": "meme_1",
+      "ressalva": null,
+      "pontuacao": "TP_condicional",
+      "autor_mapeamento": "assistente de IA",
+      "adjudicacao_humana_item_a_item": false
+    },
+    {
+      "id_comparacao": "50390156|base|memes_tecnicos|meme_2",
+      "familia": "50390156",
+      "variante": "base",
+      "grupo": "memes_tecnicos",
+      "item_modelo": {
+        "id": "meme_2",
+        "termo": "valor de capacidade de absorção específica de fluido",
+        "idioma": "pt",
+        "evidencias": [
+          {
+            "campo": "resumo",
+            "texto": "um derivado do esqueleto de organismo marinho e é caracterizado por um valor de capacidade de absorção específica de fluido inferior a 40%, cujo valor de capacidade de absorção específica de fluido é determinado através do estabelecimento de um valor de ",
+            "idioma": "pt",
+            "inicio": 254,
+            "fim": 508
+          },
+          {
+            "campo": "resumo",
+            "texto": "absorção de fluido espontânea dividido por um valor de absorção de fluido total e processos para a seleção de um substrato sólido à base de derivado de esqueleto de organismo marinho otimizado para atenuar ou prevenir a adesão e/ou vascularização de ",
+            "idioma": "pt",
+            "inicio": 508,
+            "fim": 758
+          }
+        ]
+      },
+      "elegivel_pipeline_completo": true,
+      "tipo": "categoria_fora_regra",
+      "justificativa": "D1 classifica absorção, ângulo e rugosidade/lisura como atributos ou limitações, não memes autônomos.",
+      "id_humano_correspondente": null,
+      "ressalva": null,
+      "pontuacao": "FP_operacional_condicional",
+      "autor_mapeamento": "assistente de IA",
+      "adjudicacao_humana_item_a_item": false
+    },
+    {
+      "id_comparacao": "50390156|base|memes_tecnicos|meme_3",
+      "familia": "50390156",
+      "variante": "base",
+      "grupo": "memes_tecnicos",
+      "item_modelo": {
+        "id": "meme_3",
+        "termo": "ângulo de contato",
+        "idioma": "pt",
+        "evidencias": [
+          {
+            "campo": "resumo",
+            "texto": "células ou tecidos e aplicações dos mesmos. esta invenção também fornece substratos sólidos para atenuar ou prevenir a adesão e/ou vascularização de células ou tecidos, cujo substrato sólido é caracterizado por ter um valor de ângulo de contato maior que ",
+            "idioma": "pt",
+            "inicio": 758,
+            "fim": 1013
+          }
+        ]
+      },
+      "elegivel_pipeline_completo": true,
+      "tipo": "categoria_fora_regra",
+      "justificativa": "D1 classifica absorção, ângulo e rugosidade/lisura como atributos ou limitações, não memes autônomos.",
+      "id_humano_correspondente": null,
+      "ressalva": null,
+      "pontuacao": "FP_operacional_condicional",
+      "autor_mapeamento": "assistente de IA",
+      "adjudicacao_humana_item_a_item": false
+    },
+    {
+      "id_comparacao": "50390156|base|memes_tecnicos|meme_4",
+      "familia": "50390156",
+      "variante": "base",
+      "grupo": "memes_tecnicos",
+      "item_modelo": {
+        "id": "meme_4",
+        "termo": "rugosidade superficial (ra) ou lisura superficial substancial",
+        "idioma": "pt",
+        "evidencias": [
+          {
+            "campo": "resumo",
+            "texto": "60 graus, quando em contato com um fluido. esta invenção também fornece substratos sólidos para atenuar ou prevenir a adesão e/ou vascularização de células ou tecidos, cujo substrato sólido é caracterizado por uma rugosidade superficial mínima (ra) ou ",
+            "idioma": "pt",
+            "inicio": 1013,
+            "fim": 1265
+          },
+          {
+            "campo": "resumo",
+            "texto": "lisura superficial substancial, tal como medido por microscopia eletrônica de varredura ou microscopia de força atômica. a invenção também fornece processos para a seleção de um substrato sólido à base de coral otimizado para atenuar ou prevenir a adesão ",
+            "idioma": "pt",
+            "inicio": 1265,
+            "fim": 1520
+          }
+        ]
+      },
+      "elegivel_pipeline_completo": true,
+      "tipo": "categoria_fora_regra",
+      "justificativa": "D1 classifica absorção, ângulo e rugosidade/lisura como atributos ou limitações, não memes autônomos.",
+      "id_humano_correspondente": null,
+      "ressalva": null,
+      "pontuacao": "FP_operacional_condicional",
+      "autor_mapeamento": "assistente de IA",
+      "adjudicacao_humana_item_a_item": false
+    },
+    {
+      "id_comparacao": "50390156|base|funcoes|funcao_1",
+      "familia": "50390156",
+      "variante": "base",
+      "grupo": "funcoes",
+      "item_modelo": {
+        "id": "funcao_1",
+        "termo": "atenuar ou prevenir a adesão e/ou vascularização de células ou tecidos",
+        "idioma": "pt",
+        "evidencias": [
+          {
+            "campo": "titulo",
+            "texto": "processo para seleção de substrato sólido com base no derivado do esqueleto de organismo marinho otimizado para promoção de crescimento celular ou de tecido ou função restaurada, processo para conversão de substrato sólido subótimo em substrato sólido ",
+            "idioma": "pt",
+            "inicio": 0,
+            "fim": 252
+          },
+          {
+            "campo": "titulo",
+            "texto": "otimizado para promoção de crescimento celular ou de tecido ou função restaurada, substrato sólido e kit compreendendo o referido substrato sólido",
+            "idioma": "pt",
+            "inicio": 252,
+            "fim": 398
+          },
+          {
+            "campo": "resumo",
+            "texto": "resumo substratos sólidos para atenuar ou prevenir a adesão e vascularização de tecidos e células esta invenção fornece substratos sólidos para atenuar ou prevenir a adesão e/ou vascularização de células ou de tecidos, cujo substrato sólido compreende ",
+            "idioma": "pt",
+            "inicio": 0,
+            "fim": 254
+          },
+          {
+            "campo": "resumo",
+            "texto": "absorção de fluido espontânea dividido por um valor de absorção de fluido total e processos para a seleção de um substrato sólido à base de derivado de esqueleto de organismo marinho otimizado para atenuar ou prevenir a adesão e/ou vascularização de ",
+            "idioma": "pt",
+            "inicio": 508,
+            "fim": 758
+          },
+          {
+            "campo": "resumo",
+            "texto": "células ou tecidos e aplicações dos mesmos. esta invenção também fornece substratos sólidos para atenuar ou prevenir a adesão e/ou vascularização de células ou tecidos, cujo substrato sólido é caracterizado por ter um valor de ângulo de contato maior que ",
+            "idioma": "pt",
+            "inicio": 758,
+            "fim": 1013
+          },
+          {
+            "campo": "resumo",
+            "texto": "60 graus, quando em contato com um fluido. esta invenção também fornece substratos sólidos para atenuar ou prevenir a adesão e/ou vascularização de células ou tecidos, cujo substrato sólido é caracterizado por uma rugosidade superficial mínima (ra) ou ",
+            "idioma": "pt",
+            "inicio": 1013,
+            "fim": 1265
+          },
+          {
+            "campo": "resumo",
+            "texto": "lisura superficial substancial, tal como medido por microscopia eletrônica de varredura ou microscopia de força atômica. a invenção também fornece processos para a seleção de um substrato sólido à base de coral otimizado para atenuar ou prevenir a adesão ",
+            "idioma": "pt",
+            "inicio": 1265,
+            "fim": 1520
+          },
+          {
+            "campo": "resumo",
+            "texto": "e/ou vascularização de células ou tecidos e aplicações dos mesmos.",
+            "idioma": "pt",
+            "inicio": 1520,
+            "fim": 1586
+          }
+        ]
+      },
+      "elegivel_pipeline_completo": true,
+      "tipo": "correspondencia",
+      "justificativa": "Finalidade do resumo preserva atenuar OU prevenir, adesão E/OU vascularização e células/tecidos. Diferenças de preposição não alteram o conceito.",
+      "id_humano_correspondente": "funcao_2",
+      "ressalva": null,
+      "pontuacao": "TP_condicional",
+      "autor_mapeamento": "assistente de IA",
+      "adjudicacao_humana_item_a_item": false
+    },
+    {
+      "id_comparacao": "50390156|base|funcoes|funcao_2",
+      "familia": "50390156",
+      "variante": "base",
+      "grupo": "funcoes",
+      "item_modelo": {
+        "id": "funcao_2",
+        "termo": "processos para a seleção de um substrato sólido",
+        "idioma": "pt",
+        "evidencias": [
+          {
+            "campo": "titulo",
+            "texto": "processo para seleção de substrato sólido com base no derivado do esqueleto de organismo marinho otimizado para promoção de crescimento celular ou de tecido ou função restaurada, processo para conversão de substrato sólido subótimo em substrato sólido ",
+            "idioma": "pt",
+            "inicio": 0,
+            "fim": 252
+          },
+          {
+            "campo": "resumo",
+            "texto": "absorção de fluido espontânea dividido por um valor de absorção de fluido total e processos para a seleção de um substrato sólido à base de derivado de esqueleto de organismo marinho otimizado para atenuar ou prevenir a adesão e/ou vascularização de ",
+            "idioma": "pt",
+            "inicio": 508,
+            "fim": 758
+          },
+          {
+            "campo": "resumo",
+            "texto": "lisura superficial substancial, tal como medido por microscopia eletrônica de varredura ou microscopia de força atômica. a invenção também fornece processos para a seleção de um substrato sólido à base de coral otimizado para atenuar ou prevenir a adesão ",
+            "idioma": "pt",
+            "inicio": 1265,
+            "fim": 1520
+          }
+        ]
+      },
+      "elegivel_pipeline_completo": true,
+      "tipo": "categoria_fora_regra",
+      "justificativa": "Nomeia um processo de seleção, não a finalidade da tecnologia. O processo correspondente está anotado em seu grupo próprio.",
+      "id_humano_correspondente": null,
+      "ressalva": null,
+      "pontuacao": "FP_operacional_condicional",
+      "autor_mapeamento": "assistente de IA",
+      "adjudicacao_humana_item_a_item": false
+    },
+    {
+      "id_comparacao": "50390156|base|materiais|material_1",
+      "familia": "50390156",
+      "variante": "base",
+      "grupo": "materiais",
+      "item_modelo": {
+        "id": "material_1",
+        "termo": "substrato sólido",
+        "idioma": "pt",
+        "evidencias": [
+          {
+            "campo": "titulo",
+            "texto": "processo para seleção de substrato sólido com base no derivado do esqueleto de organismo marinho otimizado para promoção de crescimento celular ou de tecido ou função restaurada, processo para conversão de substrato sólido subótimo em substrato sólido ",
+            "idioma": "pt",
+            "inicio": 0,
+            "fim": 252
+          },
+          {
+            "campo": "titulo",
+            "texto": "otimizado para promoção de crescimento celular ou de tecido ou função restaurada, substrato sólido e kit compreendendo o referido substrato sólido",
+            "idioma": "pt",
+            "inicio": 252,
+            "fim": 398
+          },
+          {
+            "campo": "resumo",
+            "texto": "resumo substratos sólidos para atenuar ou prevenir a adesão e vascularização de tecidos e células esta invenção fornece substratos sólidos para atenuar ou prevenir a adesão e/ou vascularização de células ou de tecidos, cujo substrato sólido compreende ",
+            "idioma": "pt",
+            "inicio": 0,
+            "fim": 254
+          },
+          {
+            "campo": "resumo",
+            "texto": "absorção de fluido espontânea dividido por um valor de absorção de fluido total e processos para a seleção de um substrato sólido à base de derivado de esqueleto de organismo marinho otimizado para atenuar ou prevenir a adesão e/ou vascularização de ",
+            "idioma": "pt",
+            "inicio": 508,
+            "fim": 758
+          },
+          {
+            "campo": "resumo",
+            "texto": "células ou tecidos e aplicações dos mesmos. esta invenção também fornece substratos sólidos para atenuar ou prevenir a adesão e/ou vascularização de células ou tecidos, cujo substrato sólido é caracterizado por ter um valor de ângulo de contato maior que ",
+            "idioma": "pt",
+            "inicio": 758,
+            "fim": 1013
+          },
+          {
+            "campo": "resumo",
+            "texto": "60 graus, quando em contato com um fluido. esta invenção também fornece substratos sólidos para atenuar ou prevenir a adesão e/ou vascularização de células ou tecidos, cujo substrato sólido é caracterizado por uma rugosidade superficial mínima (ra) ou ",
+            "idioma": "pt",
+            "inicio": 1013,
+            "fim": 1265
+          },
+          {
+            "campo": "resumo",
+            "texto": "lisura superficial substancial, tal como medido por microscopia eletrônica de varredura ou microscopia de força atômica. a invenção também fornece processos para a seleção de um substrato sólido à base de coral otimizado para atenuar ou prevenir a adesão ",
+            "idioma": "pt",
+            "inicio": 1265,
+            "fim": 1520
+          },
+          {
+            "campo": "resumo",
+            "texto": "e/ou vascularização de células ou tecidos e aplicações dos mesmos.",
+            "idioma": "pt",
+            "inicio": 1520,
+            "fim": 1586
+          }
+        ]
+      },
+      "elegivel_pipeline_completo": true,
+      "tipo": "correspondencia",
+      "justificativa": "Substrato sólido registrado separadamente de sua matéria de origem; evidências contextualizam o suporte.",
+      "id_humano_correspondente": "material_1",
+      "ressalva": null,
+      "pontuacao": "TP_condicional",
+      "autor_mapeamento": "assistente de IA",
+      "adjudicacao_humana_item_a_item": false
+    },
+    {
+      "id_comparacao": "50390156|base|materiais|material_2",
+      "familia": "50390156",
+      "variante": "base",
+      "grupo": "materiais",
+      "item_modelo": {
+        "id": "material_2",
+        "termo": "derivado do esqueleto de organismo marinho",
+        "idioma": "pt",
+        "evidencias": [
+          {
+            "campo": "titulo",
+            "texto": "processo para seleção de substrato sólido com base no derivado do esqueleto de organismo marinho otimizado para promoção de crescimento celular ou de tecido ou função restaurada, processo para conversão de substrato sólido subótimo em substrato sólido ",
+            "idioma": "pt",
+            "inicio": 0,
+            "fim": 252
+          },
+          {
+            "campo": "titulo",
+            "texto": "otimizado para promoção de crescimento celular ou de tecido ou função restaurada, substrato sólido e kit compreendendo o referido substrato sólido",
+            "idioma": "pt",
+            "inicio": 252,
+            "fim": 398
+          },
+          {
+            "campo": "resumo",
+            "texto": "resumo substratos sólidos para atenuar ou prevenir a adesão e vascularização de tecidos e células esta invenção fornece substratos sólidos para atenuar ou prevenir a adesão e/ou vascularização de células ou de tecidos, cujo substrato sólido compreende ",
+            "idioma": "pt",
+            "inicio": 0,
+            "fim": 254
+          },
+          {
+            "campo": "resumo",
+            "texto": "um derivado do esqueleto de organismo marinho e é caracterizado por um valor de capacidade de absorção específica de fluido inferior a 40%, cujo valor de capacidade de absorção específica de fluido é determinado através do estabelecimento de um valor de ",
+            "idioma": "pt",
+            "inicio": 254,
+            "fim": 508
+          },
+          {
+            "campo": "resumo",
+            "texto": "absorção de fluido espontânea dividido por um valor de absorção de fluido total e processos para a seleção de um substrato sólido à base de derivado de esqueleto de organismo marinho otimizado para atenuar ou prevenir a adesão e/ou vascularização de ",
+            "idioma": "pt",
+            "inicio": 508,
+            "fim": 758
+          },
+          {
+            "campo": "resumo",
+            "texto": "lisura superficial substancial, tal como medido por microscopia eletrônica de varredura ou microscopia de força atômica. a invenção também fornece processos para a seleção de um substrato sólido à base de coral otimizado para atenuar ou prevenir a adesão ",
+            "idioma": "pt",
+            "inicio": 1265,
+            "fim": 1520
+          }
+        ]
+      },
+      "elegivel_pipeline_completo": true,
+      "tipo": "correspondencia",
+      "justificativa": "Derivado do esqueleto de organismo marinho registrado como matéria de origem distinta.",
+      "id_humano_correspondente": "material_2",
+      "ressalva": null,
+      "pontuacao": "TP_condicional",
+      "autor_mapeamento": "assistente de IA",
+      "adjudicacao_humana_item_a_item": false
+    },
+    {
+      "id_comparacao": "50390156|base|processos|processo_1",
+      "familia": "50390156",
+      "variante": "base",
+      "grupo": "processos",
+      "item_modelo": {
+        "id": "processo_1",
+        "termo": "seleção de substrato sólido",
+        "idioma": "pt",
+        "evidencias": [
+          {
+            "campo": "titulo",
+            "texto": "processo para seleção de substrato sólido com base no derivado do esqueleto de organismo marinho otimizado para promoção de crescimento celular ou de tecido ou função restaurada, processo para conversão de substrato sólido subótimo em substrato sólido ",
+            "idioma": "pt",
+            "inicio": 0,
+            "fim": 252
+          },
+          {
+            "campo": "resumo",
+            "texto": "absorção de fluido espontânea dividido por um valor de absorção de fluido total e processos para a seleção de um substrato sólido à base de derivado de esqueleto de organismo marinho otimizado para atenuar ou prevenir a adesão e/ou vascularização de ",
+            "idioma": "pt",
+            "inicio": 508,
+            "fim": 758
+          },
+          {
+            "campo": "resumo",
+            "texto": "lisura superficial substancial, tal como medido por microscopia eletrônica de varredura ou microscopia de força atômica. a invenção também fornece processos para a seleção de um substrato sólido à base de coral otimizado para atenuar ou prevenir a adesão ",
+            "idioma": "pt",
+            "inicio": 1265,
+            "fim": 1520
+          }
+        ]
+      },
+      "elegivel_pipeline_completo": true,
+      "tipo": "correspondencia",
+      "justificativa": "Seleção do substrato: mesmo procedimento e contexto, sem alterar modalidade.",
+      "id_humano_correspondente": "processo_1",
+      "ressalva": null,
+      "pontuacao": "TP_condicional",
+      "autor_mapeamento": "assistente de IA",
+      "adjudicacao_humana_item_a_item": false
+    },
+    {
+      "id_comparacao": "50390156|base|processos|processo_2",
+      "familia": "50390156",
+      "variante": "base",
+      "grupo": "processos",
+      "item_modelo": {
+        "id": "processo_2",
+        "termo": "determinação do valor de capacidade de absorção específica de fluido",
+        "idioma": "pt",
+        "evidencias": [
+          {
+            "campo": "resumo",
+            "texto": "um derivado do esqueleto de organismo marinho e é caracterizado por um valor de capacidade de absorção específica de fluido inferior a 40%, cujo valor de capacidade de absorção específica de fluido é determinado através do estabelecimento de um valor de ",
+            "idioma": "pt",
+            "inicio": 254,
+            "fim": 508
+          },
+          {
+            "campo": "resumo",
+            "texto": "absorção de fluido espontânea dividido por um valor de absorção de fluido total e processos para a seleção de um substrato sólido à base de derivado de esqueleto de organismo marinho otimizado para atenuar ou prevenir a adesão e/ou vascularização de ",
+            "idioma": "pt",
+            "inicio": 508,
+            "fim": 758
+          }
+        ]
+      },
+      "elegivel_pipeline_completo": true,
+      "tipo": "correspondencia",
+      "justificativa": "Determinação da absorção explicitada pela razão entre valores de absorção; mesmo procedimento incluído em D2.",
+      "id_humano_correspondente": "processo_2",
+      "ressalva": null,
+      "pontuacao": "TP_condicional",
+      "autor_mapeamento": "assistente de IA",
+      "adjudicacao_humana_item_a_item": false
+    },
+    {
+      "id_comparacao": "50390156|base|pares_convergencia|par_1",
+      "familia": "50390156",
+      "variante": "base",
+      "grupo": "pares_convergencia",
+      "item_modelo": {
+        "id": "par_1",
+        "memes": [
+          "meme_1",
+          "meme_2"
+        ],
+        "evidencias": [
+          {
+            "campo": "resumo",
+            "texto": "um derivado do esqueleto de organismo marinho e é caracterizado por um valor de capacidade de absorção específica de fluido inferior a 40%, cujo valor de capacidade de absorção específica de fluido é determinado através do estabelecimento de um valor de ",
+            "idioma": "pt",
+            "inicio": 254,
+            "fim": 508
+          },
+          {
+            "campo": "resumo",
+            "texto": "absorção de fluido espontânea dividido por um valor de absorção de fluido total e processos para a seleção de um substrato sólido à base de derivado de esqueleto de organismo marinho otimizado para atenuar ou prevenir a adesão e/ou vascularização de ",
+            "idioma": "pt",
+            "inicio": 508,
+            "fim": 758
+          }
+        ]
+      },
+      "elegivel_pipeline_completo": true,
+      "tipo": "convergencia_nao_sustentada",
+      "justificativa": "Une componente e propriedade; caracterização do componente não demonstra convergência técnica.",
+      "id_humano_correspondente": null,
+      "ressalva": null,
+      "pontuacao": "FP_operacional_condicional",
+      "autor_mapeamento": "assistente de IA",
+      "adjudicacao_humana_item_a_item": false
+    },
+    {
+      "id_comparacao": "50390156|base|pares_convergencia|par_2",
+      "familia": "50390156",
+      "variante": "base",
+      "grupo": "pares_convergencia",
+      "item_modelo": {
+        "id": "par_2",
+        "memes": [
+          "meme_1",
+          "meme_3"
+        ],
+        "evidencias": [
+          {
+            "campo": "resumo",
+            "texto": "células ou tecidos e aplicações dos mesmos. esta invenção também fornece substratos sólidos para atenuar ou prevenir a adesão e/ou vascularização de células ou tecidos, cujo substrato sólido é caracterizado por ter um valor de ângulo de contato maior que ",
+            "idioma": "pt",
+            "inicio": 758,
+            "fim": 1013
+          },
+          {
+            "campo": "resumo",
+            "texto": "60 graus, quando em contato com um fluido. esta invenção também fornece substratos sólidos para atenuar ou prevenir a adesão e/ou vascularização de células ou tecidos, cujo substrato sólido é caracterizado por uma rugosidade superficial mínima (ra) ou ",
+            "idioma": "pt",
+            "inicio": 1013,
+            "fim": 1265
+          }
+        ]
+      },
+      "elegivel_pipeline_completo": true,
+      "tipo": "convergencia_nao_sustentada",
+      "justificativa": "Une componente e propriedade; caracterização do componente não demonstra convergência técnica.",
+      "id_humano_correspondente": null,
+      "ressalva": null,
+      "pontuacao": "FP_operacional_condicional",
+      "autor_mapeamento": "assistente de IA",
+      "adjudicacao_humana_item_a_item": false
+    },
+    {
+      "id_comparacao": "50390156|base|pares_convergencia|par_3",
+      "familia": "50390156",
+      "variante": "base",
+      "grupo": "pares_convergencia",
+      "item_modelo": {
+        "id": "par_3",
+        "memes": [
+          "meme_1",
+          "meme_4"
+        ],
+        "evidencias": [
+          {
+            "campo": "resumo",
+            "texto": "60 graus, quando em contato com um fluido. esta invenção também fornece substratos sólidos para atenuar ou prevenir a adesão e/ou vascularização de células ou tecidos, cujo substrato sólido é caracterizado por uma rugosidade superficial mínima (ra) ou ",
+            "idioma": "pt",
+            "inicio": 1013,
+            "fim": 1265
+          },
+          {
+            "campo": "resumo",
+            "texto": "lisura superficial substancial, tal como medido por microscopia eletrônica de varredura ou microscopia de força atômica. a invenção também fornece processos para a seleção de um substrato sólido à base de coral otimizado para atenuar ou prevenir a adesão ",
+            "idioma": "pt",
+            "inicio": 1265,
+            "fim": 1520
+          }
+        ]
+      },
+      "elegivel_pipeline_completo": true,
+      "tipo": "convergencia_nao_sustentada",
+      "justificativa": "Une componente e propriedade; caracterização do componente não demonstra convergência técnica.",
+      "id_humano_correspondente": null,
+      "ressalva": null,
+      "pontuacao": "FP_operacional_condicional",
+      "autor_mapeamento": "assistente de IA",
+      "adjudicacao_humana_item_a_item": false
+    },
+    {
+      "id_comparacao": "50390156|base|pares_convergencia|par_4",
+      "familia": "50390156",
+      "variante": "base",
+      "grupo": "pares_convergencia",
+      "item_modelo": {
+        "id": "par_4",
+        "memes": [
+          "meme_2",
+          "meme_3"
+        ],
+        "evidencias": [
+          {
+            "campo": "resumo",
+            "texto": "absorção de fluido espontânea dividido por um valor de absorção de fluido total e processos para a seleção de um substrato sólido à base de derivado de esqueleto de organismo marinho otimizado para atenuar ou prevenir a adesão e/ou vascularização de ",
+            "idioma": "pt",
+            "inicio": 508,
+            "fim": 758
+          },
+          {
+            "campo": "resumo",
+            "texto": "células ou tecidos e aplicações dos mesmos. esta invenção também fornece substratos sólidos para atenuar ou prevenir a adesão e/ou vascularização de células ou tecidos, cujo substrato sólido é caracterizado por ter um valor de ângulo de contato maior que ",
+            "idioma": "pt",
+            "inicio": 758,
+            "fim": 1013
+          }
+        ]
+      },
+      "elegivel_pipeline_completo": true,
+      "tipo": "convergencia_nao_sustentada",
+      "justificativa": "Absorção e ângulo são propriedades descritas; não há integração técnica explícita entre elas.",
+      "id_humano_correspondente": null,
+      "ressalva": null,
+      "pontuacao": "FP_operacional_condicional",
+      "autor_mapeamento": "assistente de IA",
+      "adjudicacao_humana_item_a_item": false
+    },
+    {
+      "id_comparacao": "50390156|base|efeitos|efeito_1",
+      "familia": "50390156",
+      "variante": "base",
+      "grupo": "efeitos",
+      "item_modelo": {
+        "id": "efeito_1",
+        "descricao": "Redução de adesão celular",
+        "idioma": "pt",
+        "categoria": "reducao_custos",
+        "relacionado_a": [
+          "funcao_1",
+          "meme_1"
+        ],
+        "evidencias": [
+          {
+            "campo": "resumo",
+            "texto": "resumo substratos sólidos para atenuar ou prevenir a adesão e vascularização de tecidos e células esta invenção fornece substratos sólidos para atenuar ou prevenir a adesão e/ou vascularização de células ou de tecidos, cujo substrato sólido compreende ",
+            "idioma": "pt",
+            "inicio": 0,
+            "fim": 254
+          },
+          {
+            "campo": "resumo",
+            "texto": "absorção de fluido espontânea dividido por um valor de absorção de fluido total e processos para a seleção de um substrato sólido à base de derivado de esqueleto de organismo marinho otimizado para atenuar ou prevenir a adesão e/ou vascularização de ",
+            "idioma": "pt",
+            "inicio": 508,
+            "fim": 758
+          },
+          {
+            "campo": "resumo",
+            "texto": "células ou tecidos e aplicações dos mesmos. esta invenção também fornece substratos sólidos para atenuar ou prevenir a adesão e/ou vascularização de células ou tecidos, cujo substrato sólido é caracterizado por ter um valor de ângulo de contato maior que ",
+            "idioma": "pt",
+            "inicio": 758,
+            "fim": 1013
+          },
+          {
+            "campo": "resumo",
+            "texto": "60 graus, quando em contato com um fluido. esta invenção também fornece substratos sólidos para atenuar ou prevenir a adesão e/ou vascularização de células ou tecidos, cujo substrato sólido é caracterizado por uma rugosidade superficial mínima (ra) ou ",
+            "idioma": "pt",
+            "inicio": 1013,
+            "fim": 1265
+          },
+          {
+            "campo": "resumo",
+            "texto": "lisura superficial substancial, tal como medido por microscopia eletrônica de varredura ou microscopia de força atômica. a invenção também fornece processos para a seleção de um substrato sólido à base de coral otimizado para atenuar ou prevenir a adesão ",
+            "idioma": "pt",
+            "inicio": 1265,
+            "fim": 1520
+          }
+        ]
+      },
+      "elegivel_pipeline_completo": true,
+      "tipo": "categoria_efeito_incorreta",
+      "justificativa": "Redução de adesão/prevenção de vascularização não são redução de custos. São finalidades do texto, sem suporte a economia; referência D4 não registra efeito nesta família.",
+      "id_humano_correspondente": null,
+      "ressalva": null,
+      "pontuacao": "FP_operacional_condicional",
+      "autor_mapeamento": "assistente de IA",
+      "adjudicacao_humana_item_a_item": false
+    },
+    {
+      "id_comparacao": "50390156|base|efeitos|efeito_2",
+      "familia": "50390156",
+      "variante": "base",
+      "grupo": "efeitos",
+      "item_modelo": {
+        "id": "efeito_2",
+        "descricao": "Prevenção de vascularização",
+        "idioma": "pt",
+        "categoria": "reducao_custos",
+        "relacionado_a": [
+          "funcao_1",
+          "meme_1"
+        ],
+        "evidencias": [
+          {
+            "campo": "resumo",
+            "texto": "resumo substratos sólidos para atenuar ou prevenir a adesão e vascularização de tecidos e células esta invenção fornece substratos sólidos para atenuar ou prevenir a adesão e/ou vascularização de células ou de tecidos, cujo substrato sólido compreende ",
+            "idioma": "pt",
+            "inicio": 0,
+            "fim": 254
+          },
+          {
+            "campo": "resumo",
+            "texto": "absorção de fluido espontânea dividido por um valor de absorção de fluido total e processos para a seleção de um substrato sólido à base de derivado de esqueleto de organismo marinho otimizado para atenuar ou prevenir a adesão e/ou vascularização de ",
+            "idioma": "pt",
+            "inicio": 508,
+            "fim": 758
+          },
+          {
+            "campo": "resumo",
+            "texto": "células ou tecidos e aplicações dos mesmos. esta invenção também fornece substratos sólidos para atenuar ou prevenir a adesão e/ou vascularização de células ou tecidos, cujo substrato sólido é caracterizado por ter um valor de ângulo de contato maior que ",
+            "idioma": "pt",
+            "inicio": 758,
+            "fim": 1013
+          },
+          {
+            "campo": "resumo",
+            "texto": "60 graus, quando em contato com um fluido. esta invenção também fornece substratos sólidos para atenuar ou prevenir a adesão e/ou vascularização de células ou tecidos, cujo substrato sólido é caracterizado por uma rugosidade superficial mínima (ra) ou ",
+            "idioma": "pt",
+            "inicio": 1013,
+            "fim": 1265
+          },
+          {
+            "campo": "resumo",
+            "texto": "lisura superficial substancial, tal como medido por microscopia eletrônica de varredura ou microscopia de força atômica. a invenção também fornece processos para a seleção de um substrato sólido à base de coral otimizado para atenuar ou prevenir a adesão ",
+            "idioma": "pt",
+            "inicio": 1265,
+            "fim": 1520
+          }
+        ]
+      },
+      "elegivel_pipeline_completo": true,
+      "tipo": "categoria_efeito_incorreta",
+      "justificativa": "Redução de adesão/prevenção de vascularização não são redução de custos. São finalidades do texto, sem suporte a economia; referência D4 não registra efeito nesta família.",
+      "id_humano_correspondente": null,
+      "ressalva": null,
+      "pontuacao": "FP_operacional_condicional",
+      "autor_mapeamento": "assistente de IA",
+      "adjudicacao_humana_item_a_item": false
+    },
+    {
+      "id_comparacao": "50390156|base|efeitos|efeito_3",
+      "familia": "50390156",
+      "variante": "base",
+      "grupo": "efeitos",
+      "item_modelo": {
+        "id": "efeito_3",
+        "descricao": "Aumento da lisura superficial",
+        "idioma": "pt",
+        "categoria": "ganho_eficiencia",
+        "relacionado_a": [
+          "meme_4",
+          "material_1"
+        ],
+        "evidencias": [
+          {
+            "campo": "resumo",
+            "texto": "60 graus, quando em contato com um fluido. esta invenção também fornece substratos sólidos para atenuar ou prevenir a adesão e/ou vascularização de células ou tecidos, cujo substrato sólido é caracterizado por uma rugosidade superficial mínima (ra) ou ",
+            "idioma": "pt",
+            "inicio": 1013,
+            "fim": 1265
+          },
+          {
+            "campo": "resumo",
+            "texto": "lisura superficial substancial, tal como medido por microscopia eletrônica de varredura ou microscopia de força atômica. a invenção também fornece processos para a seleção de um substrato sólido à base de coral otimizado para atenuar ou prevenir a adesão ",
+            "idioma": "pt",
+            "inicio": 1265,
+            "fim": 1520
+          }
+        ]
+      },
+      "elegivel_pipeline_completo": true,
+      "tipo": "categoria_efeito_incorreta",
+      "justificativa": "Lisura superficial é característica; “aumento” e ganho de eficiência não estão demonstrados. D4 não registra resultado desse tipo.",
+      "id_humano_correspondente": null,
+      "ressalva": null,
+      "pontuacao": "FP_operacional_condicional",
+      "autor_mapeamento": "assistente de IA",
+      "adjudicacao_humana_item_a_item": false
+    },
+    {
+      "id_comparacao": "50390156|adaptado|memes_tecnicos|meme_1",
+      "familia": "50390156",
+      "variante": "adaptado",
+      "grupo": "memes_tecnicos",
+      "item_modelo": {
+        "id": "meme_1",
+        "termo": "substrato sólido",
+        "idioma": "pt",
+        "evidencias": [
+          {
+            "campo": "titulo",
+            "texto": "processo para seleção de substrato sólido com base no derivado do esqueleto de organismo marinho otimizado para promoção de crescimento celular ou de tecido ou função restaurada, processo para conversão de substrato sólido subótimo em substrato sólido ",
+            "idioma": "pt",
+            "inicio": 0,
+            "fim": 252
+          },
+          {
+            "campo": "titulo",
+            "texto": "otimizado para promoção de crescimento celular ou de tecido ou função restaurada, substrato sólido e kit compreendendo o referido substrato sólido",
+            "idioma": "pt",
+            "inicio": 252,
+            "fim": 398
+          },
+          {
+            "campo": "resumo",
+            "texto": "resumo substratos sólidos para atenuar ou prevenir a adesão e vascularização de tecidos e células esta invenção fornece substratos sólidos para atenuar ou prevenir a adesão e/ou vascularização de células ou de tecidos, cujo substrato sólido compreende ",
+            "idioma": "pt",
+            "inicio": 0,
+            "fim": 254
+          },
+          {
+            "campo": "resumo",
+            "texto": "um derivado do esqueleto de organismo marinho e é caracterizado por um valor de capacidade de absorção específica de fluido inferior a 40%, cujo valor de capacidade de absorção específica de fluido é determinado através do estabelecimento de um valor de ",
+            "idioma": "pt",
+            "inicio": 254,
+            "fim": 508
+          },
+          {
+            "campo": "resumo",
+            "texto": "absorção de fluido espontânea dividido por um valor de absorção de fluido total e processos para a seleção de um substrato sólido à base de derivado de esqueleto de organismo marinho otimizado para atenuar ou prevenir a adesão e/ou vascularização de ",
+            "idioma": "pt",
+            "inicio": 508,
+            "fim": 758
+          },
+          {
+            "campo": "resumo",
+            "texto": "células ou tecidos e aplicações dos mesmos. esta invenção também fornece substratos sólidos para atenuar ou prevenir a adesão e/ou vascularização de células ou tecidos, cujo substrato sólido é caracterizado por ter um valor de ângulo de contato maior que ",
+            "idioma": "pt",
+            "inicio": 758,
+            "fim": 1013
+          },
+          {
+            "campo": "resumo",
+            "texto": "60 graus, quando em contato com um fluido. esta invenção também fornece substratos sólidos para atenuar ou prevenir a adesão e/ou vascularização de células ou tecidos, cujo substrato sólido é caracterizado por uma rugosidade superficial mínima (ra) ou ",
+            "idioma": "pt",
+            "inicio": 1013,
+            "fim": 1265
+          },
+          {
+            "campo": "resumo",
+            "texto": "lisura superficial substancial, tal como medido por microscopia eletrônica de varredura ou microscopia de força atômica. a invenção também fornece processos para a seleção de um substrato sólido à base de coral otimizado para atenuar ou prevenir a adesão ",
+            "idioma": "pt",
+            "inicio": 1265,
+            "fim": 1520
+          },
+          {
+            "campo": "resumo",
+            "texto": "e/ou vascularização de células ou tecidos e aplicações dos mesmos.",
+            "idioma": "pt",
+            "inicio": 1520,
+            "fim": 1586
+          }
+        ]
+      },
+      "elegivel_pipeline_completo": true,
+      "tipo": "cobertura_referencia_pendente",
+      "justificativa": "Não há meme correspondente na lista de referência atual. Mantida a mesma ressalva de cobertura do 08c: o papel de substrato/seleção como unidade central não foi individualmente adjudicado.",
+      "id_humano_correspondente": null,
+      "ressalva": "Não tratar falta de correspondência como erro semântico conclusivo; qualquer mudança da referência deverá reavaliar 08c e 08d igualmente.",
+      "pontuacao": "FP_operacional_condicional",
+      "autor_mapeamento": "assistente de IA",
+      "adjudicacao_humana_item_a_item": false
+    },
+    {
+      "id_comparacao": "50390156|adaptado|memes_tecnicos|meme_2",
+      "familia": "50390156",
+      "variante": "adaptado",
+      "grupo": "memes_tecnicos",
+      "item_modelo": {
+        "id": "meme_2",
+        "termo": "derivado do esqueleto de organismo marinho",
+        "idioma": "pt",
+        "evidencias": [
+          {
+            "campo": "titulo",
+            "texto": "processo para seleção de substrato sólido com base no derivado do esqueleto de organismo marinho otimizado para promoção de crescimento celular ou de tecido ou função restaurada, processo para conversão de substrato sólido subótimo em substrato sólido ",
+            "idioma": "pt",
+            "inicio": 0,
+            "fim": 252
+          },
+          {
+            "campo": "titulo",
+            "texto": "otimizado para promoção de crescimento celular ou de tecido ou função restaurada, substrato sólido e kit compreendendo o referido substrato sólido",
+            "idioma": "pt",
+            "inicio": 252,
+            "fim": 398
+          },
+          {
+            "campo": "resumo",
+            "texto": "resumo substratos sólidos para atenuar ou prevenir a adesão e vascularização de tecidos e células esta invenção fornece substratos sólidos para atenuar ou prevenir a adesão e/ou vascularização de células ou de tecidos, cujo substrato sólido compreende ",
+            "idioma": "pt",
+            "inicio": 0,
+            "fim": 254
+          },
+          {
+            "campo": "resumo",
+            "texto": "um derivado do esqueleto de organismo marinho e é caracterizado por um valor de capacidade de absorção específica de fluido inferior a 40%, cujo valor de capacidade de absorção específica de fluido é determinado através do estabelecimento de um valor de ",
+            "idioma": "pt",
+            "inicio": 254,
+            "fim": 508
+          },
+          {
+            "campo": "resumo",
+            "texto": "absorção de fluido espontânea dividido por um valor de absorção de fluido total e processos para a seleção de um substrato sólido à base de derivado de esqueleto de organismo marinho otimizado para atenuar ou prevenir a adesão e/ou vascularização de ",
+            "idioma": "pt",
+            "inicio": 508,
+            "fim": 758
+          },
+          {
+            "campo": "resumo",
+            "texto": "células ou tecidos e aplicações dos mesmos. esta invenção também fornece substratos sólidos para atenuar ou prevenir a adesão e/ou vascularização de células ou tecidos, cujo substrato sólido é caracterizado por ter um valor de ângulo de contato maior que ",
+            "idioma": "pt",
+            "inicio": 758,
+            "fim": 1013
+          },
+          {
+            "campo": "resumo",
+            "texto": "60 graus, quando em contato com um fluido. esta invenção também fornece substratos sólidos para atenuar ou prevenir a adesão e/ou vascularização de células ou tecidos, cujo substrato sólido é caracterizado por uma rugosidade superficial mínima (ra) ou ",
+            "idioma": "pt",
+            "inicio": 1013,
+            "fim": 1265
+          },
+          {
+            "campo": "resumo",
+            "texto": "lisura superficial substancial, tal como medido por microscopia eletrônica de varredura ou microscopia de força atômica. a invenção também fornece processos para a seleção de um substrato sólido à base de coral otimizado para atenuar ou prevenir a adesão ",
+            "idioma": "pt",
+            "inicio": 1265,
+            "fim": 1520
+          },
+          {
+            "campo": "resumo",
+            "texto": "e/ou vascularização de células ou tecidos e aplicações dos mesmos.",
+            "idioma": "pt",
+            "inicio": 1520,
+            "fim": 1586
+          }
+        ]
+      },
+      "elegivel_pipeline_completo": true,
+      "tipo": "correspondencia",
+      "justificativa": "Derivado do esqueleto marinho: mesmo componente e papel da referência, com suporte nos textos.",
+      "id_humano_correspondente": "meme_1",
+      "ressalva": null,
+      "pontuacao": "TP_condicional",
+      "autor_mapeamento": "assistente de IA",
+      "adjudicacao_humana_item_a_item": false
+    },
+    {
+      "id_comparacao": "50390156|adaptado|memes_tecnicos|meme_3",
+      "familia": "50390156",
+      "variante": "adaptado",
+      "grupo": "memes_tecnicos",
+      "item_modelo": {
+        "id": "meme_3",
+        "termo": "capacidade de absorção específica de fluido",
+        "idioma": "pt",
+        "evidencias": [
+          {
+            "campo": "resumo",
+            "texto": "um derivado do esqueleto de organismo marinho e é caracterizado por um valor de capacidade de absorção específica de fluido inferior a 40%, cujo valor de capacidade de absorção específica de fluido é determinado através do estabelecimento de um valor de ",
+            "idioma": "pt",
+            "inicio": 254,
+            "fim": 508
+          },
+          {
+            "campo": "resumo",
+            "texto": "absorção de fluido espontânea dividido por um valor de absorção de fluido total e processos para a seleção de um substrato sólido à base de derivado de esqueleto de organismo marinho otimizado para atenuar ou prevenir a adesão e/ou vascularização de ",
+            "idioma": "pt",
+            "inicio": 508,
+            "fim": 758
+          }
+        ]
+      },
+      "elegivel_pipeline_completo": true,
+      "tipo": "categoria_fora_regra",
+      "justificativa": "D1: propriedades e valores físicos são atributos/limitações, não memes isolados.",
+      "id_humano_correspondente": null,
+      "ressalva": null,
+      "pontuacao": "FP_operacional_condicional",
+      "autor_mapeamento": "assistente de IA",
+      "adjudicacao_humana_item_a_item": false
+    },
+    {
+      "id_comparacao": "50390156|adaptado|memes_tecnicos|meme_4",
+      "familia": "50390156",
+      "variante": "adaptado",
+      "grupo": "memes_tecnicos",
+      "item_modelo": {
+        "id": "meme_4",
+        "termo": "valor de absorção de fluido espontânea",
+        "idioma": "pt",
+        "evidencias": [
+          {
+            "campo": "resumo",
+            "texto": "um derivado do esqueleto de organismo marinho e é caracterizado por um valor de capacidade de absorção específica de fluido inferior a 40%, cujo valor de capacidade de absorção específica de fluido é determinado através do estabelecimento de um valor de ",
+            "idioma": "pt",
+            "inicio": 254,
+            "fim": 508
+          },
+          {
+            "campo": "resumo",
+            "texto": "absorção de fluido espontânea dividido por um valor de absorção de fluido total e processos para a seleção de um substrato sólido à base de derivado de esqueleto de organismo marinho otimizado para atenuar ou prevenir a adesão e/ou vascularização de ",
+            "idioma": "pt",
+            "inicio": 508,
+            "fim": 758
+          }
+        ]
+      },
+      "elegivel_pipeline_completo": true,
+      "tipo": "categoria_fora_regra",
+      "justificativa": "D1: propriedades e valores físicos são atributos/limitações, não memes isolados.",
+      "id_humano_correspondente": null,
+      "ressalva": null,
+      "pontuacao": "FP_operacional_condicional",
+      "autor_mapeamento": "assistente de IA",
+      "adjudicacao_humana_item_a_item": false
+    },
+    {
+      "id_comparacao": "50390156|adaptado|memes_tecnicos|meme_5",
+      "familia": "50390156",
+      "variante": "adaptado",
+      "grupo": "memes_tecnicos",
+      "item_modelo": {
+        "id": "meme_5",
+        "termo": "valor de absorção de fluido total",
+        "idioma": "pt",
+        "evidencias": [
+          {
+            "campo": "resumo",
+            "texto": "um derivado do esqueleto de organismo marinho e é caracterizado por um valor de capacidade de absorção específica de fluido inferior a 40%, cujo valor de capacidade de absorção específica de fluido é determinado através do estabelecimento de um valor de ",
+            "idioma": "pt",
+            "inicio": 254,
+            "fim": 508
+          },
+          {
+            "campo": "resumo",
+            "texto": "absorção de fluido espontânea dividido por um valor de absorção de fluido total e processos para a seleção de um substrato sólido à base de derivado de esqueleto de organismo marinho otimizado para atenuar ou prevenir a adesão e/ou vascularização de ",
+            "idioma": "pt",
+            "inicio": 508,
+            "fim": 758
+          }
+        ]
+      },
+      "elegivel_pipeline_completo": true,
+      "tipo": "categoria_fora_regra",
+      "justificativa": "D1: propriedades e valores físicos são atributos/limitações, não memes isolados.",
+      "id_humano_correspondente": null,
+      "ressalva": null,
+      "pontuacao": "FP_operacional_condicional",
+      "autor_mapeamento": "assistente de IA",
+      "adjudicacao_humana_item_a_item": false
+    },
+    {
+      "id_comparacao": "50390156|adaptado|memes_tecnicos|meme_6",
+      "familia": "50390156",
+      "variante": "adaptado",
+      "grupo": "memes_tecnicos",
+      "item_modelo": {
+        "id": "meme_6",
+        "termo": "ângulo de contato",
+        "idioma": "pt",
+        "evidencias": [
+          {
+            "campo": "resumo",
+            "texto": "células ou tecidos e aplicações dos mesmos. esta invenção também fornece substratos sólidos para atenuar ou prevenir a adesão e/ou vascularização de células ou tecidos, cujo substrato sólido é caracterizado por ter um valor de ângulo de contato maior que ",
+            "idioma": "pt",
+            "inicio": 758,
+            "fim": 1013
+          }
+        ]
+      },
+      "elegivel_pipeline_completo": true,
+      "tipo": "categoria_fora_regra",
+      "justificativa": "D1: propriedades e valores físicos são atributos/limitações, não memes isolados.",
+      "id_humano_correspondente": null,
+      "ressalva": null,
+      "pontuacao": "FP_operacional_condicional",
+      "autor_mapeamento": "assistente de IA",
+      "adjudicacao_humana_item_a_item": false
+    },
+    {
+      "id_comparacao": "50390156|adaptado|memes_tecnicos|meme_7",
+      "familia": "50390156",
+      "variante": "adaptado",
+      "grupo": "memes_tecnicos",
+      "item_modelo": {
+        "id": "meme_7",
+        "termo": "rugosidade superficial mínima (ra) ou lisura superficial substancial",
+        "idioma": "pt",
+        "evidencias": [
+          {
+            "campo": "resumo",
+            "texto": "60 graus, quando em contato com um fluido. esta invenção também fornece substratos sólidos para atenuar ou prevenir a adesão e/ou vascularização de células ou tecidos, cujo substrato sólido é caracterizado por uma rugosidade superficial mínima (ra) ou ",
+            "idioma": "pt",
+            "inicio": 1013,
+            "fim": 1265
+          },
+          {
+            "campo": "resumo",
+            "texto": "lisura superficial substancial, tal como medido por microscopia eletrônica de varredura ou microscopia de força atômica. a invenção também fornece processos para a seleção de um substrato sólido à base de coral otimizado para atenuar ou prevenir a adesão ",
+            "idioma": "pt",
+            "inicio": 1265,
+            "fim": 1520
+          }
+        ]
+      },
+      "elegivel_pipeline_completo": true,
+      "tipo": "categoria_fora_regra",
+      "justificativa": "D1: propriedades e valores físicos são atributos/limitações, não memes isolados.",
+      "id_humano_correspondente": null,
+      "ressalva": null,
+      "pontuacao": "FP_operacional_condicional",
+      "autor_mapeamento": "assistente de IA",
+      "adjudicacao_humana_item_a_item": false
+    },
+    {
+      "id_comparacao": "50390156|adaptado|memes_tecnicos|meme_8",
+      "familia": "50390156",
+      "variante": "adaptado",
+      "grupo": "memes_tecnicos",
+      "item_modelo": {
+        "id": "meme_8",
+        "termo": "microscopia eletrônica de varredura",
+        "idioma": "pt",
+        "evidencias": [
+          {
+            "campo": "resumo",
+            "texto": "lisura superficial substancial, tal como medido por microscopia eletrônica de varredura ou microscopia de força atômica. a invenção também fornece processos para a seleção de um substrato sólido à base de coral otimizado para atenuar ou prevenir a adesão ",
+            "idioma": "pt",
+            "inicio": 1265,
+            "fim": 1520
+          }
+        ]
+      },
+      "elegivel_pipeline_completo": true,
+      "tipo": "categoria_fora_regra",
+      "justificativa": "D1: métodos usados apenas na caracterização/medição não são memes centrais.",
+      "id_humano_correspondente": null,
+      "ressalva": null,
+      "pontuacao": "FP_operacional_condicional",
+      "autor_mapeamento": "assistente de IA",
+      "adjudicacao_humana_item_a_item": false
+    },
+    {
+      "id_comparacao": "50390156|adaptado|memes_tecnicos|meme_9",
+      "familia": "50390156",
+      "variante": "adaptado",
+      "grupo": "memes_tecnicos",
+      "item_modelo": {
+        "id": "meme_9",
+        "termo": "microscopia de força atômica",
+        "idioma": "pt",
+        "evidencias": [
+          {
+            "campo": "resumo",
+            "texto": "lisura superficial substancial, tal como medido por microscopia eletrônica de varredura ou microscopia de força atômica. a invenção também fornece processos para a seleção de um substrato sólido à base de coral otimizado para atenuar ou prevenir a adesão ",
+            "idioma": "pt",
+            "inicio": 1265,
+            "fim": 1520
+          }
+        ]
+      },
+      "elegivel_pipeline_completo": true,
+      "tipo": "categoria_fora_regra",
+      "justificativa": "D1: métodos usados apenas na caracterização/medição não são memes centrais.",
+      "id_humano_correspondente": null,
+      "ressalva": null,
+      "pontuacao": "FP_operacional_condicional",
+      "autor_mapeamento": "assistente de IA",
+      "adjudicacao_humana_item_a_item": false
+    },
+    {
+      "id_comparacao": "50390156|adaptado|memes_tecnicos|meme_10",
+      "familia": "50390156",
+      "variante": "adaptado",
+      "grupo": "memes_tecnicos",
+      "item_modelo": {
+        "id": "meme_10",
+        "termo": "processo para seleção de substrato sólido",
+        "idioma": "pt",
+        "evidencias": [
+          {
+            "campo": "titulo",
+            "texto": "processo para seleção de substrato sólido com base no derivado do esqueleto de organismo marinho otimizado para promoção de crescimento celular ou de tecido ou função restaurada, processo para conversão de substrato sólido subótimo em substrato sólido ",
+            "idioma": "pt",
+            "inicio": 0,
+            "fim": 252
+          },
+          {
+            "campo": "titulo",
+            "texto": "otimizado para promoção de crescimento celular ou de tecido ou função restaurada, substrato sólido e kit compreendendo o referido substrato sólido",
+            "idioma": "pt",
+            "inicio": 252,
+            "fim": 398
+          },
+          {
+            "campo": "resumo",
+            "texto": "absorção de fluido espontânea dividido por um valor de absorção de fluido total e processos para a seleção de um substrato sólido à base de derivado de esqueleto de organismo marinho otimizado para atenuar ou prevenir a adesão e/ou vascularização de ",
+            "idioma": "pt",
+            "inicio": 508,
+            "fim": 758
+          },
+          {
+            "campo": "resumo",
+            "texto": "lisura superficial substancial, tal como medido por microscopia eletrônica de varredura ou microscopia de força atômica. a invenção também fornece processos para a seleção de um substrato sólido à base de coral otimizado para atenuar ou prevenir a adesão ",
+            "idioma": "pt",
+            "inicio": 1265,
+            "fim": 1520
+          },
+          {
+            "campo": "resumo",
+            "texto": "e/ou vascularização de células ou tecidos e aplicações dos mesmos.",
+            "idioma": "pt",
+            "inicio": 1520,
+            "fim": 1586
+          }
+        ]
+      },
+      "elegivel_pipeline_completo": true,
+      "tipo": "cobertura_referencia_pendente",
+      "justificativa": "Não há meme correspondente na lista de referência atual. Mantida a mesma ressalva de cobertura do 08c: o papel de substrato/seleção como unidade central não foi individualmente adjudicado.",
+      "id_humano_correspondente": null,
+      "ressalva": "Não tratar falta de correspondência como erro semântico conclusivo; qualquer mudança da referência deverá reavaliar 08c e 08d igualmente.",
+      "pontuacao": "FP_operacional_condicional",
+      "autor_mapeamento": "assistente de IA",
+      "adjudicacao_humana_item_a_item": false
+    },
+    {
+      "id_comparacao": "50390156|adaptado|memes_tecnicos|meme_11",
+      "familia": "50390156",
+      "variante": "adaptado",
+      "grupo": "memes_tecnicos",
+      "item_modelo": {
+        "id": "meme_11",
+        "termo": "processo para conversão de substrato sólido subótimo em substrato sólido",
+        "idioma": "pt",
+        "evidencias": [
+          {
+            "campo": "titulo",
+            "texto": "processo para seleção de substrato sólido com base no derivado do esqueleto de organismo marinho otimizado para promoção de crescimento celular ou de tecido ou função restaurada, processo para conversão de substrato sólido subótimo em substrato sólido ",
+            "idioma": "pt",
+            "inicio": 0,
+            "fim": 252
+          }
+        ]
+      },
+      "elegivel_pipeline_completo": true,
+      "tipo": "escopo_e_evidencia_incompletos",
+      "justificativa": "Nomeia conversão como meme sem individualizar unidade técnica central e omite o estado otimizado de chegada. Cita só T001, antes do qualificador presente em T002.",
+      "id_humano_correspondente": null,
+      "ressalva": null,
+      "pontuacao": "FP_operacional_condicional",
+      "autor_mapeamento": "assistente de IA",
+      "adjudicacao_humana_item_a_item": false
+    },
+    {
+      "id_comparacao": "50390156|adaptado|funcoes|funcao_1",
+      "familia": "50390156",
+      "variante": "adaptado",
+      "grupo": "funcoes",
+      "item_modelo": {
+        "id": "funcao_1",
+        "termo": "atenuar ou prevenir a adesão e/ou vascularização de células ou de tecidos",
+        "idioma": "pt",
+        "evidencias": [
+          {
+            "campo": "resumo",
+            "texto": "resumo substratos sólidos para atenuar ou prevenir a adesão e vascularização de tecidos e células esta invenção fornece substratos sólidos para atenuar ou prevenir a adesão e/ou vascularização de células ou de tecidos, cujo substrato sólido compreende ",
+            "idioma": "pt",
+            "inicio": 0,
+            "fim": 254
+          },
+          {
+            "campo": "resumo",
+            "texto": "um derivado do esqueleto de organismo marinho e é caracterizado por um valor de capacidade de absorção específica de fluido inferior a 40%, cujo valor de capacidade de absorção específica de fluido é determinado através do estabelecimento de um valor de ",
+            "idioma": "pt",
+            "inicio": 254,
+            "fim": 508
+          },
+          {
+            "campo": "resumo",
+            "texto": "absorção de fluido espontânea dividido por um valor de absorção de fluido total e processos para a seleção de um substrato sólido à base de derivado de esqueleto de organismo marinho otimizado para atenuar ou prevenir a adesão e/ou vascularização de ",
+            "idioma": "pt",
+            "inicio": 508,
+            "fim": 758
+          },
+          {
+            "campo": "resumo",
+            "texto": "células ou tecidos e aplicações dos mesmos. esta invenção também fornece substratos sólidos para atenuar ou prevenir a adesão e/ou vascularização de células ou tecidos, cujo substrato sólido é caracterizado por ter um valor de ângulo de contato maior que ",
+            "idioma": "pt",
+            "inicio": 758,
+            "fim": 1013
+          },
+          {
+            "campo": "resumo",
+            "texto": "60 graus, quando em contato com um fluido. esta invenção também fornece substratos sólidos para atenuar ou prevenir a adesão e/ou vascularização de células ou tecidos, cujo substrato sólido é caracterizado por uma rugosidade superficial mínima (ra) ou ",
+            "idioma": "pt",
+            "inicio": 1013,
+            "fim": 1265
+          },
+          {
+            "campo": "resumo",
+            "texto": "lisura superficial substancial, tal como medido por microscopia eletrônica de varredura ou microscopia de força atômica. a invenção também fornece processos para a seleção de um substrato sólido à base de coral otimizado para atenuar ou prevenir a adesão ",
+            "idioma": "pt",
+            "inicio": 1265,
+            "fim": 1520
+          },
+          {
+            "campo": "resumo",
+            "texto": "e/ou vascularização de células ou tecidos e aplicações dos mesmos.",
+            "idioma": "pt",
+            "inicio": 1520,
+            "fim": 1586
+          }
+        ]
+      },
+      "elegivel_pipeline_completo": true,
+      "tipo": "correspondencia",
+      "justificativa": "Finalidade do resumo preserva atenuar OU prevenir, adesão E/OU vascularização e células/tecidos. Diferenças de preposição não alteram o conceito.",
+      "id_humano_correspondente": "funcao_2",
+      "ressalva": null,
+      "pontuacao": "TP_condicional",
+      "autor_mapeamento": "assistente de IA",
+      "adjudicacao_humana_item_a_item": false
+    },
+    {
+      "id_comparacao": "50390156|adaptado|funcoes|funcao_2",
+      "familia": "50390156",
+      "variante": "adaptado",
+      "grupo": "funcoes",
+      "item_modelo": {
+        "id": "funcao_2",
+        "termo": "fornecer substratos sólidos",
+        "idioma": "pt",
+        "evidencias": [
+          {
+            "campo": "resumo",
+            "texto": "resumo substratos sólidos para atenuar ou prevenir a adesão e vascularização de tecidos e células esta invenção fornece substratos sólidos para atenuar ou prevenir a adesão e/ou vascularização de células ou de tecidos, cujo substrato sólido compreende ",
+            "idioma": "pt",
+            "inicio": 0,
+            "fim": 254
+          },
+          {
+            "campo": "resumo",
+            "texto": "um derivado do esqueleto de organismo marinho e é caracterizado por um valor de capacidade de absorção específica de fluido inferior a 40%, cujo valor de capacidade de absorção específica de fluido é determinado através do estabelecimento de um valor de ",
+            "idioma": "pt",
+            "inicio": 254,
+            "fim": 508
+          },
+          {
+            "campo": "resumo",
+            "texto": "absorção de fluido espontânea dividido por um valor de absorção de fluido total e processos para a seleção de um substrato sólido à base de derivado de esqueleto de organismo marinho otimizado para atenuar ou prevenir a adesão e/ou vascularização de ",
+            "idioma": "pt",
+            "inicio": 508,
+            "fim": 758
+          },
+          {
+            "campo": "resumo",
+            "texto": "células ou tecidos e aplicações dos mesmos. esta invenção também fornece substratos sólidos para atenuar ou prevenir a adesão e/ou vascularização de células ou tecidos, cujo substrato sólido é caracterizado por ter um valor de ângulo de contato maior que ",
+            "idioma": "pt",
+            "inicio": 758,
+            "fim": 1013
+          },
+          {
+            "campo": "resumo",
+            "texto": "60 graus, quando em contato com um fluido. esta invenção também fornece substratos sólidos para atenuar ou prevenir a adesão e/ou vascularização de células ou tecidos, cujo substrato sólido é caracterizado por uma rugosidade superficial mínima (ra) ou ",
+            "idioma": "pt",
+            "inicio": 1013,
+            "fim": 1265
+          },
+          {
+            "campo": "resumo",
+            "texto": "lisura superficial substancial, tal como medido por microscopia eletrônica de varredura ou microscopia de força atômica. a invenção também fornece processos para a seleção de um substrato sólido à base de coral otimizado para atenuar ou prevenir a adesão ",
+            "idioma": "pt",
+            "inicio": 1265,
+            "fim": 1520
+          },
+          {
+            "campo": "resumo",
+            "texto": "e/ou vascularização de células ou tecidos e aplicações dos mesmos.",
+            "idioma": "pt",
+            "inicio": 1520,
+            "fim": 1586
+          }
+        ]
+      },
+      "elegivel_pipeline_completo": true,
+      "tipo": "categoria_fora_regra",
+      "justificativa": "“Fornecer substratos” reproduz a apresentação da invenção, sem recuperar a finalidade de crescimento/restauração do título.",
+      "id_humano_correspondente": null,
+      "ressalva": null,
+      "pontuacao": "FP_operacional_condicional",
+      "autor_mapeamento": "assistente de IA",
+      "adjudicacao_humana_item_a_item": false
+    },
+    {
+      "id_comparacao": "50390156|adaptado|materiais|material_1",
+      "familia": "50390156",
+      "variante": "adaptado",
+      "grupo": "materiais",
+      "item_modelo": {
+        "id": "material_1",
+        "termo": "substrato sólido",
+        "idioma": "pt",
+        "evidencias": [
+          {
+            "campo": "titulo",
+            "texto": "processo para seleção de substrato sólido com base no derivado do esqueleto de organismo marinho otimizado para promoção de crescimento celular ou de tecido ou função restaurada, processo para conversão de substrato sólido subótimo em substrato sólido ",
+            "idioma": "pt",
+            "inicio": 0,
+            "fim": 252
+          },
+          {
+            "campo": "titulo",
+            "texto": "otimizado para promoção de crescimento celular ou de tecido ou função restaurada, substrato sólido e kit compreendendo o referido substrato sólido",
+            "idioma": "pt",
+            "inicio": 252,
+            "fim": 398
+          },
+          {
+            "campo": "resumo",
+            "texto": "resumo substratos sólidos para atenuar ou prevenir a adesão e vascularização de tecidos e células esta invenção fornece substratos sólidos para atenuar ou prevenir a adesão e/ou vascularização de células ou de tecidos, cujo substrato sólido compreende ",
+            "idioma": "pt",
+            "inicio": 0,
+            "fim": 254
+          },
+          {
+            "campo": "resumo",
+            "texto": "um derivado do esqueleto de organismo marinho e é caracterizado por um valor de capacidade de absorção específica de fluido inferior a 40%, cujo valor de capacidade de absorção específica de fluido é determinado através do estabelecimento de um valor de ",
+            "idioma": "pt",
+            "inicio": 254,
+            "fim": 508
+          },
+          {
+            "campo": "resumo",
+            "texto": "absorção de fluido espontânea dividido por um valor de absorção de fluido total e processos para a seleção de um substrato sólido à base de derivado de esqueleto de organismo marinho otimizado para atenuar ou prevenir a adesão e/ou vascularização de ",
+            "idioma": "pt",
+            "inicio": 508,
+            "fim": 758
+          },
+          {
+            "campo": "resumo",
+            "texto": "células ou tecidos e aplicações dos mesmos. esta invenção também fornece substratos sólidos para atenuar ou prevenir a adesão e/ou vascularização de células ou tecidos, cujo substrato sólido é caracterizado por ter um valor de ângulo de contato maior que ",
+            "idioma": "pt",
+            "inicio": 758,
+            "fim": 1013
+          },
+          {
+            "campo": "resumo",
+            "texto": "60 graus, quando em contato com um fluido. esta invenção também fornece substratos sólidos para atenuar ou prevenir a adesão e/ou vascularização de células ou tecidos, cujo substrato sólido é caracterizado por uma rugosidade superficial mínima (ra) ou ",
+            "idioma": "pt",
+            "inicio": 1013,
+            "fim": 1265
+          },
+          {
+            "campo": "resumo",
+            "texto": "lisura superficial substancial, tal como medido por microscopia eletrônica de varredura ou microscopia de força atômica. a invenção também fornece processos para a seleção de um substrato sólido à base de coral otimizado para atenuar ou prevenir a adesão ",
+            "idioma": "pt",
+            "inicio": 1265,
+            "fim": 1520
+          },
+          {
+            "campo": "resumo",
+            "texto": "e/ou vascularização de células ou tecidos e aplicações dos mesmos.",
+            "idioma": "pt",
+            "inicio": 1520,
+            "fim": 1586
+          }
+        ]
+      },
+      "elegivel_pipeline_completo": true,
+      "tipo": "correspondencia",
+      "justificativa": "Substrato sólido registrado separadamente de sua matéria de origem; evidências contextualizam o suporte.",
+      "id_humano_correspondente": "material_1",
+      "ressalva": null,
+      "pontuacao": "TP_condicional",
+      "autor_mapeamento": "assistente de IA",
+      "adjudicacao_humana_item_a_item": false
+    },
+    {
+      "id_comparacao": "50390156|adaptado|materiais|material_2",
+      "familia": "50390156",
+      "variante": "adaptado",
+      "grupo": "materiais",
+      "item_modelo": {
+        "id": "material_2",
+        "termo": "derivado do esqueleto de organismo marinho",
+        "idioma": "pt",
+        "evidencias": [
+          {
+            "campo": "titulo",
+            "texto": "processo para seleção de substrato sólido com base no derivado do esqueleto de organismo marinho otimizado para promoção de crescimento celular ou de tecido ou função restaurada, processo para conversão de substrato sólido subótimo em substrato sólido ",
+            "idioma": "pt",
+            "inicio": 0,
+            "fim": 252
+          },
+          {
+            "campo": "titulo",
+            "texto": "otimizado para promoção de crescimento celular ou de tecido ou função restaurada, substrato sólido e kit compreendendo o referido substrato sólido",
+            "idioma": "pt",
+            "inicio": 252,
+            "fim": 398
+          },
+          {
+            "campo": "resumo",
+            "texto": "resumo substratos sólidos para atenuar ou prevenir a adesão e vascularização de tecidos e células esta invenção fornece substratos sólidos para atenuar ou prevenir a adesão e/ou vascularização de células ou de tecidos, cujo substrato sólido compreende ",
+            "idioma": "pt",
+            "inicio": 0,
+            "fim": 254
+          },
+          {
+            "campo": "resumo",
+            "texto": "um derivado do esqueleto de organismo marinho e é caracterizado por um valor de capacidade de absorção específica de fluido inferior a 40%, cujo valor de capacidade de absorção específica de fluido é determinado através do estabelecimento de um valor de ",
+            "idioma": "pt",
+            "inicio": 254,
+            "fim": 508
+          },
+          {
+            "campo": "resumo",
+            "texto": "absorção de fluido espontânea dividido por um valor de absorção de fluido total e processos para a seleção de um substrato sólido à base de derivado de esqueleto de organismo marinho otimizado para atenuar ou prevenir a adesão e/ou vascularização de ",
+            "idioma": "pt",
+            "inicio": 508,
+            "fim": 758
+          },
+          {
+            "campo": "resumo",
+            "texto": "células ou tecidos e aplicações dos mesmos. esta invenção também fornece substratos sólidos para atenuar ou prevenir a adesão e/ou vascularização de células ou tecidos, cujo substrato sólido é caracterizado por ter um valor de ângulo de contato maior que ",
+            "idioma": "pt",
+            "inicio": 758,
+            "fim": 1013
+          },
+          {
+            "campo": "resumo",
+            "texto": "60 graus, quando em contato com um fluido. esta invenção também fornece substratos sólidos para atenuar ou prevenir a adesão e/ou vascularização de células ou tecidos, cujo substrato sólido é caracterizado por uma rugosidade superficial mínima (ra) ou ",
+            "idioma": "pt",
+            "inicio": 1013,
+            "fim": 1265
+          },
+          {
+            "campo": "resumo",
+            "texto": "lisura superficial substancial, tal como medido por microscopia eletrônica de varredura ou microscopia de força atômica. a invenção também fornece processos para a seleção de um substrato sólido à base de coral otimizado para atenuar ou prevenir a adesão ",
+            "idioma": "pt",
+            "inicio": 1265,
+            "fim": 1520
+          },
+          {
+            "campo": "resumo",
+            "texto": "e/ou vascularização de células ou tecidos e aplicações dos mesmos.",
+            "idioma": "pt",
+            "inicio": 1520,
+            "fim": 1586
+          }
+        ]
+      },
+      "elegivel_pipeline_completo": true,
+      "tipo": "correspondencia",
+      "justificativa": "Derivado do esqueleto de organismo marinho registrado como matéria de origem distinta.",
+      "id_humano_correspondente": "material_2",
+      "ressalva": null,
+      "pontuacao": "TP_condicional",
+      "autor_mapeamento": "assistente de IA",
+      "adjudicacao_humana_item_a_item": false
+    },
+    {
+      "id_comparacao": "50390156|adaptado|processos|processo_1",
+      "familia": "50390156",
+      "variante": "adaptado",
+      "grupo": "processos",
+      "item_modelo": {
+        "id": "processo_1",
+        "termo": "seleção de substrato sólido",
+        "idioma": "pt",
+        "evidencias": [
+          {
+            "campo": "titulo",
+            "texto": "processo para seleção de substrato sólido com base no derivado do esqueleto de organismo marinho otimizado para promoção de crescimento celular ou de tecido ou função restaurada, processo para conversão de substrato sólido subótimo em substrato sólido ",
+            "idioma": "pt",
+            "inicio": 0,
+            "fim": 252
+          },
+          {
+            "campo": "titulo",
+            "texto": "otimizado para promoção de crescimento celular ou de tecido ou função restaurada, substrato sólido e kit compreendendo o referido substrato sólido",
+            "idioma": "pt",
+            "inicio": 252,
+            "fim": 398
+          },
+          {
+            "campo": "resumo",
+            "texto": "absorção de fluido espontânea dividido por um valor de absorção de fluido total e processos para a seleção de um substrato sólido à base de derivado de esqueleto de organismo marinho otimizado para atenuar ou prevenir a adesão e/ou vascularização de ",
+            "idioma": "pt",
+            "inicio": 508,
+            "fim": 758
+          },
+          {
+            "campo": "resumo",
+            "texto": "lisura superficial substancial, tal como medido por microscopia eletrônica de varredura ou microscopia de força atômica. a invenção também fornece processos para a seleção de um substrato sólido à base de coral otimizado para atenuar ou prevenir a adesão ",
+            "idioma": "pt",
+            "inicio": 1265,
+            "fim": 1520
+          },
+          {
+            "campo": "resumo",
+            "texto": "e/ou vascularização de células ou tecidos e aplicações dos mesmos.",
+            "idioma": "pt",
+            "inicio": 1520,
+            "fim": 1586
+          }
+        ]
+      },
+      "elegivel_pipeline_completo": true,
+      "tipo": "correspondencia",
+      "justificativa": "Seleção do substrato: mesmo procedimento e contexto, sem alterar modalidade.",
+      "id_humano_correspondente": "processo_1",
+      "ressalva": null,
+      "pontuacao": "TP_condicional",
+      "autor_mapeamento": "assistente de IA",
+      "adjudicacao_humana_item_a_item": false
+    },
+    {
+      "id_comparacao": "50390156|adaptado|processos|processo_2",
+      "familia": "50390156",
+      "variante": "adaptado",
+      "grupo": "processos",
+      "item_modelo": {
+        "id": "processo_2",
+        "termo": "conversão de substrato sólido subótimo em substrato sólido",
+        "idioma": "pt",
+        "evidencias": [
+          {
+            "campo": "titulo",
+            "texto": "processo para seleção de substrato sólido com base no derivado do esqueleto de organismo marinho otimizado para promoção de crescimento celular ou de tecido ou função restaurada, processo para conversão de substrato sólido subótimo em substrato sólido ",
+            "idioma": "pt",
+            "inicio": 0,
+            "fim": 252
+          }
+        ]
+      },
+      "elegivel_pipeline_completo": true,
+      "tipo": "escopo_e_evidencia_incompletos",
+      "justificativa": "A referência exige conversão de subótimo EM otimizado. Tanto o termo quanto a única evidência T001 terminam antes de “otimizado” em T002. Não é abreviação desambiguada pela evidência; não completar com trecho não citado.",
+      "id_humano_correspondente": null,
+      "ressalva": "Correspondência parcial visível, mas sem crédito integral. Não se acrescentou a citação T002 automaticamente.",
+      "pontuacao": "FP_operacional_condicional",
+      "autor_mapeamento": "assistente de IA",
+      "adjudicacao_humana_item_a_item": false
+    },
+    {
+      "id_comparacao": "50390156|adaptado|pares_convergencia|par_1",
+      "familia": "50390156",
+      "variante": "adaptado",
+      "grupo": "pares_convergencia",
+      "item_modelo": {
+        "id": "par_1",
+        "memes": [
+          "meme_1",
+          "meme_2"
+        ],
+        "evidencias": [
+          {
+            "campo": "titulo",
+            "texto": "processo para seleção de substrato sólido com base no derivado do esqueleto de organismo marinho otimizado para promoção de crescimento celular ou de tecido ou função restaurada, processo para conversão de substrato sólido subótimo em substrato sólido ",
+            "idioma": "pt",
+            "inicio": 0,
+            "fim": 252
+          },
+          {
+            "campo": "titulo",
+            "texto": "otimizado para promoção de crescimento celular ou de tecido ou função restaurada, substrato sólido e kit compreendendo o referido substrato sólido",
+            "idioma": "pt",
+            "inicio": 252,
+            "fim": 398
+          },
+          {
+            "campo": "resumo",
+            "texto": "resumo substratos sólidos para atenuar ou prevenir a adesão e vascularização de tecidos e células esta invenção fornece substratos sólidos para atenuar ou prevenir a adesão e/ou vascularização de células ou de tecidos, cujo substrato sólido compreende ",
+            "idioma": "pt",
+            "inicio": 0,
+            "fim": 254
+          },
+          {
+            "campo": "resumo",
+            "texto": "um derivado do esqueleto de organismo marinho e é caracterizado por um valor de capacidade de absorção específica de fluido inferior a 40%, cujo valor de capacidade de absorção específica de fluido é determinado através do estabelecimento de um valor de ",
+            "idioma": "pt",
+            "inicio": 254,
+            "fim": 508
+          },
+          {
+            "campo": "resumo",
+            "texto": "absorção de fluido espontânea dividido por um valor de absorção de fluido total e processos para a seleção de um substrato sólido à base de derivado de esqueleto de organismo marinho otimizado para atenuar ou prevenir a adesão e/ou vascularização de ",
+            "idioma": "pt",
+            "inicio": 508,
+            "fim": 758
+          },
+          {
+            "campo": "resumo",
+            "texto": "células ou tecidos e aplicações dos mesmos. esta invenção também fornece substratos sólidos para atenuar ou prevenir a adesão e/ou vascularização de células ou tecidos, cujo substrato sólido é caracterizado por ter um valor de ângulo de contato maior que ",
+            "idioma": "pt",
+            "inicio": 758,
+            "fim": 1013
+          },
+          {
+            "campo": "resumo",
+            "texto": "60 graus, quando em contato com um fluido. esta invenção também fornece substratos sólidos para atenuar ou prevenir a adesão e/ou vascularização de células ou tecidos, cujo substrato sólido é caracterizado por uma rugosidade superficial mínima (ra) ou ",
+            "idioma": "pt",
+            "inicio": 1013,
+            "fim": 1265
+          },
+          {
+            "campo": "resumo",
+            "texto": "lisura superficial substancial, tal como medido por microscopia eletrônica de varredura ou microscopia de força atômica. a invenção também fornece processos para a seleção de um substrato sólido à base de coral otimizado para atenuar ou prevenir a adesão ",
+            "idioma": "pt",
+            "inicio": 1265,
+            "fim": 1520
+          },
+          {
+            "campo": "resumo",
+            "texto": "e/ou vascularização de células ou tecidos e aplicações dos mesmos.",
+            "idioma": "pt",
+            "inicio": 1520,
+            "fim": 1586
+          }
+        ]
+      },
+      "elegivel_pipeline_completo": true,
+      "tipo": "convergencia_nao_sustentada",
+      "justificativa": "Relação entre suporte e matéria de origem não demonstra por si só integração de tecnologias distintas.",
+      "id_humano_correspondente": null,
+      "ressalva": null,
+      "pontuacao": "FP_operacional_condicional",
+      "autor_mapeamento": "assistente de IA",
+      "adjudicacao_humana_item_a_item": false
+    },
+    {
+      "id_comparacao": "50390156|adaptado|pares_convergencia|par_2",
+      "familia": "50390156",
+      "variante": "adaptado",
+      "grupo": "pares_convergencia",
+      "item_modelo": {
+        "id": "par_2",
+        "memes": [
+          "meme_1",
+          "meme_10"
+        ],
+        "evidencias": [
+          {
+            "campo": "titulo",
+            "texto": "processo para seleção de substrato sólido com base no derivado do esqueleto de organismo marinho otimizado para promoção de crescimento celular ou de tecido ou função restaurada, processo para conversão de substrato sólido subótimo em substrato sólido ",
+            "idioma": "pt",
+            "inicio": 0,
+            "fim": 252
+          },
+          {
+            "campo": "titulo",
+            "texto": "otimizado para promoção de crescimento celular ou de tecido ou função restaurada, substrato sólido e kit compreendendo o referido substrato sólido",
+            "idioma": "pt",
+            "inicio": 252,
+            "fim": 398
+          },
+          {
+            "campo": "resumo",
+            "texto": "absorção de fluido espontânea dividido por um valor de absorção de fluido total e processos para a seleção de um substrato sólido à base de derivado de esqueleto de organismo marinho otimizado para atenuar ou prevenir a adesão e/ou vascularização de ",
+            "idioma": "pt",
+            "inicio": 508,
+            "fim": 758
+          },
+          {
+            "campo": "resumo",
+            "texto": "lisura superficial substancial, tal como medido por microscopia eletrônica de varredura ou microscopia de força atômica. a invenção também fornece processos para a seleção de um substrato sólido à base de coral otimizado para atenuar ou prevenir a adesão ",
+            "idioma": "pt",
+            "inicio": 1265,
+            "fim": 1520
+          },
+          {
+            "campo": "resumo",
+            "texto": "e/ou vascularização de células ou tecidos e aplicações dos mesmos.",
+            "idioma": "pt",
+            "inicio": 1520,
+            "fim": 1586
+          }
+        ]
+      },
+      "elegivel_pipeline_completo": true,
+      "tipo": "convergencia_nao_sustentada",
+      "justificativa": "Relação objeto/operação de seleção, sem integração tecnológica adicional demonstrada.",
+      "id_humano_correspondente": null,
+      "ressalva": null,
+      "pontuacao": "FP_operacional_condicional",
+      "autor_mapeamento": "assistente de IA",
+      "adjudicacao_humana_item_a_item": false
+    },
+    {
+      "id_comparacao": "50390156|adaptado|pares_convergencia|par_3",
+      "familia": "50390156",
+      "variante": "adaptado",
+      "grupo": "pares_convergencia",
+      "item_modelo": {
+        "id": "par_3",
+        "memes": [
+          "meme_1",
+          "meme_7"
+        ],
+        "evidencias": [
+          {
+            "campo": "resumo",
+            "texto": "60 graus, quando em contato com um fluido. esta invenção também fornece substratos sólidos para atenuar ou prevenir a adesão e/ou vascularização de células ou tecidos, cujo substrato sólido é caracterizado por uma rugosidade superficial mínima (ra) ou ",
+            "idioma": "pt",
+            "inicio": 1013,
+            "fim": 1265
+          },
+          {
+            "campo": "resumo",
+            "texto": "lisura superficial substancial, tal como medido por microscopia eletrônica de varredura ou microscopia de força atômica. a invenção também fornece processos para a seleção de um substrato sólido à base de coral otimizado para atenuar ou prevenir a adesão ",
+            "idioma": "pt",
+            "inicio": 1265,
+            "fim": 1520
+          }
+        ]
+      },
+      "elegivel_pipeline_completo": true,
+      "tipo": "convergencia_nao_sustentada",
+      "justificativa": "Une substrato à sua propriedade de rugosidade; não constitui convergência pelos critérios D1–D5.",
+      "id_humano_correspondente": null,
+      "ressalva": null,
+      "pontuacao": "FP_operacional_condicional",
+      "autor_mapeamento": "assistente de IA",
+      "adjudicacao_humana_item_a_item": false
+    },
+    {
+      "id_comparacao": "50390156|adaptado|pares_convergencia|par_4",
+      "familia": "50390156",
+      "variante": "adaptado",
+      "grupo": "pares_convergencia",
+      "item_modelo": {
+        "id": "par_4",
+        "memes": [
+          "meme_3",
+          "meme_4"
+        ],
+        "evidencias": [
+          {
+            "campo": "resumo",
+            "texto": "um derivado do esqueleto de organismo marinho e é caracterizado por um valor de capacidade de absorção específica de fluido inferior a 40%, cujo valor de capacidade de absorção específica de fluido é determinado através do estabelecimento de um valor de ",
+            "idioma": "pt",
+            "inicio": 254,
+            "fim": 508
+          },
+          {
+            "campo": "resumo",
+            "texto": "absorção de fluido espontânea dividido por um valor de absorção de fluido total e processos para a seleção de um substrato sólido à base de derivado de esqueleto de organismo marinho otimizado para atenuar ou prevenir a adesão e/ou vascularização de ",
+            "idioma": "pt",
+            "inicio": 508,
+            "fim": 758
+          }
+        ]
+      },
+      "elegivel_pipeline_completo": true,
+      "tipo": "convergencia_nao_sustentada",
+      "justificativa": "Une a propriedade de absorção aos valores usados em sua determinação; relação quantitativa/definicional, não integração de tecnologias.",
+      "id_humano_correspondente": null,
+      "ressalva": null,
+      "pontuacao": "FP_operacional_condicional",
+      "autor_mapeamento": "assistente de IA",
+      "adjudicacao_humana_item_a_item": false
+    },
+    {
+      "id_comparacao": "50390156|adaptado|pares_convergencia|par_5",
+      "familia": "50390156",
+      "variante": "adaptado",
+      "grupo": "pares_convergencia",
+      "item_modelo": {
+        "id": "par_5",
+        "memes": [
+          "meme_3",
+          "meme_5"
+        ],
+        "evidencias": [
+          {
+            "campo": "resumo",
+            "texto": "um derivado do esqueleto de organismo marinho e é caracterizado por um valor de capacidade de absorção específica de fluido inferior a 40%, cujo valor de capacidade de absorção específica de fluido é determinado através do estabelecimento de um valor de ",
+            "idioma": "pt",
+            "inicio": 254,
+            "fim": 508
+          },
+          {
+            "campo": "resumo",
+            "texto": "absorção de fluido espontânea dividido por um valor de absorção de fluido total e processos para a seleção de um substrato sólido à base de derivado de esqueleto de organismo marinho otimizado para atenuar ou prevenir a adesão e/ou vascularização de ",
+            "idioma": "pt",
+            "inicio": 508,
+            "fim": 758
+          }
+        ]
+      },
+      "elegivel_pipeline_completo": true,
+      "tipo": "convergencia_nao_sustentada",
+      "justificativa": "Une a propriedade de absorção aos valores usados em sua determinação; relação quantitativa/definicional, não integração de tecnologias.",
+      "id_humano_correspondente": null,
+      "ressalva": null,
+      "pontuacao": "FP_operacional_condicional",
+      "autor_mapeamento": "assistente de IA",
+      "adjudicacao_humana_item_a_item": false
+    },
+    {
+      "id_comparacao": "50390156|adaptado|pares_convergencia|par_6",
+      "familia": "50390156",
+      "variante": "adaptado",
+      "grupo": "pares_convergencia",
+      "item_modelo": {
+        "id": "par_6",
+        "memes": [
+          "meme_6",
+          "meme_7"
+        ],
+        "evidencias": [
+          {
+            "campo": "resumo",
+            "texto": "células ou tecidos e aplicações dos mesmos. esta invenção também fornece substratos sólidos para atenuar ou prevenir a adesão e/ou vascularização de células ou tecidos, cujo substrato sólido é caracterizado por ter um valor de ângulo de contato maior que ",
+            "idioma": "pt",
+            "inicio": 758,
+            "fim": 1013
+          },
+          {
+            "campo": "resumo",
+            "texto": "60 graus, quando em contato com um fluido. esta invenção também fornece substratos sólidos para atenuar ou prevenir a adesão e/ou vascularização de células ou tecidos, cujo substrato sólido é caracterizado por uma rugosidade superficial mínima (ra) ou ",
+            "idioma": "pt",
+            "inicio": 1013,
+            "fim": 1265
+          },
+          {
+            "campo": "resumo",
+            "texto": "lisura superficial substancial, tal como medido por microscopia eletrônica de varredura ou microscopia de força atômica. a invenção também fornece processos para a seleção de um substrato sólido à base de coral otimizado para atenuar ou prevenir a adesão ",
+            "idioma": "pt",
+            "inicio": 1265,
+            "fim": 1520
+          }
+        ]
+      },
+      "elegivel_pipeline_completo": true,
+      "tipo": "convergencia_nao_sustentada",
+      "justificativa": "Ângulo e rugosidade são características, não duas tecnologias integradas no texto.",
+      "id_humano_correspondente": null,
+      "ressalva": null,
+      "pontuacao": "FP_operacional_condicional",
+      "autor_mapeamento": "assistente de IA",
+      "adjudicacao_humana_item_a_item": false
+    },
+    {
+      "id_comparacao": "50390156|adaptado|pares_convergencia|par_7",
+      "familia": "50390156",
+      "variante": "adaptado",
+      "grupo": "pares_convergencia",
+      "item_modelo": {
+        "id": "par_7",
+        "memes": [
+          "meme_8",
+          "meme_9"
+        ],
+        "evidencias": [
+          {
+            "campo": "resumo",
+            "texto": "lisura superficial substancial, tal como medido por microscopia eletrônica de varredura ou microscopia de força atômica. a invenção também fornece processos para a seleção de um substrato sólido à base de coral otimizado para atenuar ou prevenir a adesão ",
+            "idioma": "pt",
+            "inicio": 1265,
+            "fim": 1520
+          }
+        ]
+      },
+      "elegivel_pipeline_completo": true,
+      "tipo": "convergencia_nao_sustentada",
+      "justificativa": "As duas microscopias são alternativas de medição ligadas por OU; o texto não afirma seu uso integrado.",
+      "id_humano_correspondente": null,
+      "ressalva": null,
+      "pontuacao": "FP_operacional_condicional",
+      "autor_mapeamento": "assistente de IA",
+      "adjudicacao_humana_item_a_item": false
+    },
+    {
+      "id_comparacao": "50390156|adaptado|pares_convergencia|par_8",
+      "familia": "50390156",
+      "variante": "adaptado",
+      "grupo": "pares_convergencia",
+      "item_modelo": {
+        "id": "par_8",
+        "memes": [
+          "meme_10",
+          "meme_11"
+        ],
+        "evidencias": [
+          {
+            "campo": "titulo",
+            "texto": "processo para seleção de substrato sólido com base no derivado do esqueleto de organismo marinho otimizado para promoção de crescimento celular ou de tecido ou função restaurada, processo para conversão de substrato sólido subótimo em substrato sólido ",
+            "idioma": "pt",
+            "inicio": 0,
+            "fim": 252
+          }
+        ]
+      },
+      "elegivel_pipeline_completo": true,
+      "tipo": "convergencia_nao_sustentada",
+      "justificativa": "Seleção e conversão são operações mencionadas separadamente; o título não estabelece integração entre elas.",
+      "id_humano_correspondente": null,
+      "ressalva": null,
+      "pontuacao": "FP_operacional_condicional",
+      "autor_mapeamento": "assistente de IA",
+      "adjudicacao_humana_item_a_item": false
+    },
+    {
+      "id_comparacao": "50390156|adaptado|efeitos|efeito_1",
+      "familia": "50390156",
+      "variante": "adaptado",
+      "grupo": "efeitos",
+      "item_modelo": {
+        "id": "efeito_1",
+        "descricao": "prevenção da adesão e vascularização de células ou tecidos",
+        "idioma": "pt",
+        "categoria": "outro",
+        "relacionado_a": [
+          "meme_1",
+          "funcao_1"
+        ],
+        "evidencias": [
+          {
+            "campo": "resumo",
+            "texto": "resumo substratos sólidos para atenuar ou prevenir a adesão e vascularização de tecidos e células esta invenção fornece substratos sólidos para atenuar ou prevenir a adesão e/ou vascularização de células ou de tecidos, cujo substrato sólido compreende ",
+            "idioma": "pt",
+            "inicio": 0,
+            "fim": 254
+          },
+          {
+            "campo": "resumo",
+            "texto": "um derivado do esqueleto de organismo marinho e é caracterizado por um valor de capacidade de absorção específica de fluido inferior a 40%, cujo valor de capacidade de absorção específica de fluido é determinado através do estabelecimento de um valor de ",
+            "idioma": "pt",
+            "inicio": 254,
+            "fim": 508
+          },
+          {
+            "campo": "resumo",
+            "texto": "absorção de fluido espontânea dividido por um valor de absorção de fluido total e processos para a seleção de um substrato sólido à base de derivado de esqueleto de organismo marinho otimizado para atenuar ou prevenir a adesão e/ou vascularização de ",
+            "idioma": "pt",
+            "inicio": 508,
+            "fim": 758
+          },
+          {
+            "campo": "resumo",
+            "texto": "células ou tecidos e aplicações dos mesmos. esta invenção também fornece substratos sólidos para atenuar ou prevenir a adesão e/ou vascularização de células ou tecidos, cujo substrato sólido é caracterizado por ter um valor de ângulo de contato maior que ",
+            "idioma": "pt",
+            "inicio": 758,
+            "fim": 1013
+          },
+          {
+            "campo": "resumo",
+            "texto": "60 graus, quando em contato com um fluido. esta invenção também fornece substratos sólidos para atenuar ou prevenir a adesão e/ou vascularização de células ou tecidos, cujo substrato sólido é caracterizado por uma rugosidade superficial mínima (ra) ou ",
+            "idioma": "pt",
+            "inicio": 1013,
+            "fim": 1265
+          },
+          {
+            "campo": "resumo",
+            "texto": "lisura superficial substancial, tal como medido por microscopia eletrônica de varredura ou microscopia de força atômica. a invenção também fornece processos para a seleção de um substrato sólido à base de coral otimizado para atenuar ou prevenir a adesão ",
+            "idioma": "pt",
+            "inicio": 1265,
+            "fim": 1520
+          },
+          {
+            "campo": "resumo",
+            "texto": "e/ou vascularização de células ou tecidos e aplicações dos mesmos.",
+            "idioma": "pt",
+            "inicio": 1520,
+            "fim": 1586
+          }
+        ]
+      },
+      "elegivel_pipeline_completo": true,
+      "tipo": "finalidade_em_vez_de_resultado",
+      "justificativa": "D4 mantém essas finalidades apenas em funções, sem duplicação automática em efeitos. Categoria “outro” evita o erro de custo/eficiência, mas não transforma finalidade em resultado alegado.",
+      "id_humano_correspondente": null,
+      "ressalva": null,
+      "pontuacao": "FP_operacional_condicional",
+      "autor_mapeamento": "assistente de IA",
+      "adjudicacao_humana_item_a_item": false
+    },
+    {
+      "id_comparacao": "50390156|adaptado|efeitos|efeito_2",
+      "familia": "50390156",
+      "variante": "adaptado",
+      "grupo": "efeitos",
+      "item_modelo": {
+        "id": "efeito_2",
+        "descricao": "fornecer substratos sólidos para promoção de crescimento celular ou tecido",
+        "idioma": "pt",
+        "categoria": "outro",
+        "relacionado_a": [
+          "meme_1",
+          "funcao_2"
+        ],
+        "evidencias": [
+          {
+            "campo": "resumo",
+            "texto": "resumo substratos sólidos para atenuar ou prevenir a adesão e vascularização de tecidos e células esta invenção fornece substratos sólidos para atenuar ou prevenir a adesão e/ou vascularização de células ou de tecidos, cujo substrato sólido compreende ",
+            "idioma": "pt",
+            "inicio": 0,
+            "fim": 254
+          },
+          {
+            "campo": "resumo",
+            "texto": "um derivado do esqueleto de organismo marinho e é caracterizado por um valor de capacidade de absorção específica de fluido inferior a 40%, cujo valor de capacidade de absorção específica de fluido é determinado através do estabelecimento de um valor de ",
+            "idioma": "pt",
+            "inicio": 254,
+            "fim": 508
+          },
+          {
+            "campo": "resumo",
+            "texto": "absorção de fluido espontânea dividido por um valor de absorção de fluido total e processos para a seleção de um substrato sólido à base de derivado de esqueleto de organismo marinho otimizado para atenuar ou prevenir a adesão e/ou vascularização de ",
+            "idioma": "pt",
+            "inicio": 508,
+            "fim": 758
+          },
+          {
+            "campo": "resumo",
+            "texto": "células ou tecidos e aplicações dos mesmos. esta invenção também fornece substratos sólidos para atenuar ou prevenir a adesão e/ou vascularização de células ou tecidos, cujo substrato sólido é caracterizado por ter um valor de ângulo de contato maior que ",
+            "idioma": "pt",
+            "inicio": 758,
+            "fim": 1013
+          },
+          {
+            "campo": "resumo",
+            "texto": "60 graus, quando em contato com um fluido. esta invenção também fornece substratos sólidos para atenuar ou prevenir a adesão e/ou vascularização de células ou tecidos, cujo substrato sólido é caracterizado por uma rugosidade superficial mínima (ra) ou ",
+            "idioma": "pt",
+            "inicio": 1013,
+            "fim": 1265
+          },
+          {
+            "campo": "resumo",
+            "texto": "lisura superficial substancial, tal como medido por microscopia eletrônica de varredura ou microscopia de força atômica. a invenção também fornece processos para a seleção de um substrato sólido à base de coral otimizado para atenuar ou prevenir a adesão ",
+            "idioma": "pt",
+            "inicio": 1265,
+            "fim": 1520
+          },
+          {
+            "campo": "resumo",
+            "texto": "e/ou vascularização de células ou tecidos e aplicações dos mesmos.",
+            "idioma": "pt",
+            "inicio": 1520,
+            "fim": 1586
+          }
+        ]
+      },
+      "elegivel_pipeline_completo": true,
+      "tipo": "finalidade_em_vez_de_resultado",
+      "justificativa": "D4 mantém essas finalidades apenas em funções, sem duplicação automática em efeitos. Categoria “outro” evita o erro de custo/eficiência, mas não transforma finalidade em resultado alegado.",
+      "id_humano_correspondente": null,
+      "ressalva": null,
+      "pontuacao": "FP_operacional_condicional",
+      "autor_mapeamento": "assistente de IA",
+      "adjudicacao_humana_item_a_item": false
+    }
+  ],
+  "cobertura": [
+    {
+      "variante": "base",
+      "familia": "68698300",
+      "grupo": "funcoes",
+      "id_humano": "funcao_1",
+      "descricao": "prevenção ou tratamento de doenças associadas à modulação da autofagia",
+      "comparacao": "68698300|base|funcoes|funcao_1",
+      "estado": "recuperado"
+    },
+    {
+      "variante": "base",
+      "familia": "68698300",
+      "grupo": "materiais",
+      "id_humano": "material_1",
+      "descricao": "composição farmacêutica",
+      "comparacao": "68698300|base|materiais|material_2",
+      "estado": "recuperado"
+    },
+    {
+      "variante": "base",
+      "familia": "68698300",
+      "grupo": "materiais",
+      "id_humano": "material_2",
+      "descricao": "novo composto",
+      "comparacao": "68698300|base|materiais|material_1",
+      "estado": "recuperado"
+    },
+    {
+      "variante": "base",
+      "familia": "68698300",
+      "grupo": "materiais",
+      "id_humano": "material_3",
+      "descricao": "sal farmaceuticamente aceitável do composto",
+      "comparacao": null,
+      "estado": "nao_recuperado_integralmente"
+    },
+    {
+      "variante": "base",
+      "familia": "68698300",
+      "grupo": "efeitos",
+      "id_humano": "efeito_1",
+      "descricao": "eficazmente útil para a(o) prevenção ou tratamento de doenças associadas à modulação da autofagia",
+      "comparacao": null,
+      "estado": "nao_recuperado_integralmente"
+    },
+    {
+      "variante": "base",
+      "familia": "50390156",
+      "grupo": "memes_tecnicos",
+      "id_humano": "meme_1",
+      "descricao": "derivado do esqueleto de organismo marinho",
+      "comparacao": "50390156|base|memes_tecnicos|meme_1",
+      "estado": "recuperado"
+    },
+    {
+      "variante": "base",
+      "familia": "50390156",
+      "grupo": "funcoes",
+      "id_humano": "funcao_1",
+      "descricao": "promoção de crescimento celular ou de tecido ou função restaurada",
+      "comparacao": null,
+      "estado": "nao_recuperado_integralmente"
+    },
+    {
+      "variante": "base",
+      "familia": "50390156",
+      "grupo": "funcoes",
+      "id_humano": "funcao_2",
+      "descricao": "atenuar ou prevenir a adesão e/ou vascularização de células ou de tecidos",
+      "comparacao": "50390156|base|funcoes|funcao_1",
+      "estado": "recuperado"
+    },
+    {
+      "variante": "base",
+      "familia": "50390156",
+      "grupo": "materiais",
+      "id_humano": "material_1",
+      "descricao": "substrato sólido",
+      "comparacao": "50390156|base|materiais|material_1",
+      "estado": "recuperado"
+    },
+    {
+      "variante": "base",
+      "familia": "50390156",
+      "grupo": "materiais",
+      "id_humano": "material_2",
+      "descricao": "derivado do esqueleto de organismo marinho",
+      "comparacao": "50390156|base|materiais|material_2",
+      "estado": "recuperado"
+    },
+    {
+      "variante": "base",
+      "familia": "50390156",
+      "grupo": "processos",
+      "id_humano": "processo_1",
+      "descricao": "processo para seleção de substrato sólido com base no derivado do esqueleto de organismo marinho",
+      "comparacao": "50390156|base|processos|processo_1",
+      "estado": "recuperado"
+    },
+    {
+      "variante": "base",
+      "familia": "50390156",
+      "grupo": "processos",
+      "id_humano": "processo_2",
+      "descricao": "determinação do valor de capacidade de absorção específica de fluido",
+      "comparacao": "50390156|base|processos|processo_2",
+      "estado": "recuperado"
+    },
+    {
+      "variante": "base",
+      "familia": "50390156",
+      "grupo": "processos",
+      "id_humano": "processo_3",
+      "descricao": "medição de rugosidade superficial",
+      "comparacao": null,
+      "estado": "nao_recuperado_integralmente"
+    },
+    {
+      "variante": "base",
+      "familia": "50390156",
+      "grupo": "processos",
+      "id_humano": "processo_4",
+      "descricao": "conversão de substrato sólido subótimo em substrato sólido otimizado",
+      "comparacao": null,
+      "estado": "nao_recuperado_integralmente"
+    },
+    {
+      "variante": "adaptado",
+      "familia": "68698300",
+      "grupo": "funcoes",
+      "id_humano": "funcao_1",
+      "descricao": "prevenção ou tratamento de doenças associadas à modulação da autofagia",
+      "comparacao": "68698300|adaptado|funcoes|funcao_1",
+      "estado": "recuperado"
+    },
+    {
+      "variante": "adaptado",
+      "familia": "68698300",
+      "grupo": "materiais",
+      "id_humano": "material_1",
+      "descricao": "composição farmacêutica",
+      "comparacao": null,
+      "estado": "nao_recuperado_integralmente"
+    },
+    {
+      "variante": "adaptado",
+      "familia": "68698300",
+      "grupo": "materiais",
+      "id_humano": "material_2",
+      "descricao": "novo composto",
+      "comparacao": null,
+      "estado": "nao_recuperado_integralmente"
+    },
+    {
+      "variante": "adaptado",
+      "familia": "68698300",
+      "grupo": "materiais",
+      "id_humano": "material_3",
+      "descricao": "sal farmaceuticamente aceitável do composto",
+      "comparacao": null,
+      "estado": "nao_recuperado_integralmente"
+    },
+    {
+      "variante": "adaptado",
+      "familia": "68698300",
+      "grupo": "efeitos",
+      "id_humano": "efeito_1",
+      "descricao": "eficazmente útil para a(o) prevenção ou tratamento de doenças associadas à modulação da autofagia",
+      "comparacao": null,
+      "estado": "nao_recuperado_integralmente"
+    },
+    {
+      "variante": "adaptado",
+      "familia": "50390156",
+      "grupo": "memes_tecnicos",
+      "id_humano": "meme_1",
+      "descricao": "derivado do esqueleto de organismo marinho",
+      "comparacao": "50390156|adaptado|memes_tecnicos|meme_2",
+      "estado": "recuperado"
+    },
+    {
+      "variante": "adaptado",
+      "familia": "50390156",
+      "grupo": "funcoes",
+      "id_humano": "funcao_1",
+      "descricao": "promoção de crescimento celular ou de tecido ou função restaurada",
+      "comparacao": null,
+      "estado": "nao_recuperado_integralmente"
+    },
+    {
+      "variante": "adaptado",
+      "familia": "50390156",
+      "grupo": "funcoes",
+      "id_humano": "funcao_2",
+      "descricao": "atenuar ou prevenir a adesão e/ou vascularização de células ou de tecidos",
+      "comparacao": "50390156|adaptado|funcoes|funcao_1",
+      "estado": "recuperado"
+    },
+    {
+      "variante": "adaptado",
+      "familia": "50390156",
+      "grupo": "materiais",
+      "id_humano": "material_1",
+      "descricao": "substrato sólido",
+      "comparacao": "50390156|adaptado|materiais|material_1",
+      "estado": "recuperado"
+    },
+    {
+      "variante": "adaptado",
+      "familia": "50390156",
+      "grupo": "materiais",
+      "id_humano": "material_2",
+      "descricao": "derivado do esqueleto de organismo marinho",
+      "comparacao": "50390156|adaptado|materiais|material_2",
+      "estado": "recuperado"
+    },
+    {
+      "variante": "adaptado",
+      "familia": "50390156",
+      "grupo": "processos",
+      "id_humano": "processo_1",
+      "descricao": "processo para seleção de substrato sólido com base no derivado do esqueleto de organismo marinho",
+      "comparacao": "50390156|adaptado|processos|processo_1",
+      "estado": "recuperado"
+    },
+    {
+      "variante": "adaptado",
+      "familia": "50390156",
+      "grupo": "processos",
+      "id_humano": "processo_2",
+      "descricao": "determinação do valor de capacidade de absorção específica de fluido",
+      "comparacao": null,
+      "estado": "nao_recuperado_integralmente"
+    },
+    {
+      "variante": "adaptado",
+      "familia": "50390156",
+      "grupo": "processos",
+      "id_humano": "processo_3",
+      "descricao": "medição de rugosidade superficial",
+      "comparacao": null,
+      "estado": "nao_recuperado_integralmente"
+    },
+    {
+      "variante": "adaptado",
+      "familia": "50390156",
+      "grupo": "processos",
+      "id_humano": "processo_4",
+      "descricao": "conversão de substrato sólido subótimo em substrato sólido otimizado",
+      "comparacao": null,
+      "estado": "nao_recuperado_integralmente"
+    }
+  ],
+  "metrica_semantica_definitiva": null,
+  "tempo08d_segundos": 880.53,
+  "tempo08c_segundos": 912.28,
+  "sensibilidade_pontual": {
+    "caso": "68698300 base efeito_1",
+    "regra_principal": "Finalidade em vez de resultado; sem crédito integral.",
+    "alternativa_nao_adotada": "Se um avaliador considerar a paráfrase equivalente à alegação de utilidade, este único item poderia corresponder ao efeito humano.",
+    "base_alternativa": {
+      "TP": 10,
+      "FP": 12,
+      "FN": 4,
+      "precisao": 0.45454545454545453,
+      "revocacao": 0.7142857142857143,
+      "F1": 0.5555555555555556
+    },
+    "limite": "Apenas um caso de fronteira; não é intervalo de confiança nem análise exaustiva das incertezas."
+  }
+}

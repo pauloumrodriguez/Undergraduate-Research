@@ -1,0 +1,45 @@
+{
+  "id": "br_patstat_200_qwen3_8b_qlora_nf4_fp16_train_v1",
+  "versao": "1.0",
+  "finalidade": "Treinamento exploratório supervisionado pelo CPC proxy no piloto brasileiro; seleção por perda de validação, sem consultar a partição teste.",
+  "modelo": {
+    "id": "Qwen/Qwen3-8B",
+    "revisao": "b968826d9c46dd6066d109eabc6255188de91218"
+  },
+  "origem": {
+    "config": "config/experimento.json",
+    "sha256_config": "3673e9c86eb2b4f3c4f9a5bdb0ed6715b8015ce43951fb0807dfa0677e5b22fb",
+    "auditoria_preprocessamento": "dados/processados/piloto_br_200/preprocessado/auditoria_preprocessamento.json",
+    "sha256_auditoria_preprocessamento": "db3558b4772b4c3eb34b43c48cb754e0ff6d4d36ef22b1afc52adb25af5836ee",
+    "treino": "dados/processados/piloto_br_200/preprocessado/treino_cpc.jsonl",
+    "sha256_treino": "52c87c6251ace477715578dea24da5ab5dab7c30056a952264565e6af351c15b",
+    "validacao": "dados/processados/piloto_br_200/preprocessado/validacao_cpc.jsonl",
+    "sha256_validacao": "428660f6a7969af3eb0e607648d4294c0264e2ad05c61f49f203ddd56c382f8c",
+    "perfil_capacidade": "config/perfil_qlora_teste_1024.json",
+    "sha256_perfil_capacidade": "1c3a6e5d3750f8fa4281f459caaefd92be00797f786581f09363baa5fe3640d6",
+    "helper": "scripts/testar_qlora_gpu.py",
+    "sha256_helper": "3349923a809283eccb0aca80ed1586a8de8d4cacf367f2545379986ca6a5290f"
+  },
+  "quantizacao": {"tipo": "nf4", "double_quant": true, "compute_dtype": "float16"},
+  "lora": {"r": 8, "alpha": 16, "dropout": 0.05, "target_modules": ["q_proj", "v_proj"]},
+  "treino": {"max_length": 1024, "microbatch": 1, "acumulacao": 16, "epocas": 3, "checkpoint_cada_passos": 5},
+  "otimizador": {"learning_rate": 0.0003, "weight_decay": 0.01, "max_grad_norm": 1.0, "scheduler": "constant", "warmup_steps": 0},
+  "semente": 42,
+  "resultados": "resultados/etapa_2/piloto_br_200",
+  "avaliacao": {
+    "criterio": "menor perda média por token de CPC+EOS nas 20 famílias de validação",
+    "frequencia": "antes do treino e ao final de cada época",
+    "candidatos": "adaptadores das épocas 1, 2 e 3; em empate, primeira época",
+    "baseline": "modelo base com adaptador inicial sem treinamento; apenas referência, fora da seleção",
+    "teste": "partição reservada: não abrir nem avaliar durante treinamento ou seleção",
+    "melhoria_nao_garantida": true
+  },
+  "decisoes": {
+    "perda": "Somente CPC proxy e EOS; instruções e título/resumo mascarados. Acumulação ponderada pela contagem de tokens supervisionados do grupo de 16 famílias.",
+    "comprimento": "Uma família por microbatch, sem padding até 1024. Reutiliza tokenização do diagnóstico; qualquer recorte de resumo é auditado.",
+    "scheduler": "Taxa constante e warmup zero são escolhas explícitas deste piloto; não foram especificados no artigo.",
+    "checkpoints": "A cada cinco atualizações e ao fim das épocas; adaptador, otimizador, scaler, RNG e progresso necessários para retomada.",
+    "limite_metodologico": "CPC proxy não é classificação principal oficial nem anotação de extração; desempenho de extração deve ser validado separadamente.",
+    "raridade_cpc": "17 das 20 famílias de validação têm CPC integral ausente nos 160 exemplos de treino. Não reagrupar classes após observar resultados."
+  }
+}

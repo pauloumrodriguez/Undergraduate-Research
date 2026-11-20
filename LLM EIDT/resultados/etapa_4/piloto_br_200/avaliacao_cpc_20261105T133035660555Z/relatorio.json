@@ -1,0 +1,184 @@
+{
+  "ambiente": {
+    "pacotes": {
+      "accelerate": "1.12.0",
+      "bitsandbytes": "0.49.2",
+      "huggingface-hub": "0.36.2",
+      "jinja2": "3.1.6",
+      "peft": "0.18.1",
+      "safetensors": "0.7.0",
+      "tokenizers": "0.22.2",
+      "torch": "2.11.0+cu130",
+      "transformers": "4.57.6"
+    },
+    "python": "3.13.16 (main, Oct  1 2026, 15:40:24) [GCC 13.3.0]"
+  },
+  "arquivo_csv": "resultados/etapa_4/piloto_br_200/avaliacao_cpc_20261105T133035660555Z/comparacao_cpc.csv",
+  "arquivo_predicoes": "resultados/etapa_4/piloto_br_200/avaliacao_cpc_20261105T133035660555Z/predicoes_cpc.jsonl",
+  "checkpoint": "resultados/etapa_2/piloto_br_200/treino_qlora_20261104T211425654278Z/checkpoints/passo_000030",
+  "comparacao_pareada": {
+    "ambos_corretos": 0,
+    "ambos_incorretos": 20,
+    "delta_acuracia_adaptado_menos_base": 0.0,
+    "somente_adaptado_correto": 0,
+    "somente_base_correto": 0
+  },
+  "duracao_segundos": 385.73,
+  "erro": null,
+  "estado": "avaliacao_cpc_teste_concluida",
+  "etapa": "concluido",
+  "familias": 20,
+  "familias_por_variante": 20,
+  "finalizado_em_utc": "2026-11-05T13:37:01.414579+00:00",
+  "geracoes_concluidas": 40,
+  "gpu": {
+    "capacidade_cuda": [
+      7,
+      5
+    ],
+    "cuda_pytorch": "13.0",
+    "nome": "Tesla T4"
+  },
+  "iniciado_em_utc": "2026-11-05T13:30:35.668073+00:00",
+  "limite": "Teste final do piloto CPC: amostra de 20 famílias; não demonstra qualidade de extração.",
+  "memoria": {
+    "apos_carregamento": {
+      "alocada_gib": 7.992,
+      "livre_gib": 1.883,
+      "pico_alocado_gib": 9.137,
+      "pico_reservado_gib": 12.562,
+      "reservada_gib": 12.562,
+      "total_gib": 14.563
+    },
+    "final": {
+      "alocada_gib": 8.0,
+      "livre_gib": 1.805,
+      "pico_alocado_gib": 9.329,
+      "pico_reservado_gib": 12.627,
+      "reservada_gib": 12.627,
+      "total_gib": 14.563
+    },
+    "inicial": {
+      "alocada_gib": 0.0,
+      "livre_gib": 14.461,
+      "pico_alocado_gib": 0.0,
+      "pico_reservado_gib": 0.0,
+      "reservada_gib": 0.0,
+      "total_gib": 14.563
+    }
+  },
+  "metricas": {
+    "adaptado": {
+      "acertos_exatos": 0,
+      "acuracia_exata": 0.0,
+      "familias": 20,
+      "formatos_sintaticos_validos": 20,
+      "limites_atingidos": 0,
+      "taxa_formato_sintatico": 1.0,
+      "terminacoes_eos": 20
+    },
+    "base": {
+      "acertos_exatos": 0,
+      "acuracia_exata": 0.0,
+      "familias": 20,
+      "formatos_sintaticos_validos": 1,
+      "limites_atingidos": 0,
+      "taxa_formato_sintatico": 0.05,
+      "terminacoes_eos": 20
+    }
+  },
+  "origem": {
+    "hashes_origem": {
+      "auditoria_preprocessamento": "db3558b4772b4c3eb34b43c48cb754e0ff6d4d36ef22b1afc52adb25af5836ee",
+      "perfil_validacao": "ac58a8fee416bdc2925950b2adae8908758e3561dbe08c6d53528ea2948c51ef",
+      "relatorio_validacao": "3a0b77e78ceed59e17aaca0e15157946fdb28f42137474ac5b51ebf8d2605171",
+      "script_validacao": "16681c351cd2481fdae7c1d40f938ab31ee59a1e73b446242940c21a9fe19b4b",
+      "teste": "f78aa665dee9fe1cd2bf760f8f13d89f4ff7dbd91b27c3d448c3326cc83d99b0"
+    },
+    "nota": "Teste final do piloto; não reajustar o procedimento a partir destes resultados.",
+    "particao": "teste",
+    "procedimento_identico_06": true,
+    "sha256_manifest_checkpoint": "c04a7db533395d009c8f91b8a21f19696b6564e25eecaf23bf1eeef7a421f10f",
+    "teste_aberto": true
+  },
+  "pasta_execucao": "resultados/etapa_4/piloto_br_200/avaliacao_cpc_20261105T133035660555Z",
+  "perfil": {
+    "avaliacao": {
+      "exigir_eos": true,
+      "familias": 20,
+      "normalizacao": "NFC, maiusculas e remocao de espacos; sem corrigir ou extrair codigo de prosa",
+      "particao": "teste",
+      "regex_cpc": "[A-HY][0-9]{2}[A-Z][0-9]{1,4}/[0-9]{2,6}",
+      "variantes": [
+        "base",
+        "adaptado"
+      ]
+    },
+    "checkpoint": {
+      "diretorio": "resultados/etapa_2/piloto_br_200/treino_qlora_20261104T211425654278Z/checkpoints/passo_000030",
+      "epoca": 3,
+      "passo": 30,
+      "sha256_manifest": "c04a7db533395d009c8f91b8a21f19696b6564e25eecaf23bf1eeef7a421f10f"
+    },
+    "finalidade": "Avaliação final CPC nas 20 famílias de teste; procedimento do 06 congelado antes da abertura.",
+    "geracao": {
+      "contexto_total": 1024,
+      "do_sample": false,
+      "enable_thinking": false,
+      "max_new_tokens": 32,
+      "max_prompt_tokens": 992,
+      "num_beams": 1,
+      "use_cache": true
+    },
+    "id": "br_patstat_200_qwen3_8b_cpc_teste_v1",
+    "modelo": {
+      "id": "Qwen/Qwen3-8B",
+      "revisao": "b968826d9c46dd6066d109eabc6255188de91218"
+    },
+    "origem": {
+      "auditoria_preprocessamento": "dados/processados/piloto_br_200/preprocessado/auditoria_preprocessamento.json",
+      "perfil_validacao": "config/perfil_avaliacao_cpc_validacao.json",
+      "relatorio_validacao": "resultados/etapa_3/piloto_br_200/avaliacao_cpc_20261105T124949859308Z/relatorio.json",
+      "script_validacao": "scripts/avaliar_cpc_geracao.py",
+      "sha256_auditoria_preprocessamento": "db3558b4772b4c3eb34b43c48cb754e0ff6d4d36ef22b1afc52adb25af5836ee",
+      "sha256_perfil_validacao": "ac58a8fee416bdc2925950b2adae8908758e3561dbe08c6d53528ea2948c51ef",
+      "sha256_relatorio_validacao": "3a0b77e78ceed59e17aaca0e15157946fdb28f42137474ac5b51ebf8d2605171",
+      "sha256_script_validacao": "16681c351cd2481fdae7c1d40f938ab31ee59a1e73b446242940c21a9fe19b4b",
+      "sha256_teste": "f78aa665dee9fe1cd2bf760f8f13d89f4ff7dbd91b27c3d448c3326cc83d99b0",
+      "teste": "dados/processados/piloto_br_200/preprocessado/teste_cpc.jsonl"
+    },
+    "quantizacao": {
+      "compute_dtype": "float16",
+      "double_quant": true,
+      "tipo": "nf4"
+    },
+    "restricoes": [
+      "Sem retreino ou escolha de época pelo teste.",
+      "Sem alterações do prompt, parser, decodificação ou métricas do 06.",
+      "Se houver falha, preservar saídas e motivo; não selecionar a melhor de múltiplas execuções.",
+      "Resultados avaliam CPC proxy, não qualidade dos seis campos de extração."
+    ],
+    "resultados": "resultados/etapa_4/piloto_br_200",
+    "semente": 42,
+    "versao": "1.0"
+  },
+  "pico_alocado_gib": 9.329,
+  "pico_reservado_gib": 12.627,
+  "relatorio": "resultados/etapa_4/piloto_br_200/avaliacao_cpc_20261105T133035660555Z/relatorio.json",
+  "sha256_arquivos": {
+    "comparacao_cpc.csv": "d9a7770668f04eaf21e2bb3684c2ad3e9c819056ceef4db88a00d75030ddb986",
+    "predicoes_cpc.jsonl": "5c86e8c1eb671f3dc8e0261cd775aec7ecc6e0866c7dc95b1c8ffc576463e744"
+  },
+  "sha256_perfil": "9eab77469841114fb017a2355e554accdd9cde5dda990554123ebc9a44bed00c",
+  "sha256_script": "f23105863392cadc9ef4c36c64ee2840607730ef5ce08f6119567dd27d5249d0",
+  "teste_aberto": true,
+  "teste_executado": true,
+  "tokenizacao": {
+    "arquivo": "resultados/etapa_4/piloto_br_200/avaliacao_cpc_20261105T133035660555Z/prompts_auditados.json",
+    "familias": 20,
+    "max_tokens_prompt": 580,
+    "recortadas": 0,
+    "sha256": "acf27de5e679c5d83fc46d60baca4c5d306b2a1263aac38e780b37e59c2f6604"
+  },
+  "treinamento_executado": false
+}

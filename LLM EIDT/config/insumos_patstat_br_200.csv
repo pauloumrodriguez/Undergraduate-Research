@@ -1,0 +1,8 @@
+id,material,uso,acesso_declarado,arquivo_relativo,sha256_esperado
+artigo_v1,Artigo v1,Referência metodológica,disponivel,dados/referencia/artigo_llm_eidt_v1.pdf,e4043b0d8e06c77d1d4cd2c18dfcdf491e745c6a8aac734d5b6dfe68ce6b2a6c
+registro_origem,Registro de proveniência PATSTAT,Distinguir extração antiga e recorte atual,disponivel,dados/brutos/patstat_br_1000/proveniencia.json,c148d973a88f774cc46745f8e32f717c49438dabd41dd9f168a8ab482ae8d157
+pacote_patstat,ZIP original de 1000 famílias,Fonte congelada,disponivel,dados/brutos/patstat_br_1000/LLM_EIDT_LORA_1000.zip,09cf45526d9270cd92ed1d7d4339166f4562e92576c47a24353c753f4e6a5283
+piloto_congelado,200 famílias brasileiras,Entrada do piloto,disponivel,dados/processados/piloto_br_200/piloto_200.csv,9cf3747f8dec5cc9add77ce2632a63abe678dcf860feb56b6215cdf09c91cf74
+auditoria_selecao,Auditoria de seleção,Conferir filtros e partições,disponivel,dados/processados/piloto_br_200/auditoria.json,db9d8d1cb86be0f14db1335b24d3beed5067da8fcce4d250746cbc749d583ea1
+anotacao_independente,Ouro humano pt/en,Avaliar extrações,nao_verificado,,
+citacoes_datadas,Rede de citações,Permitir comparação Dh/NDCG,nao_verificado,,

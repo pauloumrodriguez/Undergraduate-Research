@@ -1,0 +1,146 @@
+{
+  "ambiente": {
+    "gpu": "Tesla T4",
+    "pacotes": {
+      "accelerate": "1.12.0",
+      "bitsandbytes": "0.49.2",
+      "huggingface-hub": "0.36.2",
+      "interegular": "0.3.3",
+      "jinja2": "3.1.6",
+      "jsonschema": "4.25.1",
+      "lm-format-enforcer": "0.11.3",
+      "peft": "0.18.1",
+      "pydantic": "2.14.2",
+      "safetensors": "0.7.0",
+      "tokenizers": "0.22.2",
+      "torch": "2.14.1+cu130",
+      "transformers": "4.57.6"
+    },
+    "python": "3.13.16 (main, Oct  1 2026, 15:40:24) [GCC 13.3.0]"
+  },
+  "aviso": "Trechos e estrutura válidos não comprovam suporte semântico; nenhum modelo foi selecionado.",
+  "duracao_chamada_segundos": 912.28,
+  "erro": null,
+  "estado": "extracao08c_concluida_revisao_pendente",
+  "etapa": "concluido",
+  "familias": 2,
+  "geracoes_concluidas": 7,
+  "geracoes_maximas": 8,
+  "memoria_apos_carregamento": {
+    "alocada_gib": 7.992,
+    "livre_gib": 3.058,
+    "pico_alocado_gib": 9.137,
+    "pico_reservado_gib": 12.562,
+    "reservada_gib": 11.387,
+    "total_gib": 14.563
+  },
+  "memoria_final": {
+    "alocada_gib": 8.0,
+    "livre_gib": 3.037,
+    "pico_alocado_gib": 9.971,
+    "pico_reservado_gib": 12.562,
+    "reservada_gib": 11.395,
+    "total_gib": 14.563
+  },
+  "metricas_automaticas": {
+    "adaptado": {
+      "elementos_validos": 2,
+      "extracoes_validas": 2,
+      "familias_previstas": 2,
+      "familias_processadas": 2,
+      "relacoes_bloqueadas": 0
+    },
+    "base": {
+      "elementos_validos": 1,
+      "extracoes_validas": 0,
+      "familias_previstas": 2,
+      "familias_processadas": 2,
+      "relacoes_bloqueadas": 1
+    }
+  },
+  "pasta_execucao": "resultados/etapa_5c/piloto_br_200/extracao_1c271b9726967546",
+  "perfil": {
+    "amostra": {
+      "comprimentos": {
+        "50390156": 1984,
+        "68698300": 407
+      },
+      "familias": 2,
+      "ids": [
+        "68698300",
+        "50390156"
+      ],
+      "particao": "validacao",
+      "regra": "Menor e maior soma de caracteres Unicode de título e resumo entre as seis famílias do 08b; desempate por ID crescente; execução curta primeiro."
+    },
+    "checkpoint": {
+      "diretorio": "resultados/etapa_2/piloto_br_200/treino_qlora_20261104T211425654278Z/checkpoints/passo_000030",
+      "epoca": 3,
+      "passo": 30,
+      "sha256_manifest": "c04a7db533395d009c8f91b8a21f19696b6564e25eecaf23bf1eeef7a421f10f"
+    },
+    "estrutura": {
+      "biblioteca": "lm-format-enforcer",
+      "max_array_length": 1024,
+      "max_whitespace": 1,
+      "ordem_chaves_fixa": true,
+      "rejeitar_repeticao": "últimos 32 tokens repetidos três vezes; sem reparação",
+      "trechos_caracteres": 256,
+      "versao": "0.11.3"
+    },
+    "etapas": [
+      "elementos",
+      "relacoes"
+    ],
+    "geracao": {
+      "contexto_total": 4096,
+      "do_sample": false,
+      "enable_thinking": false,
+      "max_new_tokens": 1024,
+      "max_prompt_tokens": 3072,
+      "num_beams": 1,
+      "repeat_count": 3,
+      "repeat_window": 32,
+      "use_cache": true
+    },
+    "id": "br_patstat_200_extracao_validacao2_v3",
+    "limites": "Teste de engenharia em extremos de comprimento, sem representatividade nem prova de qualidade. O segundo estágio depende dos elementos de cada variante. Schema não comprova suporte semântico.",
+    "maximo_geracoes": 8,
+    "modelo": {
+      "id": "Qwen/Qwen3-8B",
+      "revisao": "b968826d9c46dd6066d109eabc6255188de91218"
+    },
+    "origem": {
+      "perfil_08b": "config/perfil_extracao_validacao6_v2.json",
+      "prompt_elementos": "prompts/extracao_elementos_v3.txt",
+      "prompt_relacoes": "prompts/extracao_relacoes_v3.txt",
+      "requirements": "requirements_extracao08c.txt",
+      "schemas": "schemas/extracao_etapas_v3.templates.json",
+      "script_08b": "scripts/extrair_evidencias_v2.py",
+      "sha256_perfil_08b": "b26f0e959c083bb255160922c5b0fb31e5742864e5daa1e575e242b2a4d71a0e",
+      "sha256_prompt_elementos": "eff7a22ec869892b7857b0f76450c1d4e32ebf6326c97cf709c1a455a3f8d47d",
+      "sha256_prompt_relacoes": "038c6beab049bfafc1b75dbee293c245fb144c063eb93936a18a11a591639895",
+      "sha256_requirements": "5cd260bc58e8b8e11dced19dbd3e0db6a53ea237c492c38b4304d61081a7a520",
+      "sha256_schemas": "f14e132b96c123cfb42fe3e9fa1f4402e97f0e797ecfca37b2b633397ecd1c72",
+      "sha256_script_08b": "913afa8af87a7fbd8e20273309533222f4c3c73a624209adbb23b318c88be939"
+    },
+    "quantizacao": {
+      "compute_dtype": "float16",
+      "double_quant": true,
+      "tipo": "nf4"
+    },
+    "resultados": "resultados/etapa_5c/piloto_br_200",
+    "semente": 42,
+    "versao": "3.0"
+  },
+  "qualidade_semantica": "pendente_revisao_humana",
+  "retomadas_do_drive": 0,
+  "sha256_arquivos": {
+    "extracoes.jsonl": "ddf0279baef7a682e66c0ea0b6e3b6a9c3ac186d266f6efe1f2053d23cee9de5",
+    "geracoes.jsonl": "c75c017e94fd7b244c46b816ea55639e63622d12b4b6c19a78520d96aa4da00a"
+  },
+  "sha256_perfil": "1c271b9726967546f772303070b89d59453dfa61565b127d30bb9e5d353fc08a",
+  "sha256_script": "9b43e97d1984414cf31c3dc12d7ba496c25a98ebe4a15747393279205913613c",
+  "teste_extracao_executado": false,
+  "treinamento_executado": false
+}

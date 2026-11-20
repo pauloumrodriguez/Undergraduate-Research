@@ -1,0 +1,70 @@
+{
+  "modelo": {
+    "id": "Qwen/Qwen3-8B",
+    "revisao": "b968826d9c46dd6066d109eabc6255188de91218"
+  },
+  "quantizacao": {
+    "tipo": "nf4",
+    "double_quant": true,
+    "compute_dtype": "float16"
+  },
+  "checkpoint": {
+    "diretorio": "resultados/etapa_2/piloto_br_200/treino_qlora_20261104T211425654278Z/checkpoints/passo_000030",
+    "sha256_manifest": "c04a7db533395d009c8f91b8a21f19696b6564e25eecaf23bf1eeef7a421f10f",
+    "epoca": 3,
+    "passo": 30
+  },
+  "amostra": {
+    "familias": 6,
+    "particao": "validacao",
+    "por_janela": 2,
+    "regra": "Menores SHA-256 de 08|42|id_familia_docdb em cada janela; ordem de execução por ID.",
+    "ids": [
+      "45975308",
+      "50390156",
+      "65439381",
+      "68698300",
+      "74045448",
+      "80949080"
+    ]
+  },
+  "semente": 42,
+  "id": "br_patstat_200_extracao_validacao6_v2",
+  "versao": "2.0",
+  "resultados": "resultados/etapa_5b/piloto_br_200",
+  "geracao": {
+    "max_prompt_tokens": 2048,
+    "max_new_tokens": 3072,
+    "contexto_total": 5120,
+    "do_sample": false,
+    "num_beams": 1,
+    "use_cache": true,
+    "enable_thinking": false
+  },
+  "finalidade": "Revisão de desenvolvimento em seis validações; não avaliação final, sem seleção por teste.",
+  "decisoes": {
+    "citacoes": "Banco compartilhado, busca literal exata e ocorrência única no campo; ausência/ambiguidade rejeitadas.",
+    "saida": "JSON compacto, sem cota de itens. Até 3072 tokens de saída; sem recorte de entrada nem reparação de JSON.",
+    "normalizacao": "Preservar texto bruto 2.0. Derivar offsets e idioma de evidências; validar objeto normalizado pelo schema 1.0.",
+    "semantica": "Evitar unidades genéricas e coocorrência sem integração; revisão humana permanece necessária.",
+    "limites": "Mudam formato, prompt e orçamento simultaneamente; não permite atribuir melhora isoladamente a um fator."
+  },
+  "motivacao": {
+    "extracoes_truncadas_08": 7,
+    "geracoes_08": 12,
+    "evidencias_examinadas_nos_5_jsons_completos": 58,
+    "citacoes_literais_com_posicoes_incorretas": 55,
+    "citacoes_nao_literais": 3,
+    "sha256_extracoes_08": "409c829c366d422ca8441d6378857631877d5c04080c2f20e34ccfd5dce10424"
+  },
+  "origem": {
+    "perfil_08": "config/perfil_extracao_validacao6.json",
+    "script_08": "scripts/extrair_evidencias.py",
+    "prompt": "prompts/extracao_patstat_br_v2.txt",
+    "schema": "schemas/extracao_patstat_br_v2.schema.json",
+    "sha256_perfil_08": "394ce3431265b6e057228a91ee3029a152390cbf9e600c71ef875fc2b91ab0e0",
+    "sha256_script_08": "5c029ebded89a25030e9e9198b48605c937356a367793f69817ca5bd15a57b75",
+    "sha256_prompt": "24eaa95f58e82f8926b1a15bd0d4a7b0ef9b24528c2d23384733d6f55a665d76",
+    "sha256_schema": "d9cfc949b43751fcb77fdd12858ea84674b481b5bce27f6d5d82521e71e65077"
+  }
+}

@@ -1,0 +1,244 @@
+{
+  "hashes_e_metricas_conferem": true,
+  "minutos": 74.18,
+  "metricas": {
+    "adaptado": {
+      "concluidas": 6,
+      "estrutura_e_evidencias_validas": 0,
+      "json_parseavel": 1,
+      "limites_atingidos": 5,
+      "previstas": 6,
+      "schema_valido": 0
+    },
+    "base": {
+      "concluidas": 6,
+      "estrutura_e_evidencias_validas": 0,
+      "json_parseavel": 4,
+      "limites_atingidos": 1,
+      "previstas": 6,
+      "schema_valido": 0
+    }
+  },
+  "registros": [
+    {
+      "familia": "45975308",
+      "variante": "adaptado",
+      "tokens": 3072,
+      "limite": true,
+      "eos": false,
+      "json_parseavel": false,
+      "erros": [
+        "geracao_sem_eos",
+        "json_invalido: Unterminated string starting at: line 1 column 852 (char 851)"
+      ],
+      "diagnostico": {
+        "maior_repeticao_mesma_citacao": 1,
+        "maior_sequencia_zeros": 2821
+      }
+    },
+    {
+      "familia": "45975308",
+      "variante": "base",
+      "tokens": 3072,
+      "limite": true,
+      "eos": false,
+      "json_parseavel": false,
+      "erros": [
+        "geracao_sem_eos",
+        "json_invalido: Unterminated string starting at: line 1 column 8762 (char 8761)"
+      ],
+      "diagnostico": {
+        "maior_repeticao_mesma_citacao": 2,
+        "maior_sequencia_zeros": 1
+      }
+    },
+    {
+      "familia": "50390156",
+      "variante": "adaptado",
+      "tokens": 2244,
+      "limite": false,
+      "eos": true,
+      "json_parseavel": true,
+      "erros": [
+        "schema_geracao: : 'pares_convergencia' is a required property",
+        "schema_geracao: evidencias/3/campo: 'res0' is not one of ['titulo', 'resumo']"
+      ],
+      "diagnostico": {
+        "chaves_ausentes": [
+          "pares_convergencia"
+        ],
+        "citacoes_diagnostico_sem_aprovar_resposta": {
+          "unica": 5,
+          "campo_invalido": 1,
+          "ausente": 1
+        },
+        "maior_repeticao_mesma_citacao": 1,
+        "maior_sequencia_zeros": 1
+      }
+    },
+    {
+      "familia": "50390156",
+      "variante": "base",
+      "tokens": 1570,
+      "limite": false,
+      "eos": true,
+      "json_parseavel": true,
+      "erros": [
+        "schema_geracao: : 'pares_convergencia' is a required property"
+      ],
+      "diagnostico": {
+        "chaves_ausentes": [
+          "pares_convergencia"
+        ],
+        "citacoes_diagnostico_sem_aprovar_resposta": {
+          "unica": 7
+        },
+        "maior_repeticao_mesma_citacao": 1,
+        "maior_sequencia_zeros": 1
+      }
+    },
+    {
+      "familia": "65439381",
+      "variante": "adaptado",
+      "tokens": 3072,
+      "limite": true,
+      "eos": false,
+      "json_parseavel": false,
+      "erros": [
+        "geracao_sem_eos",
+        "json_invalido: Unterminated string starting at: line 1 column 10010 (char 10009)"
+      ],
+      "diagnostico": {
+        "maior_repeticao_mesma_citacao": 10,
+        "maior_sequencia_zeros": 1
+      }
+    },
+    {
+      "familia": "65439381",
+      "variante": "base",
+      "tokens": 1528,
+      "limite": false,
+      "eos": true,
+      "json_parseavel": false,
+      "erros": [
+        "json_invalido: Expecting ',' delimiter: line 1 column 1087 (char 1086)"
+      ],
+      "diagnostico": {
+        "maior_repeticao_mesma_citacao": 1,
+        "maior_sequencia_zeros": 1
+      }
+    },
+    {
+      "familia": "68698300",
+      "variante": "adaptado",
+      "tokens": 3072,
+      "limite": true,
+      "eos": false,
+      "json_parseavel": false,
+      "erros": [
+        "geracao_sem_eos",
+        "json_invalido: Unterminated string starting at: line 1 column 10669 (char 10668)"
+      ],
+      "diagnostico": {
+        "maior_repeticao_mesma_citacao": 27,
+        "maior_sequencia_zeros": 2
+      }
+    },
+    {
+      "familia": "68698300",
+      "variante": "base",
+      "tokens": 510,
+      "limite": false,
+      "eos": true,
+      "json_parseavel": true,
+      "erros": [
+        "schema_geracao: : 'pares_convergencia' is a required property"
+      ],
+      "diagnostico": {
+        "chaves_ausentes": [
+          "pares_convergencia"
+        ],
+        "citacoes_diagnostico_sem_aprovar_resposta": {
+          "unica": 4
+        },
+        "maior_repeticao_mesma_citacao": 1,
+        "maior_sequencia_zeros": 2
+      }
+    },
+    {
+      "familia": "74045448",
+      "variante": "adaptado",
+      "tokens": 3072,
+      "limite": true,
+      "eos": false,
+      "json_parseavel": false,
+      "erros": [
+        "geracao_sem_eos",
+        "json_invalido: Unterminated string starting at: line 1 column 9740 (char 9739)"
+      ],
+      "diagnostico": {
+        "maior_repeticao_mesma_citacao": 51,
+        "maior_sequencia_zeros": 1
+      }
+    },
+    {
+      "familia": "74045448",
+      "variante": "base",
+      "tokens": 1007,
+      "limite": false,
+      "eos": true,
+      "json_parseavel": true,
+      "erros": [
+        "schema_geracao: : 'pares_convergencia' is a required property"
+      ],
+      "diagnostico": {
+        "chaves_ausentes": [
+          "pares_convergencia"
+        ],
+        "citacoes_diagnostico_sem_aprovar_resposta": {
+          "unica": 6
+        },
+        "maior_repeticao_mesma_citacao": 2,
+        "maior_sequencia_zeros": 1
+      }
+    },
+    {
+      "familia": "80949080",
+      "variante": "adaptado",
+      "tokens": 3072,
+      "limite": true,
+      "eos": false,
+      "json_parseavel": false,
+      "erros": [
+        "geracao_sem_eos",
+        "json_invalido: Unterminated string starting at: line 1 column 10255 (char 10254)"
+      ],
+      "diagnostico": {
+        "maior_repeticao_mesma_citacao": 11,
+        "maior_sequencia_zeros": 1
+      }
+    },
+    {
+      "familia": "80949080",
+      "variante": "base",
+      "tokens": 912,
+      "limite": false,
+      "eos": true,
+      "json_parseavel": true,
+      "erros": [
+        "schema_geracao: : 'pares_convergencia' is a required property"
+      ],
+      "diagnostico": {
+        "chaves_ausentes": [
+          "pares_convergencia"
+        ],
+        "citacoes_diagnostico_sem_aprovar_resposta": {
+          "unica": 10
+        },
+        "maior_repeticao_mesma_citacao": 1,
+        "maior_sequencia_zeros": 1
+      }
+    }
+  ],
+  "limite": "Análise descritiva. Nenhuma saída reparada, aceita ou usada para referência humana."
+}

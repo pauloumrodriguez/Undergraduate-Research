@@ -1,0 +1,90 @@
+{
+  "inicio_utc": "2026-11-04T21:13:56.641894+00:00",
+  "estado": "treino_concluido",
+  "perfil": "br_patstat_200_qwen3_8b_qlora_nf4_fp16_train_v1",
+  "sha256_arquivos": {
+    "requirements.txt": "33e4c6c27108e7983aca20c525523ffeae70a6d8dc26aa2c2410a13b14687af8",
+    "config/experimento.json": "3673e9c86eb2b4f3c4f9a5bdb0ed6715b8015ce43951fb0807dfa0677e5b22fb",
+    "config/perfil_treino_qlora_1024.json": "8931f1847423f6ad9cf77f7f1ae2023e982c41697ba5fb75b56f5782fc8bbec8",
+    "scripts/treinar_qlora_cpc.py": "ada0a21cac6ec36e9d2d8df053dc0a1416dccfd0fe11674046c328d02727de25",
+    "scripts/testar_qlora_gpu.py": "3349923a809283eccb0aca80ed1586a8de8d4cacf367f2545379986ca6a5290f",
+    "config/perfil_qlora_teste_1024.json": "1c3a6e5d3750f8fa4281f459caaefd92be00797f786581f09363baa5fe3640d6",
+    "dados/processados/piloto_br_200/preprocessado/auditoria_preprocessamento.json": "db3558b4772b4c3eb34b43c48cb754e0ff6d4d36ef22b1afc52adb25af5836ee",
+    "dados/processados/piloto_br_200/preprocessado/treino_cpc.jsonl": "52c87c6251ace477715578dea24da5ab5dab7c30056a952264565e6af351c15b",
+    "dados/processados/piloto_br_200/preprocessado/validacao_cpc.jsonl": "428660f6a7969af3eb0e607648d4294c0264e2ad05c61f49f203ddd56c382f8c"
+  },
+  "diagnostico": "resultados/etapa_1/piloto_br_200/qlora_teste_20261104T014632833741Z.json",
+  "sha256_diagnostico": "5e0195d4d9b6ab5dde3ae268225a357f54b8a3df9290528659e864e2e802f4ce",
+  "retomar_checkpoint": null,
+  "cache_temporario": "/content/hf_cache_llm_eidt_br",
+  "particoes_conforme_auditoria": {
+    "teste": 20,
+    "treino": 160,
+    "validacao": 20
+  },
+  "atualizado_utc": "2026-11-04T21:35:38.961737+00:00",
+  "versoes_protegidas": {
+    "torch": "2.11.0+cu130",
+    "numpy": "2.4.6"
+  },
+  "pacotes_que_requeriam_instalacao": [
+    "transformers",
+    "peft",
+    "accelerate",
+    "bitsandbytes",
+    "huggingface-hub",
+    "tokenizers",
+    "safetensors",
+    "sentencepiece",
+    "umap-learn",
+    "jsonschema"
+  ],
+  "pacotes_alterados": [
+    "accelerate",
+    "bitsandbytes",
+    "huggingface_hub",
+    "jsonschema",
+    "peft",
+    "safetensors",
+    "sentencepiece",
+    "tokenizers",
+    "transformers",
+    "umap-learn"
+  ],
+  "versoes_requisitos": {
+    "transformers": "4.57.6",
+    "peft": "0.18.1",
+    "accelerate": "1.12.0",
+    "bitsandbytes": "0.49.2",
+    "huggingface-hub": "0.36.2",
+    "tokenizers": "0.22.2",
+    "safetensors": "0.7.0",
+    "sentencepiece": "0.2.1",
+    "scikit-learn": "1.6.1",
+    "umap-learn": "0.5.9.post2",
+    "jsonschema": "4.25.1"
+  },
+  "recursos": {
+    "python": "3.13.16",
+    "torch": "2.11.0+cu130",
+    "cuda_pytorch": "13.0",
+    "cuda_disponivel": true,
+    "disco_livre_gib": 112.14,
+    "ram_gib": {
+      "MemTotal": 12.67,
+      "MemAvailable": 11.11
+    },
+    "gpu": "Tesla T4",
+    "capacidade_cuda": [
+      7,
+      5
+    ],
+    "vram_livre_gib": 14.461,
+    "vram_total_gib": 14.563,
+    "cache_pesos_completo": false,
+    "disco_minimo_gib": 22
+  },
+  "relatorio_treino": "resultados/etapa_2/piloto_br_200/chamada_treino_20261104T211425493566Z.json",
+  "codigo_saida": 0,
+  "interrompido": false
+}

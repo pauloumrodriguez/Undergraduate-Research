@@ -1,0 +1,278 @@
+{
+  "hashes_e_metricas_conferem": true,
+  "minutos": 58.43,
+  "agregacao_apenas_5_jsons_completos": {
+    "evidencias": 58,
+    "intervalo_incorreto": 58,
+    "citacao_literal_posicao_errada": 55,
+    "citacao_nao_literal": 3
+  },
+  "registros": [
+    {
+      "familia": "45975308",
+      "variante": "adaptado",
+      "tokens": 2048,
+      "limite": true,
+      "schema": false,
+      "erros": [
+        "geracao_sem_eos",
+        "json_invalido: Unterminated string starting at: line 299 column 20 (char 6143)"
+      ],
+      "evidencias": {}
+    },
+    {
+      "familia": "45975308",
+      "variante": "base",
+      "tokens": 2048,
+      "limite": true,
+      "schema": false,
+      "erros": [
+        "geracao_sem_eos",
+        "json_invalido: Unterminated string starting at: line 292 column 16 (char 6227)"
+      ],
+      "evidencias": {}
+    },
+    {
+      "familia": "50390156",
+      "variante": "adaptado",
+      "tokens": 2048,
+      "limite": true,
+      "schema": false,
+      "erros": [
+        "geracao_sem_eos",
+        "json_invalido: Expecting property name enclosed in double quotes: line 236 column 6 (char 6527)"
+      ],
+      "evidencias": {}
+    },
+    {
+      "familia": "50390156",
+      "variante": "base",
+      "tokens": 2048,
+      "limite": true,
+      "schema": false,
+      "erros": [
+        "geracao_sem_eos",
+        "json_invalido: Unterminated string starting at: line 237 column 20 (char 6475)"
+      ],
+      "evidencias": {}
+    },
+    {
+      "familia": "65439381",
+      "variante": "adaptado",
+      "tokens": 2048,
+      "limite": true,
+      "schema": false,
+      "erros": [
+        "geracao_sem_eos",
+        "json_invalido: Unterminated string starting at: line 211 column 7 (char 6398)"
+      ],
+      "evidencias": {}
+    },
+    {
+      "familia": "65439381",
+      "variante": "base",
+      "tokens": 2048,
+      "limite": true,
+      "schema": false,
+      "erros": [
+        "geracao_sem_eos",
+        "json_invalido: Expecting ',' delimiter: line 239 column 21 (char 6268)"
+      ],
+      "evidencias": {}
+    },
+    {
+      "familia": "68698300",
+      "variante": "adaptado",
+      "tokens": 960,
+      "limite": false,
+      "schema": true,
+      "erros": [
+        "meme_1: intervalo_ou_citacao_incorretos",
+        "meme_2: intervalo_ou_citacao_incorretos",
+        "meme_3: intervalo_ou_citacao_incorretos",
+        "meme_4: intervalo_ou_citacao_incorretos",
+        "meme_5: intervalo_ou_citacao_incorretos",
+        "par_1: intervalo_ou_citacao_incorretos",
+        "par_2: intervalo_ou_citacao_incorretos",
+        "funcao_1: intervalo_ou_citacao_incorretos"
+      ],
+      "evidencias": {
+        "evidencias": 8,
+        "intervalo_incorreto": 8,
+        "citacao_literal_posicao_errada": 7,
+        "citacao_nao_literal": 1
+      }
+    },
+    {
+      "familia": "68698300",
+      "variante": "base",
+      "tokens": 1347,
+      "limite": false,
+      "schema": true,
+      "erros": [
+        "meme_1: intervalo_ou_citacao_incorretos",
+        "meme_1: intervalo_ou_citacao_incorretos",
+        "meme_2: intervalo_ou_citacao_incorretos",
+        "meme_2: intervalo_ou_citacao_incorretos",
+        "meme_3: intervalo_ou_citacao_incorretos",
+        "meme_4: intervalo_ou_citacao_incorretos",
+        "meme_5: intervalo_ou_citacao_incorretos",
+        "meme_6: intervalo_ou_citacao_incorretos",
+        "par_1: intervalo_ou_citacao_incorretos",
+        "par_1: intervalo_ou_citacao_incorretos",
+        "par_2: intervalo_ou_citacao_incorretos",
+        "par_3: intervalo_ou_citacao_incorretos",
+        "funcao_1: intervalo_ou_citacao_incorretos"
+      ],
+      "evidencias": {
+        "evidencias": 13,
+        "intervalo_incorreto": 13,
+        "citacao_literal_posicao_errada": 11,
+        "citacao_nao_literal": 2
+      }
+    },
+    {
+      "familia": "74045448",
+      "variante": "adaptado",
+      "tokens": 2048,
+      "limite": true,
+      "schema": false,
+      "erros": [
+        "geracao_sem_eos",
+        "json_invalido: Unterminated string starting at: line 153 column 20 (char 6363)"
+      ],
+      "evidencias": {}
+    },
+    {
+      "familia": "74045448",
+      "variante": "base",
+      "tokens": 1063,
+      "limite": false,
+      "schema": true,
+      "erros": [
+        "meme_1: intervalo_ou_citacao_incorretos",
+        "meme_2: intervalo_ou_citacao_incorretos",
+        "meme_3: intervalo_ou_citacao_incorretos",
+        "meme_4: intervalo_ou_citacao_incorretos",
+        "meme_5: intervalo_ou_citacao_incorretos",
+        "meme_6: intervalo_ou_citacao_incorretos",
+        "par_1: intervalo_ou_citacao_incorretos",
+        "par_2: intervalo_ou_citacao_incorretos",
+        "funcao_1: intervalo_ou_citacao_incorretos",
+        "processo_1: intervalo_ou_citacao_incorretos"
+      ],
+      "evidencias": {
+        "evidencias": 10,
+        "intervalo_incorreto": 10,
+        "citacao_literal_posicao_errada": 10
+      }
+    },
+    {
+      "familia": "80949080",
+      "variante": "adaptado",
+      "tokens": 1979,
+      "limite": false,
+      "schema": true,
+      "erros": [
+        "meme_1: intervalo_ou_citacao_incorretos",
+        "meme_2: intervalo_ou_citacao_incorretos",
+        "meme_3: intervalo_ou_citacao_incorretos",
+        "meme_4: intervalo_ou_citacao_incorretos",
+        "meme_5: intervalo_ou_citacao_incorretos",
+        "meme_6: intervalo_ou_citacao_incorretos",
+        "meme_7: intervalo_ou_citacao_incorretos",
+        "meme_8: intervalo_ou_citacao_incorretos",
+        "par_1: intervalo_ou_citacao_incorretos",
+        "par_2: intervalo_ou_citacao_incorretos",
+        "funcao_1: intervalo_ou_citacao_incorretos",
+        "material_1: intervalo_ou_citacao_incorretos",
+        "processo_1: intervalo_ou_citacao_incorretos"
+      ],
+      "evidencias": {
+        "evidencias": 13,
+        "intervalo_incorreto": 13,
+        "citacao_literal_posicao_errada": 13
+      }
+    },
+    {
+      "familia": "80949080",
+      "variante": "base",
+      "tokens": 1651,
+      "limite": false,
+      "schema": true,
+      "erros": [
+        "meme_1: intervalo_ou_citacao_incorretos",
+        "meme_2: intervalo_ou_citacao_incorretos",
+        "meme_3: intervalo_ou_citacao_incorretos",
+        "meme_4: intervalo_ou_citacao_incorretos",
+        "meme_5: intervalo_ou_citacao_incorretos",
+        "meme_6: intervalo_ou_citacao_incorretos",
+        "par_1: intervalo_ou_citacao_incorretos",
+        "par_2: intervalo_ou_citacao_incorretos",
+        "par_3: intervalo_ou_citacao_incorretos",
+        "par_4: intervalo_ou_citacao_incorretos",
+        "funcao_1: intervalo_ou_citacao_incorretos",
+        "material_1: intervalo_ou_citacao_incorretos",
+        "processo_1: intervalo_ou_citacao_incorretos",
+        "efeito_1: intervalo_ou_citacao_incorretos"
+      ],
+      "evidencias": {
+        "evidencias": 14,
+        "intervalo_incorreto": 14,
+        "citacao_literal_posicao_errada": 14
+      }
+    }
+  ],
+  "exemplos": [
+    {
+      "familia": "68698300",
+      "variante": "adaptado",
+      "item": "meme_1",
+      "citacao": "novo composto e composição farmacêutica compreendendo o mesmo",
+      "inicio": 0,
+      "fim": 31,
+      "trecho_na_posicao": "novo composto e composição farm",
+      "primeira_posicao_literal": 0
+    },
+    {
+      "familia": "68698300",
+      "variante": "adaptado",
+      "item": "meme_2",
+      "citacao": "novo composto e composição farmacêutica compreendendo o mesmo",
+      "inicio": 0,
+      "fim": 31,
+      "trecho_na_posicao": "novo composto e composição farm",
+      "primeira_posicao_literal": 0
+    },
+    {
+      "familia": "68698300",
+      "variante": "adaptado",
+      "item": "meme_3",
+      "citacao": "um sal farmaceuticamente aceitável do mesmo",
+      "inicio": 75,
+      "fim": 97,
+      "trecho_na_posicao": "ivulgação se refere a ",
+      "primeira_posicao_literal": 154
+    },
+    {
+      "familia": "68698300",
+      "variante": "adaptado",
+      "item": "meme_4",
+      "citacao": "representada pela fórmula química 1",
+      "inicio": 45,
+      "fim": 62,
+      "trecho_na_posicao": "eendendo o mesmo.",
+      "primeira_posicao_literal": -1
+    },
+    {
+      "familia": "68698300",
+      "variante": "adaptado",
+      "item": "meme_5",
+      "citacao": "tratamento de doenças associadas à modulação da autofagia",
+      "inicio": 116,
+      "fim": 149,
+      "trecho_na_posicao": "presentado pela fórmula química 1",
+      "primeira_posicao_literal": 288
+    }
+  ]
+}

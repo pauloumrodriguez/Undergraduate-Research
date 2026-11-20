@@ -1,0 +1,164 @@
+{
+  "ambiente": {
+    "gpu": "Tesla T4",
+    "pacotes": {
+      "accelerate": "1.12.0",
+      "bitsandbytes": "0.49.2",
+      "huggingface-hub": "0.36.2",
+      "interegular": "0.3.3",
+      "jinja2": "3.1.6",
+      "jsonschema": "4.25.1",
+      "lm-format-enforcer": "0.11.3",
+      "peft": "0.18.1",
+      "pydantic": "2.14.2",
+      "safetensors": "0.7.0",
+      "tokenizers": "0.22.2",
+      "torch": "2.14.1+cu130",
+      "transformers": "4.57.6"
+    },
+    "python": "3.13.16 (main, Oct  1 2026, 15:40:24) [GCC 13.3.0]"
+  },
+  "aviso": "Trechos e estrutura válidos não comprovam suporte semântico; nenhum modelo foi selecionado.",
+  "desenvolvimento_pos_exposicao": true,
+  "duracao_chamada_segundos": 880.53,
+  "erro": null,
+  "estado": "extracao08d_concluida_revisao_pendente",
+  "etapa": "concluido",
+  "familias": 2,
+  "geracoes_concluidas": 8,
+  "geracoes_maximas": 8,
+  "memoria_apos_carregamento": {
+    "alocada_gib": 7.992,
+    "livre_gib": 3.058,
+    "pico_alocado_gib": 9.137,
+    "pico_reservado_gib": 12.562,
+    "reservada_gib": 11.387,
+    "total_gib": 14.563
+  },
+  "memoria_final": {
+    "alocada_gib": 8.0,
+    "livre_gib": 3.037,
+    "pico_alocado_gib": 10.107,
+    "pico_reservado_gib": 12.562,
+    "reservada_gib": 11.395,
+    "total_gib": 14.563
+  },
+  "metricas_automaticas": {
+    "adaptado": {
+      "elementos_validos": 2,
+      "extracoes_validas": 2,
+      "familias_previstas": 2,
+      "familias_processadas": 2,
+      "relacoes_bloqueadas": 0
+    },
+    "base": {
+      "elementos_validos": 2,
+      "extracoes_validas": 2,
+      "familias_previstas": 2,
+      "familias_processadas": 2,
+      "relacoes_bloqueadas": 0
+    }
+  },
+  "pasta_execucao": "resultados/etapa_5d/piloto_br_200/extracao_2bc27b7acb9d74d3",
+  "perfil": {
+    "amostra": {
+      "comprimentos": {
+        "50390156": 1984,
+        "68698300": 407
+      },
+      "familias": 2,
+      "ids": [
+        "68698300",
+        "50390156"
+      ],
+      "particao": "validacao",
+      "regra": "Menor e maior soma de caracteres Unicode de título e resumo entre as seis famílias do 08b; desempate por ID crescente; execução curta primeiro."
+    },
+    "checkpoint": {
+      "diretorio": "resultados/etapa_2/piloto_br_200/treino_qlora_20261104T211425654278Z/checkpoints/passo_000030",
+      "epoca": 3,
+      "passo": 30,
+      "sha256_manifest": "c04a7db533395d009c8f91b8a21f19696b6564e25eecaf23bf1eeef7a421f10f"
+    },
+    "desenvolvimento": {
+      "decisoes": "D1–D5 recebidas em 2026-11-15",
+      "geracao_e_schema_preservados": true,
+      "pos_exposicao": true,
+      "referencia_usada_na_geracao": false,
+      "sha256_decisoes_humanas": "85cd4f9ca59ce426c1003130b815d8466800457a3756b992e462538550465ddb",
+      "sha256_referencia_para_analise_posterior": "1306e0eefb5afe6135c42a91e9999a52c2004cd43c6fae71dd15eb2dafe25999",
+      "variaveis_alteradas": [
+        "instrucoes_elementos",
+        "instrucoes_relacoes"
+      ]
+    },
+    "estrutura": {
+      "biblioteca": "lm-format-enforcer",
+      "max_array_length": 1024,
+      "max_whitespace": 1,
+      "ordem_chaves_fixa": true,
+      "rejeitar_repeticao": "últimos 32 tokens repetidos três vezes; sem reparação",
+      "trechos_caracteres": 256,
+      "versao": "0.11.3"
+    },
+    "etapas": [
+      "elementos",
+      "relacoes"
+    ],
+    "geracao": {
+      "contexto_total": 4096,
+      "do_sample": false,
+      "enable_thinking": false,
+      "max_new_tokens": 1024,
+      "max_prompt_tokens": 3072,
+      "num_beams": 1,
+      "repeat_count": 3,
+      "repeat_window": 32,
+      "use_cache": true
+    },
+    "id": "br_patstat_200_extracao_validacao2_v4",
+    "limites": "Desenvolvimento após revisão D1–D5 nas mesmas duas famílias já observadas. Não é teste independente, generalização ou nova seleção de adaptador. Não recebe referência humana nos prompts.",
+    "maximo_geracoes": 8,
+    "modelo": {
+      "id": "Qwen/Qwen3-8B",
+      "revisao": "b968826d9c46dd6066d109eabc6255188de91218"
+    },
+    "origem": {
+      "perfil_08c": "config/perfil_extracao_validacao2_v3.json",
+      "prompt_elementos": "prompts/extracao_elementos_v4.txt",
+      "prompt_relacoes": "prompts/extracao_relacoes_v4.txt",
+      "regras": "docs/REGRAS_EXTRACAO_D1_D5_V1.md",
+      "requirements": "requirements_extracao08c.txt",
+      "schemas": "schemas/extracao_etapas_v3.templates.json",
+      "script_08c": "scripts/extrair_evidencias_v3.py",
+      "sha256_perfil_08c": "1c271b9726967546f772303070b89d59453dfa61565b127d30bb9e5d353fc08a",
+      "sha256_prompt_elementos": "326fc17b21bc71b42e5b8005c3db7723a209a31c76f67301c3e58e340a4f48fb",
+      "sha256_prompt_relacoes": "99487a4469026c7abd4bf45438333a26463f293747a577bb4982c740a0ee7aa6",
+      "sha256_regras": "4301b78ef1de151ac062d747681fa608fe4babc6c3dddb8430adff1a0606e9c4",
+      "sha256_requirements": "5cd260bc58e8b8e11dced19dbd3e0db6a53ea237c492c38b4304d61081a7a520",
+      "sha256_schemas": "f14e132b96c123cfb42fe3e9fa1f4402e97f0e797ecfca37b2b633397ecd1c72",
+      "sha256_script_08c": "9b43e97d1984414cf31c3dc12d7ba496c25a98ebe4a15747393279205913613c"
+    },
+    "quantizacao": {
+      "compute_dtype": "float16",
+      "double_quant": true,
+      "tipo": "nf4"
+    },
+    "resultados": "resultados/etapa_5d/piloto_br_200",
+    "semente": 42,
+    "versao": "4.0"
+  },
+  "qualidade_semantica": "pendente_revisao_humana",
+  "referencia_humana_no_prompt": false,
+  "regras_aplicadas": "D1-D5",
+  "retomadas_do_drive": 0,
+  "sha256_arquivos": {
+    "extracoes.jsonl": "ac245c758fdec75f8b782eaa4ced0d40d0340f9967009a7ab8a305f5bfa034ba",
+    "geracoes.jsonl": "9a864857e6128da568b449079a448d862075177f0b53d15341074cecde9a056e"
+  },
+  "sha256_nucleo_08c": "9b43e97d1984414cf31c3dc12d7ba496c25a98ebe4a15747393279205913613c",
+  "sha256_perfil": "2bc27b7acb9d74d32e3707a8d91f66ad2e1ab249faffb670a098ed02ff23aecc",
+  "sha256_script": "ccfc1d9e0ba41d14819832a532d42a1902fae033c852b13a9a3bf5a0fbc71407",
+  "teste_extracao_executado": false,
+  "treinamento_executado": false
+}

@@ -1,0 +1,76 @@
+{
+  "estado": "validacao_local08d_aprovada",
+  "integridade_arquivos_anteriores": 84,
+  "ids": [
+    "68698300",
+    "50390156"
+  ],
+  "cenarios_tokenizador": [
+    {
+      "familia": "68698300",
+      "etapa": "elementos",
+      "cenario": "sem_candidatos",
+      "tokens": 1383
+    },
+    {
+      "familia": "68698300",
+      "etapa": "relacoes",
+      "cenario": "vazio_controle",
+      "tokens": 1188
+    },
+    {
+      "familia": "68698300",
+      "etapa": "relacoes",
+      "cenario": "candidatos_reais_08c_base",
+      "tokens": 1551
+    },
+    {
+      "familia": "68698300",
+      "etapa": "relacoes",
+      "cenario": "candidatos_reais_08c_adaptado",
+      "tokens": 1510
+    },
+    {
+      "familia": "50390156",
+      "etapa": "elementos",
+      "cenario": "sem_candidatos",
+      "tokens": 2058
+    },
+    {
+      "familia": "50390156",
+      "etapa": "relacoes",
+      "cenario": "vazio_controle",
+      "tokens": 1803
+    },
+    {
+      "familia": "50390156",
+      "etapa": "relacoes",
+      "cenario": "candidatos_reais_08c_adaptado",
+      "tokens": 2581
+    }
+  ],
+  "max_tokens": 2581,
+  "min_tokens": 1188,
+  "limite_entrada": 3072,
+  "recorte": false,
+  "gramatica_e_validacao": true,
+  "mutacoes_rejeitadas": true,
+  "referencia_anotada_lida": false,
+  "gpu_testada": false,
+  "qualidade_modelo_testada": false,
+  "nota": "Relações medidas com vazio e com elementos reais do 08c; candidatos do 08d serão diferentes e medidos novamente em execução.",
+  "retomada_simulada": {
+    "interrupcao_apos_salvar": 2,
+    "respostas_concluidas_apos_retomada": 7,
+    "resposta_invalida_nao_regenerada": true,
+    "falha_elementos_bloqueia_relacoes": true,
+    "formulario_preservado": true,
+    "ambiente_diferente_rejeitado": true,
+    "resposta_adulterada_rejeitada": true
+  },
+  "data_registro": "2026-11-15",
+  "hashes_qa": {
+    "qa_extracao08d.py": "2c5ed34570505adab6f1d4df5a2bdf0843af522bf5202ef39dbe9fb7c9e92357",
+    "qa_extracao08d_retomada.py": "6e6f2138cc4c699e05782859511f420baed7361e93742a6d7c0ec1a5d435a3f0"
+  }
+}

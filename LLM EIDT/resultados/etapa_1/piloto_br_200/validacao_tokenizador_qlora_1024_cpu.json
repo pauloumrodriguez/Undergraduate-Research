@@ -1,0 +1,18 @@
+{
+  "estado": "tokenizador_real_aprovado_em_cpu",
+  "modelo": {
+    "id": "Qwen/Qwen3-8B",
+    "revisao": "b968826d9c46dd6066d109eabc6255188de91218"
+  },
+  "familias_treino": 160,
+  "max_tokens_antes_recorte": 744,
+  "min_tokens_antes_recorte": 208,
+  "familias_recortadas": 0,
+  "supervisao_somente_resposta_e_eos": true,
+  "padding_mascarado": true,
+  "teste_recorte_entrada_longa": true,
+  "pesos_modelo_baixados": false,
+  "gpu_executada": false,
+  "contexto_testado": 1024,
+  "perfil_id": "br_patstat_200_qwen3_8b_qlora_nf4_fp16_smoke_v2_ctx1024"
+}

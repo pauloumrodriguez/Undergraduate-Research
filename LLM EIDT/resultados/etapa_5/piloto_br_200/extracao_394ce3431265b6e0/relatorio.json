@@ -1,0 +1,139 @@
+{
+  "ambiente": {
+    "gpu": "Tesla T4",
+    "pacotes": {
+      "accelerate": "1.12.0",
+      "bitsandbytes": "0.49.2",
+      "huggingface-hub": "0.36.2",
+      "jinja2": "3.1.6",
+      "jsonschema": "4.25.1",
+      "peft": "0.18.1",
+      "safetensors": "0.7.0",
+      "tokenizers": "0.22.2",
+      "torch": "2.11.0+cu130",
+      "transformers": "4.57.6"
+    },
+    "python": "3.13.16 (main, Oct  1 2026, 15:40:24) [GCC 13.3.0]"
+  },
+  "anotacao_humana": "pendente",
+  "duracao_chamada_segundos": 3505.78,
+  "erro": null,
+  "estado": "extracao_piloto_concluida_revisao_pendente",
+  "etapa": "concluido",
+  "familias": 6,
+  "geracoes_concluidas": 12,
+  "geracoes_previstas": 12,
+  "limite": "Diagnóstico em seis validações. Qualidade semântica e métricas contra referência humana pendentes.",
+  "memoria_apos_carregamento": {
+    "alocada_gib": 7.992,
+    "livre_gib": 3.058,
+    "pico_alocado_gib": 9.137,
+    "pico_reservado_gib": 12.562,
+    "reservada_gib": 11.387,
+    "total_gib": 14.563
+  },
+  "memoria_final": {
+    "alocada_gib": 8.0,
+    "livre_gib": 3.037,
+    "pico_alocado_gib": 10.179,
+    "pico_reservado_gib": 12.562,
+    "reservada_gib": 11.395,
+    "total_gib": 14.563
+  },
+  "metricas_automaticas": {
+    "adaptado": {
+      "concluidas": 6,
+      "estrutura_e_evidencias_validas": 0,
+      "json_parseavel": 2,
+      "limites_atingidos": 4,
+      "previstas": 6,
+      "schema_valido": 2
+    },
+    "base": {
+      "concluidas": 6,
+      "estrutura_e_evidencias_validas": 0,
+      "json_parseavel": 3,
+      "limites_atingidos": 3,
+      "previstas": 6,
+      "schema_valido": 3
+    }
+  },
+  "particao": "validacao",
+  "pasta_execucao": "resultados/etapa_5/piloto_br_200/extracao_394ce3431265b6e0",
+  "perfil": {
+    "amostra": {
+      "familias": 6,
+      "ids": [
+        "45975308",
+        "50390156",
+        "65439381",
+        "68698300",
+        "74045448",
+        "80949080"
+      ],
+      "particao": "validacao",
+      "por_janela": 2,
+      "regra": "Menores SHA-256 de 08|42|id_familia_docdb em cada janela; ordem de execução por ID."
+    },
+    "checkpoint": {
+      "diretorio": "resultados/etapa_2/piloto_br_200/treino_qlora_20261104T211425654278Z/checkpoints/passo_000030",
+      "epoca": 3,
+      "passo": 30,
+      "sha256_manifest": "c04a7db533395d009c8f91b8a21f19696b6564e25eecaf23bf1eeef7a421f10f"
+    },
+    "decisoes": {
+      "comparacao": "Mesmo modelo quantizado, mesmo prompt e orçamento. Alternar adaptador sem mesclar.",
+      "contexto": "2048 tokens de entrada e 2048 de saída; textos integrais, sem recorte automático.",
+      "evidencia": "Preservar schema 1.0, offsets Unicode e prompt do 03. Não corrigir JSON/offsets ou repetir saídas inválidas.",
+      "parametros_cpc": "Perfis dos notebooks 05–07 permanecem inalterados.",
+      "qualidade": "Validade estrutural/literal não é qualidade semântica. Referência humana independente precede revisão de candidatos."
+    },
+    "finalidade": "Qualificação da extração e revisão humana; não é avaliação final nem execução das 200 famílias.",
+    "geracao": {
+      "contexto_total": 4096,
+      "do_sample": false,
+      "enable_thinking": false,
+      "max_new_tokens": 2048,
+      "max_prompt_tokens": 2048,
+      "num_beams": 1,
+      "use_cache": true
+    },
+    "id": "br_patstat_200_extracao_validacao6_v1",
+    "modelo": {
+      "id": "Qwen/Qwen3-8B",
+      "revisao": "b968826d9c46dd6066d109eabc6255188de91218"
+    },
+    "origem": {
+      "auditoria": "dados/processados/piloto_br_200/preprocessado/auditoria_preprocessamento.json",
+      "entradas": "dados/processados/piloto_br_200/preprocessado/entradas_extracao.jsonl",
+      "perfil_cpc": "config/perfil_avaliacao_cpc_validacao.json",
+      "prompt": "prompts/extracao_patstat_br.txt",
+      "schema": "schemas/extracao_patstat_br.schema.json",
+      "script_cpc": "scripts/avaliar_cpc_geracao.py",
+      "sha256_auditoria": "db3558b4772b4c3eb34b43c48cb754e0ff6d4d36ef22b1afc52adb25af5836ee",
+      "sha256_entradas": "a53ea21af0cd8b51bc5aef2af8d4369e1fbfd6e512510ef2e413047b825688f0",
+      "sha256_perfil_cpc": "ac58a8fee416bdc2925950b2adae8908758e3561dbe08c6d53528ea2948c51ef",
+      "sha256_prompt": "dd92023e68170bad8313acb5826534414c21867ff3a5ab373c7aa3ae19bc8a83",
+      "sha256_schema": "e8fcc83d41f6d347e75e750933a4dce0f46b4c0a518c4adab895ebde5d0111d1",
+      "sha256_script_cpc": "16681c351cd2481fdae7c1d40f938ab31ee59a1e73b446242940c21a9fe19b4b"
+    },
+    "quantizacao": {
+      "compute_dtype": "float16",
+      "double_quant": true,
+      "tipo": "nf4"
+    },
+    "resultados": "resultados/etapa_5/piloto_br_200",
+    "semente": 42,
+    "versao": "1.0"
+  },
+  "retomadas_do_drive": 0,
+  "sha256_extracoes": "409c829c366d422ca8441d6378857631877d5c04080c2f20e34ccfd5dce10424",
+  "sha256_perfil": "394ce3431265b6e057228a91ee3029a152390cbf9e600c71ef875fc2b91ab0e0",
+  "sha256_script": "5c029ebded89a25030e9e9198b48605c937356a367793f69817ca5bd15a57b75",
+  "teste_extracao_executado": false,
+  "tokenizacao": {
+    "max_tokens_prompt": 1659,
+    "recortadas": 0
+  },
+  "treinamento_executado": false
+}

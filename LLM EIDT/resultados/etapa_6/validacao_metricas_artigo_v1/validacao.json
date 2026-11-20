@@ -1,0 +1,185 @@
+{
+ "estado": "validacao_metricas_artigo",
+ "data": "2026-11-19",
+ "fonte": "dados/referencia/tabelas_6_8_artigo_transcritas.json",
+ "sha256_fonte": "4b166d09775bda8758c11e2eacb4fa9f71ab9d11e0e410353d12d0e15741bd36",
+ "convencao_ndcg": "linear, desempate pela média do bloco, 1/log2(posição+1), temas únicos (adotado.indices.ndcg_reconstruido)",
+ "janelas": {
+  "2010-2014": {
+   "tabela": "Tabela 6",
+   "temas_edh": 16,
+   "temas_dh_unicos": 16,
+   "media_edh": 4.25,
+   "media_dh_impressa": 5.125,
+   "regra_escrita": {
+    "conjuntos": {
+     "edh": 8,
+     "dh": 7,
+     "intersecao": 6
+    },
+    "metricas": {
+     "precisao": {
+      "calculado": 0.75,
+      "publicado": 0.75,
+      "confere": true
+     },
+     "revocacao": {
+      "calculado": 0.8571,
+      "publicado": 0.8571,
+      "confere": true
+     },
+     "f1": {
+      "calculado": 0.8,
+      "publicado": 0.8,
+      "confere": true
+     }
+    },
+    "ndcg": {
+     "calculado": 0.9872,
+     "publicado": 0.9961,
+     "confere": false
+    }
+   },
+   "sensibilidade_ndcg_nao_adotada": {
+    "linear|media": 0.9872,
+    "linear|ordem_impressa": 0.9988,
+    "exponencial_2^rel-1|media": 0.9553,
+    "exponencial_2^rel-1|ordem_impressa": 0.9961
+   }
+  },
+  "2015-2019": {
+   "tabela": "Tabela 7",
+   "temas_edh": 16,
+   "temas_dh_unicos": 14,
+   "media_edh": 5.4375,
+   "media_dh_impressa": 10.25,
+   "ressalva": {
+    "dh_repete": [
+     "biotechnology",
+     "cell culture and engineering"
+    ],
+    "dh_omite": [
+     "biomaterials and delivery",
+     "gene therapy"
+    ]
+   },
+   "regra_escrita": {
+    "conjuntos": {
+     "edh": 8,
+     "dh": 6,
+     "intersecao": 5
+    },
+    "metricas": {
+     "precisao": {
+      "calculado": 0.625,
+      "publicado": 1.0,
+      "confere": false
+     },
+     "revocacao": {
+      "calculado": 0.8333,
+      "publicado": 0.8,
+      "confere": false
+     },
+     "f1": {
+      "calculado": 0.7143,
+      "publicado": 0.8889,
+      "confere": false
+     }
+    }
+   },
+   "corte_grafico_inferido": {
+    "regra": "8 primeiros do ranking EDh e 10 primeiros do ranking Dh (inferido dos números da Tabela 9 e de config/experimento.json)",
+    "conjuntos": {
+     "edh": 8,
+     "dh": 10,
+     "intersecao": 8
+    },
+    "metricas": {
+     "precisao": {
+      "calculado": 1.0,
+      "publicado": 1.0,
+      "confere": true
+     },
+     "revocacao": {
+      "calculado": 0.8,
+      "publicado": 0.8,
+      "confere": true
+     },
+     "f1": {
+      "calculado": 0.8889,
+      "publicado": 0.8889,
+      "confere": true
+     }
+    }
+   },
+   "ndcg_hipoteses_identidade": {
+    "H1_linhas15_16=GeneTherapy8,Biomaterials7": {
+     "ndcg": 0.9507,
+     "publicado": 0.7597
+    },
+    "H2_linhas15_16=GeneTherapy7,Biomaterials8": {
+     "ndcg": 0.9503,
+     "publicado": 0.7597
+    },
+    "H0_somente_14_temas_com_Dh": {
+     "ndcg": 0.9485,
+     "publicado": 0.7597
+    }
+   }
+  },
+  "2020-2024": {
+   "tabela": "Tabela 8",
+   "temas_edh": 16,
+   "temas_dh_unicos": 16,
+   "media_edh": 5.75,
+   "media_dh_impressa": 10.6875,
+   "regra_escrita": {
+    "conjuntos": {
+     "edh": 10,
+     "dh": 11,
+     "intersecao": 10
+    },
+    "metricas": {
+     "precisao": {
+      "calculado": 1.0,
+      "publicado": 1.0,
+      "confere": true
+     },
+     "revocacao": {
+      "calculado": 0.9091,
+      "publicado": 0.9091,
+      "confere": true
+     },
+     "f1": {
+      "calculado": 0.9524,
+      "publicado": 0.9524,
+      "confere": true
+     }
+    },
+    "ndcg": {
+     "calculado": 0.9762,
+     "publicado": 0.7366,
+     "confere": false
+    }
+   },
+   "sensibilidade_ndcg_nao_adotada": {
+    "linear|media": 0.9762,
+    "linear|ordem_impressa": 0.9855,
+    "exponencial_2^rel-1|media": 0.7854,
+    "exponencial_2^rel-1|ordem_impressa": 0.8538
+   }
+  }
+ },
+ "media_tabela9_recalculada_dos_valores_publicados": {
+  "precisao": 0.9167,
+  "revocacao": 0.8554,
+  "f1": 0.8804,
+  "ndcg": 0.8308
+ },
+ "media_tabela9_publicada": {
+  "precisao": 0.9167,
+  "revocacao": 0.8554,
+  "f1": 0.8804,
+  "ndcg": 0.8308
+ }
+}

@@ -1,0 +1,23 @@
+{
+  "ambiente": {
+    "gpu": "Tesla T4",
+    "pacotes": {
+      "accelerate": "1.12.0",
+      "bitsandbytes": "0.49.2",
+      "huggingface-hub": "0.36.2",
+      "interegular": "0.3.3",
+      "jinja2": "3.1.6",
+      "jsonschema": "4.25.1",
+      "lm-format-enforcer": "0.11.3",
+      "peft": "0.18.1",
+      "pydantic": "2.14.2",
+      "safetensors": "0.7.0",
+      "tokenizers": "0.22.2",
+      "torch": "2.14.1+cu130",
+      "transformers": "4.57.6"
+    },
+    "python": "3.13.16 (main, Oct  1 2026, 15:40:24) [GCC 13.3.0]"
+  },
+  "perfil": "952170188897ed46c281ecd492f7eec624adab0baabc1ebe005498bab5b35e41",
+  "script": "5a653f51f4fb6c6d17f3daa5e1bac6e700625e57c14cf35f6a4e72180b56df54"
+}

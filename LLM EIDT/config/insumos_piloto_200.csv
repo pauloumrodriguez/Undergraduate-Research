@@ -1,0 +1,7 @@
+id,material,uso,acesso_declarado,arquivo_relativo,sha256_esperado
+artigo_v1,Artigo de referência v1,Conferir o desenho de referência,disponivel,dados/referencia/artigo_llm_eidt_v1.pdf,e4043b0d8e06c77d1d4cd2c18dfcdf491e745c6a8aac734d5b6dfe68ce6b2a6c
+registro_coleta,Registro de proveniência da nova coleta AI Pat+,Documentar a consulta e as condições da exportação,nao_verificado,dados/brutos/piloto_200/proveniencia.json,
+exportacao_nova,Exportação nova de famílias e documentos do AI Pat+,Construir o universo de candidatos elegíveis,nao_verificado,dados/brutos/piloto_200/exportacao.csv,
+piloto_congelado,Amostra de 200 representantes com partições por família,Entrada do piloto de validação,nao_verificado,dados/processados/piloto_200/piloto_200.csv,
+auditoria_selecao,Auditoria da seleção e cobertura do CPC,Conferir exclusões e cobertura de rótulos por partição,nao_verificado,dados/processados/piloto_200/auditoria.json,
+anotacao_independente,Referência humana do teste nos seis campos,Avaliar o extrator base e ajustado no mesmo conjunto,nao_verificado,,

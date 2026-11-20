@@ -1,0 +1,33 @@
+{
+  "data_registro": "2026-11-15",
+  "origem": "Mensagem do usuário nesta conversa",
+  "autor_decisoes": "Paulo Rodrigues",
+  "transcricao": "Conteúdo textual das cinco decisões, sem marcadores Markdown externos",
+  "decisoes": [
+    {
+      "id": "D1",
+      "texto": "Concordo com a exigência de unidade técnica contextualizada e central, rejeitando rótulos genéricos isolados (como \"fórmula química 1\" na 68698300). Regra escolhida: propriedades físico-químicas (como ângulo de contato e rugosidade) permanecem como atributos descritivos/limitações, não como memes isolados, e métodos auxiliares de caracterização (como microscopia eletrônica de varredura ou força atômica) não contam como memes técnicos centrais quando usados apenas para medição de controle.",
+      "estado": "recebida_e_aplicada"
+    },
+    {
+      "id": "D2",
+      "texto": "Concordo em incluir na referência os processos explicitamente nomeados no texto da 50390156 sem exigir detalhamento de etapas: determinação do valor de capacidade de absorção específica de fluido, medição de rugosidade superficial e o processo de conversão de substrato sólido subótimo em otimizado (separado do processo de seleção).",
+      "estado": "recebida_e_aplicada"
+    },
+    {
+      "id": "D3",
+      "texto": "Concordo com o mapeamento um-para-um sem crédito múltiplo. Regra escolhida: manter expressões alternativas unidas na mesma unidade quando apresentadas como finalidade/ação conjunta no texto (ex.: \"prevenção ou tratamento\" e \"atenuar ou prevenir a adesão e/ou vascularização\") para preservar a modalidade original, mas separar rigorosamente entidades materiais distintas (composto, sal farmaceuticamente aceitável, composição farmacêutica e substrato sólido/derivado de esqueleto marinho).",
+      "estado": "recebida_e_aplicada"
+    },
+    {
+      "id": "D4",
+      "texto": "Concordo que finalidade declarada (\"otimizado para promoção de crescimento...\") deve ficar restrita a Funções e não ser duplicada automaticamente como Efeito sem alegação explícita de resultado alcançado. Regra escolhida: na 50390156, remover o item duplicado de efeito baseado apenas na finalidade do título (mantendo ausência de efeitos explícitos alegados); na 68698300, manter a alegação explícita de resultado terapêutico (\"eficazmente útil para...\") classificada como \"outro resultado explícito\", preservando a condição de alegação não comprovada.",
+      "estado": "recebida_e_aplicada"
+    },
+    {
+      "id": "D5",
+      "texto": "Concordo integralmente. Substituir a afirmação de documentos distintos por “origem documental não identificada; título e resumo apresentam finalidades diferentes” na 50390156, manter as finalidades separadas e ajustar a citação literal da função do resumo para o trecho que contém “e/ou” (“atenuar ou prevenir a adesão e/ou vascularização de células ou de tecidos”), alinhando exatamente evidência e descrição.",
+      "estado": "recebida_e_aplicada"
+    }
+  ]
+}

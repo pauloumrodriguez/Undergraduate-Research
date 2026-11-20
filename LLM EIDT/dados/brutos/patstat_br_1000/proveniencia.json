@@ -1,0 +1,24 @@
+{
+  "registro_documental_em": "2026-11-03",
+  "tipo": "reuso_autorizado_pelo_usuario",
+  "arquivo_origem": "LLM_EIDT_LORA_1000.zip",
+  "sha256_zip": "09cf45526d9270cd92ed1d7d4339166f4562e92576c47a24353c753f4e6a5283",
+  "sha256_notebook_origem": "878dfdd9e23e74198d6241169c251830d58b31d9d246318a7338e557aa58f6af",
+  "fonte_declarada_e_codigo_inspecionado": "PATSTAT Global / EPO TIP / PatstatClient(env=PROD)",
+  "verificacao": "Conferência local do ZIP, CSV, manifest e partições JSONL. Não foi executada nova consulta ao PATSTAT.",
+  "consulta_original": "Depósitos 2010–2024, vínculo BR no pedido ou inventor/depositante, IPC A61 OU C12N OU C12Q; família DOCDB positiva.",
+  "mudanca_piloto": "Filtro verificável ANY CPC A61 OU C12N; 960 elegíveis entre 1000. Seleção 200 preservando partições originais e três janelas.",
+  "campos_nao_retidos": [
+    "IPC",
+    "relações inventor/depositante-pedido",
+    "appln_id de origem de título e resumo",
+    "id/data de publicação",
+    "edição PATSTAT",
+    "data da extração",
+    "citações"
+  ],
+  "data_extracao": null,
+  "edicao_patstat": null,
+  "data_registro_nao_e_data_extracao": true,
+  "referencia": "docs/ADAPTACAO_METODOLOGICA_BR.md"
+}

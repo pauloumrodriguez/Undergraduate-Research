@@ -1,0 +1,46 @@
+{
+  "versao": "decisoes-08c-1.0",
+  "sha256_anotacao_original": "9b2fbbc717e9d1608fca435fadd130348281b2bd91c0d4d6a3b8ae3baa48bce1",
+  "decisoes": [
+    {
+      "id": "D1",
+      "tema": "Especificidade e papel dos memes",
+      "proposta": "Exigir unidade técnica contextualizada e central. Rótulos genéricos de fórmula não bastam; propriedades devem permanecer atributos salvo justificativa técnica. Definir explicitamente se métodos auxiliares de caracterização contam como memes.",
+      "impacto": "Evita aceitar ou rejeitar automaticamente os memes genéricos da família curta e as propriedades/microscopias da longa.",
+      "estado": "proposta_do_assistente_pendente_decisao_humana",
+      "decisao_humana": null
+    },
+    {
+      "id": "D2",
+      "tema": "Cobertura dos processos",
+      "proposta": "Incluir na referência, se confirmados pelo anotador, determinação da absorção específica e medição da rugosidade. Avaliar separadamente a conversão de substrato explicitada no título, atualmente apenas mencionada na observação de seleção. Não exigir passos detalhados quando a operação já está nomeada explicitamente.",
+      "impacto": "Evita chamar processos sustentados de falsos positivos apenas porque faltam na ficha. Nenhuma inclusão foi feita automaticamente.",
+      "estado": "proposta_do_assistente_pendente_decisao_humana",
+      "decisao_humana": null
+    },
+    {
+      "id": "D3",
+      "tema": "Granularidade e equivalência",
+      "proposta": "Fixar unidades para operações/finalidades alternativas, preservando alvo e modalidade. Distinguir composto, sal, composição e substrato/material-base. Registrar correspondências um a um; não dar múltiplo crédito ao mesmo item humano.",
+      "impacto": "Prevenção/tratamento e parte–todo ainda impedem uma pontuação definitiva.",
+      "estado": "proposta_do_assistente_pendente_decisao_humana",
+      "decisao_humana": null
+    },
+    {
+      "id": "D4",
+      "tema": "Função, efeito e vínculos",
+      "proposta": "Finalidade declarada pertence a funções; não duplicá-la automaticamente como efeito. Para efeitos, exigir resultado alegado explicitamente e preservar sua condição de alegação. Eficiência/custos precisam de suporte específico. Decidir quais itens humanos de efeito satisfazem isso e revisar vínculos antes de consolidar.",
+      "impacto": "O efeito de crescimento/restauração anotado a partir do título pode ser apenas finalidade. Nenhuma exclusão foi feita automaticamente.",
+      "estado": "proposta_do_assistente_pendente_decisao_humana",
+      "decisao_humana": null
+    },
+    {
+      "id": "D5",
+      "tema": "Proveniência e modalidade",
+      "proposta": "Substituir a certeza de documentos diferentes por “origem documental não identificada; título e resumo apresentam finalidades diferentes”. Para a função do resumo, citar a passagem com “e/ou” presente no corpo do texto, compatível com a descrição humana. Não fundir as finalidades dos dois campos.",
+      "impacto": "Evita uma afirmação de proveniência não demonstrada e alinha evidência/descrição sem mudar as fontes.",
+      "estado": "proposta_do_assistente_pendente_decisao_humana",
+      "decisao_humana": null
+    }
+  ]
+}

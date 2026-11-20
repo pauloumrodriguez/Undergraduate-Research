@@ -1,0 +1,41 @@
+{
+  "familia": "80949080",
+  "textos": {
+    "resumo": "disposição construtiva introduzida em endoprótese. é revelada uma nova disposição construtiva em endoprótese, a qual compreende uma estrutura metálica integralmente revestida por uma camada interna e uma camada externa de revestimento fusionadas, e pelo menos um meio de redução de expansão axial associado às camadas fusionadas de revestimento. o referido meio de redução de expansão axial trata-se de uma estrutura capilar axialmente que, disposta ao longo de pelo menos um segmento axial da endoprótese, é axialmente disposta entre o resultado da termo-fusão entre o laminado interno da camada externa de revestimento e o laminado interno da camada interna de revestimento.",
+    "titulo": "Disposição construtiva introduzida em endoprótese"
+  },
+  "trechos": [
+    {
+      "campo": "titulo",
+      "fim": 49,
+      "id": "T001",
+      "idioma": "pt",
+      "inicio": 0,
+      "texto": "Disposição construtiva introduzida em endoprótese"
+    },
+    {
+      "campo": "resumo",
+      "fim": 254,
+      "id": "R001",
+      "idioma": "pt",
+      "inicio": 0,
+      "texto": "disposição construtiva introduzida em endoprótese. é revelada uma nova disposição construtiva em endoprótese, a qual compreende uma estrutura metálica integralmente revestida por uma camada interna e uma camada externa de revestimento fusionadas, e pelo "
+    },
+    {
+      "campo": "resumo",
+      "fim": 509,
+      "id": "R002",
+      "idioma": "pt",
+      "inicio": 254,
+      "texto": "menos um meio de redução de expansão axial associado às camadas fusionadas de revestimento. o referido meio de redução de expansão axial trata-se de uma estrutura capilar axialmente que, disposta ao longo de pelo menos um segmento axial da endoprótese, é "
+    },
+    {
+      "campo": "resumo",
+      "fim": 676,
+      "id": "R003",
+      "idioma": "pt",
+      "inicio": 509,
+      "texto": "axialmente disposta entre o resultado da termo-fusão entre o laminado interno da camada externa de revestimento e o laminado interno da camada interna de revestimento."
+    }
+  ]
+}
